@@ -1,8 +1,13 @@
 @import 'tachyons.min.css';
 
-.sans-serif { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+/*Tachyons Add-Ons*/
 
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
 .lh-subtitle { line-height: 2.75rem; }
+.hover-bg-black-05:hover { background-color: rgba(0, 0, 0, 0.05); }
+.nt8 { margin-top: -18rem; }
+
+/*Custom CSS*/
 
 .subtitle-link {
   border-bottom-style: dotted;
@@ -11,6 +16,34 @@
   padding-bottom: .25rem;
 }
 
-.hover-bg-black-05:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+#IntroCircle {
+  left: -8rem;
+  width: 22rem;
+  height: 22rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+
+#IntroCircle {
+     background-color: #b7b7b7;
+     -webkit-animation: random 30s infinite;
+     animation: random 30s infinite;
+     transition: all 20s ease-out;
+}
+@keyframes random {
+    15% { background-color: #fbc2eb; }
+    30% { background-color: #a6c1ee; }
+    45% { background-color: #f6d365; }
+    60% { background-color: #fda085; }
+    75% { background-color: #89f7fe; }
+    90% { background-color: #66a6ff; }
+}
+
+/*Not Small*/
+
+@media only screen and (min-width: 30em) {
+  #IntroCircle {
+    left: 10rem;
+  }
 }
