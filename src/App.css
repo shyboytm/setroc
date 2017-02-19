@@ -20,17 +20,12 @@
   left: -8rem;
   width: 22rem;
   height: 22rem;
-  overflow-x: hidden;
-  overflow-y: auto;
-
+  background-color: #b7b7b7;
+  -webkit-animation: random 30s infinite;
+  animation: random 30s infinite;
+  transition: all 20s ease-out;
 }
 
-#IntroCircle {
-     background-color: #b7b7b7;
-     -webkit-animation: random 30s infinite;
-     animation: random 30s infinite;
-     transition: all 20s ease-out;
-}
 @keyframes random {
     15% { background-color: #fbc2eb; }
     30% { background-color: #a6c1ee; }
