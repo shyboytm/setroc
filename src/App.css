@@ -27,12 +27,16 @@
 }
 
 @keyframes random {
-    15% { background-color: #fbc2eb; }
+    10% { background-color: #fbc2eb; }
+    20% { background-color: #96e6a1; }
     30% { background-color: #a6c1ee; }
-    45% { background-color: #f6d365; }
+    40% { background-color: #f6d365; }
+    50% { background-color: #38f9d7; }
     60% { background-color: #fda085; }
-    75% { background-color: #89f7fe; }
+    70% { background-color: #667eea; }
+    80% { background-color: #89f7fe; }
     90% { background-color: #66a6ff; }
+    95%{ background-color: #2575fc; }
 }
 
 /*Not Small*/
