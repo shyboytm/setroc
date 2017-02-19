@@ -1,0 +1,16 @@
+@import 'tachyons.min.css';
+
+.sans-serif { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+
+.lh-subtitle { line-height: 2.75rem; }
+
+.subtitle-link {
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  border-color: rgba(0,0,0,.2);
+  padding-bottom: .25rem;
+}
+
+.hover-bg-black-05:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
