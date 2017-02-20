@@ -16,10 +16,29 @@
   padding-bottom: .25rem;
 }
 
+.rotated-text {
+  margin-top: 7rem;
+  color: rgba(0,0,0,.5);
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .1em;
+  left: .075rem;
+  background-color: #b7b7b7;
+  -webkit-animation: random 30s infinite;
+  animation: random 30s infinite;
+  transition: all 20s ease-out;
+  -ms-transform: rotate(270deg); /* IE 9 */
+  -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+  transform: rotate(270deg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #IntroCircle {
   left: -8rem;
-  width: 22rem;
-  height: 22rem;
+  width: 21rem;
+  height: 21rem;
   background-color: #b7b7b7;
   -webkit-animation: random 30s infinite;
   animation: random 30s infinite;
@@ -27,7 +46,7 @@
 }
 
 @keyframes random {
-    10% { background-color: #fbc2eb; }
+    10% { background-color: #fbc2eb;  }
     20% { background-color: #96e6a1; }
     30% { background-color: #a6c1ee; }
     40% { background-color: #f6d365; }
@@ -42,7 +61,6 @@
 /*Not Small*/
 
 @media only screen and (min-width: 30em) {
-  #IntroCircle {
-    left: 10rem;
-  }
+  #IntroCircle { left: 10rem; }
+  .rotated-text { left: 2rem; }
 }
