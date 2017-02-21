@@ -5,6 +5,7 @@
 .sans-serif { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
 .lh-subtitle { line-height: 2.75rem; }
 .hover-bg-black-05:hover { background-color: rgba(0, 0, 0, 0.05); }
+.hover-bg-dark-blue:hover { background-color: #00449E; }
 .nt8 { margin-top: -18rem; }
 
 /*Custom CSS*/
@@ -17,13 +18,11 @@
 }
 
 .rotated-text {
-  margin-top: 7rem;
   color: rgba(0,0,0,.5);
   position: absolute;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: .1em;
-  left: .075rem;
   background-color: #b7b7b7;
   -webkit-animation: random 30s infinite;
   animation: random 30s infinite;
@@ -58,9 +57,12 @@
     95%{ background-color: #2575fc; }
 }
 
+.case-study-bg {
+  
+}
+
 /*Not Small*/
 
 @media only screen and (min-width: 30em) {
   #IntroCircle { left: 10rem; }
-  .rotated-text { left: 2rem; }
 }

@@ -3,12 +3,22 @@ import { Link } from 'react-router';
 
 class CaseStudySelection extends Component {
   render() {
+
+    const {
+      caseStudyTitle,
+      caseStudyDescription,
+      caseStudyBackground
+    } = this.props;
+
     return (
-      <div className="w-33-l w-50-m w-100 dib ph3 pv2">
+      <div className="w-33-l w-50-m w-100 dib ph3 pv2 mt3">
         <a href="#" className="pointer link">
-          <div className="h5 pv3 ph4 br3 bg-animate bg-blue">
-            <h3 className="bottom-2 relative mv0 fw4 f2-ns f3 lh-title white">Lumi</h3>
-            <p className="bottom-2 relative white-50 mt0 lh-copy">Illustration</p>
+          <div className="h5 relative overflow-hidden br3">
+            <img className="absolute cover" src={caseStudyBackground} />
+            <div className="absolute w-100 h-100 bg-black-60">
+              <h3 className="bottom-0 mt4 mb0 pt6 pl3 relative fw4 f2 lh-title white">{caseStudyTitle}</h3>
+              <p className="bottom-0 pl3 relative white-70 mt1 f4 lh-copy">{caseStudyDescription}</p>
+            </div>
           </div>
         </a>
       </div>

@@ -15,7 +15,7 @@ class TitleWithDescription extends Component {
         <a href={selectionLink} className="pointer link">
           <div className="pv3 ph4 br3 bg-animate hover-bg-black-05">
             <h3 className="mv0 fw4 f2-ns f3 lh-title black">{selectionTitle}</h3>
-            <p className="black-50 mb0 lh-copy">{selectionDescription}</p>
+            <p className="black-50 mb0 mt2 lh-copy">{selectionDescription}</p>
           </div>
         </a>
       </div>

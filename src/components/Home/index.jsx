@@ -6,6 +6,9 @@ import CaseStudySelection from '../CaseStudySelection';
 
 class Home extends Component {
   render() {
+
+    const caseStudyLumi = require('../../img/lumi-background.jpg');
+
     return (
       <div id="Home">
         <Header />
@@ -25,7 +28,7 @@ class Home extends Component {
           </div>
         </div>
         <div id="Work" className="w-100 bg-black-05 mt5">
-          <span className="dib rotated-text">Work</span>
+          <span className="dib rotated-text ml5 mt6">Work</span>
           <div className="pv5 w-80-ns w-90 center">
              <TitleWithDescription
                 selectionLink="https://dribbble.com/fromcortes"
@@ -69,10 +72,21 @@ class Home extends Component {
                 selectionDescription="A Pokémon team and dex tracker." />
           </div>
         </div>
-        <div id="CaseStudies" className="w-100 mt3">
-          <span className="dib rotated-text">Case Studies</span>
+        <div id="CaseStudies" className="w-100 mt4">
+          <span className="dib rotated-text ml3 mt6">Case Studies</span>
           <div className="pv5 w-80-ns w-90 center">
-            <CaseStudySelection />
+            <CaseStudySelection
+              caseStudyTitle="Heft Wing Co."
+              caseStudyDescription="Branding"
+              caseStudyBackground={caseStudyLumi} />
+            <CaseStudySelection
+              caseStudyTitle="Twelve Ounce"
+              caseStudyDescription="UI Design"
+              caseStudyBackground={caseStudyLumi} />
+            <CaseStudySelection
+              caseStudyTitle="Lumi"
+              caseStudyDescription="Illustration"
+              caseStudyBackground={caseStudyLumi} />
           </div>
         </div>
       </div>
