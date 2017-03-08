@@ -27,8 +27,8 @@ class Home extends Component {
             </p>
           </div>
         </div>
-        <div id="Work" className="w-100 bg-black-05 mt5">
-          <span className="dib-l dn f4 rotated-text-l ml5 mt6">Work</span>
+        <div id="Work" className="w-100 bb bt b--black-10 mt5-ns mt2">
+          <span className="dib-l dn rotated-text-l ml5 mt6">Work</span>
           <div className="pv5 w-80-ns w-100 center">
              <span className="dn-l db f4 ml4 pl3 mb4 rotated-text">Work</span>
              <TitleWithDescription
@@ -73,10 +73,10 @@ class Home extends Component {
                 selectionDescription="A Pokémon team and dex tracker." />
           </div>
         </div>
-        <div id="CaseStudies" className="w-100 mt4">
-          <span className="dib-l dn f4 rotated-text-l ml3 mt6">Case Studies</span>
+        <div id="CaseStudies" className="bb b--black-10 w-100">
+          <span className="dib-l dn rotated-text-l ml3 mt6">Case Studies</span>
           <div className="pv5 w-80-ns w-90 center">
-            <span className="dn-l db f4 ml4 pl3 mb4 rotated-text">Case Studies</span>
+            <span className="dn-l db f4 ml2 pl2 mb4 rotated-text">Case Studies</span>
             <CaseStudySelection
               caseStudyTitle="Heft Wing Co."
               caseStudyDescription="Branding"
@@ -89,6 +89,28 @@ class Home extends Component {
               caseStudyTitle="Lumi"
               caseStudyDescription="Illustration"
               caseStudyBackground={caseStudyLumi} />
+          </div>
+        </div>
+        <div id="Work" className="w-100 bb b--black-10">
+          <span className="dib-l dn rotated-text-l ml5 mt6">Work</span>
+          <div className="pv5 w-80-ns w-100 center">
+             <span className="dn-l db f4 ml4 pl3 mb4 rotated-text">Work</span>
+             <TitleWithDescription
+                selectionLink="https://dribbble.com/fromcortes"
+                selectionTitle="ta–lk"
+                selectionDescription="Interview" />
+            <TitleWithDescription
+                selectionLink="http://usequarry.com"
+                selectionTitle="Typewolf SOTD"
+                selectionDescription="for Taste Notes" />
+            <TitleWithDescription
+                selectionLink="http://coffee.cortes.us"
+                selectionTitle="Taste Notes"
+                selectionDescription="Coffee thoughts and reference." />
+            <TitleWithDescription
+                selectionLink="http://sogol.co"
+                selectionTitle="Sogol"
+                selectionDescription="Hand crafted and on-demand logos for your ideas." />
           </div>
         </div>
       </div>
