@@ -12,10 +12,10 @@ class Home extends Component {
     return (
       <div id="Home">
         <Header />
-        <div id="IntroCircle" className="br-100 bg-black-05 relative o-50 mt6-ns mt3" />
-        <div className="w-70-l w-80-m w-90 center cf relative pl3 pv4">
-          <div className="nt8 z-0 ml6">
-            <h1 className="f1-ns f2 fw4 lh-copy z-0 mb3">Dennis Cortés is a Designer, Illustrator, Developer, and Writer</h1>
+        <div id="IntroCircle" className="br-100 bg-black-05 relative o-30 mt5-l mt3" />
+        <div className="w-70-l w-80-m w-90 center cf relative pl3 pv5">
+          <div className="nt8 z-0 ml5-l ml2 pl3-l">
+            <h1 className="f1-ns f2 fw4 lh-copy z-0 mt0 mb3">Dennis Cortés is a Designer, Illustrator, Developer, and Writer</h1>
             <p className="f3-ns f4 black-50 lh-subtitle mt0 measure">
               Currently leading design at <a className="subtitle-link link black-50 hover-blue" href="http://satchelhealth.com">Satchel Health</a> and building
               resources and experiences at <a className="subtitle-link link black-50 hover-blue" href="http://usequarry.com">Quarry</a>. I also write a bit for
