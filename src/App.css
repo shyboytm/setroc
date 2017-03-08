@@ -9,6 +9,7 @@
 .nt8 { margin-top: -18rem; }
 .shadow-custom { box-shadow: 0px 10px 40px -5px rgba(0,0,0, 0.5); transition: all .4s ease-in-out; }
 .shadow-custom:hover { box-shadow: 0px 15px 50px -5px rgba(0,0,0, 0.75); transition: all .4s ease-in-out; }
+.shadow-header { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.05); }
 
 /*Custom CSS*/
 
@@ -19,7 +20,7 @@
   padding-bottom: .25rem;
 }
 
-.rotated-text {
+.rotated-text-l {
   color: rgba(0,0,0,.5);
   position: absolute;
   text-transform: uppercase;
@@ -32,6 +33,19 @@
   -ms-transform: rotate(270deg); /* IE 9 */
   -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
   transform: rotate(270deg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rotated-text {
+  color: rgba(0,0,0,.5);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .1em;
+  background-color: #b7b7b7;
+  -webkit-animation: random 30s infinite;
+  animation: random 30s infinite;
+  transition: all 20s ease-out;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

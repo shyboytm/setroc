@@ -6,13 +6,13 @@ import Logo from '../Logo';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="w-90 center mv4-ns mv2 ">
-        <div className="dib dt-l w-100 border-box pv4 ph6-l ph3">
-          <Link to="/" className="pt3 dib dtc-l v-mid white link dim w-40" title="Dennis Cortes">
+      <div id="Header" className="fixed z-max top-0 w-100 center pv2 bg-white shadow-header">
+        <div className="dib w-100 border-box ph4-l ph3">
+          <Link to="/" className="pt3 dib v-mid link dim w-10" title="Dennis Cortes">
             <Logo />
           </Link>
-          <div className="dib dtc-l v-mid-ns center w-60 tr-l tc">
-            <Link to="/" className="dib link pointer ttu tracked black-30 hover-blue fw7">About / Contact</Link>
+          <div className="dib v-mid-ns center w-90 tr-l tc">
+            <Link to="/" className="f6 dib pv0 link pointer black-30 hover-blue">About</Link>
           </div>
         </div>
       </div>
