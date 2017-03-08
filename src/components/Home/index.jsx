@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       <div id="Home">
         <Header />
-        <div id="IntroCircle" className="br-100 bg-black-05 relative o-80 mt6" />
+        <div id="IntroCircle" className="br-100 bg-black-05 relative o-80 mt6-ns mt3" />
         <div className="w-60-l w-80-m w-90 center cf relative pb5">
           <div className="nt8 z-0">
             <h1 className="f1-ns f2 fw4 lh-copy z-0">Dennis Cortés is a Designer, Illustrator, Developer, and Writer</h1>
