@@ -9,7 +9,7 @@ class Header extends Component {
       <div id="Header" className="z-max top-0 w-100 center pv3 bg-white ph4-l ph3 cf">
         <div className="fixed-l w-40-l w-100 fl dib pb0-l pb3">
           <Link to="/" className="b pv2 f6 db-l dib link black lh-title tooltip">
-            Dennis Cortés <span className="green ml1 f5 tooltip">•<span className="tooltiptext green dib f6 fw4">Available for work!</span></span>
+            <span className="name">Dennis Cortés</span> <span className="green ml1 f5 tooltip">•<span className="tooltiptext green dib f6 fw4">Available for work!</span></span>
           </Link>
           <Link to="/" className="pb2 f6 db-l ml0-l ml3 link black-50 hover-blue lh-title" title="About">
             About

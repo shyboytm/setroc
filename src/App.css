@@ -20,6 +20,15 @@
   padding-bottom: .25rem;
 }
 
+.name {
+  background-color: #b7b7b7;
+  -webkit-animation: random 30s infinite;
+  animation: random 30s infinite;
+  transition: all 20s ease-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .rotated-text-l {
   color: rgba(0,0,0,.5);
   position: absolute;

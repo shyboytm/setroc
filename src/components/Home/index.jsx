@@ -26,8 +26,6 @@ class Home extends Component {
           </div>
         </div>
         <div id="Work" className="w-100 bb bt b--black-10 mt5-ns mt2">
-          <span className="dib-l dn rotated-text-l ml5 mt6">Work</span>
-          <span className="dn-l db f4 ml4 pl3 mb4 rotated-text">Work</span>
           <div className="content-end flex flex-wrap pv5 w-80-ns w-100 center cf">
              <InfoSection
                 infoSectionTitle="Work"
@@ -41,9 +39,7 @@ class Home extends Component {
           </div>
         </div>
         <div id="CaseStudies" className="bb b--black-10 w-100">
-          <span className="dib-l dn rotated-text-l ml3 mt6">Case Studies</span>
           <div className="pv5 w-80-ns w-90 center">
-            <span className="dn-l db f4 ml2 pl2 mb4 rotated-text">Case Studies</span>
             <CaseStudySelection
               caseStudyTitle="Heft Wing Co."
               caseStudyDescription="Branding"
@@ -59,9 +55,7 @@ class Home extends Component {
           </div>
         </div>
         <div id="Work" className="w-100 bb b--black-10">
-          <span className="dib-l dn rotated-text-l ml5 mt6">Work</span>
           <div className="pv5 w-80-ns w-100 center">
-             <span className="dn-l db f4 ml4 pl3 mb4 rotated-text">Work</span>
              <TitleWithDescription
                 selectionLink="https://dribbble.com/fromcortes"
                 selectionTitle="ta–lk"
