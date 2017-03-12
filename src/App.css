@@ -29,6 +29,15 @@
   -webkit-text-fill-color: transparent;
 }
 
+.rainbow-hover:hover {
+  background-color: #b7b7b7;
+  -webkit-animation: random 8s infinite;
+  animation: random 8s infinite;
+  transition: all 8s ease-out;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .rotated-text-l {
   color: rgba(0,0,0,.5);
   position: absolute;
@@ -118,7 +127,5 @@
 /*Not Small*/
 
 @media only screen and (min-width: 30em) {
-  #IntroCircle {
-    left: 10rem;
-  }
+  #IntroCircle { left: 10rem; }
 }
