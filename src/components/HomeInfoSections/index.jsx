@@ -13,7 +13,7 @@ class HomeInfoSections extends Component {
     } = this.props;
 
     return (
-      <div id="HomeInfoSection" className="w-100 bb bt b--black-10 mt5-ns mt2">
+      <div id="HomeInfoSection" className="w-100 bb bt b--black-05 bg-black-025 mt5-ns mt2">
         <div className="content-end flex flex-wrap pv5 w-80-ns w-100 center cf">
           <InfoSection
             infoSectionTitle="Work"

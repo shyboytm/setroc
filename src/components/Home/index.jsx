@@ -11,7 +11,7 @@ class Home extends Component {
     const caseStudyLumi = require('../../img/lumi-background.jpg');
 
     return (
-      <div id="Home">
+      <div id="Home" className="animated fadeIn">
         <Header />
         <div id="IntroCircle" className="br-100 bg-black-05 relative o-30 mt5-l mt3" />
         <div className="w-70-l w-80-m w-90 center cf relative pl3 pv5">
