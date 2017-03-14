@@ -2,15 +2,16 @@
 
 /*Tachyons Add-Ons*/
 
-.sans-serif { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
-.lh-subtitle { line-height: 2.75rem; }
-.hover-bg-black-05:hover { background-color: rgba(0, 0, 0, 0.05); }
+.sans-serif               { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+.lh-subtitle              { line-height: 2.75rem; }
+.lh-copy                  { line-height: 1.85rem; }
+.hover-bg-black-05:hover  { background-color: rgba(0, 0, 0, 0.05); }
 .hover-bg-dark-blue:hover { background-color: #00449E; }
-.bg-black-025 { background-color: rgba(0,0,0,.025); }
-.nt8 { margin-top: -18rem; }
-.shadow-custom { box-shadow: 0px 10px 40px -5px rgba(0,0,0, 0.5); transition: all .4s ease-in-out; }
-.shadow-custom:hover { box-shadow: 0px 15px 50px -5px rgba(0,0,0, 0.75); transition: all .4s ease-in-out; }
-.shadow-header { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.03); }
+.bg-black-025             { background-color: rgba(0,0,0,.025); }
+.nt8                      { margin-top: -18rem; }
+.shadow-custom            { box-shadow: 0px 10px 40px -5px rgba(0,0,0, 0.5); transition: all .4s ease-in-out; }
+.shadow-custom:hover      { box-shadow: 0px 15px 50px -5px rgba(0,0,0, 0.75); transition: all .4s ease-in-out; }
+.shadow-header            { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.03); }
 
 /*Custom CSS*/
 
@@ -91,6 +92,16 @@
     90% { background-color: #66a6ff; }
     95%{ background-color: #2575fc; }
 }
+
+.spin {
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .tooltip {
     position: relative;

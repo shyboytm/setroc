@@ -8,16 +8,31 @@ class About extends Component {
     return (
       <div id="About" className="animated fadeIn">
         <Header />
-        <div id="IntroCircle" className="br-100 bg-black-05 relative o-30 mt5-l mt3" />
-        <div className="w-70-l w-80-m w-90 center cf relative pl3 pv5">
-          <div className="nt8 z-0 ml5-l ml2 pl3-l">
-            <h1 className="f1-ns f2 fw4 lh-copy z-0 mt0 mb3">Dennis Cortés is a Designer, Illustrator, Developer, and Writer</h1>
-            <p className="f3-ns f4 black-30 lh-subtitle mt0 measure">
-              Currently leading design at <a className="rainbow-hover link black-30 hover-blue" href="http://satchelhealth.com">Satchel Health</a> and building
-              resources and experiences at <a className="rainbow-hover link black-30 hover-blue" href="http://usequarry.com">Quarry</a>. I also write a bit for
-              my weekly personal blog, <a className="rainbow-hover link black-30 hover-blue" href="https://medium.com/the-rate-of-change">The Rate of Change</a>.
-              Email me at <a className="rainbow-hover link black-30 hover-blue" href="mailto:hi@cortes.us">hi@cortes.us</a> if you'd like to get in touch.
-            </p>
+        <div className="w-80 center pv5">
+          <div className="db">
+            <h1 className="f1-ns f2 fw4 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h1>
+          </div>
+          <div className="cf w-100 center">
+            <div className="w-50-l w-100 fl pr5-ns">
+              <p className="lh-copy black-60">
+                I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
+                a little later than I would have liked to. Because of this, I’ve had to push myself to learn
+                about this industry and understand the power of hard work all while developing a love for
+                knowledge and the possibilities of design. I learned through hours of teaching myself most of
+                what I know about design and business through my own passion and interests in people I admire
+                and facets of the digital design world.
+              </p>
+            </div>
+            <div className="w-50-l w-100 fl pr5-ns">
+              <p className="lh-copy black-60">
+                I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
+                a little later than I would have liked to. Because of this, I’ve had to push myself to learn
+                about this industry and understand the power of hard work all while developing a love for
+                knowledge and the possibilities of design. I learned through hours of teaching myself most of
+                what I know about design and business through my own passion and interests in people I admire
+                and facets of the digital design world.
+              </p>
+            </div>
           </div>
         </div>
       </div>
