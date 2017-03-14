@@ -12,7 +12,7 @@ class Header extends Component {
             <span className="name">Dennis Cortés</span> <span className="green ml1 f5 tooltip">•<span className="tooltiptext green dib f6 fw4">Available for work!</span></span>
           </Link>
           <span className="db-l ml0-l ml3 pb2">
-            <Link to="/" className="rainbow-hover f6 link black-30 hover-blue lh-title" title="About">About</Link>
+            <Link to="/about" className="rainbow-hover f6 link black-30 hover-blue lh-title" title="About">About</Link>
           </span>
           <span className="db-l ml0-l ml3 pb2">
             <Link to="/" className="rainbow-hover f6 link black-30 hover-blue lh-title" title="Blog">Blog</Link>
