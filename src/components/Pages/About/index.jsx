@@ -37,6 +37,23 @@ class About extends Component {
           </div>
         </div>
         <AboutInfoSections />
+        <div className="w-100 bg-black pv5">
+          <div className="w-80 center cf">
+            <h2 className="f2 fw4 white mb5">Approach</h2>
+            <div className="w-33-l w-50-m w-80 pr4-ns pb3 center fl">
+              <h3 className="ttu tracked white">Step One Here</h3>
+              <p className="white-70 lh-copy">I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design a little later than I would have liked to.</p>
+            </div>
+            <div className="w-33-l w-50-m w-80 pr4-ns pb3 center fl">
+              <h3 className="ttu tracked white">Step One Here</h3>
+              <p className="white-70 lh-copy">I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design a little later than I would have liked to.</p>
+            </div>
+            <div className="w-33-l w-50-m w-80 pr4-ns pb3 center fl">
+              <h3 className="ttu tracked white">Step One Here</h3>
+              <p className="white-70 lh-copy">I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design a little later than I would have liked to.</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

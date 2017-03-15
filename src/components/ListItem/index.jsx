@@ -7,7 +7,7 @@ class ListItem extends Component {
     const { listItemTitle } = this.props;
 
     return (
-        <li className="fw4 f5 pb3 black-60">
+        <li className="fw4 f5 pb3 black-60 lh-copy">
           {listItemTitle}
         </li>
     );

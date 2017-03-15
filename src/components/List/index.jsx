@@ -7,7 +7,7 @@ class List extends Component {
     const { listTitle } = this.props;
 
     return (
-      <div className="w-33-l w-50-m w-100 ph4 items-start">
+      <div className="w-33-l w-50-m w-80 pr5-ns items-start">
         <h2 className="f2 fw4">{listTitle}</h2>
         <ul className="list pl0 pt2 pb3">{this.props.children}</ul>
       </div>
