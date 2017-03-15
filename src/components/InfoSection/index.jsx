@@ -13,7 +13,7 @@ class InfoSection extends Component {
 
     return (
       <div className="w-33-l w-50-m w-100 ph4 items-start">
-        <h2 className="ttu f5 tracked">{infoSectionTitle}</h2>
+        <h2 className="f2-ns f3 fw4">{infoSectionTitle}</h2>
         <p className="lh-copy black-60">{infoSectionDescription}</p>
         <ul className="list pl0 pt2 pb3">{this.props.children}</ul>
       </div>

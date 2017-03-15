@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 import Header from '../../Header';
+import AboutInfoSections from '../../AboutInfoSections';
 
 class About extends Component {
   render() {
@@ -35,6 +36,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+        <AboutInfoSections />
       </div>
     );
   }
