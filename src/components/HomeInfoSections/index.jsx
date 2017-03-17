@@ -12,7 +12,7 @@ class HomeInfoSections extends Component {
 
     return (
       <div id="HomeInfoSection" className="w-100 bb bt b--black-05 bg-black-025 mt5-ns mt2">
-        <div className="content-end flex flex-wrap pv5 w-80-ns w-100 center cf">
+        <div className="content-end flex flex-wrap pv5-l pv3 w-80-ns w-100 center cf">
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
               title="Work"

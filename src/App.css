@@ -11,7 +11,7 @@
 .nt8                      { margin-top: -18rem; }
 .shadow-custom            { box-shadow: 0px 10px 40px -5px rgba(0,0,0, 0.5); transition: all .4s ease-in-out; }
 .shadow-custom:hover      { box-shadow: 0px 15px 50px -5px rgba(0,0,0, 0.75); transition: all .4s ease-in-out; }
-.shadow-header            { box-shadow: 0px 5px 20px 0px rgba(0,0,0, 0.03); }
+.shadow-about             { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.1); }
 
 /*Custom CSS*/
 
@@ -40,34 +40,11 @@
   -webkit-text-fill-color: transparent;
 }
 
-.rotated-text-l {
-  color: rgba(0,0,0,.5);
-  position: absolute;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .1em;
+.bg-rainbow {
   background-color: #b7b7b7;
-  -webkit-animation: random 30s infinite;
-  animation: random 30s infinite;
-  transition: all 20s ease-out;
-  -ms-transform: rotate(270deg); /* IE 9 */
-  -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-  transform: rotate(270deg);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.rotated-text {
-  color: rgba(0,0,0,.5);
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: .1em;
-  background-color: #b7b7b7;
-  -webkit-animation: random 30s infinite;
-  animation: random 30s infinite;
-  transition: all 20s ease-out;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-animation: random 60s infinite;
+  animation: random 60s infinite;
+  transition: all 60s ease-out;
 }
 
 #IntroCircle {
@@ -81,7 +58,7 @@
 }
 
 @keyframes random {
-    10% { background-color: #a6c1ee;  }
+    10% { background-color: #a6c1ee; }
     20% { background-color: #96e6a1; }
     30% { background-color: #fbc2eb; }
     40% { background-color: #f6d365; }
@@ -90,7 +67,7 @@
     70% { background-color: #667eea; }
     80% { background-color: #89f7fe; }
     90% { background-color: #66a6ff; }
-    95%{ background-color: #2575fc; }
+    95% { background-color: #2575fc; }
 }
 
 .spin {
