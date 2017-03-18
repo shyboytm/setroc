@@ -12,7 +12,7 @@ class HomeInfoSections extends Component {
 
     return (
       <div id="HomeInfoSection" className="w-100 bb bt b--black-05 bg-black-025 mt5-ns mt2">
-        <div className="content-end flex flex-wrap pv5-l pv3 w-80-ns w-100 center cf">
+        <div className="content-end flex flex-wrap pv5-l pv3 w-90-ns w-100 center cf">
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
               title="Work"
@@ -20,7 +20,7 @@ class HomeInfoSections extends Component {
               <InlineList>
                 <InlineListItem
                   inlineListItemLink="https://dribbble.com/fromcortes"
-                  inlineListItemTitle="Portfolio" />
+                  inlineListItemTitle="My Portfolio" />
                 <InlineListItem
                   inlineListItemLink="http://calligritype.us"
                   inlineListItemTitle="Calligritype" />
@@ -37,17 +37,31 @@ class HomeInfoSections extends Component {
                   inlineListItemLink="https://instagram.com/illustree"
                   inlineListItemTitle="Illustree" />
                 <InlineListItem
+                  inlineListItemLink="https://atom.io/users/fromcortes"
+                  inlineListItemTitle="Prisma" />
+                <InlineListItem
                   inlineListItemLink="http://shopdrones.co"
                   inlineListItemTitle="Shop Drones Co" />
                 <InlineListItem
                   inlineListItemLink="https://instagram.com/muchclean"
                   inlineListItemTitle="Much Clean" />
                 <InlineListItem
-                  inlineListItemLink="https://soundcloud.com/cordio/tracks"
-                  inlineListItemTitle="Cordio" />
+                  inlineListItemLink="http://www.usequarry.com"
+                  inlineListItemTitle="Quarry" />
+              </InlineList>
+              <InlineList>
                 <InlineListItem
-                  inlineListItemLink="http://pokem.cortes.us"
-                  inlineListItemTitle="Pokém" />
+                  inlineListItemLink="http://satchelhealth.com"
+                  inlineListItemTitle="Satchel Health" />
+                <InlineListItem
+                  inlineListItemLink="http://unclekragers.com/app"
+                  inlineListItemTitle="Uncle Kragers" />
+                <InlineListItem
+                  inlineListItemLink="http://simplesam.com"
+                  inlineListItemTitle="Simple Sam" />
+                <InlineListItem
+                  inlineListItemLink="http://12ounceapp.com"
+                  inlineListItemTitle="Twelve Ounce" />
               </InlineList>
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
@@ -108,6 +122,22 @@ class HomeInfoSections extends Component {
             <TitleParagraph
               title="Skillset"
               paragraph="I've tried just about every facet of design, but am now focused on Branding, Illustration, UI/UX, Front-End, and Eating." />
+          </div>
+          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+            <TitleParagraph
+              title="Free Time"
+              paragraph="Not my main work portfolio, but here are some things I do and/or make in my free time." />
+            <InlineList>
+              <InlineListItem
+                inlineListItemLink="https://twitch.tv/cortesarts"
+                inlineListItemTitle="Livestream" />
+              <InlineListItem
+                inlineListItemLink="https://soundcloud.com/cordio/tracks"
+                inlineListItemTitle="Cordio" />
+              <InlineListItem
+                inlineListItemLink="http://pokem.cortes.us"
+                inlineListItemTitle="Pokém" />
+            </InlineList>
           </div>
         </div>
       </div>
