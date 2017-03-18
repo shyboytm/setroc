@@ -14,7 +14,7 @@ class About extends Component {
       <div id="About" className="animated fadeIn">
         <Header />
         <div className="w-100 bg-black-10">
-          <div className="w-80-l w-90 center pv5-l pv3">
+          <div className="w-80-l w-90 center pv5-l pv3 mt5">
             <div className="cf w-100 center br2 bg-white shadow-about pa3 nb6">
               <div className="w-50-l w-100 fl pr5-ns">
                 <img className="db-l dn" src={aboutImage} />

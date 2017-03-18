@@ -16,7 +16,7 @@ class HomeInfoSections extends Component {
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
               title="Work"
-              paragraph="We design, architect and build creative digital solutions with the highest attention to aesthetic, functional and content detail to ensure a flawless and truly engaging user experience." />
+              paragraph="In addition to branding, illustration, and UI/UX work for others in my portfolio, a lot of my work is living and breathing projects I've built that people rely on and use on a regular basis." />
               <InlineList>
                 <InlineListItem
                   inlineListItemLink="https://dribbble.com/fromcortes"
@@ -53,7 +53,7 @@ class HomeInfoSections extends Component {
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
               title="Recognition"
-              paragraph="We design, architect and build creative digital solutions with the highest attention to aesthetic, functional and content detail to ensure a flawless and truly engaging user experience." />
+              paragraph="From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing." />
             <InlineList>
                <InlineListItem
                  inlineListItemLink="https://dribbble.com/fromcortes"
@@ -73,9 +73,9 @@ class HomeInfoSections extends Component {
             </InlineList>
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
-          <TitleParagraph
-            title="Writing"
-            paragraph="We design, architect and build creative digital solutions with the highest attention to aesthetic, functional and content detail to ensure a flawless and truly engaging user experience" />
+            <TitleParagraph
+              title="Writing"
+              paragraph="I write an article every week for my blog, The Rate of Change. Here are some of the most recent articles, you can sign up for my newsletter if you'd like." />
             <InlineList>
                <InlineListItem
                  inlineListItemLink="#"
@@ -87,6 +87,27 @@ class HomeInfoSections extends Component {
                  inlineListItemLink="#"
                  inlineListItemTitle="Why You Should Give Away What You Know" />
             </InlineList>
+          </div>
+          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+            <TitleParagraph
+              title="Case Studies"
+              paragraph="Almost all my recent work can't be shown publicly, but here are some older case studies that I am allowed to show at the moment." />
+            <InlineList>
+               <InlineListItem
+                 inlineListItemLink="https://www.behance.net/gallery/38016709/Heft-Wing-Beer-Co-Case-Study"
+                 inlineListItemTitle="Heft Wing Co. - 2016" />
+               <InlineListItem
+                 inlineListItemLink="https://www.behance.net/gallery/38016747/Twelve-Ounce-Case-Study"
+                 inlineListItemTitle="Twelve Ounce Coffee - 2014" />
+               <InlineListItem
+                 inlineListItemLink="https://www.behance.net/gallery/32067775/Lumi-Holiday-Gifting"
+                 inlineListItemTitle="Lumi Holiday - 2015" />
+            </InlineList>
+          </div>
+          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+            <TitleParagraph
+              title="Skillset"
+              paragraph="I've tried just about every facet of design, but am now focused on Branding, Illustration, UI/UX, Front-End, and Eating." />
           </div>
         </div>
       </div>
