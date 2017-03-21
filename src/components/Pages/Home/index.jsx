@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import Header from '../../Header';
 import HomeInfoSections from '../../HomeInfoSections';
 import TitleWithDescription from '../../TitleWithDescription';
-import CaseStudySelection from '../../CaseStudySelection';
 
 class Home extends Component {
   render() {

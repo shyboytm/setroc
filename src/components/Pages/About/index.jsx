@@ -20,9 +20,9 @@ class About extends Component {
                 <img className="db-l dn" src={aboutImage} />
                 <img className="dn-l db" src={aboutImageMobile} />
               </div>
-              <div className="w-50-l w-100 fl mt4 ph4 pt4">
+              <div className="w-50-l w-100 fl mt4 ph4-l ph3 pt4-l pt2">
                 <h1 className="f1-ns f2 fw4 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h1>
-                <p className="lh-copy black-60">
+                <p className="lh-copy black-60 measure">
                   I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
                   a little later than I would have liked to. Because of this, I’ve had to push myself to learn
                   about this industry and understand the power of hard work all while developing a love for
@@ -30,7 +30,7 @@ class About extends Component {
                   what I know about design and business through my own passion and interests in people I admire
                   and facets of the digital design world.
                 </p>
-                <p className="lh-copy black-60">
+                <p className="lh-copy black-60 measure">
                   I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
                   a little later than I would have liked to. Because of this, I’ve had to push myself to learn
                   about this industry and understand the power of hard work all while developing a love for
