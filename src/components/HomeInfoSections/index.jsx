@@ -111,11 +111,11 @@ class HomeInfoSections extends Component {
                  inlineListItemLink="https://www.behance.net/gallery/38016709/Heft-Wing-Beer-Co-Case-Study"
                  inlineListItemTitle="Heft Wing Co. - 2016" />
                <InlineListItem
-                 inlineListItemLink="https://www.behance.net/gallery/38016747/Twelve-Ounce-Case-Study"
-                 inlineListItemTitle="Twelve Ounce Coffee - 2014" />
-               <InlineListItem
                  inlineListItemLink="https://www.behance.net/gallery/32067775/Lumi-Holiday-Gifting"
                  inlineListItemTitle="Lumi Holiday - 2015" />
+               <InlineListItem
+                 inlineListItemLink="https://www.behance.net/gallery/38016747/Twelve-Ounce-Case-Study"
+                 inlineListItemTitle="Twelve Ounce Coffee - 2014" />
             </InlineList>
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
