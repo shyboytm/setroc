@@ -105,16 +105,18 @@
 }
 
 .tooltip .tooltiptext {
-    visibility: hidden;
+    opacity: 0;
     text-align: center;
     padding-top: 2px;
-    width: 150px;
+    width: auto;
+    margin-left: 10px;
+    transition: all .3s ease-in-out;
     position: absolute;
     z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;
+    opacity: 1;
 }
 
 .animated {

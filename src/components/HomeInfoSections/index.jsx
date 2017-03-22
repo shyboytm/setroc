@@ -15,7 +15,8 @@ class HomeInfoSections extends Component {
         <div className="content-end flex flex-wrap pv5-l pv3 w-90-ns w-100 center cf">
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
-              title="Work 💻"
+              title="Work"
+              toolTipText="💻"
               paragraph="In addition to branding, illustration, and UI/UX work for others in my portfolio, a lot of my work is living and breathing projects I've built that people rely on and use on a regular basis." />
               <InlineList>
                 <InlineListItem
@@ -66,7 +67,8 @@ class HomeInfoSections extends Component {
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
-              title="Recognition 🏆"
+              title="Recognition"
+              toolTipText="🏆"
               paragraph="From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing." />
             <InlineList>
                <InlineListItem
@@ -88,7 +90,8 @@ class HomeInfoSections extends Component {
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
-              title="Writing 📝"
+              title="Writing"
+              toolTipText="📝"
               paragraph="I write an article every week for my blog, The Rate of Change. Here are some of the most recent articles, you can sign up for my newsletter if you'd like." />
             <InlineList>
                <InlineListItem
@@ -104,7 +107,8 @@ class HomeInfoSections extends Component {
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
-              title="Case Studies 💼"
+              title="Case Studies"
+              toolTipText="💼"
               paragraph="Almost all my recent work can't be shown publicly, but here are some older case studies that I am allowed to show at the moment." />
             <InlineList>
                <InlineListItem
@@ -120,12 +124,14 @@ class HomeInfoSections extends Component {
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
-              title="Skillset 💪"
+              title="Skillset"
+              toolTipText="💪"
               paragraph="I've tried just about every facet of design, but am now focused on Branding, Illustration, UI/UX, Front-End, and Eating." />
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
             <TitleParagraph
-              title="Free Time ⏰"
+              title="Free Time"
+              toolTipText="⏰"
               paragraph="Not my main work portfolio, but here are some things I do and/or make in my free time." />
             <InlineList>
               <InlineListItem
