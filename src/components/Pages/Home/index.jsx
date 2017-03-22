@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Footer from '../../Footer';
 import Header from '../../Header';
 import HomeInfoSections from '../../HomeInfoSections';
 import TitleWithDescription from '../../TitleWithDescription';
@@ -29,6 +30,7 @@ class Home extends Component {
         </div>
 
         <HomeInfoSections />
+        <Footer />
 
       </div>
     );
