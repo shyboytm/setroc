@@ -155,6 +155,10 @@
   transform: translateX(8px);
 }
 
+.bg-map {
+  background-image: url("http://wip.cortes.us/static/media/map.png");
+  background-repeat: repeat;
+}
 
 /*Not Small*/
 
