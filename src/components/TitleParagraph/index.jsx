@@ -12,7 +12,7 @@ class TitleParagraph extends Component {
 
     return (
         <div>
-          <h2 className="f2 fw4 tooltip">
+          <h2 className="f2 fw6 tooltip">
             {title}
             <span className="tooltiptext">
               {toolTipText}

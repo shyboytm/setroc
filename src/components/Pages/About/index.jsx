@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-import Header from '../../Header';
 import AboutInfoSections from '../../AboutInfoSections';
+import Header from '../../Header';
+import Footer from '../../Footer';
 
 class About extends Component {
   render() {
@@ -58,6 +59,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

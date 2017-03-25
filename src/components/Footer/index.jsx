@@ -6,13 +6,19 @@ import Logo from '../Logo';
 class Footer extends Component {
   render() {
     return (
-      <div id="Footer" className="pv4 bg-black">
+      <div id="Footer" className="pb4 bg-black">
         <div className="w-90 center cf">
-          <div className="w-50-l w-100 fl">
+          <div className="w-100 pv5-ns pv3 ph3 bb b--white-10 mb3 mt0">
+            <h2 className="fw6 f2 white">Need some help on a project?</h2>
+            <p className="white-70 lh-copy measure mb4">
+              I'm available to help you or your company with branding, illustration, and web design work. Please email me at <a className="link white-30 rainbow-hover " href="mailto:hi@cortes.us">hi@cortes.us</a>!
+            </p>
+          </div>
+          <div className="w-50-l w-100 fl pt3">
             <div className="w-10 fl pt1 mr3-l mr4">
               <Logo />
             </div>
-            <small className="f6 tl white-70">© 2017 <b className="ttu">Dennis Cortés</b></small>
+            <small className="f6 tl white-70">© 2017 <b className="ttu tracked">Dennis Cortés</b></small>
             <div className="tl mt3">
               <span className="pb2">
                 <Link to="/about" className="rainbow-hover f6 link white-30 lh-title" title="About">About</Link>
@@ -25,7 +31,7 @@ class Footer extends Component {
               </span>
             </div>
           </div>
-          <div className="w-50-l w-100 fr-l fl pt1 mt2-l mt4">
+          <div className="w-50-l w-100 fr-l fl pt3 mt2-l mt4">
             <a href="https://twitter.com/fromcortes" className="dim fr-l fl mr0-l">
               <img src='https://icon.now.sh/twitter/25/ffffff' alt='twitter' />
             </a>
