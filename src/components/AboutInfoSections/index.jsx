@@ -23,8 +23,8 @@ class AboutInfoSections extends Component {
             <TitleParagraph
               title="Hobbies"
               toolTipText="🤓"
-              paragraph="When I'm not designing or closing elements you can find me writing, playing video games,
-                         learning about coffee, treating my dogs like kids, catching Pokémon, or making music." />
+              paragraph="When I'm not designing or writing code you can find me writing, playing video games,
+                         learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music." />
           </div>
           <div className="w-33-l w-50-m w-80 pr5-ns items-start">
             <TitleParagraph
