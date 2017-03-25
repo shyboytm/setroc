@@ -50,6 +50,7 @@ class HomeInfoSections extends Component {
                   inlineListItemLink="http://www.usequarry.com"
                   inlineListItemTitle="Quarry" />
               </InlineList>
+              <p className="black-60">Made with teams</p>
               <InlineList>
                 <InlineListItem
                   inlineListItemLink="http://satchelhealth.com"
@@ -95,6 +96,11 @@ class HomeInfoSections extends Component {
               paragraph="I write an article every week for my blog, The Rate of Change. Here are some of the most recent articles, you can sign up for my newsletter if you'd like." />
             <InlineList>
                <InlineListItem
+                 inlineListItemLink="http://eepurl.com/cgT2bD"
+                 inlineListItemTitle="My Newsletter" />
+            </InlineList>
+            <InlineList>
+               <InlineListItem
                  inlineListItemLink="#"
                  inlineListItemTitle="How to Keep Learning and Stay Fulfilled" />
                <InlineListItem
@@ -132,7 +138,7 @@ class HomeInfoSections extends Component {
             <TitleParagraph
               title="Free Time"
               toolTipText="⏰"
-              paragraph="Not my main work portfolio, but here are some things I do and/or make in my free time." />
+              paragraph="As someone who loves making things for fun sometimes, here are some things I do and/or make in my free time." />
             <InlineList>
               <InlineListItem
                 inlineListItemLink="https://twitch.tv/cortesarts"

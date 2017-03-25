@@ -8,9 +8,9 @@ class Footer extends Component {
     return (
       <div id="Footer" className="pb4 bg-black">
         <div className="w-90 center cf">
-          <div className="w-100 pv5-ns pv3 ph3 bb b--white-10 mb3 mt0 tc">
+          <div className="w-100 pv5-ns pv3 ph3 bb b--white-20 mb3 mt0 tc">
             <h2 className="fw6 f2 white">Need some help on a project?</h2>
-            <p className="white-70 lh-copy w-40-l w-60-m w-100 mb4 center">
+            <p className="white-70 lh-copy w-50-l w-70-m w-100 mb4 center">
               I'm available to help you or your company with branding, illustration, and web design work. Please email me at <a className="link white-30 rainbow-hover " href="mailto:hi@cortes.us">hi@cortes.us</a>!
             </p>
           </div>
@@ -27,7 +27,7 @@ class Footer extends Component {
                 <Link to="/" className="rainbow-hover f6 link white-30 lh-title" title="Blog">Blog</Link>
               </span>
               <span className="ml3 pb2">
-                <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link black-30 lh-title" title="Newsletter">Newsletter</a>
+                <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link white-30 lh-title" title="Newsletter">Newsletter</a>
               </span>
             </div>
           </div>
