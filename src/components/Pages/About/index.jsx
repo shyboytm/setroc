@@ -15,7 +15,7 @@ class About extends Component {
     const aboutImageMobile = require('../../../img/about-personal-image-mobile.jpg');
 
     return (
-      <div id="About" className="animated fadeIn">
+      <div id="About" className="animated fadeIn overflow-x-hidden-l">
         <Header />
         <div className="w-100 bg-black-05 bg-map">
           <div className="w-80-l w-90 center pv5-l pv3 mt5-l">
@@ -103,32 +103,66 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <div className="w-100 bb bt b--black-05 bg-black-05 pv5-l pv3">
+        <div className="w-100 bg-black-05 pv5-l pv3 overflow-x-hidden-l overflow-x-scroll">
           <div className="w-80 center cf">
             <h2 className="f2 fw6 mb5">Experience</h2>
           </div>
-            <div className="w-100 nowrap flex ph6-l pa5-m pa4 overflow-y-visible-ns overflow-x-visible-ns overflow-x-scroll">
-              <ExpRotatedRight year="2012">
-                <li className="fw4 pv2 black-60">Vrasa</li>
-              </ExpRotatedRight>
-              <ExpRotatedLeft year="2013">
-                <li className="fw4 pv2 black-60">Vrasa</li>
-              </ExpRotatedLeft>
-              <ExpRotatedRight year="2014">
-                <li className="fw4 pv2 black-60 lh-copy">
-                  <span className="b black">Vrasa</span>
-                  <br />Designer
-                </li>
-              </ExpRotatedRight>
-              <ExpRotatedLeft year="2015">
-                <li className="fw4 pv2 black-60">Vrasa</li>
-              </ExpRotatedLeft>
-              <ExpRotatedRight year="2016">
-                <li className="fw4 pv2 black-60">Graduated College</li>
-              </ExpRotatedRight>
-              <ExpRotatedLeft year="2017">
-                <li className="fw4 pv2 black-60">Vrasa</li>
-              </ExpRotatedLeft>
+          <div className="w-100-l w-80 center content-end flex flex-wrap overflow-y-visible mb5">
+            <ExpRotatedLeft year="2013">
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Fivestone Studios</span>
+                <br />Designer
+                <br />3D Illustrator
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Freelance</span>
+                <br />Branding
+                <br />Illustration
+                <br />UI/UX
+              </li>
+            </ExpRotatedLeft>
+            <ExpRotatedRight year="2014">
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Vrasa</span>
+                <br />Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Calligritype</span>
+                <br />Founder
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Illustree</span>
+                <br />Founder
+              </li>
+            </ExpRotatedRight>
+            <ExpRotatedLeft year="2015">
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Vrasa</span>
+                <br />Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Satchel Health</span>
+                <br />Product Designer
+              </li>
+            </ExpRotatedLeft>
+            <ExpRotatedRight year="2016">
+              <li className="fw4 pv2 black-60">Graduated College</li>
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Satchel Health</span>
+                <br />Product Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Quarry</span>
+                <br />Co-Founder
+              </li>
+            </ExpRotatedRight>
+            <ExpRotatedLeft year="2017">
+              <li className="fw4 pv2 black-60 lh-copy">
+                <span className="b black">Satchel Health</span>
+                <br />Lead Designer
+                <br />Front-End Developer
+              </li>
+            </ExpRotatedLeft>
            </div>
           </div>
         <Footer />

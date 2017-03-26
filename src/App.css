@@ -143,20 +143,38 @@
   background-repeat: repeat;
 }
 
-.rotate-10 {
-    -ms-transform: rotate(10deg); /* IE 9 */
-    -webkit-transform: rotate(10deg); /* Safari */
-    transform: rotate(10deg);
-}
-
-.rotate--10 {
-    -ms-transform: rotate(-10deg) translateY(50px); /* IE 9 */
-    -webkit-transform: rotate(-10deg) translateY(50px); /* Safari */
-    transform: rotate(-10deg) translateY(50px);
-}
-
 /*Not Small*/
 
 @media only screen and (min-width: 30em) {
   #IntroCircle { left: 10rem; }
+}
+
+/*Large*/
+
+@media only screen and (min-width: 60em) {
+  .rotate-10 {
+      -ms-transform: rotate(10deg); /* IE 9 */
+      -webkit-transform: rotate(10deg); /* Safari */
+      transform: rotate(10deg);
+  }
+
+  .rotate--10 {
+      -ms-transform: rotate(-10deg) translateY(40px); /* IE 9 */
+      -webkit-transform: rotate(-10deg) translateY(40px); /* Safari */
+      transform: rotate(-10deg) translateY(40px);
+  }
+
+  .bg-white-l {
+    background-color: white;
+  }
+
+  .shadow-large-l {
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0, 0.075);
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  #ExpRotatedRight, #ExpRotatedLeft {
+    min-width: 150px;
+  }
 }
