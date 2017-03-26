@@ -7,7 +7,8 @@
 .lh-copy                  { line-height: 1.85rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
 .nt8                      { margin-top: -18rem; }
-.shadow-custom            { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.1); }
+.shadow-small            { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.1); }
+.shadow-large             { box-shadow: 0px 20px 50px 0px rgba(0,0,0, 0.075); }
 
 /*Custom CSS*/
 
@@ -137,23 +138,21 @@
   animation-name: fadeIn;
 }
 
-.forward {
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-
-.forward:hover, .forward:focus, .forward:active {
-  -webkit-transform: translateX(8px);
-  transform: translateX(8px);
-}
-
 .bg-map {
   background-image: url("http://wip.cortes.us/static/media/map.png");
   background-repeat: repeat;
+}
+
+.rotate-10 {
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg);
+}
+
+.rotate--10 {
+    -ms-transform: rotate(-10deg) translateY(50px); /* IE 9 */
+    -webkit-transform: rotate(-10deg) translateY(50px); /* Safari */
+    transform: rotate(-10deg) translateY(50px);
 }
 
 /*Not Small*/

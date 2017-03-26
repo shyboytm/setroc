@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 import AboutInfoSections from '../../AboutInfoSections';
-import Header from '../../Header';
+import ExpRotatedRight from '../../ExpRotatedRight';
+import ExpRotatedLeft from '../../ExpRotatedLeft';
 import Footer from '../../Footer';
+import Header from '../../Header';
 import TitleParagraph from '../../TitleParagraph';
 
 class About extends Component {
@@ -17,7 +19,7 @@ class About extends Component {
         <Header />
         <div className="w-100 bg-black-05 bg-map">
           <div className="w-80-l w-90 center pv5-l pv3 mt5-l">
-            <div className="cf w-100 center br2 bg-white shadow-custom pa3 nb6">
+            <div className="cf w-100 center br2 bg-white shadow-small pa3 nb6">
               <div className="w-50-l w-100 fl pr5-ns">
                 <img className="db-l dn" src={aboutImage} />
                 <img className="dn-l db" src={aboutImageMobile} />
@@ -101,28 +103,32 @@ class About extends Component {
             </div>
           </div>
         </div>
-        <div className="w-100 bg-white pv5-l pv3">
+        <div className="w-100 bb bt b--black-05 bg-black-05 pv5-l pv3">
           <div className="w-80 center cf">
             <h2 className="f2 fw6 mb5">Experience</h2>
-            <div className="w-100">
-              <div className="dib w2 h2 br-pill pa1 bw2 ba b--black-10 shadow-custom hover-bg-green bg-animate tooltip"><span className="tooltiptext">Hello</span></div>
-              <div className="dib w-20 bt b--black-10 bw2 pb2 mb1" />
-              <div className="dib w2 h2 br-pill pa1 bw2 ba b--black-10 shadow-custom hover-bg-green bg-animate" />
-              <div className="dib w-20 bt b--black-10 bw2 pb2 mb1" />
-              <div className="dib w2 h2 br-pill pa1 bw2 ba b--black-10 shadow-custom hover-bg-green bg-animate" />
-              <div className="dib w-20 bt b--black-10 bw2 pb2 mb1" />
-              <div className="dib w2 h2 br-pill pa1 bw2 ba b--black-10 shadow-custom hover-bg-green bg-animate" />
-              <div className="dib w-20 bt b--black-10 bw2 pb2 mb1" />
-              <div className="dib w2 h2 br-pill pa1 bw2 ba b--black-10 shadow-custom hover-bg-green bg-animate" />
-            </div>
           </div>
-           <div className="w-100 nowrap flex overflow-x-scroll ph6-l pa5-m pa4">
-             <div className="items-end dib ph4 pv3 bg-black-05 w5">
-                <h2 className="f5 b center mw6">2016</h2>
-                <ul className="list pl0 ml0 center mw6">
-                  <li className="fw4 pv2 black-60">Vrasa</li>
-                </ul>
-             </div>
+            <div className="w-100 nowrap flex ph6-l pa5-m pa4 overflow-y-visible-ns overflow-x-visible-ns overflow-x-scroll">
+              <ExpRotatedRight year="2012">
+                <li className="fw4 pv2 black-60">Vrasa</li>
+              </ExpRotatedRight>
+              <ExpRotatedLeft year="2013">
+                <li className="fw4 pv2 black-60">Vrasa</li>
+              </ExpRotatedLeft>
+              <ExpRotatedRight year="2014">
+                <li className="fw4 pv2 black-60 lh-copy">
+                  <span className="b black">Vrasa</span>
+                  <br />Designer
+                </li>
+              </ExpRotatedRight>
+              <ExpRotatedLeft year="2015">
+                <li className="fw4 pv2 black-60">Vrasa</li>
+              </ExpRotatedLeft>
+              <ExpRotatedRight year="2016">
+                <li className="fw4 pv2 black-60">Graduated College</li>
+              </ExpRotatedRight>
+              <ExpRotatedLeft year="2017">
+                <li className="fw4 pv2 black-60">Vrasa</li>
+              </ExpRotatedLeft>
            </div>
           </div>
         <Footer />
