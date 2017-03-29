@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
 import AboutInfoSections from '../../AboutInfoSections';
 import ExpRotatedRight from '../../ExpRotatedRight';
@@ -24,8 +23,8 @@ class About extends Component {
                 <img className="db-l dn" src={aboutImage} />
                 <img className="dn-l db" src={aboutImageMobile} />
               </div>
-              <div className="w-50-l w-100 fl mt4 ph4-l ph2 pt4-l pt2">
-                <h1 className="f1-ns f2 fw6 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h1>
+              <div className="w-50-l w-100 fl ph4-l ph2 pt4-l pt2">
+                <h1 className="f1-ns f2 fw4 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h1>
                 <p className="lh-copy black-60 measure">
                   I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
                   a little later than I would have liked to. Because of this, I’ve had to push myself to learn
@@ -105,9 +104,9 @@ class About extends Component {
         </div>
         <div className="w-100 bg-black-05 pv5-l pv3 overflow-x-hidden-l overflow-x-scroll">
           <div className="w-80 center cf">
-            <h2 className="f2 fw6 mb5">Experience</h2>
+            <h2 className="f1-ns f2 fw6 mb5">Experience</h2>
           </div>
-          <div className="w-100-l w-80 center content-end flex flex-wrap overflow-y-visible mb5">
+          <div className="w-100-l w-80 db center content-end flex flex-wrap overflow-y-visible mb5">
             <ExpRotatedLeft year="2013">
               <li className="fw4 pv2 black-60 lh-copy">
                 <span className="b black">Fivestone Studios</span>

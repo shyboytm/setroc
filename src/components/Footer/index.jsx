@@ -9,7 +9,7 @@ class Footer extends Component {
       <div id="Footer" className="pb4 bg-black">
         <div className="w-90 center cf">
           <div className="w-100 pv5-ns pv3 ph3 bb b--white-20 mb3 mt0 tc">
-            <h2 className="fw6 f2 white">Need some help on a project?</h2>
+            <h2 className="fw4 f2 white">Need some help on a project?</h2>
             <p className="white-70 lh-copy w-50-l w-70-m w-100 mb4 center">
               I'm available to help you or your company with branding, illustration, and web design work. Please email me at <a className="link white-30 rainbow-hover " href="mailto:hi@cortes.us">hi@cortes.us</a>!
             </p>
