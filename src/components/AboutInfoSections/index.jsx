@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
 import TitleParagraph from '../TitleParagraph';
+import InlineList from '../InlineList';
+import InlineListItem from '../InlineListItem';
 
 class AboutInfoSections extends Component {
   render() {
@@ -27,10 +28,29 @@ class AboutInfoSections extends Component {
                          learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music." />
           </div>
           <div className="w-33-l w-50-m w-100 pr5-ns items-start">
-            <TitleParagraph
-              title="Hobbies"
-              paragraph="When I'm not designing or closing elements you can find me writing, playing video games,
-                         learning about coffee, catching Pokémon, or making sick beatz." />
+          <TitleParagraph
+            title="Social"
+            toolTipText="🎉" />
+            <InlineList>
+              <InlineListItem
+                inlineListItemLink="https://dribbble.com/fromcortes"
+                inlineListItemTitle="Dribbble" />
+              <InlineListItem
+                inlineListItemLink="https://github.com/fromcortes"
+                inlineListItemTitle="Github" />
+              <InlineListItem
+                inlineListItemLink="https://twitch.tv/cortesarts"
+                inlineListItemTitle="Twitch" />
+              <InlineListItem
+                inlineListItemLink="https://twitter.com/fromcortes"
+                inlineListItemTitle="Twitter" />
+              <InlineListItem
+                inlineListItemLink="https://instagram.com/fromcortes"
+                inlineListItemTitle="Instagram" />
+              <InlineListItem
+                inlineListItemLink="https://youtube.com/cortesarts"
+                inlineListItemTitle="YouTube" />
+            </InlineList>
           </div>
         </div>
       </div>
