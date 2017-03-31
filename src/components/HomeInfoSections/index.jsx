@@ -101,14 +101,14 @@ class HomeInfoSections extends Component {
             </InlineList>
             <InlineList>
                <InlineListItem
-                 inlineListItemLink="#"
-                 inlineListItemTitle="How to Keep Learning and Stay Fulfilled" />
+                 inlineListItemLink="https://medium.com/the-rate-of-change/apple-lg-ultrafine-monitor-review-cc6dc6f1ce97"
+                 inlineListItemTitle="Apple LG UltraFine Monitor Review" />
                <InlineListItem
-                 inlineListItemLink="#"
-                 inlineListItemTitle="Finding Comfort in Identity Crisis" />
+                 inlineListItemLink="https://medium.com/the-rate-of-change/how-to-set-up-your-success-early-6001b74948ff"
+                 inlineListItemTitle="How to Set Up Your Success Early" />
                <InlineListItem
-                 inlineListItemLink="#"
-                 inlineListItemTitle="Why You Should Give Away What You Know" />
+                 inlineListItemLink="https://medium.com/the-rate-of-change/a-guide-to-a-healthy-work-from-home-lifestyle-a92c1d896b1b"
+                 inlineListItemTitle="A Guide to a Healthy Work from Home Lifestyle" />
             </InlineList>
           </div>
           <div className="w-33-l w-50-m w-80 center ph4-ns items-start">

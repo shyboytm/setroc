@@ -2,7 +2,7 @@
 
 /*Tachyons Add-Ons*/
 
-.sans-serif               { font-family: "acumin-pro", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
+.sans-serif               { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
 .acumin                   { font-family: "acumin-pro", -apple-system, BlinkMacSystemFont, sans-serif; }
 .lh-subtitle              { line-height: 2.25rem; }
 .lh-copy                  { line-height: 1.85rem; }
