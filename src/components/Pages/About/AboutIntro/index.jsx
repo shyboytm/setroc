@@ -20,7 +20,7 @@ class AboutIntro extends Component {
                 <img className="dn-l db" src={aboutImageMobile} />
               </div>
               <div className="w-50-l w-100 fl ph4-l ph2 pt4-l pt2">
-                <h2 className="f1-ns f2 fw6 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h2>
+                <h2 className="f2 fw4 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h2>
                 <p className="lh-copy black-60 measure">
                   I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
                   a little later than I would have liked to. Because of this, I’ve had to push myself to learn

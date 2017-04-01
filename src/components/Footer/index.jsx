@@ -18,7 +18,7 @@ class Footer extends Component {
             <div className="w-10 fl pt1 mr3-l mr4">
               <Logo />
             </div>
-            <small className="f6 tl white-70">© 2017 <b className="ttu tracked">Dennis Cortés</b></small>
+            <small className="b ttu tracked f6 tl white-70">© 2017 Dennis Cortés</small>
             <div className="tl mt3">
               <span className="pb2">
                 <Link to="/about" className="rainbow-hover f6 link white-50 lh-title" title="About">About</Link>
