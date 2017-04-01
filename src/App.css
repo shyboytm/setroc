@@ -147,7 +147,7 @@
 /*Not Small*/
 
 @media only screen and (min-width: 30em) {
-  #IntroCircle { left: 10rem; }
+  #IntroCircle { left: 15rem; }
 }
 
 /*Large*/

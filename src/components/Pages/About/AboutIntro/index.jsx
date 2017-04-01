@@ -16,8 +16,8 @@ class AboutIntro extends Component {
           <div className="w-80-l w-90 center pv5-l pv3 mt5-l">
             <div className="cf w-100 center br2 bg-white shadow-small pa3 nb6">
               <div className="w-50-l w-100 fl pr5-ns">
-                <img className="db-l dn" src={aboutImage} />
-                <img className="dn-l db" src={aboutImageMobile} />
+                <img className="db-l dn" src={aboutImage} alt="Dennis Cortés" />
+                <img className="dn-l db" src={aboutImageMobile} alt="Dennis Cortés" />
               </div>
               <div className="w-50-l w-100 fl ph4-l ph2 pt4-l pt2">
                 <h2 className="f2 fw4 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h2>

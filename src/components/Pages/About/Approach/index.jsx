@@ -21,38 +21,40 @@ class Approach extends Component {
                 <TitleParagraph
                   title="Inclusion"
                   toolTipText="👥"
-                  paragraph="My family and my friends are constant reminders of humility. My girlfriend and my
-                             dogs keep me level headed and inspired to balance my work and my life. Creating
-                             a better, more enjoyable life for others motivates my work." />
+                  paragraph="People are the essence of the technology industry. Without people, we would have no clear
+                             purpose in our work. I believe in helping people feel welcomed and included when it comes to my
+                             work and who I am as a person." />
               </div>
               <div className="w-33-l w-50-m w-100 pr5-ns items-start">
                 <TitleParagraph
                   title="Accessibility"
                   toolTipText="🎨"
-                  paragraph="When I'm not designing or writing code you can find me writing, playing video games,
-                             learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music." />
+                  paragraph="Unfortunately overlooked a lot nowadays, Accessibility is a very important aspect of
+                             my work. I believe in equal access to technology and providing the tools and refinements
+                             to style, typography, and code neccessary to do so." />
               </div>
               <div className="w-33-l w-50-m w-100 pr5-ns items-start">
                 <TitleParagraph
                   title="Simplicity"
                   toolTipText="⚫️"
-                  paragraph="When I'm not designing or closing elements you can find me writing, playing video games,
-                             learning about coffee, catching Pokémon, or making sick beatz." />
+                  paragraph="Although an overused term, Simplicity is at the heart of my goals in my work. I believe in a simple
+                             approach with a touch of uniqueness, developing work into the purest form with tasteful novelty." />
               </div>
               <div className="w-33-l w-50-m w-100 pr5-ns items-start">
                 <TitleParagraph
                   title="Discovery"
                   toolTipText="🌎"
-                  paragraph="My family and my friends are constant reminders of humility. My girlfriend and my
-                             dogs keep me level headed and inspired to balance my work and my life. Creating
-                             a better, more enjoyable life for others motivates my work." />
+                  paragraph="I regard knowledge as a never ending cycle of inspiration and curiousity. I accept and relish that
+                             I'll never know everything about something. I approach projects with an open mind, being transparent
+                             about what I learn in the process." />
               </div>
               <div className="w-33-l w-50-m w-100 pr5-ns items-start">
                 <TitleParagraph
                   title="Transparency"
                   toolTipText="👓"
-                  paragraph="When I'm not designing or writing code you can find me writing, playing video games,
-                             learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music." />
+                  paragraph="Openly and actively sharing my process to help others is a core element of my process. I always try
+                             my best to share what I can for the benefit of others. My weekly blog and weekly streams of me working
+                             are a direct approach for me to give back to the industry." />
               </div>
               <div className="w-33-l w-50-m w-100 pr5-ns items-start">
                 <TitleParagraph
