@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-import InlineList from '../InlineList';
-import InlineListItem from '../InlineListItem';
-import TitleParagraph from '../TitleParagraph';
+import InlineList from '../../../InlineList';
+import InlineListItem from '../../../InlineListItem';
+import TitleParagraph from '../../../TitleParagraph';
 
-class HomeInfoSections extends Component {
+class HomeInfo extends Component {
   render() {
-
-    const { } = this.props;
-
     return (
       <div id="HomeInfoSection" className="w-100 bb bt b--black-05 bg-black-05 bg-map mt5-ns mt2">
         <div className="content-end flex flex-wrap pv5-l pv3 w-90-ns w-100 center cf">
@@ -157,4 +154,4 @@ class HomeInfoSections extends Component {
   }
 }
 
-export default HomeInfoSections;
+export default HomeInfo;

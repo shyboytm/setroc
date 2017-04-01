@@ -9,9 +9,9 @@ class Footer extends Component {
       <div id="Footer" className="pb4 bg-black">
         <div className="w-90 center cf">
           <div className="w-100 pv5-ns pv3 ph3 bb b--white-20 mb3 mt0 tc">
-            <h2 className="fw4 f2 white">Need some help on a project?</h2>
+            <h2 className="fw6 f2 white">Need some help on a project?</h2>
             <p className="white-70 lh-copy w-50-l w-70-m w-100 mb4 center">
-              I'm available to help you or your company with branding, illustration, and web design work. Please email me at <a className="link white-30 rainbow-hover " href="mailto:hi@cortes.us">hi@cortes.us</a>!
+              I'm available to help you or your company with branding, illustration, and web design work. Please email me at <a className="link white-50 rainbow-hover " href="mailto:hi@cortes.us">hi@cortes.us</a>!
             </p>
           </div>
           <div className="w-50-l w-100 fl pt3">
@@ -21,13 +21,13 @@ class Footer extends Component {
             <small className="f6 tl white-70">© 2017 <b className="ttu tracked">Dennis Cortés</b></small>
             <div className="tl mt3">
               <span className="pb2">
-                <Link to="/about" className="rainbow-hover f6 link white-30 lh-title" title="About">About</Link>
+                <Link to="/about" className="rainbow-hover f6 link white-50 lh-title" title="About">About</Link>
               </span>
               <span className="ml3 pb2">
-                <Link to="/" className="rainbow-hover f6 link white-30 lh-title" title="Blog">Blog</Link>
+                <Link to="/" className="rainbow-hover f6 link white-50 lh-title" title="Blog">Blog</Link>
               </span>
               <span className="ml3 pb2">
-                <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link white-30 lh-title" title="Newsletter">Newsletter</a>
+                <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link white-50 lh-title" title="Newsletter">Newsletter</a>
               </span>
             </div>
           </div>
