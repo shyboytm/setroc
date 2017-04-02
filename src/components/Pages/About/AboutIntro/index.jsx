@@ -20,20 +20,23 @@ class AboutIntro extends Component {
                 <img className="dn-l db" src={aboutImageMobile} alt="Dennis Cortés" />
               </div>
               <div className="w-50-l w-100 fl ph4-l ph2 pt4-l pt2">
-                <h2 className="f2 fw4 lh-title z-0 mt0 mb3">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h2>
+                <h2 className="f2 fw4 lh-title z-0 mt0-l mv4">Hey There <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h2>
                 <p className="lh-copy black-60 measure">
-                  I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
-                  a little later than I would have liked to. Because of this, I’ve had to push myself to learn
-                  about this industry and understand the power of hard work all while developing a love for
-                  knowledge and the possibilities of design. I learned through hours of teaching myself most of
-                  what I know about design and business through my own passion and interests in people I admire
-                  and facets of the digital design world.
+                  I’m a 22 year old digital designer and illustrator based in Saint Louis. I have 5+ years of experience
+                  in the world of design and illustration and have built products both on my own and on a team. Currently,
+                  I am the design lead and a developer at <a className="link black-60 rainbow-hover" href="http://satchelhealth.com">Satchel Health</a>,
+                  and am the co-founder of <a className="link black-60 rainbow-hover" href="http://usequarry.com">Quarry</a>, where I build products that help people.
                 </p>
                 <p className="lh-copy black-60 measure">
-                  I’m a 22 year old digital designer and illustrator based in Saint Louis. I picked up design
-                  a little later than I would have liked to. Because of this, I’ve had to push myself to learn
-                  about this industry and understand the power of hard work all while developing a love for
-                  knowledge and the possibilities of design.
+                  Outside of design, I write quite a bit and release an article each week (30+ weeks!). I also spend time
+                  learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
+                  to others, a lot of my efforts go to building things that will help others as well as helping those in
+                  the design and tech industry. I stream the majority of my work on <a className="link black-60 rainbow-hover" href="https://twitch.tv/cortesarts">Twitch</a>,
+                  where others can hang out and maybe learn a few things.
+                </p>
+                <p className="lh-copy black-60 measure">
+                  I'm always open to chat! Whether you have a project I can help you with, a new hiring opportunity, or
+                  just want to say hi and ask me a question, please feel free to email me at <a className="link black-60 rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
                 </p>
               </div>
             </div>

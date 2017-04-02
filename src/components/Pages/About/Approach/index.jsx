@@ -60,8 +60,9 @@ class Approach extends Component {
                 <TitleParagraph
                   title="Ethics"
                   toolTipText="❤️"
-                  paragraph="When I'm not designing or closing elements you can find me writing, playing video games,
-                             learning about coffee, catching Pokémon, or making sick beatz." />
+                  paragraph="I believe that morals and ethics in design play a large part in process. Both business
+                             and experience decisions based on the greater good of users makes a better, more personable
+                             product and brand." />
               </div>
             </div>
           </div>
