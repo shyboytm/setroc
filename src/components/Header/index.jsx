@@ -21,7 +21,7 @@ class Header extends Component {
         </div>
         <div className="w-50-l w-100 fl dib pv2">
           <a href="mailto:hi@cortes.us" className="dib fr-l fl ml3-l ml0 f6 link pointer rainbow-hover blue">hi@cortes.us</a>
-          <a href="https://twitch.tv/cortesarts" className="dib fr-l fl ml3 ml0-l f6 link pointer rainbow-hover green">Livestream</a>
+          <Link to="/livestream" className="dib fr-l fl ml3 ml0-l f6 link pointer rainbow-hover green">Livestream</Link>
         </div>
       </div>
     );
