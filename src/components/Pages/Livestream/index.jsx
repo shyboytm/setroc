@@ -22,7 +22,7 @@ class Livestream extends Component {
             <iframe
               className="absolute w-100 h-100 top-0 left-0 fr-l fl"
               frameorder="0"
-              scrolling="no"
+              scrolling="yes"
               id="chat_embed"
               src="http://www.twitch.tv/cortesarts/chat">
             </iframe>

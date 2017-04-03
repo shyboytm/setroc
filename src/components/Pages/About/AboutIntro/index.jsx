@@ -11,7 +11,7 @@ class AboutIntro extends Component {
     const aboutImageMobile = require('../../../../img/about-personal-image-mobile.jpg');
 
     return (
-      <div id="AboutIntro" className="w-100 mt5">
+      <div id="AboutIntro" className="w-100 mt5-l">
         <div className="w-100 bg-black-05 bg-map">
           <div className="w-80-l w-90 center pv5-l pv3 mt5-l">
             <div className="cf w-100 center br2 bg-white shadow-small pa3 nb6">

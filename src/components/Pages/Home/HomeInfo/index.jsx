@@ -8,8 +8,8 @@ class HomeInfo extends Component {
   render() {
     return (
       <div id="HomeInfoSection" className="w-100 bb bt b--black-05 bg-black-05 bg-map mt5-ns mt2">
-        <div className="content-end flex flex-wrap pv5-l pv3 w-90-ns w-100 center cf">
-          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+        <div className="content-end flex flex-wrap pv5-l pv3 w-80-ns w-100 center cf">
+          <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
             <TitleParagraph
               title="Work"
               toolTipText="💻"
@@ -62,7 +62,7 @@ class HomeInfo extends Component {
                   inlineListItemTitle="Twelve Ounce" />
               </InlineList>
           </div>
-          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+          <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
             <TitleParagraph
               title="Recognition"
               toolTipText="🏆"
@@ -85,7 +85,7 @@ class HomeInfo extends Component {
                  inlineListItemTitle="365 Awesome Designers" />
             </InlineList>
           </div>
-          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+          <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
             <TitleParagraph
               title="Writing"
               toolTipText="📝"
@@ -107,7 +107,7 @@ class HomeInfo extends Component {
                  inlineListItemTitle="A Guide to a Healthy Work from Home Lifestyle" />
             </InlineList>
           </div>
-          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+          <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
             <TitleParagraph
               title="Case Studies"
               toolTipText="💼"
@@ -124,13 +124,13 @@ class HomeInfo extends Component {
                  inlineListItemTitle="Twelve Ounce Coffee - 2014" />
             </InlineList>
           </div>
-          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+          <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
             <TitleParagraph
               title="Skillset"
               toolTipText="💪"
               paragraph="I've tried just about every facet of design, but am now focused on Branding, Illustration, UI/UX, Front-End, and Eating." />
           </div>
-          <div className="w-33-l w-50-m w-80 center ph4-ns items-start">
+          <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
             <TitleParagraph
               title="Free Time"
               toolTipText="⏰"
