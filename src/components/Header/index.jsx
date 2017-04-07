@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="fixed-l z-max top-0 w-100 center pv3 bg-white ph4-l ph3 cf">
+      <div id="Header" className="mw9 fixed-l z-max top-0 w-100 center pv3 bg-white ph4-l ph3 cf">
         <div className="w-50-l w-100 fl dib pv2 mb0-l mb2">
           <Link to="/" className="fw6 f6 link black lh-title name">
             Dennis Cortés
