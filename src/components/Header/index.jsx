@@ -13,7 +13,10 @@ class Header extends Component {
             <Link to="/about" className="rainbow-hover f6 link black-30 lh-title" title="About">About</Link>
           </span>
           <span className="ml3 pb2">
-            <a href="https://medium.com/the-rate-of-change" target="_blank" rel="noreferrer" className="rainbow-hover f6 link black-30 lh-title" title="Blog">Blog</a>
+            <Link to="/inspiration" className="rainbow-hover f6 link black-30 lh-title" title="Newsletter">Inspiration</Link>
+          </span>
+          <span className="ml3 pb2">
+            <a href="http://blog.cortes.us" target="_blank" rel="noreferrer" className="rainbow-hover f6 link black-30 lh-title" title="Blog">Blog</a>
           </span>
           <span className="ml3 pb2">
             <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link black-30 lh-title" title="Newsletter">Newsletter</a>

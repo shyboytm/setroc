@@ -146,6 +146,17 @@
   background-repeat: repeat;
 }
 
+.bg-gif {
+  background-image: url("http://wip.cortes.us/static/media/flower-shop.gif");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.bg-gif h1 {
+  text-shadow: 3px 3px 0px #0000ff;
+}
+
 #LivestreamVideo {
   min-width: 700;
 }

@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
-import Facts from './components/Pages/Facts';
+import Secret from './components/Pages/Secret';
 import Livestream from './components/Pages/Livestream';
 
 ReactDOM.render(
@@ -15,7 +15,7 @@ ReactDOM.render(
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/facts" component={Facts} />
+      <Route path="/secret" component={Secret} />
       <Route path="/livestream" component={Livestream} />
     </Route>
   </Router>,
