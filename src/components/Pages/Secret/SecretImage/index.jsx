@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LazyLoad from 'react-lazy-load';
 
 class SecretImage extends Component {
   render() {
@@ -7,7 +8,9 @@ class SecretImage extends Component {
 
     return (
       <div className="item">
-        <img alt="Secret" src={imageSource} />
+        <LazyLoad offset={1000}>
+        <img className="w-100" alt="Secret" src={imageSource} />
+        </LazyLoad>
       </div>
     );
   }
