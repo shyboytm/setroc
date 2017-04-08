@@ -7,7 +7,7 @@ class SecretImage extends Component {
 
     return (
       <div className="item">
-        <img className="" src={imageSource} />
+        <img alt="Secret" src={imageSource} />
       </div>
     );
   }

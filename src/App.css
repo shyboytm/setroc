@@ -4,6 +4,7 @@
 
 .sans-serif               { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
 .acumin                   { font-family: "acumin-pro", -apple-system, BlinkMacSystemFont, sans-serif; }
+.f0                       { font-size: 8rem; }
 .lh-subtitle              { line-height: 2.25rem; }
 .lh-copy                  { line-height: 1.85rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
@@ -147,18 +148,18 @@
 }
 
 .bg-gif {
-  background-image: url("http://wip.cortes.us/static/media/flower-shop.gif");
+  background-image: url("http://wip.cortes.us/static/media/watch.gif");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
 }
 
 .bg-gif h1 {
-  text-shadow: 3px 3px 0px #0000ff;
+  text-shadow: 0px 0px 20px #FDC543;
 }
 
 .masonry {
-    column-count: 4;
+    column-count: 1;
     column-gap: 1em;
 }
 
@@ -176,6 +177,11 @@
 
 @media only screen and (min-width: 30em) {
   #IntroCircle { left: 15rem; }
+  .masonry {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
 }
 
 /*Large*/
@@ -186,19 +192,21 @@
       -webkit-transform: rotate(10deg); /* Safari */
       transform: rotate(10deg);
   }
-
   .rotate--10 {
       -ms-transform: rotate(-10deg) translateY(40px); /* IE 9 */
       -webkit-transform: rotate(-10deg) translateY(40px); /* Safari */
       transform: rotate(-10deg) translateY(40px);
   }
-
   .bg-white-l {
     background-color: white;
   }
-
   .shadow-large-l {
     box-shadow: 0px 20px 50px 0px rgba(0,0,0, 0.075);
+  }
+  .masonry {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
   }
 }
 
@@ -206,4 +214,5 @@
   #ExpRotatedRight, #ExpRotatedLeft {
     min-width: 150px;
   }
+  .f0 { font-size: 6rem; }
 }
