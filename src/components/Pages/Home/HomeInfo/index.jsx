@@ -97,6 +97,9 @@ class HomeInfo extends Component {
             </InlineList>
             <InlineList>
               <InlineListItem
+                inlineListItemLink="http://blog.cortes.us/advantages-of-working-remote"
+                inlineListItemTitle="Advantages of Working Remote" />
+              <InlineListItem
                 inlineListItemLink="http://blog.cortes.us/making-success-sustainable"
                 inlineListItemTitle="Making Success Sustainable" />
                <InlineListItem
@@ -108,9 +111,6 @@ class HomeInfo extends Component {
                <InlineListItem
                  inlineListItemLink="http://blog.cortes.us/guide-healthy-work-from-home-lifestyle"
                  inlineListItemTitle="A Guide to a Healthy Work from Home Lifestyle" />
-               <InlineListItem
-                 inlineListItemLink="http://blog.cortes.us/keep-learning-stay-fullfilled"
-                 inlineListItemTitle="How to Keep Learning and Stay Fulfilled" />
             </InlineList>
           </div>
           <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
