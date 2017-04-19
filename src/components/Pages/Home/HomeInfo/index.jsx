@@ -69,7 +69,7 @@ class HomeInfo extends Component {
               paragraph="From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing." />
             <InlineList>
                <InlineListItem
-                 inlineListItemLink="https://dribbble.com/fromcortes"
+                 inlineListItemLink="https://youtu.be/8vTTJ-W-Axc"
                  inlineListItemTitle="ta-lk" />
                <InlineListItem
                  inlineListItemLink="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s"

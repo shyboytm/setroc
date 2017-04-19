@@ -41,7 +41,7 @@ class Facts extends Component {
           </div>
           <h2 className="f2 fw4">Things I Made</h2>
           <div className="cf pv3 masonry mb4">
-            <SecretImage imageSource="http://wip.cortes.us/static/media/flower-shop.gif" />
+            <SecretImage imageSource="http://wip.cortes.us/static/media/made-1.png" />
           </div>
           <h2 className="f2 fw4">Things I Like</h2>
           <div className="cf pv3 masonry mb4">
