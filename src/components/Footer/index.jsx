@@ -25,13 +25,13 @@ class Footer extends Component {
                 <Link to="/about" className="rainbow-hover f6 link white-50 lh-title" title="About">About</Link>
               </span>
               <span className="ml3 pb2">
-                <a to="http://blog.cortes.us" className="rainbow-hover f6 link white-50 lh-title" title="Blog">Blog</a>
+                <a href="http://fromcortes.tumblr.com/" className="rainbow-hover f6 link white-50 lh-title" title="Inspiration">Inspiration</a>
+              </span>
+              <span className="ml3 pb2">
+                <a href="http://blog.cortes.us" className="rainbow-hover f6 link white-50 lh-title" title="Blog">Blog</a>
               </span>
               <span className="ml3 pb2">
                 <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link white-50 lh-title" title="Newsletter">Newsletter</a>
-              </span>
-              <span className="ml3 pb2">
-                <Link to="/secret" className="f6 link black lh-title">Secret</Link>
               </span>
             </div>
           </div>
