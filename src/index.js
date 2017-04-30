@@ -7,16 +7,18 @@ import './index.css';
 import App from './App';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
-import Secret from './components/Pages/Secret';
+import Books from './components/Pages/Books';
 import Livestream from './components/Pages/Livestream';
+import Secret from './components/Pages/Secret';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/secret" component={Secret} />
+      <Route path="/books" component={Books} />
       <Route path="/livestream" component={Livestream} />
+      <Route path="/secret" component={Secret} />
     </Route>
   </Router>,
   document.getElementById('root')
