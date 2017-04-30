@@ -11,6 +11,7 @@
 .nt8                      { margin-top: -20rem; }
 .pb-45                    { padding-bottom: 45%; }
 .h0                       { height: 0; }
+.h05                      { height: 5px; }
 .shadow-small             { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.1); }
 .shadow-large             { box-shadow: 0px 20px 50px 0px rgba(0,0,0, 0.075); }
 
@@ -43,9 +44,9 @@
 
 .bg-rainbow {
   background-color: #b7b7b7;
-  -webkit-animation: random 60s infinite;
-  animation: random 60s infinite;
-  transition: all 60s ease-out;
+  -webkit-animation: random 30s infinite;
+  animation: random 30s infinite;
+  transition: all 20s ease-out;
 }
 
 #IntroCircle {
