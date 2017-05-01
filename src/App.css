@@ -146,6 +146,7 @@
 .bg-map {
   background-image: url("http://wip.cortes.us/static/media/map.png");
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .bg-gif {
@@ -161,7 +162,7 @@
 
 .masonry {
     column-count: 1;
-    column-gap: 1em;
+    column-gap: 0.5em;
 }
 
 .item {

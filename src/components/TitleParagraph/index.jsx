@@ -17,7 +17,7 @@ class TitleParagraph extends Component {
               {toolTipText}
             </span>
           </h2>
-          <p className="fw4 f5 pb3 black-60 lh-copy">
+          <p className="fw4 f5 pb3 black-60 lh-copy measure">
             {paragraph}
           </p>
         </div>
