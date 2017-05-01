@@ -22,7 +22,7 @@ class AboutIntro extends Component {
               <div className="w-50-l w-100 fl ph4-l ph2 pt4-l pt2">
                 <h2 className="f2 fw6 lh-title z-0 mt0-l mv4">Hey <span className="absolute spin">👋</span><br />I'm Dennis Cortés.</h2>
                 <p className="lh-copy black-60 measure">
-                  I’m a 22 year old digital designer and illustrator based in Saint Louis. I have 5+ years of experience
+                  I’m a 22 year old digital designer and illustrator based in Saint Louis from Bayamón, Puerto Rico. I have 5+ years of experience
                   in the world of design and illustration and have built products both on my own and on a team. Currently,
                   I am the design lead and a developer at <a className="link black-60 rainbow-hover" href="http://satchelhealth.com">Satchel Health</a>,
                   and am the co-founder of <a className="link black-60 rainbow-hover" href="http://usequarry.com">Quarry</a>, where I build products that help people.
