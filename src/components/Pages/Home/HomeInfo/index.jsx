@@ -97,6 +97,12 @@ class HomeInfo extends Component {
             </InlineList>
             <InlineList>
               <InlineListItem
+                inlineListItemLink="http://blog.cortes.us/stop-charging-hourly"
+                inlineListItemTitle="Stop Charging by the Hour" />
+               <InlineListItem
+                 inlineListItemLink="http://blog.cortes.us/subjective-versus-objective-design"
+                 inlineListItemTitle="Subjective Versus Objective Design" />
+              <InlineListItem
                 inlineListItemLink="http://blog.cortes.us/do-you-need-degree-design"
                 inlineListItemTitle="Do You Need a Degree in Design?" />
               <InlineListItem
@@ -105,12 +111,6 @@ class HomeInfo extends Component {
               <InlineListItem
                 inlineListItemLink="http://blog.cortes.us/advantages-of-working-remote"
                 inlineListItemTitle="Advantages of Working Remote" />
-              <InlineListItem
-                inlineListItemLink="http://blog.cortes.us/making-success-sustainable"
-                inlineListItemTitle="Making Success Sustainable" />
-               <InlineListItem
-                 inlineListItemLink="http://blog.cortes.us/apple-lg-ultrafine-review"
-                 inlineListItemTitle="Apple LG UltraFine Monitor Review" />
             </InlineList>
           </div>
           <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
