@@ -9,6 +9,7 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Books from './components/Pages/Books';
 import Livestream from './components/Pages/Livestream';
+import People from './components/Pages/People';
 import Secret from './components/Pages/Secret';
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
       <IndexRoute component={Home} />
       <Route path="/about" component={About} />
       <Route path="/books" component={Books} />
+      <Route path="/people" component={People} />
       <Route path="/livestream" component={Livestream} />
       <Route path="/secret" component={Secret} />
     </Route>
