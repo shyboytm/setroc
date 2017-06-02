@@ -7,6 +7,9 @@ import Footer from '../../Footer';
 
 class People extends Component {
   render() {
+
+    const anandSharma = require('../../../img/anand-sharma.jpg');
+
     return (
       <div id="People" className="animated fadeIn overflow-x-hidden-l">
         <Header />
@@ -24,13 +27,34 @@ class People extends Component {
           </div>
           <div className="bg-rainbow h05" />
           <div className="masonry w-90 center mv5">
-            <CollectionItem />
-            <CollectionItem />
-            <CollectionItem />
-            <CollectionItem />
-            <CollectionItem />
-            <CollectionItem />
-            <CollectionItem />
+            <CollectionItem
+              image={anandSharma}
+              title="Anand Sharma"
+              description="CEO and Founder of Gyroscope" />
+            <CollectionItem
+              image={anandSharma}
+              title="Anand Sharma"
+              description="CEO and Founder of Gyroscope" />
+            <CollectionItem
+              image={anandSharma}
+              title="Anand Sharma"
+              description="CEO and Founder of Gyroscope" />
+            <CollectionItem
+              image={anandSharma}
+              title="Anand Sharma"
+              description="CEO and Founder of Gyroscope" />
+            <CollectionItem
+              image={anandSharma}
+              title="Anand Sharma"
+              description="CEO and Founder of Gyroscope" />
+            <CollectionItem
+              image={anandSharma}
+              title="Anand Sharma"
+              description="CEO and Founder of Gyroscope" />
+            <CollectionItem
+              image={anandSharma}
+              title="Anand Sharma"
+              description="CEO and Founder of Gyroscope" />
           </div>
         <Footer />
       </div>
