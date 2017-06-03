@@ -149,15 +149,13 @@
   background-attachment: fixed;
 }
 
-.bg-gif {
-  background-image: url("http://wip.cortes.us/static/media/watch.gif");
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-}
-
-.bg-gif h1 {
-  text-shadow: 0px 0px 20px #FDC543;
+.no-drag {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .masonry {

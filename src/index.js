@@ -10,17 +10,17 @@ import About from './components/Pages/About';
 import Books from './components/Pages/Books';
 import Livestream from './components/Pages/Livestream';
 import People from './components/Pages/People';
-import Secret from './components/Pages/Secret';
+import Thanks from './components/Pages/Thanks';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/about" component={About} />
-      <Route path="/books" component={Books} />
-      <Route path="/people" component={People} />
+      {/*<Route path="/books" component={Books} />*/}
       <Route path="/livestream" component={Livestream} />
-      <Route path="/secret" component={Secret} />
+      {/*<Route path="/people" component={People} />*/}
+      <Route path="/thanks" component={Thanks} />
     </Route>
   </Router>,
   document.getElementById('root')
