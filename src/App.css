@@ -144,7 +144,7 @@
 }
 
 .bg-map {
-  background-image: url("http://wip.cortes.us/static/media/map.png");
+  background-image: url("https://cortes.us/map.png");
   background-repeat: repeat;
   background-attachment: fixed;
 }
