@@ -19,16 +19,22 @@ class HomeInfo extends Component {
                   inlineListItemLink="https://dribbble.com/fromcortes"
                   inlineListItemTitle="My Portfolio" />
                 <InlineListItem
+                  inlineListItemLink="https://www.livtra.co"
+                  inlineListItemTitle="Livtra" />
+                <InlineListItem
+                  inlineListItemLink="https://www.usequarry.com"
+                  inlineListItemTitle="Quarry" />
+                <InlineListItem
                   inlineListItemLink="http://calligritype.us"
                   inlineListItemTitle="Calligritype" />
                 <InlineListItem
-                  inlineListItemLink="http://coffee.cortes.us"
+                  inlineListItemLink="https://coffee.cortes.us"
                   inlineListItemTitle="Taste Notes" />
                 <InlineListItem
-                  inlineListItemLink="http://sogol.co"
+                  inlineListItemLink="https://sogol.co"
                   inlineListItemTitle="Sogol" />
                 <InlineListItem
-                  inlineListItemLink="http://fieldy.co"
+                  inlineListItemLink="https://fieldy.co"
                   inlineListItemTitle="Fieldy" />
                 <InlineListItem
                   inlineListItemLink="https://instagram.com/illustree"
@@ -42,9 +48,6 @@ class HomeInfo extends Component {
                 <InlineListItem
                   inlineListItemLink="https://instagram.com/muchclean"
                   inlineListItemTitle="Much Clean" />
-                <InlineListItem
-                  inlineListItemLink="http://www.usequarry.com"
-                  inlineListItemTitle="Quarry" />
               </InlineList>
               <p className="black-60">Made with teams</p>
               <InlineList>
