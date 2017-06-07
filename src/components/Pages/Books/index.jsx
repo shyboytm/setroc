@@ -8,11 +8,15 @@ import Footer from '../../Footer';
 class Books extends Component {
   render() {
 
-    const dontMakeMeThink       = require('../../../img/books/dont-make-me-think.svg');
-    const orderingDisorder      = require('../../../img/books/ordering-disorder.svg');
-    const showYourWork          = require('../../../img/books/show-your-work.svg');
-    const stealLikeAnArtist     = require('../../../img/books/steal-like-an-artist.svg');
-    const prettyMuchEverything  = require('../../../img/books/pretty-much-everything.svg');
+    const dontMakeMeThink         = require('../../../img/books/dont-make-me-think.svg');
+    const orderingDisorder        = require('../../../img/books/ordering-disorder.svg');
+    const showYourWork            = require('../../../img/books/show-your-work.svg');
+    const stealLikeAnArtist       = require('../../../img/books/steal-like-an-artist.svg');
+    const prettyMuchEverything    = require('../../../img/books/pretty-much-everything.svg');
+    const designingBrandIdentity  = require('../../../img/books/designing-brand-identity.svg');
+    const symbolBook              = require('../../../img/books/symbol-book.svg');
+    const typographySketchbooks   = require('../../../img/books/typography-sketchbooks.svg');
+    const theAnatomyOfType        = require('../../../img/books/the-anatomy-of-type.svg');
 
     return (
       <div id="Books" className="animated fadeIn overflow-x-hidden-l">
@@ -54,12 +58,20 @@ class Books extends Component {
                 title="Pretty Much Everything"
                 description="CEO and Founder of Gyroscope" />
               <CollectionItem
-                image={dontMakeMeThink}
-                title="Anand Sharma"
+                image={designingBrandIdentity}
+                title="Designing Brand Identity"
                 description="CEO and Founder of Gyroscope" />
               <CollectionItem
-                image={dontMakeMeThink}
-                title="Anand Sharma"
+                image={symbolBook}
+                title="Symbol (Mini)"
+                description="CEO and Founder of Gyroscope" />
+              <CollectionItem
+                image={typographySketchbooks}
+                title="Typography Sketchbooks"
+                description="CEO and Founder of Gyroscope" />
+              <CollectionItem
+                image={theAnatomyOfType}
+                title="The Anatomy of Type"
                 description="CEO and Founder of Gyroscope" />
             </div>
           </div>

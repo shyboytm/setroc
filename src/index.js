@@ -17,9 +17,9 @@ ReactDOM.render(
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/about" component={About} />
-      {/*<Route path="/books" component={Books} />*/}
+      <Route path="/books" component={Books} />
       <Route path="/livestream" component={Livestream} />
-      {/*<Route path="/people" component={People} />*/}
+      <Route path="/people" component={People} />
       <Route path="/thanks" component={Thanks} />
     </Route>
   </Router>,
