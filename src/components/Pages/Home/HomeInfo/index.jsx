@@ -100,6 +100,12 @@ class HomeInfo extends Component {
             </InlineList>
             <InlineList>
               <InlineListItem
+                inlineListItemLink="https://blog.cortes.us/make-friends-not-followers"
+                inlineListItemTitle="Make Friends, Not Followers" />
+               <InlineListItem
+                 inlineListItemLink="https://blog.cortes.us/your-work-is-not-hard"
+                 inlineListItemTitle="Be Grateful, Your Work is Not Hard" />
+              <InlineListItem
                 inlineListItemLink="http://blog.cortes.us/when-to-seek-inspiration"
                 inlineListItemTitle="When to Seek Inspiration" />
               <InlineListItem
@@ -108,12 +114,6 @@ class HomeInfo extends Component {
               <InlineListItem
                 inlineListItemLink="http://blog.cortes.us/best-thing-learned-as-adult"
                 inlineListItemTitle="The Best Thing I Learned as an Adult" />
-              <InlineListItem
-                inlineListItemLink="http://blog.cortes.us/stop-charging-hourly"
-                inlineListItemTitle="Stop Charging by the Hour" />
-               <InlineListItem
-                 inlineListItemLink="http://blog.cortes.us/subjective-versus-objective-design"
-                 inlineListItemTitle="Subjective Versus Objective Design" />
             </InlineList>
           </div>
           <div className="w-33-l w-50-m w-80 center pr5-ns items-start">
