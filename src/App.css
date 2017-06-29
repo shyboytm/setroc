@@ -2,36 +2,15 @@
 
 /*Tachyons Add-Ons*/
 
-.sans-serif               { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif; }
-.acumin                   { font-family: "acumin-pro", -apple-system, BlinkMacSystemFont, sans-serif; }
-.f0                       { font-size: 8rem; }
+.hallyard                 { font-family: "hallyard-display", -apple-system, BlinkMacSystemFont, sans-serif; }
+.roboto                   { font-family: "roboto-mono", -apple-system, BlinkMacSystemFont, courier, monospace; }
 .lh-subtitle              { line-height: 2.25rem; }
 .lh-copy                  { line-height: 1.85rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
-.nt8                      { margin-top: -20rem; }
-.pb-45                    { padding-bottom: 45%; }
-.h0                       { height: 0; }
-.h05                      { height: 5px; }
 .shadow-small             { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.1); }
 .shadow-large             { box-shadow: 0px 20px 50px 0px rgba(0,0,0, 0.15); }
 
 /*Custom CSS*/
-
-.dotted-link {
-  border-bottom-style: dotted;
-  border-bottom-width: 1px;
-  border-color: rgba(0,0,0,.2);
-  padding-bottom: .25rem;
-}
-
-.name {
-  background-color: #b7b7b7;
-  -webkit-animation: random 30s infinite;
-  animation: random 30s infinite;
-  transition: all 20s ease-out;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 .rainbow-hover:hover {
   background-color: #b7b7b7;
@@ -72,55 +51,6 @@
     95% { background-color: #2575fc; }
 }
 
-.spin {
-  -webkit-animation:spin 3s ease-in-out infinite;
-  -moz-animation:spin 3s ease-in-out infinite;
-  animation:spin 3s ease-in-out infinite;
-}
-
-@-moz-keyframes spin {
-  0%   { -moz-transform:rotate(0deg);
-         -moz-transform-origin: 50% 50%; }
-  50%  { -moz-transform:rotate(45deg);
-         -moz-transform-origin: 50% 50%; }
-  100% { -moz-transform: rotate(0deg);
-         -moz-transform-origin: 50% 50%; } }
-@-webkit-keyframes spin {
-  0%   { -webkit-transform:rotate(0deg);
-         -webkit-transform-origin: 50% 50%; }
-  50%  { -webkit-transform:rotate(45deg);
-         -webkit-transform-origin: 50% 50%; }
-  100% { -webkit-transform: rotate(0deg);
-         -webkit-transform-origin: 50% 50%;
-        } }
-@keyframes spin {
-  0%   { transform:rotate(0deg);
-         transform-origin: 50% 50%; }
-  50%  { transform:rotate(45deg);
-         transform-origin: 50% 50%; }
-  100% { transform:rotate(0deg);
-         transform-origin: 50% 50%; } }
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    opacity: 0;
-    text-align: center;
-    padding-top: 2px;
-    width: auto;
-    margin-left: 10px;
-    transition: all .3s ease-in-out;
-    position: absolute;
-    z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-    opacity: 1;
-}
-
 .animated {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -143,12 +73,6 @@
   animation-name: fadeIn;
 }
 
-.bg-map {
-  background-image: url("https://cortes.us/map.png");
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
-
 .no-drag {
   user-drag: none;
   user-select: none;
@@ -169,10 +93,6 @@
     width: 100%;
 }
 
-#LivestreamVideo {
-  min-width: 700;
-}
-
 /*Not Small*/
 
 @media only screen and (min-width: 30em) {
@@ -182,22 +102,6 @@
 /*Large*/
 
 @media only screen and (min-width: 60em) {
-  .rotate-10 {
-      -ms-transform: rotate(10deg); /* IE 9 */
-      -webkit-transform: rotate(10deg); /* Safari */
-      transform: rotate(10deg);
-  }
-  .rotate--10 {
-      -ms-transform: rotate(-10deg) translateY(40px); /* IE 9 */
-      -webkit-transform: rotate(-10deg) translateY(40px); /* Safari */
-      transform: rotate(-10deg) translateY(40px);
-  }
-  .bg-white-l {
-    background-color: white;
-  }
-  .shadow-large-l {
-    box-shadow: 0px 20px 50px 0px rgba(0,0,0, 0.075);
-  }
   .masonry {
     -moz-column-count: 4;
     -webkit-column-count: 4;
@@ -205,12 +109,7 @@
   }
 }
 
-@media only screen and (max-width: 60em) {
-  #ExpRotatedRight, #ExpRotatedLeft {
-    min-width: 150px;
-  }
-  .f0 { font-size: 6rem; }
-  }
+@media only screen and (max-width: 60em) { }
 
 @media only screen and (min-width: 30em) and (max-width: 60em) {
   .masonry {
