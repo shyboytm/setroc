@@ -2,8 +2,7 @@
 
 /*Tachyons Add-Ons*/
 
-.hallyard                 { font-family: "hallyard-display", -apple-system, BlinkMacSystemFont, sans-serif; }
-.roboto                   { font-family: "roboto-mono", -apple-system, BlinkMacSystemFont, courier, monospace; }
+.sans-serif-font          { font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
 .lh-subtitle              { line-height: 2.25rem; }
 .lh-copy                  { line-height: 1.85rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
