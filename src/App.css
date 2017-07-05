@@ -32,8 +32,6 @@
 #IntroCircle {
   left: -5rem;
   top: -10rem;
-  width: 12rem;
-  height: 12rem;
   background-color: #b7b7b7;
   -webkit-animation: random 30s infinite;
   animation: random 30s infinite;
