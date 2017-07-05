@@ -13,11 +13,11 @@ class Home extends Component {
         {/* <Header />
 
         <Footer /> */}
-        <div className="mv4 tc w-100 mw9">
+        <div className="mv5 tc w-100 mw9">
           <Logo />
         </div>
         <div id="IntroCircle" className="br-100 bg-black-05 fixed o-30 mt6" />
-        <div className="w-40-l w-75-m w-90 center mt5">
+        <div className="w-40-l w-75-m w-90 center mt5 ph0-ns ph3">
           <h1 className="f4 fw4 lh-title">Dennis Cortés</h1>
           <h2 className="f5 fw4 lh-title black-60">Designer and Illustrator that codes</h2>
           <h3 href="mailto:hi@cortes.us" className="green f5 fw4 mt3 tooltip">
@@ -53,7 +53,7 @@ class Home extends Component {
             title="Currently"
             toolTipText="💪">
           </Title>
-          <div className="pl4 fw4 lh-copy">
+          <div className="pl4-ns fw4 lh-copy">
             <h4 className="fw4 pv1">Working full-time as a designer and developer at
               <a className="link link-underlined rainbow-hover black ml1 fw6"
                 href="https://satchelhealth.com">
@@ -92,30 +92,104 @@ class Home extends Component {
             title="Work"
             toolTipText="💻">
           </Title>
-          <div className="pl4 fw4 lh-copy">
-            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+          <div className="pl4-ns fw4 lh-copy">
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://dribbble.com/fromcortes">
               My Portfolio
             </a>
-            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://coffee.cortes.us">
+              Taste Notes
+            </a>
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://sogol.co">
+              Sogol
+            </a>
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://fieldy.co">
+              Fieldy
+            </a>
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://usequarry.com">
               Quarry
             </a>
-            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              href="https://blog.cortes.us">
-              The Rate of Change
-            </a>
-            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://livtra.co">
               Livtra
             </a>
-            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://blog.cortes.us">
+              The Rate of Change
+            </a>
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://gamesandgrids.com">
               Games and Grids
+            </a>
+            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://calligritype.us">
+              Calligritype
             </a>
           </div>
 
           <Spacer />
+
+            <Title
+              title="Recognition"
+              toolTipText="🏆">
+            </Title>
+            <div className="pl4-ns fw4 lh-copy">
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://www.typewolf.com/site-of-the-day/taste-notes">
+                Typewolf SOTD
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://sitesee.co/sites/taste-notes">
+                Site See SOTD
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="http://365awesomedesigners.com/dennis-cortes/">
+                365 Designers
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://www.youtube.com/watch?v=8vTTJ-W-Axc&feature=youtu.be">
+                ta–lk
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s">
+                Logomarked
+              </a>
+            </div>
+
+            <Spacer />
+
+            <Title
+              title="Recent Writing"
+              toolTipText="📝">
+            </Title>
+            <div className="pl4-ns fw4 lh-copy">
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://www.typewolf.com/site-of-the-day/taste-notes">
+                Typewolf SOTD
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://sitesee.co/sites/taste-notes">
+                Site See SOTD
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="http://365awesomedesigners.com/dennis-cortes/">
+                365 Designers
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://www.youtube.com/watch?v=8vTTJ-W-Axc&feature=youtu.be">
+                ta–lk
+              </a>
+              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s">
+                Logomarked
+              </a>
+            </div>
+
+            <Spacer />
 
         </div>
       </div>
