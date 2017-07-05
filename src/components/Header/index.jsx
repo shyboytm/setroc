@@ -1,31 +1,59 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import Logo from '../Logo';
+import Spacer from '../Spacer';
+
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="mw9 fixed-l z-max top-0 w-100 center pv3 bg-white ph4-l ph3 cf">
-        <div className="w-50-l w-100 fl dib pv2 mb0-l mb2">
-          <Link to="/" className="fw6 f6 link black lh-title name dib-l db mb0-l mb3">
-            Dennis Cortés
+      <div id="Header">
+
+        <div className="flex-ns  w-100 bottom-0 top-auto z-1">
+          <Link to="/" className="flex-auto-ns db pb5-ns pb3 dim">
+            <Logo />
           </Link>
-          <span className="ml3-l ml0 pb2-l pb0">
-            <Link to="/about" className="rainbow-hover f6 link black-50 lh-title" title="About">About</Link>
-          </span>
-          <span className="ml3 pb2-l pb0">
-            <a href="http://fromcortes.tumblr.com/" target="_blank" rel="noreferrer" className="rainbow-hover f6 link black-50 lh-title" title="Inspiration">Inspiration</a>
-          </span>
-          <span className="ml3 pb2-l pb0">
-            <a href="http://blog.cortes.us" target="_blank" rel="noreferrer" className="rainbow-hover f6 link black-50 lh-title" title="Blog">Blog</a>
-          </span>
-          <span className="ml3 pb2-l pb0">
-            <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link black-50 lh-title" title="Newsletter">Newsletter</a>
-          </span>
+          <div className="flex-ns db items-center pb5">
+            <a href="https://fromcortes.tumblr.com" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3-ns ml0 fw6">
+              Inspiration
+            </a>
+            <a href="https://blog.cortes.us" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+              Newsletter
+            </a>
+            <a href="https://eepurl.com/cgT2bD" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+              Blog
+            </a>
+            <Link to="/about" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+              About
+            </Link>
+          </div>
         </div>
-        <div className="w-50-l w-100 fl dib pv2-l pt0">
-          <a href="mailto:hi@cortes.us" className="dib fr-l fl ml3-l ml0 f6 link pointer rainbow-hover blue">hi@cortes.us</a>
-          <Link to="/livestream" className="dib fr-l fl ml3 ml0-l f6 link pointer rainbow-hover green">Livestream</Link>
+
+        <h1 className="f3 fw6 lh-title">Dennis Cortés</h1>
+        <h2 className="f5 fw4 lh-title black-60">Designer and Illustrator that codes</h2>
+        <h3 href="mailto:hi@cortes.us" className="green f5 fw4 mt2 tooltip">
+          hi@cortes.us
+          <span className="tooltiptext">Available</span>
+        </h3>
+
+        <div className="db mt4">
+          <a href="https://twitter.com/fromcortes" className="dim mr3">
+            <img src='https://icon.now.sh/twitter/25/000000' alt='twitter' />
+          </a>
+          <a href="https://twitch.com/cortesarts" className="dim mr3 ml1">
+            <img src='https://icon.now.sh/twitch/25/000000' alt='twitch' />
+          </a>
+          <a href="https://youtube.com/cortesarts" className="dim mr3 ml1">
+            <img src='https://icon.now.sh/play_arrow/25/000000' alt='youtube' />
+          </a>
+          <a href="https://instagram.com/fromcortes" className="dim mr3 ml1">
+            <img src='https://icon.now.sh/instagram/25/000000' alt='instagram' />
+          </a>
+          <a href="https://github.com/fromcortes" className="dim mr3 ml1">
+            <img src='https://icon.now.sh/github/25/000000' alt='github' />
+          </a>
         </div>
+        <Spacer />
       </div>
     );
   }
