@@ -110,16 +110,45 @@ class Home extends Component {
           </Title>
           <div className="pl4-ns fw4 lh-copy">
             <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
-              2013
+              2017
             </h3>
             <ul className="list ml0 pl0 mb4">
               <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Fivestone Studios</span>
-                <br />3D Designer
+                <span className="b black">Satchel Health</span>
+                <br />Design Lead & Developer
               </li>
               <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Freelance</span>
-                <br />Branding, Illustration, UI/UX
+                <span className="b black">Livtra</span>
+                <br />Co-Founder
+              </li>
+            </ul>
+
+            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
+              2016
+            </h3>
+            <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 black-60">Graduated College</li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Satchel Health</span>
+                <br />Product Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Quarry</span>
+                <br />Co-Founder
+              </li>
+            </ul>
+
+            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
+              2015
+            </h3>
+            <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Vrasa</span>
+                <br />Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Satchel Health</span>
+                <br />Product Designer
               </li>
             </ul>
 
@@ -142,47 +171,19 @@ class Home extends Component {
             </ul>
 
             <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
-              2015
+              2013
             </h3>
             <ul className="list ml0 pl0 mb4">
               <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Vrasa</span>
-                <br />Designer
+                <span className="b black">Fivestone Studios</span>
+                <br />3D Designer
               </li>
               <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Satchel Health</span>
-                <br />Product Designer
+                <span className="b black">Freelance</span>
+                <br />Branding, Illustration, UI/UX
               </li>
             </ul>
 
-            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
-              2016
-            </h3>
-            <ul className="list ml0 pl0 mb4">
-              <li className="fw4 pv2 black-60">Graduated College</li>
-              <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Satchel Health</span>
-                <br />Product Designer
-              </li>
-              <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Quarry</span>
-                <br />Co-Founder
-              </li>
-            </ul>
-
-            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
-              2017
-            </h3>
-            <ul className="list ml0 pl0 mb4">
-              <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Satchel Health</span>
-                <br />Design Lead & Developer
-              </li>
-              <li className="fw4 pv2 black-60 lh-copy dib mr4">
-                <span className="b black">Livtra</span>
-                <br />Co-Founder
-              </li>
-            </ul>
           </div>
 
         </div>
