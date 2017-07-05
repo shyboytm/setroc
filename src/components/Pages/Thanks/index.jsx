@@ -7,7 +7,6 @@ class Thanks extends Component {
   render() {
     return (
       <div id="Thanks" className="animated fadeIn overflow-x-hidden-l">
-        <Header />
         <div className="pv6-l pv5 tc w-80-ns center w-90">
           <h1 className="">Thanks for subscribing!</h1>
           <p className="lh-copy f5 black-60 measure-ns center">
@@ -15,7 +14,6 @@ class Thanks extends Component {
           </p>
           <a className="mt3 f6 link dim br2 ph3 pv2 dib white bg-blue ttu b tracked tc" href="http://cortes.us">Back to Website</a>
         </div>
-        <Footer />
       </div>
     );
   }
