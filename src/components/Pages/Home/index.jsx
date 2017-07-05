@@ -16,33 +16,6 @@ class Home extends Component {
 
           <Header />
 
-          <h1 className="f3 fw6 lh-title">Dennis Cortés</h1>
-          <h2 className="f5 fw4 lh-title black-60">Designer and Illustrator that codes</h2>
-          <h3 href="mailto:hi@cortes.us" className="green f5 fw4 mt3 tooltip">
-            hi@cortes.us
-            <span className="tooltiptext">Available</span>
-          </h3>
-
-          <div className="db mt4">
-            <a href="https://twitter.com/fromcortes" className="dim mr3">
-              <img src='https://icon.now.sh/twitter/25/000000' alt='twitter' />
-            </a>
-            <a href="https://twitch.com/cortesarts" className="dim mr3 ml1">
-              <img src='https://icon.now.sh/twitch/25/000000' alt='twitch' />
-            </a>
-            <a href="https://youtube.com/cortesarts" className="dim mr3 ml1">
-              <img src='https://icon.now.sh/play_arrow/25/000000' alt='youtube' />
-            </a>
-            <a href="https://instagram.com/fromcortes" className="dim mr3 ml1">
-              <img src='https://icon.now.sh/instagram/25/000000' alt='instagram' />
-            </a>
-            <a href="https://github.com/fromcortes" className="dim mr3 ml1">
-              <img src='https://icon.now.sh/github/25/000000' alt='github' />
-            </a>
-          </div>
-
-          <Spacer />
-
           <Title
             title="Currently"
             toolTipText="💪">

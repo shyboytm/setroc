@@ -1,0 +1,112 @@
+import React, { Component } from 'react';
+import { Link } from 'react-router';
+
+import Footer from '../../Footer';
+import Header from '../../Header';
+import Spacer from '../../Spacer';
+import Title from '../../Title';
+
+class Home extends Component {
+  render() {
+
+    const aboutImage = require("../../../img/about-picture.jpg");
+
+    return (
+      <div id="Home" className="animated fadeIn black">
+        {/* <Header /> */}
+        <div id="IntroCircle" className="br-100 bg-black-05 fixed o-30 mt6 z-1" />
+        <div className="w-40-l w-75-m w-90 center mt5 ph0-ns ph3 z-0">
+
+          <Header />
+
+          <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large" />
+
+          <h2 className="f3 fw6 lh-title mt4">
+            Hey There <span className="ml2 f3 absolute spin">👋</span>
+          </h2>
+          <p className="lh-copy">
+            I’m a digital designer and illustrator that codes based in Saint Louis from Bayamón, Puerto Rico. I have 5+ years of experience
+            in the world of design and illustration and have built products both on my own and on a team. Currently,
+            I am the design lead and a developer at <a className="fw6 link link-underlined black rainbow-hover" href="http://satchelhealth.com">Satchel Health</a>,
+            and am the co-founder of <a className="fw6 link link-underlined black rainbow-hover" href="http://usequarry.com">Quarry</a>, where I build products that help people.
+          </p>
+          <p className="lh-copy">
+            Outside of design, I write quite a bit and release an article each week (40+ weeks!). I also spend time
+            learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
+            to others, a lot of my efforts go to building things that will help others as well as helping those in
+            the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" href="https://twitch.tv/cortesarts">Twitch</a>,
+            where others can hang out and maybe learn a few things.
+          </p>
+          <p className="lh-copy">
+            I'm always open to chat! Whether you have a project I can help you with, a new hiring opportunity, or
+            just want to say hi and ask me a question, please feel free to email me at <a className="fw6 link link-underlined black rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
+          </p>
+
+          <Spacer />
+
+          <Title
+            title="Approach"
+            toolTipText="❤️">
+          </Title>
+          <div className="pl4-ns fw4 lh-copy">
+            <p className="measure mb4">
+              I believe all work is more than just technique. Thought process is driven by a combination of knowledge, ethics, and philosophy. I think about these topics a lot and am always trying to refine and improve, here's how I currently approach my work and process.
+            </p>
+
+            <h3 className="f4 fw6 lh-title mt3 mb2 tooltip">
+              Inclusion<span className="tooltiptext">👥</span>
+            </h3>
+            <h4 className="fw4 pv1 mt2">
+              People are the essence of the technology industry. Without people, we would have no clear purpose in our work. I believe in helping people feel welcomed and included when it comes to my work and who I am as a person.
+            </h4>
+
+            <h3 className="f4 fw6 lh-title mt3 mb2 tooltip">
+              Accessibility<span className="tooltiptext">🎨</span>
+            </h3>
+            <h4 className="fw4 pv1 mt2">
+              Unfortunately overlooked nowadays, Accessibility is a very important aspect of my work. I believe in equal access to technology and providing the tools and refinements to style, typography, and code neccessary to do so.
+            </h4>
+
+            <h3 className="f4 fw6 lh-title mt3 mb2 tooltip">
+              Simplicity<span className="tooltiptext">⚫️</span>
+            </h3>
+            <h4 className="fw4 pv1 mt2">
+              Although an overused term, Simplicity is at the heart of my goals in my work. I believe in a simple approach with a touch of uniqueness, developing work into the purest form with tasteful novelty.
+            </h4>
+
+            <h3 className="f4 fw6 lh-title mt3 mb2 tooltip">
+              Transparency<span className="tooltiptext">👓</span>
+            </h3>
+            <h4 className="fw4 pv1 mt2">
+              Openly and actively sharing my process to help others is a core element of my process. I always try my best to share what I can for the benefit of others. My weekly blog and weekly streams of me working are a direct approach for me to give back to the industry.
+            </h4>
+
+            <h3 className="f4 fw6 lh-title mt3 mb2 tooltip">
+              Ethics<span className="tooltiptext">💖</span>
+            </h3>
+            <h4 className="fw4 pv1 mt2">
+              I believe that morals and ethics in design play a large part in process. Both business and experience decisions based on the greater good of users makes a better, more personable product and brand.
+            </h4>
+
+          </div>
+
+          <Spacer />
+
+          <Title
+            title="Hobbies"
+            toolTipText="🤓">
+          </Title>
+          <div className="pl4-ns fw4 lh-copy">
+            <p className="measure mb4">
+              When I'm not designing or writing code you can find me trying to learn new things, playing video games, writing, learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music.
+            </p>
+          </div>
+
+        </div>
+        <Footer />
+      </div>
+    );
+  }
+}
+
+export default Home;
