@@ -12,12 +12,13 @@
 /*Custom CSS*/
 
 .rainbow-hover:hover {
-  background-color: #b7b7b7;
+  background-color: #000000;
   -webkit-animation: random 8s infinite;
   animation: random 8s infinite;
   transition: all 8s ease-out;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-decoration: underline;
 }
 
 .bg-rainbow {
@@ -28,9 +29,10 @@
 }
 
 #IntroCircle {
-  left: -8rem;
-  width: 20rem;
-  height: 20rem;
+  left: -5rem;
+  top: -10rem;
+  width: 15rem;
+  height: 15rem;
   background-color: #b7b7b7;
   -webkit-animation: random 30s infinite;
   animation: random 30s infinite;
@@ -80,7 +82,6 @@
 .tooltip .tooltiptext {
     opacity: 0;
     text-align: center;
-    padding-top: 2px;
     width: auto;
     margin-left: 10px;
     transition: all .3s ease-in-out;
@@ -95,9 +96,7 @@
 
 /*Not Small*/
 
-@media only screen and (min-width: 30em) {
-  #IntroCircle { left: 15rem; }
-}
+@media only screen and (min-width: 30em) { }
 
 /*Large*/
 
