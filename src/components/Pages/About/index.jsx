@@ -15,13 +15,13 @@ class Home extends Component {
       <div id="Home" className="animated fadeIn black">
         {/* <Header /> */}
         <div id="IntroCircle" className="br-100 bg-black-05 fixed o-30 mt6 z-1" />
-        <div className="w-40-l w-75-m w-90 center mt5 ph0-ns ph3 z-0">
+        <div className="w-40-l w-75-m w-90 center mv5 ph0-ns ph3 z-0">
 
           <Header />
 
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large" />
 
-          <h2 className="f3 fw6 lh-title mt4">
+          <h2 className="f3 fw6 lh-title mt5">
             Hey There <span className="ml2 f3 absolute spin">👋</span>
           </h2>
           <p className="lh-copy">
@@ -100,6 +100,89 @@ class Home extends Component {
             <p className="measure mb4">
               When I'm not designing or writing code you can find me trying to learn new things, playing video games, writing, learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music.
             </p>
+          </div>
+
+          <Spacer />
+
+          <Title
+            title="Experience"
+            toolTipText="💼">
+          </Title>
+          <div className="pl4-ns fw4 lh-copy">
+            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
+              2013
+            </h3>
+            <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Fivestone Studios</span>
+                <br />3D Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Freelance</span>
+                <br />Branding, Illustration, UI/UX
+              </li>
+            </ul>
+
+            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
+              2014
+            </h3>
+            <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Vrasa</span>
+                <br />Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Calligritype</span>
+                <br />Founder
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Illustree</span>
+                <br />Founder
+              </li>
+            </ul>
+
+            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
+              2015
+            </h3>
+            <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Vrasa</span>
+                <br />Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Satchel Health</span>
+                <br />Product Designer
+              </li>
+            </ul>
+
+            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
+              2016
+            </h3>
+            <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 black-60">Graduated College</li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Satchel Health</span>
+                <br />Product Designer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Quarry</span>
+                <br />Co-Founder
+              </li>
+            </ul>
+
+            <h3 className="f4 fw6 lh-title mt3 mb0 tooltip">
+              2017
+            </h3>
+            <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Satchel Health</span>
+                <br />Design Lead & Developer
+              </li>
+              <li className="fw4 pv2 black-60 lh-copy dib mr4">
+                <span className="b black">Livtra</span>
+                <br />Co-Founder
+              </li>
+            </ul>
           </div>
 
         </div>

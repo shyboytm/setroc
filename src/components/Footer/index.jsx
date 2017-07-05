@@ -6,7 +6,7 @@ import Logo from '../Logo';
 class Footer extends Component {
   render() {
     return (
-      <div id="Footer" className="pb4 bg-black">
+      <div id="Footer" className="pb4 bg-black mt6">
         <div className="w-90 center cf pv5">
           <div className="w-100 ph3 mb3 mt0 tc">
             <h2 className="fw6 f2-ns f3 white">Need some help on a project?</h2>
