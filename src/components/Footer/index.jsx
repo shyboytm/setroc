@@ -7,9 +7,9 @@ class Footer extends Component {
   render() {
     return (
       <div id="Footer" className="pb4 bg-black">
-        <div className="w-90 center cf">
-          <div className="w-100 pt5-ns pv3 ph3 mb3 mt0 tc">
-            <h2 className="fw6 f2 white">Need some help on a project?</h2>
+        <div className="w-90 center cf pv5">
+          <div className="w-100 ph3 mb3 mt0 tc">
+            <h2 className="fw6 f2-ns f3 white">Need some help on a project?</h2>
             <p className="white-70 lh-copy w-50-l w-70-m w-100 center">
               I'm available to help you or your company with branding, illustration, and web design work.
               Please email me at <a className="link white-50 rainbow-hover " href="mailto:hi@cortes.us">hi@cortes.us</a>!

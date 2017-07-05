@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 import Footer from '../../Footer';
 import Header from '../../Header';
-import Logo from '../../Logo';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
@@ -11,22 +11,18 @@ class Home extends Component {
     return (
       <div id="Home" className="animated fadeIn black">
         {/* <Header /> */}
-        <div className="mv5 tc w-100 mw9">
-          <Logo />
-        </div>
         <div id="IntroCircle" className="br-100 bg-black-05 fixed o-30 mt6" />
         <div className="w-40-l w-75-m w-90 center mt5 ph0-ns ph3">
+
+          <Header />
+
           <h1 className="f3 fw6 lh-title">Dennis Cortés</h1>
           <h2 className="f5 fw4 lh-title black-60">Designer and Illustrator that codes</h2>
           <h3 href="mailto:hi@cortes.us" className="green f5 fw4 mt3 tooltip">
             hi@cortes.us
             <span className="tooltiptext">Available</span>
           </h3>
-          {/* <p className="lh-copy black-50 mv4">
-            I'm currently leading design at Satchel Health and building resources
-            and experiences at Quarry. I also write for my weekly personal blog and
-            stream my work on Twitch. Email me at hi@cortes.us if you'd like to get in touch.
-          </p> */}
+
           <div className="db mt4">
             <a href="https://twitter.com/fromcortes" className="dim mr3">
               <img src='https://icon.now.sh/twitter/25/000000' alt='twitter' />
@@ -197,6 +193,7 @@ class Home extends Component {
 
             <Spacer />
 
+            {/*
             <Title
               title="Recent Writing"
               toolTipText="📝">
@@ -223,8 +220,7 @@ class Home extends Component {
                 Make Friends, Not Followers
               </a>
             </div>
-
-            <Spacer />
+            */}
 
         </div>
         <Footer />

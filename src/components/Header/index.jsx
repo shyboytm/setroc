@@ -1,30 +1,22 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import Logo from '../Logo';
+
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="mw9 fixed-l z-max top-0 w-100 center pv3 bg-white ph4-l ph3 cf">
-        <div className="w-50-l w-100 fl dib pv2 mb0-l mb2">
-          <Link to="/" className="fw6 f6 link black lh-title name dib-l db mb0-l mb3">
-            Dennis Cortés
-          </Link>
-          <span className="ml3-l ml0 pb2-l pb0">
-            <Link to="/about" className="rainbow-hover f6 link black-50 lh-title" title="About">About</Link>
-          </span>
-          <span className="ml3 pb2-l pb0">
-            <a href="http://fromcortes.tumblr.com/" target="_blank" rel="noreferrer" className="rainbow-hover f6 link black-50 lh-title" title="Inspiration">Inspiration</a>
-          </span>
-          <span className="ml3 pb2-l pb0">
-            <a href="http://blog.cortes.us" target="_blank" rel="noreferrer" className="rainbow-hover f6 link black-50 lh-title" title="Blog">Blog</a>
-          </span>
-          <span className="ml3 pb2-l pb0">
-            <a href="http://eepurl.com/cgT2bD" className="rainbow-hover f6 link black-50 lh-title" title="Newsletter">Newsletter</a>
-          </span>
+      <div id="Header" className="flex w-100 pb5 bottom-0 top-auto z-1">
+        <div className="flex-auto">
+          <Logo />
         </div>
-        <div className="w-50-l w-100 fl dib pv2-l pt0">
-          <a href="mailto:hi@cortes.us" className="dib fr-l fl ml3-l ml0 f6 link pointer rainbow-hover blue">hi@cortes.us</a>
-          <Link to="/livestream" className="dib fr-l fl ml3 ml0-l f6 link pointer rainbow-hover green">Livestream</Link>
+        <div className="flex items-center">
+          <a href="http://fromcortes.tumblr.com" target="_blank" className="f6 link link-underlined rainbow-hover black ml1 fw6">
+            Inspiration
+          </a>
+          <Link to="/" className="f6 link link-underlined rainbow-hover black ml4 fw6">
+            About
+          </Link>
         </div>
       </div>
     );
