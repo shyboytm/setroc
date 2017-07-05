@@ -2,7 +2,7 @@
 
 /*Tachyons Add-Ons*/
 
-.sans-serif-font          { font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
+.acumin                   { font-family: "acumin-pro", -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
 .lh-subtitle              { line-height: 2.25rem; }
 .lh-copy                  { line-height: 1.85rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
@@ -72,25 +72,26 @@
   animation-name: fadeIn;
 }
 
-.no-drag {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
-.masonry {
-    column-count: 1;
-    column-gap: 0.5em;
-}
-
-.item {
+.tooltip {
+    position: relative;
     display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
 }
+
+.tooltip .tooltiptext {
+    opacity: 0;
+    text-align: center;
+    padding-top: 2px;
+    width: auto;
+    margin-left: 10px;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    opacity: 1;
+}
+
 
 /*Not Small*/
 
