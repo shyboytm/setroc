@@ -27,8 +27,8 @@ class Home extends Component {
           <p className="lh-copy">
             I’m a digital designer and illustrator that codes based in Saint Louis from Bayamón, Puerto Rico. I have 5+ years of experience
             in the world of design and illustration and have built products both on my own and on a team. Currently,
-            I am the design lead and a developer at <a className="fw6 link link-underlined black rainbow-hover" href="http://satchelhealth.com">Satchel Health</a>,
-            and am the co-founder of <a className="fw6 link link-underlined black rainbow-hover" href="http://usequarry.com">Quarry</a>, where I build products that help people.
+            I am the design lead and a developer at <a className="fw6 link link-underlined black rainbow-hover" href="https://satchelhealth.com">Satchel Health</a>,
+            and am the co-founder of <a className="fw6 link link-underlined black rainbow-hover" href="https://usequarry.com">Quarry</a>, where I build products that help people.
           </p>
           <p className="lh-copy">
             Outside of design, I write quite a bit and release an article each week (40+ weeks!). I also spend time

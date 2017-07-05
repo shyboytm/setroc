@@ -9,15 +9,21 @@ class Header extends Component {
     return (
       <div id="Header">
 
-        <div className="flex w-100 bottom-0 top-auto z-1">
-          <Link to="/" className="flex-auto pb5">
+        <div className="flex-ns  w-100 bottom-0 top-auto z-1">
+          <Link to="/" className="flex-auto-ns db pb5-ns pb3 dim">
             <Logo />
           </Link>
-          <div className="flex items-center pb5">
-            <a href="http://fromcortes.tumblr.com" target="_blank" className="f6 link link-underlined rainbow-hover black ml1 fw6">
+          <div className="flex-ns db items-center pb5">
+            <a href="https://fromcortes.tumblr.com" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3-ns ml0 fw6">
               Inspiration
             </a>
-            <Link to="/about" className="f6 link link-underlined rainbow-hover black ml4 fw6">
+            <a href="https://blog.cortes.us" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+              Newsletter
+            </a>
+            <a href="https://eepurl.com/cgT2bD" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+              Blog
+            </a>
+            <Link to="/about" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
               About
             </Link>
           </div>

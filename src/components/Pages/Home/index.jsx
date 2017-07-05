@@ -63,70 +63,70 @@ class Home extends Component {
             <p className="measure mb4">
               In addition to branding, illustration, and UI/UX work for others in my portfolio, a lot of my work is living and breathing projects I've built that people rely on and use on a regular basis.
             </p>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://dribbble.com/fromcortes">
               My Portfolio
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://coffee.cortes.us">
               Taste Notes
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://sogol.co">
               Sogol
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://fieldy.co">
               Fieldy
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://usequarry.com">
               Quarry
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://livtra.co">
               Livtra
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://blog.cortes.us">
               The Rate of Change
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://www.instagram.com/illustree/">
               Illustree
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://atom.io/users/fromcortes">
               Prisma
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://www.instagram.com/muchclean/">
               Much Clean
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://gamesandgrids.com">
               Games and Grids
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="http://calligritype.us">
               Calligritype
             </a>
             <p className="measure mt4 mb3">
               Made with teams
             </p>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="https://satchelhealth.com">
               Satchel Health
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="http://unclekragers.com/app">
               Uncle Kragers
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="http://simplesam.com">
               Simple Sam
             </a>
-            <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               href="http://12ounceapp.com/">
               Twelve Ounce
             </a>
@@ -142,23 +142,23 @@ class Home extends Component {
               <p className="measure mb4">
                 From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing.
               </p>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 href="https://www.typewolf.com/site-of-the-day/taste-notes">
                 Typewolf SOTD
               </a>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 href="https://sitesee.co/sites/taste-notes">
                 Site See SOTD
               </a>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-                href="http://365awesomedesigners.com/dennis-cortes/">
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                href="https://365awesomedesigners.com/dennis-cortes/">
                 365 Designers
               </a>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 href="https://www.youtube.com/watch?v=8vTTJ-W-Axc&feature=youtu.be">
                 ta–lk
               </a>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 href="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s">
                 Logomarked
               </a>
@@ -166,7 +166,6 @@ class Home extends Component {
 
             <Spacer />
 
-            {/*
             <Title
               title="Recent Writing"
               toolTipText="📝">
@@ -175,25 +174,24 @@ class Home extends Component {
               <p className="measure mb4">
                 I write an article every week for my blog, The Rate of Change. Here are some of the most recent articles, you can sign up for my
                 <a className="link link-underlined rainbow-hover black mh1 fw6"
-                  href="http://eepurl.com/cgT2bD">
+                  href="https://eepurl.com/cgT2bD">
                   newsletter
                 </a>
                 if you'd like.
               </p>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 href="https://blog.cortes.us/work-for-yourself-more">
                 You Need to Work for Yourself More
               </a>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 href="https://blog.cortes.us/great-design-by-caring">
                 Great Design, Brought to You by Caring
               </a>
-              <a className="f4-ns f5 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 href="https://blog.cortes.us/make-friends-not-followers">
                 Make Friends, Not Followers
               </a>
             </div>
-            */}
 
         </div>
         <Footer />
