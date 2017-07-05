@@ -55,31 +55,31 @@ class Home extends Component {
           </Title>
           <div className="pl4 fw4 lh-copy">
             <h4 className="fw4 pv1">Working full-time as a designer and developer at
-              <a className="link underline rainbow-hover black pl1 fw6"
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
                 href="https://satchelhealth.com">
                 Satchel Health
               </a>
             </h4>
             <h4 className="fw4 pv1">Building products for others at
-              <a className="link underline rainbow-hover black pl1 fw6"
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
                 href="https://usequarry.com">
                 Quarry
               </a>
             </h4>
             <h4 className="fw4 pv1">Writing weekly about work and life at
-              <a className="link underline rainbow-hover black pl1 fw6"
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
                 href="https://blog.cortes.us">
                 The Rate of Change
               </a>
             </h4>
             <h4 className="fw4 pv1">Building a life-tracking tool called
-              <a className="link underline rainbow-hover black pl1 fw6"
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
                 href="https://livtra.co">
                 Livtra
               </a>
             </h4>
             <h4 className="fw4 pv1">Writing design reviews about the gaming world at
-              <a className="link underline rainbow-hover black pl1 fw6"
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
                 href="https://gamesandgrids.com">
                 Games and Grids
               </a>
@@ -93,36 +93,26 @@ class Home extends Component {
             toolTipText="💻">
           </Title>
           <div className="pl4 fw4 lh-copy">
-            <h4 className="fw4 pv1">Working full-time as a designer and developer at
-              <a className="link underline rainbow-hover black pl1"
-                href="https://satchelhealth.com">
-                Satchel Health
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Building products for others at
-              <a className="link underline rainbow-hover black pl1"
-                href="https://usequarry.com">
-                Quarry
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Writing weekly about work and life at
-              <a className="link underline rainbow-hover black pl1"
-                href="https://blog.cortes.us">
-                The Rate of Change
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Building a life-tracking tool called
-              <a className="link underline rainbow-hover black pl1"
-                href="https://livtra.co">
-                Livtra
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Writing design reviews about the gaming world at
-              <a className="link underline rainbow-hover black pl1"
-                href="https://gamesandgrids.com">
-                Games and Grids
-              </a>
-            </h4>
+            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://dribbble.com/fromcortes">
+              My Portfolio
+            </a>
+            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://usequarry.com">
+              Quarry
+            </a>
+            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://blog.cortes.us">
+              The Rate of Change
+            </a>
+            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://livtra.co">
+              Livtra
+            </a>
+            <a className="f4 fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              href="https://gamesandgrids.com">
+              Games and Grids
+            </a>
           </div>
 
           <Spacer />
