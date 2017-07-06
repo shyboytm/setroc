@@ -17,10 +17,10 @@ class Header extends Component {
             <a href="https://fromcortes.tumblr.com" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3-ns ml0 fw6">
               Inspiration
             </a>
-            <a href="https://blog.cortes.us" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+            <a href="https://eepurl.com/cgT2bD" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
               Newsletter
             </a>
-            <a href="https://eepurl.com/cgT2bD" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+            <a href="https://blog.cortes.us" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
               Blog
             </a>
             <Link to="/about" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
