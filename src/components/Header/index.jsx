@@ -14,13 +14,13 @@ class Header extends Component {
             <Logo />
           </Link>
           <div className="flex-ns db items-center pb5">
-            <a href="https://fromcortes.tumblr.com" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3-ns ml0 fw6">
+            <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="f6 link link-underlined rainbow-hover black ml4-ns ml3-ns ml0 fw6">
               Inspiration
             </a>
-            <a href="https://eepurl.com/cgT2bD" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+            <a href="https://eepurl.com/cgT2bD" target="_blank" rel="nofollow" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
               Newsletter
             </a>
-            <a href="https://blog.cortes.us" target="_blank" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+            <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
               Blog
             </a>
             <Link to="/about" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
@@ -37,19 +37,19 @@ class Header extends Component {
         </h3>
 
         <div className="db mt4">
-          <a href="https://twitter.com/fromcortes" className="dim mr3">
+          <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
             <img src='https://icon.now.sh/twitter/25/000000' alt='twitter' />
           </a>
-          <a href="https://twitch.com/cortesarts" className="dim mr3 ml1">
+          <a href="https://twitch.com/cortesarts" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/twitch/25/000000' alt='twitch' />
           </a>
-          <a href="https://youtube.com/cortesarts" className="dim mr3 ml1">
+          <a href="https://youtube.com/cortesarts" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/play_arrow/25/000000' alt='youtube' />
           </a>
-          <a href="https://instagram.com/fromcortes" className="dim mr3 ml1">
+          <a href="https://instagram.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/instagram/25/000000' alt='instagram' />
           </a>
-          <a href="https://github.com/fromcortes" className="dim mr3 ml1">
+          <a href="https://github.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/github/25/000000' alt='github' />
           </a>
         </div>

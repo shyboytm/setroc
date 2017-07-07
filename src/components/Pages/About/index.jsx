@@ -26,19 +26,19 @@ class Home extends Component {
           <p className="lh-copy">
             I’m a digital designer and illustrator that codes based in Saint Louis from Bayamón, Puerto Rico. I have 5+ years of experience
             in the world of design and illustration and have built products both on my own and on a team. Currently,
-            I am the design lead and a developer at <a className="fw6 link link-underlined black rainbow-hover" href="https://satchelhealth.com">Satchel Health</a>,
-            and am the co-founder of <a className="fw6 link link-underlined black rainbow-hover" href="https://usequarry.com">Quarry</a>, where I build products that help people.
+            I am the design lead and a developer at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://satchelhealth.com">Satchel Health</a>,
+            and am the co-founder of <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://usequarry.com">Quarry</a>, where I build products that help people.
           </p>
           <p className="lh-copy">
             Outside of design, I write quite a bit and release an article each week (40+ weeks!). I also spend time
             learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
             to others, a lot of my efforts go to building things that will help others as well as helping those in
-            the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" href="https://twitch.tv/cortesarts">Twitch</a>,
+            the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">Twitch</a>,
             where others can hang out and maybe learn a few things.
           </p>
           <p className="lh-copy">
             I'm always open to chat! Whether you have a project I can help you with, a new hiring opportunity, or
-            just want to say hi and ask me a question, please feel free to email me at <a className="fw6 link link-underlined black rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
+            just want to say hi and ask me a question, please feel free to email me at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
           </p>
 
           <Spacer />
