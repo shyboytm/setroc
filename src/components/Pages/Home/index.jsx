@@ -50,6 +50,12 @@ class Home extends Component {
                 Games and Grids
               </a>
             </h4>
+            <h4 className="fw4 pv1">Streaming my design and development work on
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
+                target="_blank" rel="nofollow" href="https://gamesandgrids.com">
+                Twitch
+              </a>
+            </h4>
           </div>
 
           <Spacer />
@@ -171,7 +177,7 @@ class Home extends Component {
             </Title>
             <div className="pl4-ns fw4 lh-copy">
               <p className="measure mb4">
-                I write an article every week for my blog, The Rate of Change. Here are some of the most recent articles, you can sign up for my
+                I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles, you can sign up for my
                 <a className="link link-underlined rainbow-hover black mh1 fw6"
                   target="_blank" rel="nofollow" href="https://eepurl.com/cgT2bD">
                   newsletter
@@ -179,16 +185,20 @@ class Home extends Component {
                 if you'd like.
               </p>
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                target="_blank" rel="nofollow" href="https://blog.cortes.us/how-to-make-passive-social-media-traction">
+                How to Make Passive Social Media Traction
+              </a>
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                target="_blank" rel="nofollow" href="https://blog.cortes.us/why-you-should-start-writing">
+                Why You Should Start Writing
+              </a>
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/work-for-yourself-more">
                 You Need to Work for Yourself More
               </a>
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/great-design-by-caring">
                 Great Design, Brought to You by Caring
-              </a>
-              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us/make-friends-not-followers">
-                Make Friends, Not Followers
               </a>
             </div>
 
