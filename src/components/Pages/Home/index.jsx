@@ -20,11 +20,8 @@ class Home extends Component {
             toolTipText="💪">
           </Title>
           <div className="pl4-ns fw4 lh-copy">
-            <h4 className="fw4 pv1">Working full-time as a designer and developer at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://satchelhealth.com">
-                Satchel Health
-              </a>
+            <h4 className="fw4 pv1 green">
+              Looking for a new full-time remote position!
             </h4>
             <h4 className="fw4 pv1">Building products for others at
               <a className="link link-underlined rainbow-hover black ml1 fw6"

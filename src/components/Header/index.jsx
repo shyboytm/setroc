@@ -31,12 +31,12 @@ class Header extends Component {
 
         <h1 className="f3 fw6 lh-title">Dennis Cortés</h1>
         <h2 className="f5 fw4 lh-title black-60">Designer and Illustrator that codes</h2>
-        <h3 href="mailto:hi@cortes.us" className="green f5 fw4 mt2 tooltip">
+        <h4 href="mailto:hi@cortes.us" className="green f5 fw4 mt2 tooltip mb4">
           hi@cortes.us
           <span className="tooltiptext">Available</span>
-        </h3>
+        </h4>
 
-        <div className="db mt4">
+        <div className="db mb4">
           <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
             <img src='https://icon.now.sh/twitter/25/000000' alt='twitter' />
           </a>
@@ -53,6 +53,11 @@ class Header extends Component {
             <img src='https://icon.now.sh/github/25/000000' alt='github' />
           </a>
         </div>
+
+        <h3 className="f5 fw4 pa3 br2 green lh-copy ba b--green bg-washed-green">
+          I'm currently looking for a new full-time remote position!
+          Reach out at hi@cortes.us if you or someone you know is looking for someone!
+        </h3>
         <Spacer />
       </div>
     );
