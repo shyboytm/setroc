@@ -12,24 +12,24 @@ class Footer extends Component {
               Please email me at <a className="link white-50 rainbow-hover " href="mailto:hi@cortes.us">hi@cortes.us</a>!
             </p>
           </div>
-          <div className="w-100 tc pt3 mt2-l mt4">
+          <div className="w-100 tc pt3 mt4">
             <a href="https://twitter.com/fromcortes" className="dim mr4-l mr0-l">
-              <img src='https://icon.now.sh/twitter/20/ffffff' alt='twitter' />
+              <img src='https://icon.now.sh/twitter/25/ffffff' alt='twitter' />
             </a>
             <a href="https://twitch.com/cortesarts" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/twitch/20/ffffff' alt='twitch' />
+              <img src='https://icon.now.sh/twitch/25/ffffff' alt='twitch' />
             </a>
             <a href="https://youtube.com/cortesarts" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/play_arrow/20/ffffff' alt='youtube' />
+              <img src='https://icon.now.sh/play_arrow/25/ffffff' alt='youtube' />
             </a>
             <a href="https://instagram.com/fromcortes" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/instagram/20/ffffff' alt='instagram' />
+              <img src='https://icon.now.sh/instagram/25/ffffff' alt='instagram' />
             </a>
             <a href="https://github.com/fromcortes" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/github/20/ffffff' alt='github' />
+              <img src='https://icon.now.sh/github/25/ffffff' alt='github' />
             </a>
             <a href="mailto:hi@cortes.us" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/email/20/ffffff' alt='email' />
+              <img src='https://icon.now.sh/email/25/ffffff' alt='email' />
             </a>
           </div>
         </div>

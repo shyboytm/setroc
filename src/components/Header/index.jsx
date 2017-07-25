@@ -14,16 +14,16 @@ class Header extends Component {
             <Logo />
           </Link>
           <div className="flex-ns db items-center pb5">
-            <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="f6 link no-underline link-underlined rainbow-hover black ml4-ns ml3-ns ml0 fw6">
+            <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="f6 link no-underline link-underlined rainbow-hover black fw6">
+              Recent Work ↗
+            </a>
+            {/* <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="f6 link no-underline link-underlined rainbow-hover black ml4-ns ml3-ns ml0 fw6">
               Inspiration ↗
-            </a>
-            <a href="https://eepurl.com/cgT2bD" target="_blank" rel="nofollow" className="f6 link no-underline link-underlined rainbow-hover black ml4-ns ml3 fw6">
-              Newsletter ↗
-            </a>
-            <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="f6 link no-underline link-underlined rainbow-hover black ml4-ns ml3 fw6">
+            </a> */}
+            <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="f6 link no-underline link-underlined rainbow-hover black ml4 fw6">
               Blog ↗
             </a>
-            <Link to="/about" className="f6 link link-underlined rainbow-hover black ml4-ns ml3 fw6">
+            <Link to="/about" className="f6 link link-underlined rainbow-hover black ml4 fw6">
               About
             </Link>
           </div>
@@ -37,14 +37,14 @@ class Header extends Component {
         </h4>
 
         <div className="db mb4">
+          <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
+            <img src='https://icon.now.sh/dribbble/25/000000' alt='dribbble' />
+          </a>
           <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
             <img src='https://icon.now.sh/twitter/25/000000' alt='twitter' />
           </a>
           <a href="https://twitch.com/cortesarts" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/twitch/25/000000' alt='twitch' />
-          </a>
-          <a href="https://youtube.com/cortesarts" target="_blank" rel="nofollow" className="dim mr3 ml1">
-            <img src='https://icon.now.sh/play_arrow/25/000000' alt='youtube' />
           </a>
           <a href="https://instagram.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/instagram/25/000000' alt='instagram' />
@@ -54,7 +54,7 @@ class Header extends Component {
           </a>
         </div>
 
-        <h3 className="f5 fw4 pa3 br2 green lh-copy ba b--green bg-washed-green">
+        <h3 className="f5 fw4 pa3 br2 light-red lh-copy ba b--light-red">
           I'm currently looking for a new full-time remote position!
           Reach out at hi@cortes.us if you or someone you know is looking for someone!
         </h3>

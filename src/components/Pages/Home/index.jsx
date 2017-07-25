@@ -9,8 +9,7 @@ class Home extends Component {
   render() {
     return (
       <div id="Home" className="animated fadeIn black">
-        {/* <Header /> */}
-        <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6" />
+        {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6" /> */}
         <div className="w-40-l w-75-m w-90 center mt5 ph0-ns ph3">
 
           <Header />
@@ -20,7 +19,7 @@ class Home extends Component {
             toolTipText="💪">
           </Title>
           <div className="pl4-ns fw4 lh-copy">
-            <h4 className="fw4 pv1 green">
+            <h4 className="fw4 pv1 light-red">
               Looking for a new full-time remote position!
             </h4>
             <h4 className="fw4 pv1">Building products for others at
@@ -182,6 +181,10 @@ class Home extends Component {
                 if you'd like.
               </p>
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                target="_blank" rel="nofollow" href="https://blog.cortes.us/favorite-tech-purchases-this-year">
+                My Favorite Tech Purchases This Year
+              </a>
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/how-to-make-passive-social-media-traction">
                 How to Make Passive Social Media Traction
               </a>
@@ -192,10 +195,6 @@ class Home extends Component {
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/work-for-yourself-more">
                 You Need to Work for Yourself More
-              </a>
-              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us/great-design-by-caring">
-                Great Design, Brought to You by Caring
               </a>
             </div>
 
