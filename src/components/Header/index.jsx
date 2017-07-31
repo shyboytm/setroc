@@ -38,19 +38,22 @@ class Header extends Component {
 
         <div className="db mb4">
           <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
-            <img src='https://icon.now.sh/dribbble/25/000000' alt='dribbble' />
-          </a>
-          <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
-            <img src='https://icon.now.sh/twitter/25/000000' alt='twitter' />
-          </a>
-          <a href="https://twitch.com/cortesarts" target="_blank" rel="nofollow" className="dim mr3 ml1">
-            <img src='https://icon.now.sh/twitch/25/000000' alt='twitch' />
-          </a>
-          <a href="https://instagram.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
-            <img src='https://icon.now.sh/instagram/25/000000' alt='instagram' />
+            <img src='https://icon.now.sh/dribbble/22/000000' alt='dribbble' />
           </a>
           <a href="https://github.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
-            <img src='https://icon.now.sh/github/25/000000' alt='github' />
+            <img src='https://icon.now.sh/github/22/000000' alt='github' />
+          </a>
+          <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
+            <img src='https://icon.now.sh/tumblr/22/000000' alt='twitter' />
+          </a>
+          <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
+            <img src='https://icon.now.sh/twitter/22/000000' alt='twitter' />
+          </a>
+          <a href="https://twitch.com/cortesarts" target="_blank" rel="nofollow" className="dim mr3 ml1">
+            <img src='https://icon.now.sh/twitch/22/000000' alt='twitch' />
+          </a>
+          <a href="https://instagram.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
+            <img src='https://icon.now.sh/instagram/22/000000' alt='instagram' />
           </a>
         </div>
 
