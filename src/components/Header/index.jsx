@@ -43,8 +43,8 @@ class Header extends Component {
           <a href="https://github.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/github/22/000000' alt='github' />
           </a>
-          <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
-            <img src='https://icon.now.sh/tumblr/22/000000' alt='twitter' />
+          <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="dim mr3">
+            <img src='https://icon.now.sh/tumblr/22/000000' alt='tumblr' />
           </a>
           <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
             <img src='https://icon.now.sh/twitter/22/000000' alt='twitter' />
