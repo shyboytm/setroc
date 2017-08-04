@@ -23,13 +23,14 @@ class Home extends Component {
             Hey There <span className="ml2 f3 absolute spin">👋</span>
           </h2>
           <p className="lh-copy">
-            I’m a digital designer and illustrator that codes based in Saint Louis from Bayamón, Puerto Rico. I have 5+ years of experience
+            I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 5+ years of experience
             in the world of design and illustration and have built products both on my own and on a team. Currently,
             I am the design lead and a developer at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://satchelhealth.com">Satchel Health</a>,
             and am the co-founder of <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://usequarry.com">Quarry</a>, where I build products that help people.
+            I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">
-            Outside of design, I write quite a bit and release an article each week (40+ weeks!). I also spend time
+            Outside of design, I write quite a bit and release an article each week (45+ weeks!). I also spend time
             learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
             to others, a lot of my efforts go to building things that will help others as well as helping those in
             the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">Twitch</a>,
