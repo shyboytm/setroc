@@ -48,8 +48,18 @@ class Home extends Component {
             </h4>
             <h4 className="fw4 pv1">Streaming my design and development work on
               <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://gamesandgrids.com">
+                target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">
                 Twitch
+              </a>
+            </h4>
+            <h4 className="fw4 pv1">Curating inspiration for others at
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
+                target="_blank" rel="nofollow" href="https://instagram.com/calligritype">
+                Calligritype
+              </a> and
+              <a className="link link-underlined rainbow-hover black ml1 fw6"
+                target="_blank" rel="nofollow" href="https://instagram.com/illustree">
+                Illustree
               </a>
             </h4>
           </div>
