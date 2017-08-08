@@ -78,6 +78,10 @@ class Home extends Component {
               target="_blank" rel="nofollow" href="https://dribbble.com/fromcortes">
               My Portfolio
             </a>
+            <a className="f4-ns fw6 dib link rainbow-hover light-red ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              target="_blank" rel="nofollow" href="https://prompter.cortes.us">
+              Prompter
+            </a>
             <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               target="_blank" rel="nofollow" href="https://coffee.cortes.us">
               Taste Notes
@@ -85,10 +89,6 @@ class Home extends Component {
             <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               target="_blank" rel="nofollow" href="https://usequarry.com">
               Quarry
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover light-red ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://prompter.cortes.us">
-              Prompter
             </a>
             <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               target="_blank" rel="nofollow" href="https://sogol.co">
