@@ -83,16 +83,20 @@ class Home extends Component {
               Taste Notes
             </a>
             <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              target="_blank" rel="nofollow" href="https://usequarry.com">
+              Quarry
+            </a>
+            <a className="f4-ns fw6 dib link rainbow-hover light-red ba br2 b--black-10 ph3 pv2 mv2 mr3"
+              target="_blank" rel="nofollow" href="https://prompter.cortes.us">
+              Prompter
+            </a>
+            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               target="_blank" rel="nofollow" href="https://sogol.co">
               Sogol
             </a>
             <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               target="_blank" rel="nofollow" href="https://fieldy.co">
               Fieldy
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://usequarry.com">
-              Quarry
             </a>
             <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
               target="_blank" rel="nofollow" href="https://livtra.co">
@@ -191,20 +195,20 @@ class Home extends Component {
                 if you'd like.
               </p>
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                target="_blank" rel="nofollow" href="https://blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech">
+                5 Things I Learned Applying to Jobs in the Tech World
+              </a>
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                target="_blank" rel="nofollow" href="https://blog.cortes.us/help-people-help-you">
+                Help People Help You
+              </a>
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/favorite-tech-purchases-this-year">
                 My Favorite Tech Purchases This Year
               </a>
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/how-to-make-passive-social-media-traction">
                 How to Make Passive Social Media Traction
-              </a>
-              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us/why-you-should-start-writing">
-                Why You Should Start Writing
-              </a>
-              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us/work-for-yourself-more">
-                You Need to Work for Yourself More
               </a>
             </div>
 
