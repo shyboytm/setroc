@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Footer from '../../Footer';
-import Header from '../../Header';
+import Subheader from '../../Subheader';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
@@ -12,7 +12,7 @@ class Home extends Component {
         {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6" /> */}
         <div className="w-40-l w-75-m w-90 center mt5 ph0-ns ph3">
 
-          <Header />
+          <Subheader />
 
           <Title
             title="Currently"
