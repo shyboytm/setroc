@@ -9,9 +9,11 @@ class Header extends Component {
     return (
       <div id="Header" className="pt4 ph4">
         <div className="flex-ns w-100 bottom-0 top-auto z-1">
-          <Link to="/" className="flex-auto-ns db pb0-ns pb3 dim">
-            <Logo />
-          </Link>
+          <div className="flex-auto-ns">
+            <Link to="/" className="dib pb0-ns pb3 dim">
+              <Logo />
+            </Link>
+          </div>
           <div className="flex items-center pr4-ns">
             <div className="ma0 pa0 flex hover-dropdown relative pointer">
               <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="f6 link no-underline rainbow-hover black fw6">

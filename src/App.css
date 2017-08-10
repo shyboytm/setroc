@@ -100,6 +100,17 @@
   text-decoration: none;
 }
 
+.masonry {
+    column-count: 1;
+    column-gap: 0.5em;
+}
+
+.item {
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
 .spin {
   -webkit-animation:spin 3s ease-in-out infinite;
   -moz-animation:spin 3s ease-in-out infinite;
@@ -112,7 +123,9 @@
   50%  { -moz-transform:rotate(45deg);
          -moz-transform-origin: 50% 50%; }
   100% { -moz-transform: rotate(0deg);
-         -moz-transform-origin: 50% 50%; } }
+         -moz-transform-origin: 50% 50%; }
+}
+
 @-webkit-keyframes spin {
   0%   { -webkit-transform:rotate(0deg);
          -webkit-transform-origin: 50% 50%; }
@@ -120,14 +133,18 @@
          -webkit-transform-origin: 50% 50%; }
   100% { -webkit-transform: rotate(0deg);
          -webkit-transform-origin: 50% 50%;
-        } }
+        }
+}
+
 @keyframes spin {
   0%   { transform:rotate(0deg);
          transform-origin: 50% 50%; }
   50%  { transform:rotate(45deg);
          transform-origin: 50% 50%; }
   100% { transform:rotate(0deg);
-         transform-origin: 50% 50%; } }
+         transform-origin: 50% 50%; }
+}
+
 
 /*Not Small*/
 
@@ -135,11 +152,23 @@
 
 /*Large*/
 
-@media only screen and (min-width: 60em) { }
+@media only screen and (min-width: 60em) {
+  .masonry {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
 
 @media only screen and (max-width: 60em) { }
 
-@media only screen and (min-width: 30em) and (max-width: 60em) { }
+@media only screen and (min-width: 30em) and (max-width: 60em) {
+  .masonry {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
 
 .bg-dot-grid {
   background-attachment: fixed;
