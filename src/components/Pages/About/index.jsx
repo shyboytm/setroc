@@ -13,20 +13,18 @@ class Home extends Component {
     return (
       <div id="Home" className="animated fadeIn black">
         {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6 z-1" /> */}
-        <div className="w-40-l w-75-m w-90 center mv5 ph0-ns ph3 z-0">
+        <div className="w-40-l w-75-m w-90 center mv5-ns ph0-ns ph3 z-0">
 
           <Subheader />
 
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large" />
 
-          <h2 className="f3 fw6 lh-title mt5">
+          <h2 className="f3 fw4 lh-title black mt5">
             Hey There <span className="ml2 f3 absolute spin">👋</span>
           </h2>
           <p className="lh-copy">
             I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 5+ years of experience
-            in the world of design and illustration and have built products both on my own and on a team. Currently,
-            I am the design lead and a developer at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://satchelhealth.com">Satchel Health</a>,
-            and am the co-founder of <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://usequarry.com">Quarry</a>, where I build products that help people.
+            in the world of design and illustration and have built products both on my own and on a team.
             I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">
