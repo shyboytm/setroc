@@ -9,12 +9,12 @@ class Header extends Component {
       <div id="Subheader" className="pv4-ns">
 
         <div className="tl">
-          <h1 className="f2-ns f3 fw4 lh-title">Dennis Cortés</h1>
+          <h1 className="f2-ns f3 fw4 mb3">Dennis Cortés</h1>
           <Title
             title="Designer and Illustrator that codes"
             toolTipText="⌨️">
           </Title>
-          <h4 href="mailto:hi@cortes.us" className="green f5 fw4 mt2 tooltip mb4">
+          <h4 href="mailto:hi@cortes.us" className="green f5 fw4 mt1 tooltip mb4">
             hi@cortes.us
             <span className="tooltiptext">Available</span>
           </h4>
