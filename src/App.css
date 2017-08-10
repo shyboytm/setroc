@@ -8,7 +8,8 @@
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
 .shadow-small             { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.05); }
 .shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.1); }
-.text-outline             {-webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black;}
+.text-outline             { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; }
+.no-outline:focus         { outline: none; }
 
 /*Custom CSS*/
 
@@ -107,7 +108,7 @@
 
 .item {
     display: inline-block;
-    margin: 0 0 1em;
+    margin: 0 3em 0 0;
     width: 100%;
 }
 
@@ -154,9 +155,9 @@
 
 @media only screen and (min-width: 60em) {
   .masonry {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
   }
 }
 
