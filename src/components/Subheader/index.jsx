@@ -41,10 +41,6 @@ class Header extends Component {
           </a>
         </div>
 
-        <h3 className="f5 fw4 pa3 br2 light-red lh-copy ba b--light-red">
-          I'm currently looking for a new full-time remote position!
-          Reach out at hi@cortes.us if you or someone you know is looking for someone!
-        </h3>
         <span className="db black-30 tc mv5">↓</span>
       </div>
     );
