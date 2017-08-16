@@ -16,7 +16,7 @@ class Footer extends Component {
             <a href="https://twitter.com/fromcortes" className="dim mr4-l mr0-l">
               <img src='https://icon.now.sh/twitter/25/ffffff' alt='twitter' />
             </a>
-            <a href="https://twitch.com/cortesarts" className="dim mr4-l ml0-l ml4">
+            <a href="https://twitch.tv/cortesarts" className="dim mr4-l ml0-l ml4">
               <img src='https://icon.now.sh/twitch/25/ffffff' alt='twitch' />
             </a>
             <a href="https://youtube.com/cortesarts" className="dim mr4-l ml0-l ml4">
