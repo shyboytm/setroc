@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import Spacer from '../Spacer';
 import Title from '../Title';
 
 class Header extends Component {
   render() {
     return (
-      <div id="Subheader" className="pv4-ns">
+      <div id="Subheader" className="pv4">
 
-        <div className="tl">
-          <h1 className="f2-ns f3 fw4 mb3">Dennis Cortés</h1>
+        <div className="tc">
+          <h1 className="f2 fw6 mb3">Dennis Cortés</h1>
           <Title
             title="Designer and Illustrator that codes"
             toolTipText="⌨️">
@@ -20,7 +21,7 @@ class Header extends Component {
           </h4>
         </div>
 
-        <div className="mb4">
+        <div className="mb6 tc">
           <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
             <img src='https://icon.now.sh/dribbble/22/000000' alt='dribbble' />
           </a>
@@ -41,7 +42,8 @@ class Header extends Component {
           </a>
         </div>
 
-        <span className="db black-30 tc mv5">↓</span>
+        <Spacer />
+
       </div>
     );
   }

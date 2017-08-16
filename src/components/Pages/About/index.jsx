@@ -10,14 +10,14 @@ class Home extends Component {
     const aboutImage = require("../../../img/about-picture.jpg");
 
     return (
-      <div id="About" className="animated fadeIn black">
+      <div id="About" className="animated fadeIn black mt5">
         {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6 z-1" /> */}
         <div className="w-40-l w-75-m w-90 center mv5-ns ph0-ns ph3 z-0">
 
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large" />
 
-          <h2 className="f3 fw4 lh-title black mt5">
-            Hey There <span className="ml2 f3 absolute spin">👋</span>
+          <h2 className="f2 fw6 mb4 lh-title black mt5">
+            Hey There <span className="ml2 absolute spin">👋</span>
           </h2>
           <p className="lh-copy">
             I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 5+ years of experience
@@ -32,8 +32,7 @@ class Home extends Component {
             where others can hang out and maybe learn a few things.
           </p>
           <p className="lh-copy">
-            I'm always open to chat! Whether you have a project I can help you with, a new hiring opportunity, or
-            just want to say hi and ask me a question, please feel free to email me at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
+            I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
           </p>
 
           <Spacer />
