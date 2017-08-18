@@ -192,20 +192,20 @@ class Home extends Component {
                 if you'd like.
               </p>
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                target="_blank" rel="nofollow" href="https://blog.cortes.us/beatsx-earphones-review">
+                BeatsX Earphones Review
+              </a>
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
+                target="_blank" rel="nofollow" href="https://blog.cortes.us/your-workflow-is-not-important">
+                Your Workflow is Not Important
+              </a>
+              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech">
                 5 Things I Learned Applying to Jobs in the Tech World
               </a>
               <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
                 target="_blank" rel="nofollow" href="https://blog.cortes.us/help-people-help-you">
                 Help People Help You
-              </a>
-              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us/favorite-tech-purchases-this-year">
-                My Favorite Tech Purchases This Year
-              </a>
-              <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us/how-to-make-passive-social-media-traction">
-                How to Make Passive Social Media Traction
               </a>
             </div>
 
