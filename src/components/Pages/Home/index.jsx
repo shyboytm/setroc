@@ -14,7 +14,7 @@ class Home extends Component {
     return (
       <div id="Home" className="animated fadeIn black">
         {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6" /> */}
-        <div className="w-100 grid mt4">
+        <div className="w-100 grid">
 
           <div className="grid-row-start-1-ns pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
             <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />

@@ -7,14 +7,13 @@ import Spacer from '../Spacer';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="pt4 ph4">
-        <div className="flex-ns w-100 bottom-0 top-auto z-1">
-          <div className="flex-auto-ns">
-            <Link to="/" className="dib pb0-ns pb3 dim">
-              <Logo />
-            </Link>
+      <div id="Header" className="pa3 system">
+        <div className="flex-ns justify-between w-100">
+          <div className="flex items-center mb0-ns mb3">
+            <Logo />
+            <h1 className="ml2 dib f5">Dennis Cortés</h1>
           </div>
-          <div className="flex items-center pr4-ns system">
+          <div className="flex items-center content-end flex-row pr4-ns ml0-l ml3 mb0-ns mb3">
             <div className="ma0 pa0 flex-l dn hover-dropdown relative pointer">
               <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="f6 link no-underline rainbow-hover black fw6">
                 Extras ↓
