@@ -102,8 +102,12 @@
 }
 
 .masonry {
-    column-count: 1;
-    column-gap: 0.5em;
+  column-count: 4;
+  column-gap: 0.5em;
+  -moz-column-width: 25%;
+  -webkit-column-width: 25%;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em;
 }
 
 .item {
