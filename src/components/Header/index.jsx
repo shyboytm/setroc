@@ -7,14 +7,17 @@ import Spacer from '../Spacer';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="pt4 ph4">
-        <div className="flex-ns w-100 bottom-0 top-auto z-1">
-          <div className="flex-auto-ns">
-            <Link to="/" className="dib pb0-ns pb3 dim">
+      <div id="Header" className="pa3 system">
+        <div className="flex-l justify-between w-100">
+          <div className="flex items-center mb0-l mb3">
+            <Link to="/" className="link dim">
               <Logo />
             </Link>
+            <Link to="/" className="link dim">
+              <h1 className="ml2 dib f5 black">Dennis Cortés</h1>
+            </Link>
           </div>
-          <div className="flex items-center pr4-ns">
+          <div className="flex items-center content-end flex-row pr4-l ml0-l ml3 mb0-l mb3">
             <div className="ma0 pa0 flex-l dn hover-dropdown relative pointer">
               <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="f6 link no-underline rainbow-hover black fw6">
                 Extras ↓
@@ -39,13 +42,10 @@ class Header extends Component {
             <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="f6 link flex no-underline rainbow-hover black ml4-l ml0 fw6">
               Recent Work ↗
             </a>
-            {/* <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="f6 link flex no-underline rainbow-hover black ml4-ns ml3 ml3-ns ml0 fw6">
-              Inspiration ↗
-            </a> */}
-            <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="f6 link flex no-underline rainbow-hover black ml4-ns ml3 fw6">
+            <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="f6 link flex no-underline rainbow-hover black ml4-l ml3 fw6">
               Blog ↗
             </a>
-            <Link to="/about" className="f6 link flex rainbow-hover black ml4-ns ml3 fw6">
+            <Link to="/about" className="f6 link dn-l flex rainbow-hover black ml4-l ml3 fw6">
               About
             </Link>
           </div>

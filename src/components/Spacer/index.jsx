@@ -4,7 +4,7 @@ class Title extends Component {
   render() {
     return (
       <div class="db">
-        <hr className="b--black-05 mv5" />
+        <hr className="b--black-10 mv4" />
       </div>
     );
   }

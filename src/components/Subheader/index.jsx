@@ -4,17 +4,16 @@ import { Link } from 'react-router';
 import Spacer from '../Spacer';
 import Title from '../Title';
 
-class Header extends Component {
+class SubHeader extends Component {
   render() {
     return (
-      <div id="Subheader" className="pv4">
+      <div id="Subheader" className="pv3">
 
         <div className="tc">
           <h1 className="f2 fw6 mb3">Dennis Cortés</h1>
-          <Title
-            title="Designer and Illustrator that codes"
-            toolTipText="⌨️">
-          </Title>
+          <h2 className="f4 system fw4 lh-subtitle black-60">
+            Designer and Illustrator that codes
+          </h2>
           <h4 href="mailto:hi@cortes.us" className="green f5 fw4 mt1 tooltip mb4">
             hi@cortes.us
             <span className="tooltiptext">Available</span>
@@ -49,4 +48,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default SubHeader;

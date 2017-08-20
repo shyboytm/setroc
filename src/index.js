@@ -14,7 +14,7 @@ ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
-      <Route path="/thanks" component={Thanks} />
+      <Route path="/newsletter/thanks" component={Thanks} />
       <Route path="/about" component={About} />
       <Route path="/extras/books" component={Books} />
     </Route>
