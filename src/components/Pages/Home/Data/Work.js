@@ -37,20 +37,17 @@ class Work extends Component {
             href="https://fieldy.co"
             name="Fieldy" />
           <Feature
-            href="https://blog.cortes.us"
-            name="The Rate of Change" />
-          <Feature
             href="https://www.instagram.com/illustree/"
             name="Illustree" />
+          <Feature
+            href="https://blog.cortes.us"
+            name="The Rate of Change" />
           <Feature
             href="https://atom.io/users/fromcortes"
             name="Prisma" />
           <Feature
             href="https://www.instagram.com/muchclean/"
             name="Much Clean" />
-          <Feature
-            href="https://gamesandgrids.com"
-            name="Games and Grids" />
           <Feature
             href="http://calligritype.us"
             name="Calligritype" />

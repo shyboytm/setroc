@@ -6,6 +6,7 @@ import Subheader from '../../Subheader';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
+import Currently from './Data/Currently';
 import Work from './Data/Work';
 
 class Desktop extends Component {
@@ -17,11 +18,11 @@ class Desktop extends Component {
       <div className="w-100 grid-l dn">
         <div className="grid-row-start-1-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
-          <h2 className="f4 fw6 lh-subtitle system mt4 mb0">
+          <h3 className="f4 fw6 lh-subtitle system mt4 mb0">
             Hey There <span className="ml2 absolute spin">👋</span>
-          </h2>
+          </h3>
           <p className="lh-copy">
-            I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 5+ years of experience
+            I’m a 22 year old digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 5+ years of experience
             in the world of design and illustration and have built products both on my own and on a team.
             I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
@@ -45,55 +46,57 @@ class Desktop extends Component {
           <p className="fw4 lh-copy">
             When I'm not designing or writing code you can find me trying to learn new things, playing video games, writing, learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music.
           </p>
+
+          <Spacer />
+
+          <Title
+            title="Tools"
+            toolTipText="⚒">
+          </Title>
+          <p className="fw4 lh-copy">
+            These are tools and apps I use in my full-time and personal work.
+          </p>
+          <h3 className="f5 ttu fw6 lh-title black-40 mt4 tooltip w-100">
+            Design
+          </h3>
+          <Feature
+            href="https://sketchapp.com"
+            name="Sketch" />
+          <Feature
+            href="https://figma.com"
+            name="Figma" />
+          <Feature
+            href="https://adobe.com"
+            name="Adobe" />
+          <h3 className="f5 ttu fw6 lh-title black-40 mt4 tooltip w-100">
+            Development
+          </h3>
+          <Feature
+            href="https://atom.io"
+            name="Atom" />
+          <Feature
+            href="https://hyper.is"
+            name="Hyper" />
+          <Feature
+            href="https://github.com"
+            name="Github" />
+          <h3 className="f5 ttu fw6 lh-title black-40 mt4 tooltip w-100">
+            Admin
+          </h3>
+          <Feature
+            href="https://notion.so"
+            name="Notion" />
+          <Feature
+            href="https://sparkmailapp.com"
+            name="Spark" />
+          <Feature
+            href="https://slack.com"
+            name="Slack" />
+
         </div>
 
         <div className="grid-row-start-2-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
-          <Title
-            title="I'm Currently..."
-            toolTipText="💪">
-          </Title>
-          <div className="fw4 lh-copy">
-            <h4 className="fw4 pv1">Building products for others at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://usequarry.com">
-                Quarry
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Writing weekly about work and life at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us">
-                The Rate of Change
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Building a life-tracking tool called
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://livtra.co">
-                Livtra
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Writing design reviews about the gaming world at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://gamesandgrids.com">
-                Games and Grids
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Streaming my design and development work on
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">
-                Twitch
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Curating inspiration for others at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://instagram.com/calligritype">
-                Calligritype
-              </a> and
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://instagram.com/illustree">
-                Illustree
-              </a>
-            </h4>
-          </div>
+          <Currently />
 
           <Spacer />
 
@@ -313,6 +316,9 @@ class Desktop extends Component {
               title="Newsletter"
               toolTipText="📬">
             </Title>
+            <p className="measure mb4">
+              From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing.
+            </p>
             <form action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
                 {/*Hidden fields for Mailchimp account and list*/}
                 <input type="hidden" name="u" value="574c615abddacf2d7b51d2104" />
@@ -321,7 +327,7 @@ class Desktop extends Component {
                 <input className="f6 input-reset ba b--black-10 black bg-transparent pa3 w-100 br2 mb3"
                   placeholder="Email Address"
                   type="email" name="MERGE0" tabindex="-1" id="b_email" />
-                <input className="bg-transparent fw6 f6 button-reset dim pv3 tc ba b--black-10 green bg-animate pointer w-100 br2" type="submit" value="Subscribe" />
+                <input className="bg-transparent fw6 f6 ttu button-reset dim pv3 tc ba b--black-10 green bg-animate pointer w-100 br2" type="submit" value="Subscribe" />
               </form>
 
           </div>

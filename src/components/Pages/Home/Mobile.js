@@ -6,6 +6,7 @@ import Subheader from '../../Subheader';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
+import Currently from './Data/Currently';
 import Work from './Data/Work';
 
 class Mobile extends Component {
@@ -15,58 +16,9 @@ class Mobile extends Component {
       <div className="dn-l db w-90 center mt5 ph0-ns ph3">
 
           <Subheader />
-
-          <Title
-            title="Currently"
-            toolTipText="💪">
-          </Title>
-          <div className="pl4-ns fw4 lh-copy">
-            <h4 className="fw4 pv1">Building products for others at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://usequarry.com">
-                Quarry
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Writing weekly about work and life at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://blog.cortes.us">
-                The Rate of Change
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Building a life-tracking tool called
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://livtra.co">
-                Livtra
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Writing design reviews about the gaming world at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://gamesandgrids.com">
-                Games and Grids
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Streaming my design and development work on
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">
-                Twitch
-              </a>
-            </h4>
-            <h4 className="fw4 pv1">Curating inspiration for others at
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://instagram.com/calligritype">
-                Calligritype
-              </a> and
-              <a className="link link-underlined rainbow-hover black ml1 fw6"
-                target="_blank" rel="nofollow" href="https://instagram.com/illustree">
-                Illustree
-              </a>
-            </h4>
-          </div>
-
+          <Currently />
           <Spacer />
-
           <Work />
-
           <Spacer />
 
             <Title
