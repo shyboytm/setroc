@@ -1,0 +1,78 @@
+import React, { Component } from 'react';
+
+import Feature from '../../../Feature';
+import Title from '../../../Title';
+
+class Work extends Component {
+  render() {
+    return (
+      <div>
+        <Title
+          title="Work"
+          toolTipText="💻">
+        </Title>
+        <div className="fw4 lh-copy">
+          <p className="measure mb4">
+            In addition to branding, illustration, and UI/UX work for others in my portfolio, a lot of my work is living and breathing projects I've built that people rely on and use on a regular basis.
+          </p>
+          <Feature
+            href="https://dribbble.com/fromcortes"
+            name="My Portfolio" />
+          <Feature
+            href="https://prompter.cortes.us"
+            name="Prompter" />
+          <Feature
+            href="https://coffee.cortes.us"
+            name="Taste Notes" />
+          <Feature
+            href="https://livtra.co"
+            name="Livtra" />
+          <Feature
+            href="https://usequarry.com"
+            name="Quarry" />
+          <Feature
+            href="https://sogol.co"
+            name="Sogol" />
+          <Feature
+            href="https://fieldy.co"
+            name="Fieldy" />
+          <Feature
+            href="https://blog.cortes.us"
+            name="The Rate of Change" />
+          <Feature
+            href="https://www.instagram.com/illustree/"
+            name="Illustree" />
+          <Feature
+            href="https://atom.io/users/fromcortes"
+            name="Prisma" />
+          <Feature
+            href="https://www.instagram.com/muchclean/"
+            name="Much Clean" />
+          <Feature
+            href="https://gamesandgrids.com"
+            name="Games and Grids" />
+          <Feature
+            href="http://calligritype.us"
+            name="Calligritype" />
+          <p className="measure mt4 mb3">
+            Made with teams
+          </p>
+          <Feature
+            href="https://satchelhealth.com"
+            name="Satchel Health" />
+          <Feature
+            href="http://unclekragers.com/app"
+            name="Uncle Kragers" />
+          <Feature
+            href="http://simplesam.com"
+            name="Simple Sam" />
+          <Feature
+            href="http://12ounceapp.com/"
+            name="Twelve Ounce" />
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Work;

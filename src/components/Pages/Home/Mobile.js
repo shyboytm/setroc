@@ -6,6 +6,8 @@ import Subheader from '../../Subheader';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
+import Work from './Data/Work';
+
 class Mobile extends Component {
   render() {
     return (
@@ -63,86 +65,7 @@ class Mobile extends Component {
 
           <Spacer />
 
-          <Title
-            title="Work"
-            toolTipText="💻">
-          </Title>
-          <div className="pl4-ns fw4 lh-copy">
-            <p className="measure mb4">
-              In addition to branding, illustration, and UI/UX work for others in my portfolio, a lot of my work is living and breathing projects I've built that people rely on and use on a regular basis.
-            </p>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://dribbble.com/fromcortes">
-              My Portfolio
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover light-red ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://prompter.cortes.us">
-              Prompter
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://coffee.cortes.us">
-              Taste Notes
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://usequarry.com">
-              Quarry
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://sogol.co">
-              Sogol
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://fieldy.co">
-              Fieldy
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://livtra.co">
-              Livtra
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://blog.cortes.us">
-              The Rate of Change
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://www.instagram.com/illustree/">
-              Illustree
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://atom.io/users/fromcortes">
-              Prisma
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://www.instagram.com/muchclean/">
-              Much Clean
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://gamesandgrids.com">
-              Games and Grids
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="http://calligritype.us">
-              Calligritype
-            </a>
-            <p className="measure mt4 mb3">
-              Made with teams
-            </p>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="https://satchelhealth.com">
-              Satchel Health
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="http://unclekragers.com/app">
-              Uncle Kragers
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="http://simplesam.com">
-              Simple Sam
-            </a>
-            <a className="f4-ns fw6 dib link rainbow-hover black ba br2 b--black-10 ph3 pv2 mv2 mr3"
-              target="_blank" rel="nofollow" href="http://12ounceapp.com/">
-              Twelve Ounce
-            </a>
-          </div>
+          <Work />
 
           <Spacer />
 
