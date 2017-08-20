@@ -2,7 +2,8 @@
 
 /*Tachyons Add-Ons*/
 
-.acumin                   { font-family: "acumin-pro", -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
+.system                   { font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
+.gentium                  { font-family: 'Gentium Basic', Georgia, serif; }
 .lh-subtitle              { line-height: 2.25rem; }
 .lh-copy                  { line-height: 1.85rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
@@ -10,6 +11,11 @@
 .shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.1); }
 .text-outline             { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; }
 .no-outline:focus         { outline: none; }
+.grid                     { display: grid; }
+  .grid-row-start-1       { grid-column-start: 1; }
+  .grid-row-start-2       { grid-column-start: 2; }
+  .grid-row-start-3       { grid-column-start: 3; }
+  .grid-row-start-4       { grid-column-start: 4; }
 
 /*Custom CSS*/
 
@@ -163,6 +169,10 @@
     -webkit-column-count: 4;
     column-count: 4;
   }
+  .grid-row-start-1-ns { grid-column-start: 1; }
+  .grid-row-start-2-ns { grid-column-start: 2; }
+  .grid-row-start-3-ns { grid-column-start: 3; }
+  .grid-row-start-4-ns { grid-column-start: 4; }
 }
 
 @media only screen and (max-width: 60em) { }

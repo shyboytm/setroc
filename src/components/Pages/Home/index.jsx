@@ -8,14 +8,39 @@ import Title from '../../Title';
 
 class Home extends Component {
   render() {
+
+    const aboutImage = require("../../../img/about-picture.jpg");
+
     return (
       <div id="Home" className="animated fadeIn black">
         {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6" /> */}
-        <div className="w-100 mt4 cf">
+        <div className="w-100 grid mt4">
 
-          <div className="w-25-l w-50-m w-100 fl pa3 ba b--black-10">
+          <div className="grid-row-start-1-ns pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
+            <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
+            <h2 className="f4 fw6 lh-subtitle system mt4 mb0">
+              Hey There <span className="ml2 absolute spin">👋</span>
+            </h2>
+            <p className="lh-copy f6">
+              I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 5+ years of experience
+              in the world of design and illustration and have built products both on my own and on a team.
+              I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
+            </p>
+            <p className="lh-copy f6">
+              Outside of design, I write and release at least one article a week (50+ weeks!). I also spend time
+              learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
+              to others, a lot of my efforts go to building things that will help others as well as helping those in
+              the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">Twitch</a>,
+              where others can hang out and maybe learn a few things.
+            </p>
+            <p className="lh-copy f6">
+              I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
+            </p>
+          </div>
+
+          <div className="grid-row-start-2-ns pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
             <Title
-              title="Currently"
+              title="I'm Currently..."
               toolTipText="💪">
             </Title>
             <div className="f6 fw4 lh-copy">
@@ -62,7 +87,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="w-25-l w-50-m w-100 fl pa3 ba b--black-10">
+          <div className="grid-row-start-3-ns pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
             <Title
               title="Work"
               toolTipText="💻">
@@ -128,7 +153,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="w-25-l w-50-m w-100 fl pa3 ba b--black-10">
+          <div className="grid-row-start-4-ns pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
             <Title
               title="Recognition"
               toolTipText="🏆">
@@ -180,28 +205,6 @@ class Home extends Component {
                   name="Help People Help You" />
               </div>
             </div>
-          </div>
-
-          <div className="w-25-l w-50-m w-100 fl pa3 ba b--black-10">
-            <Title
-              title="About"
-              toolTipText="👋">
-            </Title>
-            <p className="lh-copy f6">
-              I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 5+ years of experience
-              in the world of design and illustration and have built products both on my own and on a team.
-              I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
-            </p>
-            <p className="lh-copy f6">
-              Outside of design, I write quite a bit and release an article each week (45+ weeks!). I also spend time
-              learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
-              to others, a lot of my efforts go to building things that will help others as well as helping those in
-              the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">Twitch</a>,
-              where others can hang out and maybe learn a few things.
-            </p>
-            <p className="lh-copy f6">
-              I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
-            </p>
           </div>
 
         </div>
