@@ -13,7 +13,7 @@ class Mobile extends Component {
   render() {
     return (
 
-      <div className="dn-l db w-90 center mt5 ph0-ns ph3">
+      <div className="dn-l db w-90 center mv5 ph0-ns ph3">
 
           <Subheader />
           <Currently />

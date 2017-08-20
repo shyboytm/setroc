@@ -106,6 +106,10 @@ class Home extends Component {
               2017
             </h3>
             <ul className="list ml0 pl0 mb4">
+              <li className="fw4 pv2 green lh-copy dib mr4">
+                <span className="b">Currently at Speak</span>
+                <br />Web Designer & Developer
+              </li>
               <li className="fw4 pv2 black-60 lh-copy dib mr4">
                 <span className="b black">Satchel Health</span>
                 <br />Design Lead & Developer

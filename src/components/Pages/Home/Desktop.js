@@ -54,7 +54,7 @@ class Desktop extends Component {
             toolTipText="⚒">
           </Title>
           <p className="fw4 lh-copy">
-            These are tools and apps I use in my full-time and personal work.
+            These are tools and apps I use in my full-time and personal work. Expanding on this soon!
           </p>
           <h3 className="f5 ttu fw6 lh-title black-40 mt4 tooltip w-100">
             Design
@@ -329,7 +329,6 @@ class Desktop extends Component {
                   type="email" name="MERGE0" tabindex="-1" id="b_email" />
                 <input className="bg-transparent fw6 f6 ttu button-reset dim pv3 tc ba b--black-10 green bg-animate pointer w-100 br2" type="submit" value="Subscribe" />
               </form>
-
           </div>
         </div>
       </div>
