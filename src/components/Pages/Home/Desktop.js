@@ -106,35 +106,35 @@ class Desktop extends Component {
               I believe all work is more than just technique. Thought process is driven by a combination of knowledge, ethics, and philosophy. I think about these topics a lot and am always trying to refine and improve, here's how I currently approach my work and process.
             </p>
             <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
-              Inclusion<span className="tooltiptext">👥</span>
+              Inclusion<span className="tooltiptext black">👥</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               People are the essence of the technology industry. Without people, we would have no clear purpose in our work. I believe in helping people feel welcomed and included when it comes to my work and who I am as a person.
             </h4>
 
             <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
-              Accessibility<span className="tooltiptext">🎨</span>
+              Accessibility<span className="tooltiptext black">🎨</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               Unfortunately overlooked nowadays, Accessibility is a very important aspect of my work. I believe in equal access to technology and providing the tools and refinements to style, typography, and code neccessary to do so.
             </h4>
 
             <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
-              Simplicity<span className="tooltiptext">⚫️</span>
+              Simplicity<span className="tooltiptext black">⚫️</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               Although an overused term, Simplicity is at the heart of my goals in my work. I believe in a simple approach with a touch of uniqueness, developing work into the purest form with tasteful novelty.
             </h4>
 
             <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
-              Transparency<span className="tooltiptext">👓</span>
+              Transparency<span className="tooltiptext black">👓</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               Openly and actively sharing my process to help others is a core element of my process. I always try my best to share what I can for the benefit of others. My weekly blog and weekly streams of me working are a direct approach for me to give back to the industry.
             </h4>
 
             <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
-              Ethics<span className="tooltiptext">💖</span>
+              Ethics<span className="tooltiptext black">💖</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               I believe that morals and ethics in design play a large part in process. Both business and experience decisions based on the greater good of users makes a better, more personable product and brand.
@@ -291,12 +291,7 @@ class Desktop extends Component {
             </Title>
             <div className="fw4 lh-copy">
               <p className="measure mb4">
-                I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles, you can sign up for my
-                <a className="link link-underlined rainbow-hover black mh1 fw6"
-                  target="_blank" rel="nofollow" href="https://eepurl.com/cgT2bD">
-                  newsletter
-                </a>
-                if you'd like.
+                I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
               </p>
               <Feature
                 href="https://blog.cortes.us/beatsx-earphones-review"
@@ -311,6 +306,24 @@ class Desktop extends Component {
                 href="https://blog.cortes.us/help-people-help-you"
                 name="Help People Help You" />
             </div>
+
+            <Spacer />
+
+            <Title
+              title="Newsletter"
+              toolTipText="📬">
+            </Title>
+            <form action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
+                {/*Hidden fields for Mailchimp account and list*/}
+                <input type="hidden" name="u" value="574c615abddacf2d7b51d2104" />
+                <input type="hidden" name="id" value="7bd40f02a4" />
+                <label className="clip" for="email-address">Email Address</label>
+                <input className="f6 input-reset ba b--black-10 black bg-transparent pa3 w-100 br2 mb3"
+                  placeholder="Email Address"
+                  type="email" name="MERGE0" tabindex="-1" id="b_email" />
+                <input className="bg-transparent fw6 f6 button-reset dim pv3 tc ba b--black-10 green bg-animate pointer w-100 br2" type="submit" value="Subscribe" />
+              </form>
+
           </div>
         </div>
       </div>
