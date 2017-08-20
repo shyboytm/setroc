@@ -169,10 +169,11 @@
     -webkit-column-count: 4;
     column-count: 4;
   }
-  .grid-row-start-1-ns { grid-column-start: 1; }
-  .grid-row-start-2-ns { grid-column-start: 2; }
-  .grid-row-start-3-ns { grid-column-start: 3; }
-  .grid-row-start-4-ns { grid-column-start: 4; }
+  .grid-l             { display: grid; }
+  .grid-row-start-1-l { grid-column-start: 1; }
+  .grid-row-start-2-l { grid-column-start: 2; }
+  .grid-row-start-3-l { grid-column-start: 3; }
+  .grid-row-start-4-l { grid-column-start: 4; }
 }
 
 @media only screen and (max-width: 60em) { }
