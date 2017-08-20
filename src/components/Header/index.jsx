@@ -14,7 +14,7 @@ class Header extends Component {
               <Logo />
             </Link>
             <Link to="/" className="link dim">
-            <h1 className="ml2 dib f5 black">Dennis Cortés</h1>
+              <h1 className="ml2 dib f5 black">Dennis Cortés</h1>
             </Link>
           </div>
           <div className="flex items-center content-end flex-row pr4-l ml0-l ml3 mb0-l mb3">

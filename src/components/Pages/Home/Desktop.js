@@ -45,19 +45,6 @@ class Desktop extends Component {
           <p className="fw4 lh-copy">
             When I'm not designing or writing code you can find me trying to learn new things, playing video games, writing, learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music.
           </p>
-
-          <Spacer />
-
-          <Title
-            title="Social"
-            toolTipText="🤓">
-          </Title>
-          <Feature
-            href="https://twitter.com/fromcortes"
-            name="Twitter" />
-          <Feature
-            href="https://dribbble.com/fromcortes"
-            name="Dribbble" />
         </div>
 
         <div className="grid-row-start-2-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
@@ -118,38 +105,38 @@ class Desktop extends Component {
             <p className="measure mb4">
               I believe all work is more than just technique. Thought process is driven by a combination of knowledge, ethics, and philosophy. I think about these topics a lot and am always trying to refine and improve, here's how I currently approach my work and process.
             </p>
-            <h3 className="f5 fw6 lh-title mt0 mb0 tooltip">
+            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Inclusion<span className="tooltiptext">👥</span>
             </h3>
-            <h4 className="fw4 pv1 mt2">
+            <h4 className="fw4 pv1 mt2 mb4">
               People are the essence of the technology industry. Without people, we would have no clear purpose in our work. I believe in helping people feel welcomed and included when it comes to my work and who I am as a person.
             </h4>
 
-            <h3 className="f5 fw6 lh-title mt0 mb0 tooltip">
+            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Accessibility<span className="tooltiptext">🎨</span>
             </h3>
-            <h4 className="fw4 pv1 mt2">
+            <h4 className="fw4 pv1 mt2 mb4">
               Unfortunately overlooked nowadays, Accessibility is a very important aspect of my work. I believe in equal access to technology and providing the tools and refinements to style, typography, and code neccessary to do so.
             </h4>
 
-            <h3 className="f5 fw6 lh-title mt0 mb0 tooltip">
+            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Simplicity<span className="tooltiptext">⚫️</span>
             </h3>
-            <h4 className="fw4 pv1 mt2">
+            <h4 className="fw4 pv1 mt2 mb4">
               Although an overused term, Simplicity is at the heart of my goals in my work. I believe in a simple approach with a touch of uniqueness, developing work into the purest form with tasteful novelty.
             </h4>
 
-            <h3 className="f5 fw6 lh-title mt0 mb0 tooltip">
+            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Transparency<span className="tooltiptext">👓</span>
             </h3>
-            <h4 className="fw4 pv1 mt2">
+            <h4 className="fw4 pv1 mt2 mb4">
               Openly and actively sharing my process to help others is a core element of my process. I always try my best to share what I can for the benefit of others. My weekly blog and weekly streams of me working are a direct approach for me to give back to the industry.
             </h4>
 
-            <h3 className="f5 fw6 lh-title mt0 mb0 tooltip">
+            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Ethics<span className="tooltiptext">💖</span>
             </h3>
-            <h4 className="fw4 pv1 mt2">
+            <h4 className="fw4 pv1 mt2 mb4">
               I believe that morals and ethics in design play a large part in process. Both business and experience decisions based on the greater good of users makes a better, more personable product and brand.
             </h4>
           </div>
@@ -157,9 +144,121 @@ class Desktop extends Component {
 
         <div className="grid-row-start-3-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
           <Work />
+          <Spacer />
+
+          <Title
+            title="Experience"
+            toolTipText="💼">
+          </Title>
+          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+            2017
+          </h3>
+          <ul className="list ml0 pl0 mb4">
+            <li className="fw4 pv2 green lh-copy dib mr4">
+              <span className="b">Currently at Speak</span>
+              <br />Web Designer & Developer
+            </li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Satchel Health</span>
+              <br />Design Lead & Developer
+            </li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Livtra</span>
+              <br />Co-Founder
+            </li>
+          </ul>
+
+          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+            2016
+          </h3>
+          <ul className="list ml0 pl0 mb4">
+            <li className="fw4 pv2">Graduated College</li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Satchel Health</span>
+              <br />Product Designer
+            </li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Quarry</span>
+              <br />Co-Founder
+            </li>
+          </ul>
+
+          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+            2015
+          </h3>
+          <ul className="list ml0 pl0 mb4">
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Vrasa</span>
+              <br />Designer
+            </li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Satchel Health</span>
+              <br />Product Designer
+            </li>
+          </ul>
+
+          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+            2014
+          </h3>
+          <ul className="list ml0 pl0 mb4">
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Vrasa</span>
+              <br />Designer
+            </li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Calligritype</span>
+              <br />Founder
+            </li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Illustree</span>
+              <br />Founder
+            </li>
+          </ul>
+
+          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+            2013
+          </h3>
+          <ul className="list ml0 pl0 mb4">
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Fivestone Studios</span>
+              <br />3D Designer
+            </li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Freelance</span>
+              <br />Branding, Illustration, UI/UX
+            </li>
+          </ul>
         </div>
 
         <div className="grid-row-start-4-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
+          <Title
+            title="Contact"
+            toolTipText="💌">
+          </Title>
+          <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f5 ttu link rainbow-hover green fw6">
+            hi@cortes.us
+          </a>
+          <Feature
+            href="https://twitter.com/fromcortes"
+            name="Twitter" />
+          <Feature
+            href="https://instagram.com/fromcortes"
+            name="Instagram" />
+          <Feature
+            href="https://dribbble.com/fromcortes"
+            name="Dribbble" />
+          <Feature
+            href="https://github.com/fromcortes"
+            name="Github" />
+          <Feature
+            href="https://twitch.tv/cortesarts"
+            name="Twitch" />
+          <Feature
+            href="https://fromcortes.tumblr.com"
+            name="Tumblr" />
+
+          <Spacer />
+
           <Title
             title="Recognition"
             toolTipText="🏆">
