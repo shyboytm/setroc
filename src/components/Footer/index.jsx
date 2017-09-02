@@ -6,7 +6,7 @@ class Footer extends Component {
       <div id="Footer" className="pb4 bg-black">
         <div className="w-90 center cf pv5">
           <div className="w-100 ph3 mb3 mt0 tc">
-            <h2 className="fw6 f2-ns f3 white system">I love meeting new people ✨</h2>
+            <h2 className="fw6 f2-ns f3 white shine bg-text-clip system">I love meeting new people ✨</h2>
             <p className="white-80 lh-copy w-50-l w-70-m w-100 center">
               Want to chat about design, code, coffee, Pokémon, or life in general?
               Please introduce yourself and send an email to <a className="link white-80 rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a>

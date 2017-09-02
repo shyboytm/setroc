@@ -157,7 +157,7 @@ class Desktop extends Component {
             2017
           </h3>
           <ul className="list ml0 pl0 mb4">
-            <li className="fw4 pv2 green lh-copy dib mr4">
+            <li className="fw4 pv2 shine bg-text-clip lh-copy dib mr4">
               <span className="b">Currently at Speak</span>
               <br />Web Designer & Developer
             </li>
@@ -238,7 +238,7 @@ class Desktop extends Component {
             title="Contact"
             toolTipText="💌">
           </Title>
-          <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f5 ttu link rainbow-hover green fw6">
+          <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f5 ttu link shine bg-text-clip dim fw6">
             hi@cortes.us
           </a>
           <Feature
@@ -327,7 +327,7 @@ class Desktop extends Component {
                 <input className="f6 input-reset ba b--black-10 black bg-transparent pa3 w-100 br2 mb3"
                   placeholder="Email Address"
                   type="email" name="MERGE0" tabindex="-1" id="b_email" />
-                <input className="bg-transparent fw6 f6 ttu button-reset dim pv3 tc ba b--black-10 green bg-animate pointer w-100 br2" type="submit" value="Subscribe" />
+                <input className="bg-transparent fw6 f6 ttu button-reset dim pv3 tc ba b--black-10 shine bg-text-clip bg-animate pointer w-100 br2" type="submit" value="Subscribe" />
               </form>
           </div>
         </div>
