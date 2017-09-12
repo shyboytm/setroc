@@ -25,6 +25,11 @@ class Home extends Component {
             I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">
+            I enjoy thinking about experienced based solutions through use of design and technological implementations.
+            I find internal systematic struggles intriguing and set to solve and improve processes to improve the way
+            I think and work personally and professionally.
+          </p>
+          <p className="lh-copy">
             Outside of design, I write quite a bit and release an article each week (45+ weeks!). I also spend time
             learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
             to others, a lot of my efforts go to building things that will help others as well as helping those in
