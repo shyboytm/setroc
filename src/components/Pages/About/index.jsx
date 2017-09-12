@@ -26,8 +26,8 @@ class Home extends Component {
           </p>
           <p className="lh-copy">
             I enjoy thinking about experienced based solutions through use of design and technological implementations.
-            I find internal systematic struggles intriguing and set to solve and improve processes to improve the way
-            I think and work personally and professionally.
+            I find internal systematic struggles intriguing and set to solve and improve processes to better the way
+            I and people I work with think and work personally and professionally.
           </p>
           <p className="lh-copy">
             Outside of design, I write quite a bit and release an article each week (45+ weeks!). I also spend time
