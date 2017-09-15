@@ -8,7 +8,7 @@
 .lh-copy                  { line-height: 1.85rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
 .shadow-small             { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.05); }
-.shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.1); }
+.shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.075); }
 .text-outline             { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; }
 .no-outline:focus         { outline: none; }
 .grid                     { display: grid; }
@@ -55,6 +55,7 @@
 .bg-gradient { background-image: linear-gradient(45deg, #00DBDE 0%, #FC00FF 100%); }
 
 .shine { -webkit-animation: shine 5s linear infinite; }
+.hover-shine:hover { -webkit-animation: shine 5s linear infinite; }
 
 @keyframes shine {
   to {
@@ -125,7 +126,7 @@
 }
 
 .masonry {
-  column-count: 4;
+  column-count: 3;
   column-gap: 0.5em;
   -moz-column-width: 25%;
   -webkit-column-width: 25%;
@@ -182,9 +183,9 @@
 
 @media only screen and (min-width: 60em) {
   .masonry {
-    -moz-column-count: 4;
-    -webkit-column-count: 4;
-    column-count: 4;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
   }
   .grid-l             { display: grid; }
   .grid-row-start-1-l { grid-column-start: 1; }

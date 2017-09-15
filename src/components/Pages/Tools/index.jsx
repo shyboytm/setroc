@@ -4,7 +4,7 @@ import Footer from '../../Footer';
 import Item from '../../Item';
 import Title from '../../Title';
 
-class Books extends Component {
+class Tools extends Component {
   render() {
 
     const dontMakeMeThink         = require('../../../img/books/dont-make-me-think.svg');
@@ -71,4 +71,4 @@ class Books extends Component {
   }
 }
 
-export default Books;
+export default Tools;
