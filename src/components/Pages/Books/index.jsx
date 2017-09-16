@@ -27,7 +27,7 @@ class Books extends Component {
             So here you go, categorized and everything!
           </p>
         </div>
-        <div className="masonry w-60-l w-90 center mv5">
+        <div className="content-end flex flex-wrap w-60-l w-90 center mv5">
           <Item
             image={dontMakeMeThink}
             title="Don't Make me Think Revisited"
