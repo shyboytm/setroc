@@ -7,8 +7,9 @@ import Title from '../../Title';
 class Books extends Component {
   render() {
 
-    const macBookPro = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
-    const roostStand = require('../../../img/tools/setup/roost-laptop-stand.jpg');
+    const macBookPro  = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
+    const roostStand  = require('../../../img/tools/setup/roost-laptop-stand.jpg');
+    const iPadPro     = require('../../../img/tools/setup/ipad-pro.jpg');
 
     return (
       <div id="Books" className="animated fadeIn black">
@@ -96,6 +97,11 @@ class Books extends Component {
                 image={roostStand}
                 title='Roost Laptop Stand'
                 description="Stand for improving posture" />
+              <Item
+                href="https://www.apple.com/ipad-pro"
+                image={iPadPro}
+                title='iPad Pro 12.9"'
+                description="For illustration, research, writing, and wireframing" />
             </div>
 
         </div>
