@@ -3,9 +3,10 @@
 /*Tachyons Add-Ons*/
 
 .system                   { font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
-.gentium                  { font-family: 'Gentium Basic', Georgia, serif; }
+.leitura                  { font-family: "leitura-news", Georgia, serif; }
+.small-caps               { font-variant-caps: small-caps; }
 .lh-subtitle              { line-height: 2.25rem; }
-.lh-copy                  { line-height: 1.85rem; }
+.lh-copy                  { line-height: 1.5rem; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
 .shadow-small             { box-shadow: 0px 10px 30px 0px rgba(0,0,0, 0.05); }
 .shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.075); }
@@ -126,7 +127,7 @@
 }
 
 .masonry {
-  column-count: 3;
+  column-count: 1;
   column-gap: 0.5em;
   -moz-column-width: 25%;
   -webkit-column-width: 25%;
@@ -183,9 +184,9 @@
 
 @media only screen and (min-width: 60em) {
   .masonry {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
   }
   .grid-l             { display: grid; }
   .grid-row-start-1-l { grid-column-start: 1; }

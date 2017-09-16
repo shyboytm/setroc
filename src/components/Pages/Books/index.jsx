@@ -21,13 +21,13 @@ class Books extends Component {
       <div id="Books" className="animated fadeIn black">
         {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6 z-1" /> */}
         <div className="w-50-l w-75-m w-90 center mv5-ns ph0-ns ph3 z-0">
-          <h1 className="f2-ns f3 fw4 lh-title">Books</h1>
-          <Title
-            title="Folks ask me quite often about which books I read and recommend.
-            So here you go, categorized and everything!"
-            toolTipText="📚" />
+          <h1 className="f2-ns f3 fw4 lh-title tc leitura">Books</h1>
+          <p className="f5 fw4 lh-copy tc center measure black-60">
+            Folks ask me quite often about which books I read and recommend.
+            So here you go, categorized and everything!
+          </p>
         </div>
-        <div className="masonry w-75-l w-90 center mv5">
+        <div className="masonry w-80-l w-90 center mv5">
           <Item
             image={dontMakeMeThink}
             title="Don't Make me Think Revisited"
