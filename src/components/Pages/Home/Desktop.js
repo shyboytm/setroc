@@ -61,7 +61,7 @@ class Desktop extends Component {
           <p className="fw4 lh-copy">
             These are tools and apps I use in my full-time and personal work. Expanding on this soon!
           </p>
-          <h3 className="f5 ttu fw6 lh-title black-40 mt4 tooltip w-100">
+          <h3 className="f6 ttu fw6 lh-title black-40 mt4 tooltip w-100">
             Design
           </h3>
           <Feature
@@ -73,7 +73,7 @@ class Desktop extends Component {
           <Feature
             href="https://adobe.com"
             name="Adobe" />
-          <h3 className="f5 ttu fw6 lh-title black-40 mt4 tooltip w-100">
+          <h3 className="f6 ttu fw6 lh-title black-40 mt4 tooltip w-100">
             Development
           </h3>
           <Feature
@@ -85,7 +85,7 @@ class Desktop extends Component {
           <Feature
             href="https://github.com"
             name="Github" />
-          <h3 className="f5 ttu fw6 lh-title black-40 mt4 tooltip w-100">
+          <h3 className="f6 ttu fw6 lh-title black-40 mt4 tooltip w-100">
             Admin
           </h3>
           <Feature
@@ -113,35 +113,35 @@ class Desktop extends Component {
             <p className="measure mb4">
               I believe all work is more than just technique. Thought process is driven by a combination of knowledge, ethics, and philosophy. I think about these topics a lot and am always trying to refine and improve, here's how I currently approach my work and process.
             </p>
-            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
+            <h3 className="f6 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Inclusion<span className="tooltiptext black">👥</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               People are the essence of the technology industry. Without people, we would have no clear purpose in our work. I believe in helping people feel welcomed and included when it comes to my work and who I am as a person.
             </h4>
 
-            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
+            <h3 className="f6 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Accessibility<span className="tooltiptext black">🎨</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               Unfortunately overlooked nowadays, Accessibility is a very important aspect of my work. I believe in equal access to technology and providing the tools and refinements to style, typography, and code neccessary to do so.
             </h4>
 
-            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
+            <h3 className="f6 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Simplicity<span className="tooltiptext black">⚫️</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               Although an overused term, Simplicity is at the heart of my goals in my work. I believe in a simple approach with a touch of uniqueness, developing work into the purest form with tasteful novelty.
             </h4>
 
-            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
+            <h3 className="f6 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Transparency<span className="tooltiptext black">👓</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
               Openly and actively sharing my process to help others is a core element of my process. I always try my best to share what I can for the benefit of others. My weekly blog and weekly streams of me working are a direct approach for me to give back to the industry.
             </h4>
 
-            <h3 className="f5 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
+            <h3 className="f6 ttu fw6 lh-title black-40 mt0 mb0 tooltip">
               Ethics<span className="tooltiptext black">💖</span>
             </h3>
             <h4 className="fw4 pv1 mt2 mb4">
