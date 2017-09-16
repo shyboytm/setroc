@@ -31,7 +31,7 @@ class Books extends Component {
           <Item
             image={dontMakeMeThink}
             title="Don't Make me Think Revisited"
-            description="CEO and Founder of Gyroscope" />
+            description="by Steve Krug" />
           <Item
             image={orderingDisorder}
             title="Ordering Disorder"
