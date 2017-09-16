@@ -15,7 +15,7 @@ class Books extends Component {
 
         <div className="w-50-l w-75-m w-90 center mv5-ns mv4 ph0-ns ph3 z-0 tc">
           <h1 className="f2-ns f3 fw4 lh-title leitura">Tools</h1>
-          <p className="f5 fw4 lh-copy center measure black-60">
+          <p className="fw4 lh-copy center measure black-60">
             These are the tools I use on a daily basis for work and life.
             Everything from apps I use to games I play. Enjoy!
           </p>
