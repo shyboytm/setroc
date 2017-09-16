@@ -52,11 +52,16 @@ class Books extends Component {
 
         <div className="w-60-l w-90 center mv5">
             {/* Setup */}
-            <div id="Setup" className="bb b--black-10 pb3 mb4 flex items-center justify-between">
-              <h2 className="f3-ns f4 fw6 lh-title mv0">
-                Setup
-              </h2>
-              <span className="black-60">12 Items</span>
+            <div id="Setup" className="tl-ns tc bb b--black-10 pb3 mb4 flex flex-row-ns flex-column items-center justify-between">
+              <div>
+                <h2 className="f3-ns f4 fw4 lh-title leitura mt0 mb2">
+                  Setup
+                </h2>
+                <p className="f6 fw4 lh-copy measure-narrow black-60">
+                  Gear and furniture I use on the go and at my home office
+                </p>
+              </div>
+              <Title title="12 Items" />
             </div>
             <div className="content-end flex flex-wrap">
               <Item
