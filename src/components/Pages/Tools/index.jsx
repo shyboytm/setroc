@@ -61,7 +61,9 @@ class Books extends Component {
                   Gear and furniture I use on the go and at my home office
                 </p>
               </div>
-              <Title title="12 Items" />
+              <span className="lh-copy f2-ns f4 fw6 mb0-ns mb3">
+                12
+              </span>
             </div>
             <div className="content-end flex flex-wrap">
               <Item
