@@ -7,13 +7,18 @@ import Title from '../../Title';
 class Books extends Component {
   render() {
 
-    const macBookPro    = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
-    const roostStand    = require('../../../img/tools/setup/roost-laptop-stand.jpg');
-    const magicKeyboard = require('../../../img/tools/setup/apple-magic-keyboard.jpg');
-    const keyboardCover = require('../../../img/tools/setup/mosiso-keyboard-cover.jpg');
-    const mouseCover    = require('../../../img/tools/setup/cosmos-mouse-cover.jpg');
-    const magicMouse    = require('../../../img/tools/setup/apple-magic-mouse.png');
-    const iPadPro       = require('../../../img/tools/setup/ipad-pro.jpg');
+    const macBookPro      = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
+    const roostStand      = require('../../../img/tools/setup/roost-laptop-stand.jpg');
+    const magicKeyboard   = require('../../../img/tools/setup/apple-magic-keyboard.jpg');
+    const keyboardCover   = require('../../../img/tools/setup/mosiso-keyboard-cover.jpg');
+    const mouseCover      = require('../../../img/tools/setup/cosmos-mouse-cover.jpg');
+    const magicMouse      = require('../../../img/tools/setup/apple-magic-mouse.png');
+    const iPadPro         = require('../../../img/tools/setup/ipad-pro.jpg');
+    const applePencil     = require('../../../img/tools/setup/apple-pencil.jpg');
+    const beatsXEarphones = require('../../../img/tools/setup/beatsx-earphones.jpg');
+    const renberget       = require('../../../img/tools/setup/renberget-ikea-chair.jpg');
+    const rissla          = require('../../../img/tools/setup/rissla-ikea-mat.jpg');
+    const bekant          = require('../../../img/tools/setup/bekant-ikea-desk.jpg');
 
     return (
       <div id="Tools" className="animated fadeIn black">
@@ -79,13 +84,16 @@ class Books extends Component {
             {/* Setup */}
             <div id="Setup" className="tl-ns tc bb b--black-10 pb3 mb4 flex flex-row-ns flex-column items-center justify-between">
               <div>
+                {/* Title */}
                 <h2 className="f3-ns f4 fw4 lh-title leitura mt0 mb2">
                   Setup
                 </h2>
+                {/* Description */}
                 <p className="f6 fw4 lh-copy measure-narrow black-60">
                   Gear and furniture I use on the go and at my home office
                 </p>
               </div>
+              {/* Item Number */}
               <span className="lh-copy f2-ns f4 fw6 mb0-ns mb3">
                 12
               </span>
@@ -126,6 +134,31 @@ class Books extends Component {
                 image={iPadPro}
                 title='iPad Pro 12.9"'
                 description="For illustration, research, writing, and wireframing" />
+              <Item
+                href="https://www.apple.com/apple-pencil"
+                image={applePencil}
+                title="Apple Pencil"
+                description="Must have tool for accompanying an iPad Pro" />
+              <Item
+                href="http://amzn.to/2hbbj7i"
+                image={beatsXEarphones}
+                title="BeatsX Earphones"
+                description="My favorite bluetooth headphones. Better than AirPods" />
+              <Item
+                href="http://www.ikea.com/us/en/catalog/products/50332238"
+                image={renberget}
+                title="Renberget Office Chair"
+                description="Cheap, but surprisingly comfortable" />
+              <Item
+                href="http://www.ikea.com/us/en/catalog/products/40246156/"
+                image={rissla}
+                title="Rissla Desk Mat"
+                description="All black everything ツ" />
+              <Item
+                href="http://www.ikea.com/us/en/catalog/products/S19022808/"
+                image={bekant}
+                title="Bekant Desk"
+                description="I really need a standing desk" />
             </div>
 
         </div>
