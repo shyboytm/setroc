@@ -23,10 +23,12 @@ class Item extends Component {
               <p className="lh-copy f6 black-60 mt0 mb3-ns mb1">
                 {description}
               </p>
-              <span>{stars}</span>
-              <a className="link ba b--black-10 black br2 fw6 f6 db rainbow-hover pointer ph2 pv1 tc pointer br2 mt2" target="_blank" rel="nofollow" href={href}>
-                See Details ↗
-              </a>
+              {/* <div className="flex items-center justify-between"> */}
+                {/* <span className="fw6 black-30">$99</span> */}
+                <a className="link ba b--black-10 black br2 fw6 f6 db rainbow-hover pointer ph2 pv1 tc pointer br2 mt2" target="_blank" rel="nofollow" href={href}>
+                  See Details
+                </a>
+              {/* </div> */}
             </div>
           </a>
         </div>

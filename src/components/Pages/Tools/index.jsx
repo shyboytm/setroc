@@ -7,12 +7,16 @@ import Title from '../../Title';
 class Books extends Component {
   render() {
 
-    const macBookPro  = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
-    const roostStand  = require('../../../img/tools/setup/roost-laptop-stand.jpg');
-    const iPadPro     = require('../../../img/tools/setup/ipad-pro.jpg');
+    const macBookPro    = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
+    const roostStand    = require('../../../img/tools/setup/roost-laptop-stand.jpg');
+    const magicKeyboard = require('../../../img/tools/setup/apple-magic-keyboard.jpg');
+    const keyboardCover = require('../../../img/tools/setup/mosiso-keyboard-cover.jpg');
+    const mouseCover    = require('../../../img/tools/setup/cosmos-mouse-cover.jpg');
+    const magicMouse    = require('../../../img/tools/setup/apple-magic-mouse.png');
+    const iPadPro       = require('../../../img/tools/setup/ipad-pro.jpg');
 
     return (
-      <div id="Books" className="animated fadeIn black">
+      <div id="Tools" className="animated fadeIn black">
 
         <div className="w-75-ns w-100 center mv5-ns mv4 ph0-ns ph3 z-0 tc">
           <h1 className="f2-ns f3 fw4 lh-title leitura">Tools</h1>
@@ -95,8 +99,28 @@ class Books extends Component {
               <Item
                 href="http://amzn.to/2jxqf42"
                 image={roostStand}
-                title='Roost Laptop Stand'
+                title="Roost Laptop Stand"
                 description="Stand for improving posture" />
+              <Item
+                href="http://amzn.to/2xb6Om8"
+                image={magicKeyboard}
+                title="Apple Magic Keyboard 2"
+                description="When using the Roost stand" />
+              <Item
+                href="http://amzn.to/2wxN7kQ"
+                image={keyboardCover}
+                title="Mosiso Keyboard Cover"
+                description="All black everything ツ" />
+              <Item
+                href="http://amzn.to/2wy4T7H"
+                image={magicMouse}
+                title="Apple Magic Mouse 2"
+                description="When using the Roost stand" />
+              <Item
+                href="http://amzn.to/2xbQUIw"
+                image={mouseCover}
+                title="Cosmos Mouse Cover"
+                description="All black everything ツ" />
               <Item
                 href="https://www.apple.com/ipad-pro"
                 image={iPadPro}
