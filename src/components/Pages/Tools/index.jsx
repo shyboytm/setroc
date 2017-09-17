@@ -23,17 +23,26 @@ class Books extends Component {
     const bekant          = require('../../../img/tools/setup/bekant-ikea-desk.jpg');
 
     // Every Day Carry
-    const iPhone7         = require('../../../img/tools/setup/apple-iphone-7-plus.jpg');
-    const totalleeCase    = require('../../../img/tools/setup/totallee-thin-iphone-case.jpg');
-    const sonyA5100       = require('../../../img/tools/setup/sony-a5100-camera.jpg');
-    const appleWatch      = require('../../../img/tools/setup/apple-watch-series-1.jpg');
-    const satechiReader   = require('../../../img/tools/setup/satechi-usb-sd-card.jpg');
-    const incaseBackpack  = require('../../../img/tools/setup/incase-backpack.jpg');
-    const gucciWallet     = require('../../../img/tools/setup/gucci-signature-wallet.jpg');
-    const simpleCard      = require('../../../img/tools/setup/simple-bank-card.jpg');
-    const finalCard       = require('../../../img/tools/setup/final-bank-card.jpg');
-    const vanguard        = require('../../../img/tools/setup/baron-fig-vanguard.jpg');
-    const fieldNotes      = require('../../../img/tools/setup/field-notes-notebooks.jpg');
+    const iPhone7         = require('../../../img/tools/everyday/apple-iphone-7-plus.jpg');
+    const totalleeCase    = require('../../../img/tools/everyday/totallee-thin-iphone-case.jpg');
+    const sonyA5100       = require('../../../img/tools/everyday/sony-a5100-camera.jpg');
+    const appleWatch      = require('../../../img/tools/everyday/apple-watch-series-1.jpg');
+    const satechiReader   = require('../../../img/tools/everyday/satechi-usb-sd-card.jpg');
+    const incaseBackpack  = require('../../../img/tools/everyday/incase-backpack.jpg');
+    const gucciWallet     = require('../../../img/tools/everyday/gucci-signature-wallet.jpg');
+    const simpleCard      = require('../../../img/tools/everyday/simple-bank-card.jpg');
+    const finalCard       = require('../../../img/tools/everyday/final-bank-card.jpg');
+    const vanguard        = require('../../../img/tools/everyday/baron-fig-vanguard.jpg');
+    const fieldNotes      = require('../../../img/tools/everyday/field-notes-notebooks.jpg');
+
+    // Apps
+    const notion          = require('../../../img/tools/apps/notion-app.jpg');
+    const googleChrome    = require('../../../img/tools/apps/google-chrome-app.jpg');
+    const hyper           = require('../../../img/tools/apps/hyper-app.jpg');
+    const atom            = require('../../../img/tools/apps/atom-app.jpg');
+    const sparkMail       = require('../../../img/tools/apps/spark-mail-app.jpg');
+    const slack           = require('../../../img/tools/apps/slack-app.jpg');
+    const appleMusic      = require('../../../img/tools/apps/apple-music-app.jpg');
 
     return (
       <div id="Tools" className="animated fadeIn black">
@@ -229,6 +238,50 @@ class Books extends Component {
                 image={fieldNotes}
                 title="Field Notes Pocket Notebooks"
                 description="For on-the-go notes and sketches, I use kraft or pitch black ones" />
+            </div>
+
+            {/* Every Day Carry */}
+            <Section
+              id="Apps"
+              title="Apps"
+              description="Apps I use for both work and personal that make my life easier"
+              number="11" />
+            <div className="content-end flex flex-wrap">
+              <Item
+                href="https://www.notion.so/invite/link/db9647d9be6743cc9aa05aeaeaae46f0"
+                image={notion}
+                title="Notion"
+                description="For managing my work, side projects, and life" />
+              <Item
+                href="https://www.google.com/chrome/index.html"
+                image={googleChrome}
+                title="Google Chrome"
+                description="My browser of choice" />
+              <Item
+                href="https://hyper.is"
+                image={hyper}
+                title="Hyper"
+                description="My terminal of choice" />
+              <Item
+                href="https://atom.io"
+                image={atom}
+                title="Atom"
+                description="My text editor of choice" />
+              <Item
+                href="https://sparkmailapp.com/"
+                image={sparkMail}
+                title="Spark Mail"
+                description="My mail app of choice for iOS and Mac" />
+              <Item
+                href="https://slack.com"
+                image={slack}
+                title="Slack"
+                description="For communication at my job and managing side project teams" />
+              <Item
+                href="https://www.apple.com/music"
+                image={appleMusic}
+                title="Apple Music"
+                description="My music player of choice for iOS and Mac" />
             </div>
 
         </div>
