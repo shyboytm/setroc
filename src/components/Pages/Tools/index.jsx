@@ -118,7 +118,7 @@ class Books extends Component {
               id="Setup"
               title="Setup"
               description="Gear and furniture I use on the go and at my home office"
-              number="14" />
+              number="14=" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.apple.com/macbook-pro"
@@ -261,7 +261,7 @@ class Books extends Component {
               id="Apps"
               title="Apps"
               description="Apps I use for both work and personal that make my life easier"
-              number="11" />
+              number="10" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.notion.so/invite/link/db9647d9be6743cc9aa05aeaeaae46f0"
@@ -313,6 +313,20 @@ class Books extends Component {
                 image={gyroscopeApp}
                 title="Gyroscope"
                 description="An app to help track my fitness and health habits" />
+            </div>
+
+            {/* Every Day Carry */}
+            <Section
+              id="Gaming"
+              title="Gaming"
+              description="Consoles and accessories I use as well as my current favorite games"
+              number="11" />
+            <div className="content-end flex flex-wrap">
+              <Item
+                href="https://www.notion.so/invite/link/db9647d9be6743cc9aa05aeaeaae46f0"
+                image={notion}
+                title="Notion"
+                description="For managing my work, side projects, and life" />
             </div>
 
         </div>
