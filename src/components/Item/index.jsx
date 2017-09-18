@@ -12,7 +12,7 @@ class Item extends Component {
     } = this.props;
 
     return (
-      <div className="items-start relative ph3 pv3 w-33-l w-50-m w-100">
+      <div className="items-start relative ph3 pv3 w-25-l w-50-m w-100">
         <div className="db-ns flex bg-white ba b--black-10 shadow-small br2">
           <a href={href} target="_blank" rel="nofollow" className="db-ns flex justify-around items-center link pointer black hover-black-30 no-outline">
             <img src={image} className="no-drag w-100-ns w-30 ml0-ns ml2 bb-ns bn b--black-10 br2 br--top-ns" />

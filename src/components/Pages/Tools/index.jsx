@@ -9,40 +9,46 @@ class Books extends Component {
   render() {
 
     // Setup
-    const macBookPro      = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
-    const roostStand      = require('../../../img/tools/setup/roost-laptop-stand.jpg');
-    const magicKeyboard   = require('../../../img/tools/setup/apple-magic-keyboard.jpg');
-    const keyboardCover   = require('../../../img/tools/setup/mosiso-keyboard-cover.jpg');
-    const mouseCover      = require('../../../img/tools/setup/cosmos-mouse-cover.jpg');
-    const magicMouse      = require('../../../img/tools/setup/apple-magic-mouse.png');
-    const iPadPro         = require('../../../img/tools/setup/ipad-pro.jpg');
-    const applePencil     = require('../../../img/tools/setup/apple-pencil.jpg');
-    const beatsXEarphones = require('../../../img/tools/setup/beatsx-earphones.jpg');
-    const renberget       = require('../../../img/tools/setup/renberget-ikea-chair.jpg');
-    const rissla          = require('../../../img/tools/setup/rissla-ikea-mat.jpg');
-    const bekant          = require('../../../img/tools/setup/bekant-ikea-desk.jpg');
+    const macBookPro        = require('../../../img/tools/setup/macbook-pro-13-inch.jpg');
+    const roostStand        = require('../../../img/tools/setup/roost-laptop-stand.jpg');
+    const magicKeyboard     = require('../../../img/tools/setup/apple-magic-keyboard.jpg');
+    const keyboardCover     = require('../../../img/tools/setup/mosiso-keyboard-cover.jpg');
+    const mouseCover        = require('../../../img/tools/setup/cosmos-mouse-cover.jpg');
+    const magicMouse        = require('../../../img/tools/setup/apple-magic-mouse.png');
+    const iPadPro           = require('../../../img/tools/setup/ipad-pro.jpg');
+    const applePencil       = require('../../../img/tools/setup/apple-pencil.jpg');
+    const beatsXEarphones   = require('../../../img/tools/setup/beatsx-earphones.jpg');
+    const alexaEcho         = require('../../../img/tools/setup/amazon-alexa-echo.jpg');
+    const alexaDot          = require('../../../img/tools/setup/amazon-alexa-dot.jpg');
+    const renberget         = require('../../../img/tools/setup/renberget-ikea-chair.jpg');
+    const rissla            = require('../../../img/tools/setup/rissla-ikea-mat.jpg');
+    const bekant            = require('../../../img/tools/setup/bekant-ikea-desk.jpg');
 
     // Every Day Carry
-    const iPhone7         = require('../../../img/tools/everyday/apple-iphone-7-plus.jpg');
-    const totalleeCase    = require('../../../img/tools/everyday/totallee-thin-iphone-case.jpg');
-    const sonyA5100       = require('../../../img/tools/everyday/sony-a5100-camera.jpg');
-    const appleWatch      = require('../../../img/tools/everyday/apple-watch-series-1.jpg');
-    const satechiReader   = require('../../../img/tools/everyday/satechi-usb-sd-card.jpg');
-    const incaseBackpack  = require('../../../img/tools/everyday/incase-backpack.jpg');
-    const gucciWallet     = require('../../../img/tools/everyday/gucci-signature-wallet.jpg');
-    const simpleCard      = require('../../../img/tools/everyday/simple-bank-card.jpg');
-    const finalCard       = require('../../../img/tools/everyday/final-bank-card.jpg');
-    const vanguard        = require('../../../img/tools/everyday/baron-fig-vanguard.jpg');
-    const fieldNotes      = require('../../../img/tools/everyday/field-notes-notebooks.jpg');
+    const iPhone7           = require('../../../img/tools/everyday/apple-iphone-7-plus.jpg');
+    const totalleeCase      = require('../../../img/tools/everyday/totallee-thin-iphone-case.jpg');
+    const sonyA5100         = require('../../../img/tools/everyday/sony-a5100-camera.jpg');
+    const appleWatch        = require('../../../img/tools/everyday/apple-watch-series-1.jpg');
+    const satechiReader     = require('../../../img/tools/everyday/satechi-usb-sd-card.jpg');
+    const incaseBackpack    = require('../../../img/tools/everyday/incase-backpack.jpg');
+    const gucciWallet       = require('../../../img/tools/everyday/gucci-signature-wallet.jpg');
+    const simpleCard        = require('../../../img/tools/everyday/simple-bank-card.jpg');
+    const finalCard         = require('../../../img/tools/everyday/final-bank-card.jpg');
+    const vanguard          = require('../../../img/tools/everyday/baron-fig-vanguard.jpg');
+    const fieldNotes        = require('../../../img/tools/everyday/field-notes-notebooks.jpg');
 
     // Apps
-    const notion          = require('../../../img/tools/apps/notion-app.jpg');
-    const googleChrome    = require('../../../img/tools/apps/google-chrome-app.jpg');
-    const hyper           = require('../../../img/tools/apps/hyper-app.jpg');
-    const atom            = require('../../../img/tools/apps/atom-app.jpg');
-    const sparkMail       = require('../../../img/tools/apps/spark-mail-app.jpg');
-    const slack           = require('../../../img/tools/apps/slack-app.jpg');
-    const appleMusic      = require('../../../img/tools/apps/apple-music-app.jpg');
+    const notion            = require('../../../img/tools/apps/notion-app.jpg');
+    const googleChrome      = require('../../../img/tools/apps/google-chrome-app.jpg');
+    const hyper             = require('../../../img/tools/apps/hyper-app.jpg');
+    const atom              = require('../../../img/tools/apps/atom-app.jpg');
+    const sparkMail         = require('../../../img/tools/apps/spark-mail-app.jpg');
+    const slack             = require('../../../img/tools/apps/slack-app.jpg');
+    const appleMusic        = require('../../../img/tools/apps/apple-music-app.jpg');
+    const figma             = require('../../../img/tools/apps/figma-app.jpg');
+    const sketchApp         = require('../../../img/tools/apps/sketch-app.jpg');
+    const adobeIllustrator  = require('../../../img/tools/apps/adobe-illustrator-app.jpg');
+    const gyroscopeApp      = require('../../../img/tools/apps/gyroscope-app.jpg');
 
     return (
       <div id="Tools" className="animated fadeIn black">
@@ -106,13 +112,13 @@ class Books extends Component {
           </ul>
         </div>
 
-        <div className="w-60-l w-90 center mv5">
+        <div className="w-80-l w-90 center mv5">
             {/* Setup */}
             <Section
               id="Setup"
               title="Setup"
               description="Gear and furniture I use on the go and at my home office"
-              number="12" />
+              number="14" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.apple.com/macbook-pro"
@@ -159,6 +165,16 @@ class Books extends Component {
                 image={beatsXEarphones}
                 title="BeatsX Earphones"
                 description="My favorite bluetooth headphones. Better than AirPods" />
+              <Item
+                href="http://amzn.to/2xdW46z"
+                image={alexaEcho}
+                title="Amazon Alexa Echo"
+                description="For all the home assistant needs" />
+              <Item
+                href="http://amzn.to/2xdzPhb"
+                image={alexaDot}
+                title="Amazon Alexa Dot"
+                description="For controlling my Echo from my office" />
               <Item
                 href="http://www.ikea.com/us/en/catalog/products/50332238"
                 image={renberget}
@@ -282,6 +298,21 @@ class Books extends Component {
                 image={appleMusic}
                 title="Apple Music"
                 description="My music player of choice for iOS and Mac" />
+              <Item
+                href="https://www.figma.com"
+                image={figma}
+                title="Figma"
+                description="My main workspace for UI & UX design work" />
+              <Item
+                href="https://www.sketchapp.com"
+                image={sketchApp}
+                title="Sketch App"
+                description="Secondary workspace for UI & UX design work when needed" />
+              <Item
+                href="http://www.gyrosco.pe"
+                image={gyroscopeApp}
+                title="Gyroscope"
+                description="An app to help track my fitness and health habits" />
             </div>
 
         </div>
