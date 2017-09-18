@@ -50,6 +50,13 @@ class Books extends Component {
     const adobeIllustrator  = require('../../../img/tools/apps/adobe-illustrator-app.jpg');
     const gyroscopeApp      = require('../../../img/tools/apps/gyroscope-app.jpg');
 
+    // Gaming
+    const nintendoSwitch    = require('../../../img/tools/gaming/nintendo-switch-console.jpg');
+    const switchController  = require('../../../img/tools/gaming/nintendo-switch-controller.jpg');
+    const xboxOne           = require('../../../img/tools/gaming/xbox-one-console.jpg');
+    const xboxController    = require('../../../img/tools/gaming/xbox-one-controller.jpg');
+    const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
+
     return (
       <div id="Tools" className="animated fadeIn black">
 
@@ -112,13 +119,13 @@ class Books extends Component {
           </ul>
         </div>
 
-        <div className="w-80-l w-90 center mv5">
+        <div className="w-75-l w-90 center mv5">
             {/* Setup */}
             <Section
               id="Setup"
               title="Setup"
               description="Gear and furniture I use on the go and at my home office"
-              number="14=" />
+              number="14" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.apple.com/macbook-pro"
@@ -200,7 +207,7 @@ class Books extends Component {
               number="11" />
             <div className="content-end flex flex-wrap">
               <Item
-                href="https://www.apple.com/macbook-pro"
+                href="https://www.apple.com/iphone"
                 image={iPhone7}
                 title="iPhone 7 Plus"
                 description="Matte Black 32GB" />
@@ -256,12 +263,12 @@ class Books extends Component {
                 description="For on-the-go notes and sketches, I use kraft or pitch black ones" />
             </div>
 
-            {/* Every Day Carry */}
+            {/* Apps */}
             <Section
               id="Apps"
               title="Apps"
               description="Apps I use for both work and personal that make my life easier"
-              number="10" />
+              number="11" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.notion.so/invite/link/db9647d9be6743cc9aa05aeaeaae46f0"
@@ -304,6 +311,11 @@ class Books extends Component {
                 title="Figma"
                 description="My main workspace for UI & UX design work" />
               <Item
+                href="https://www.adobe.com/illustrator"
+                image={adobeIllustrator}
+                title="Adobe Illustrator"
+                description="My go-to app for all Branding and Illustration work" />
+              <Item
                 href="https://www.sketchapp.com"
                 image={sketchApp}
                 title="Sketch App"
@@ -315,7 +327,7 @@ class Books extends Component {
                 description="An app to help track my fitness and health habits" />
             </div>
 
-            {/* Every Day Carry */}
+            {/* Gaming */}
             <Section
               id="Gaming"
               title="Gaming"
@@ -323,10 +335,30 @@ class Books extends Component {
               number="11" />
             <div className="content-end flex flex-wrap">
               <Item
-                href="https://www.notion.so/invite/link/db9647d9be6743cc9aa05aeaeaae46f0"
-                image={notion}
-                title="Notion"
-                description="For managing my work, side projects, and life" />
+                href="http://amzn.to/2xgbrvi"
+                image={nintendoSwitch}
+                title="Nintendo Switch"
+                description="My favorite console to date" />
+              <Item
+                href="http://amzn.to/2wBMNBO"
+                image={switchController}
+                title="Nintendo Switch Controller"
+                description="Cheaper, 3rd party Pro Controller for Switch" />
+              <Item
+                href="http://amzn.to/2ylotX9"
+                image={xboxOne}
+                title="Xbox One"
+                description="My main home console for gaming and TV watching" />
+              <Item
+                href="http://amzn.to/2fveztY"
+                image={xboxController}
+                title="Xbox One Controller"
+                description="All black everything ツ" />
+              <Item
+                href="http://amzn.to/2xLvYJD"
+                image={pokemonSun}
+                title="Pokémon Sun and Moon"
+                description="I'm always playing a Pokémon game, this is the latest one you can get" />
             </div>
 
         </div>
