@@ -54,7 +54,7 @@ class Books extends Component {
       <div id="Tools" className="animated fadeIn black">
 
         <div className="w-75-ns w-100 center mv5-ns mv4 ph0-ns ph3 z-0 tc">
-          <h1 className="f2-ns f3 fw4 lh-title leitura">Tools</h1>
+          <h1 className="f2-ns f3 fw4 lh-title leitura blur">Tools</h1>
           <p className="fw4 lh-copy center measure black-60 mb4">
             These are the tools I use on a daily basis for work and life.
             Everything from apps I use, stuff I always carry, to games I play.
@@ -118,7 +118,7 @@ class Books extends Component {
               id="Setup"
               title="Setup"
               description="Gear and furniture I use on the go and at my home office"
-              number="14=" />
+              number="14" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.apple.com/macbook-pro"
