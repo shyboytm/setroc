@@ -364,7 +364,7 @@ class Books extends Component {
               <Item
                 href="http://amzn.to/2xhWSaQ"
                 image={samsungTV}
-                title="Samsung UN49MU7000"
+                title="Samsung MU7000"
                 description="49-Inch 4K Ultra HD Smart LED TV (2017 Model)" />
               <Item
                 href="http://amzn.to/2xhCKp8"
