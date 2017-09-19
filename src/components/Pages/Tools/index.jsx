@@ -55,8 +55,14 @@ class Books extends Component {
     const switchController  = require('../../../img/tools/gaming/nintendo-switch-controller.jpg');
     const xboxOne           = require('../../../img/tools/gaming/xbox-one-console.jpg');
     const xboxController    = require('../../../img/tools/gaming/xbox-one-controller.jpg');
+    const samsungTV         = require('../../../img/tools/gaming/samsung-4k-tv.jpg');
     const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
     const nintendo2DS       = require('../../../img/tools/gaming/nintendo-2ds-xl-console.jpg');
+
+    // Coffee
+    const chemex6Cup        = require('../../../img/tools/coffee/chemex-6-cup.jpg');
+    const harioV60          = require('../../../img/tools/coffee/hario-v60-kit.jpg');
+    const nourishScale      = require('../../../img/tools/coffee/nourish-kitchen-scale.jpg');
 
     return (
       <div id="Tools" className="animated fadeIn black">
@@ -356,6 +362,11 @@ class Books extends Component {
                 title="Xbox One Controller"
                 description="All black everything ツ" />
               <Item
+                href="http://amzn.to/2xhWSaQ"
+                image={samsungTV}
+                title="Samsung UN49MU7000"
+                description="49-Inch 4K Ultra HD Smart LED TV (2017 Model)" />
+              <Item
                 href="http://amzn.to/2xhCKp8"
                 image={nintendo2DS}
                 title="Nintendo 2DS XL"
@@ -365,6 +376,30 @@ class Books extends Component {
                 image={pokemonSun}
                 title="Pokémon Sun and Moon"
                 description="I'm always playing a Pokémon game, this is the latest one you can get" />
+            </div>
+
+            {/* Coffee */}
+            <Section
+              id="Coffee"
+              title="Coffee"
+              description="I'm a huge coffee snob, this is what I use to make coffee"
+              number="11" />
+            <div className="content-end flex flex-wrap">
+              <Item
+                href="http://amzn.to/2wCCo9a"
+                image={chemex6Cup}
+                title="Chemex 6-Cup"
+                description="Easy and reliable way to make a great pour-over" />
+              <Item
+                href="http://amzn.to/2fgGfpI"
+                image={harioV60}
+                title="Hario V60 Kit"
+                description="My daily pour-over setup, amazing value for what you pay" />
+              <Item
+                href="http://amzn.to/2xhTFrs"
+                image={nourishScale}
+                title="Nourish Food Scale"
+                description="For measuring coffee and water during brewing" />
             </div>
 
         </div>

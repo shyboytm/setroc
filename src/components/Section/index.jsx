@@ -16,7 +16,7 @@ class Section extends Component {
           <h2 className="shine bg-text-clip f3-ns f4 fw4 lh-title leitura mt0 mb2">
             {title}
           </h2>
-          <p className="f6 fw4 lh-copy measure-narrow black-60">
+          <p className="fw4 lh-copy measure-narrow black-60">
             {description}
           </p>
         </div>
