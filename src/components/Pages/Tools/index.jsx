@@ -56,6 +56,7 @@ class Books extends Component {
     const xboxOne           = require('../../../img/tools/gaming/xbox-one-console.jpg');
     const xboxController    = require('../../../img/tools/gaming/xbox-one-controller.jpg');
     const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
+    const nintendo2DS       = require('../../../img/tools/gaming/nintendo-2ds-xl-console.jpg');
 
     return (
       <div id="Tools" className="animated fadeIn black">
@@ -354,6 +355,11 @@ class Books extends Component {
                 image={xboxController}
                 title="Xbox One Controller"
                 description="All black everything ツ" />
+              <Item
+                href="http://amzn.to/2xhCKp8"
+                image={nintendo2DS}
+                title="Nintendo 2DS XL"
+                description="I have the original 3DS but this one is better and cheaper" />
               <Item
                 href="http://amzn.to/2xLvYJD"
                 image={pokemonSun}
