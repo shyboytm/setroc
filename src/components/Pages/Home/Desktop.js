@@ -18,7 +18,7 @@ class Desktop extends Component {
       <div className="w-100 grid-l dn">
         <div className="grid-row-start-1-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
-          <h3 className="f4 fw6 lh-subtitle system mt4 mb0">
+          <h3 className="f4 fw6 lh-subtitle system mt4 mb0 blur">
             Hey There <span className="ml2 absolute spin">👋</span>
           </h3>
           <p className="lh-copy">
