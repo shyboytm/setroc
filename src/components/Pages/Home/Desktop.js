@@ -52,52 +52,6 @@ class Desktop extends Component {
             When I'm not designing or writing code you can find me trying to learn new things, playing video games, writing, learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music.
           </p>
 
-          <Spacer />
-
-          <Title
-            title="Tools"
-            toolTipText="⚒">
-          </Title>
-          <p className="fw4 lh-copy">
-            These are tools and apps I use in my full-time and personal work. Expanding on this soon!
-          </p>
-          <h3 className="f6 ttu fw6 lh-title black-40 mt4 tooltip w-100">
-            Design
-          </h3>
-          <Feature
-            href="https://sketchapp.com"
-            name="Sketch" />
-          <Feature
-            href="https://figma.com"
-            name="Figma" />
-          <Feature
-            href="https://adobe.com"
-            name="Adobe" />
-          <h3 className="f6 ttu fw6 lh-title black-40 mt4 tooltip w-100">
-            Development
-          </h3>
-          <Feature
-            href="https://atom.io"
-            name="Atom" />
-          <Feature
-            href="https://hyper.is"
-            name="Hyper" />
-          <Feature
-            href="https://github.com"
-            name="Github" />
-          <h3 className="f6 ttu fw6 lh-title black-40 mt4 tooltip w-100">
-            Admin
-          </h3>
-          <Feature
-            href="https://notion.so"
-            name="Notion" />
-          <Feature
-            href="https://sparkmailapp.com"
-            name="Spark" />
-          <Feature
-            href="https://slack.com"
-            name="Slack" />
-
         </div>
 
         <div className="grid-row-start-2-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
