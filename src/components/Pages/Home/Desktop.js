@@ -16,7 +16,7 @@ class Desktop extends Component {
 
     return (
       <div className="w-100 grid-l dn">
-        <div className="grid-row-start-1-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
+        <div className="grid-row-start-1-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
           <h3 className="f4 fw6 lh-subtitle system mt4 mb0">
             Hey There <span className="ml2 absolute spin">👋</span>
@@ -100,7 +100,7 @@ class Desktop extends Component {
 
         </div>
 
-        <div className="grid-row-start-2-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
+        <div className="grid-row-start-2-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <Currently />
 
           <Spacer />
@@ -150,7 +150,7 @@ class Desktop extends Component {
           </div>
         </div>
 
-        <div className="grid-row-start-3-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
+        <div className="grid-row-start-3-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <Work />
           <Spacer />
 
@@ -238,7 +238,7 @@ class Desktop extends Component {
           </ul>
         </div>
 
-        <div className="grid-row-start-4-l pv3-l ph4-l pa5-m pa4 bt br bb b--black-10">
+        <div className="grid-row-start-4-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <Title
             title="Contact"
             toolTipText="💌">

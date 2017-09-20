@@ -63,6 +63,10 @@ class Books extends Component {
     const chemex6Cup        = require('../../../img/tools/coffee/chemex-6-cup.jpg');
     const harioV60          = require('../../../img/tools/coffee/hario-v60-kit.jpg');
     const nourishScale      = require('../../../img/tools/coffee/nourish-kitchen-scale.jpg');
+    const chemexFilters     = require('../../../img/tools/coffee/chemex-filters.jpg');
+    const conicalGrinder    = require('../../../img/tools/coffee/conical-burr-coffee-grinder.jpg');
+    const fellowStagg       = require('../../../img/tools/coffee/fellow-stagg-kettle.jpg');
+    const gfdaMug           = require('../../../img/tools/coffee/gfda-travel-mug.jpg');
 
     return (
       <div id="Tools" className="animated fadeIn black">
@@ -382,8 +386,8 @@ class Books extends Component {
             <Section
               id="Coffee"
               title="Coffee"
-              description="I'm a huge coffee snob, this is what I use to make coffee"
-              number="11" />
+              description="I'm admittedly a coffee snob, this is what I use to make my coffee"
+              number="7" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="http://amzn.to/2wCCo9a"
@@ -396,10 +400,30 @@ class Books extends Component {
                 title="Hario V60 Kit"
                 description="My daily pour-over setup, amazing value for what you pay" />
               <Item
+                href="http://amzn.to/2xv6I9C"
+                image={chemexFilters}
+                title="Chemex Filters"
+                description="Container for your ground coffee inside the Chemex or V60" />
+              <Item
                 href="http://amzn.to/2xhTFrs"
                 image={nourishScale}
                 title="Nourish Food Scale"
                 description="For measuring coffee and water during brewing" />
+              <Item
+                href="http://amzn.to/2xOWlys"
+                image={conicalGrinder}
+                title="Conical Burr Coffee Grinder"
+                description="An easier, more efficient, and better way to grind coffee" />
+              <Item
+                href="http://amzn.to/2jJmj0d"
+                image={fellowStagg}
+                title="Fellow Stagg Pour Over Kettle"
+                description="Matte Black, gorgeous hardware to pour your water" />
+              <Item
+                href="https://goodfuckingdesignadvice.com/collections/drinkware/products/advice-travel-mug-black-on-black-edition"
+                image={gfdaMug}
+                title="GFDA Travel Mug"
+                description="Matte Black, I bring my coffee to work every day in this" />
             </div>
 
         </div>
