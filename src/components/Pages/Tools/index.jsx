@@ -79,7 +79,7 @@ class Books extends Component {
             Affliliate links are used when possible to help support my free to use
             projects. Enjoy!
           </p>
-          <Title title="Last Updated Sep. 28th" />
+          <Title title="Last Updated Sep. 19th" />
           {/* Shortcuts */}
           <ul className="list ph0 pv4-ns pv3">
             <li className="dib mr3">
