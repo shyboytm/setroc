@@ -7,52 +7,42 @@ import Spacer from '../Spacer';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="pa3 system bb b--black-10 blur-late">
-        <div className="flex-l justify-between w-100">
-          <div className="flex items-center mb0-l mb3">
-            <Link to="/" className="link dim">
-              <Logo />
-            </Link>
-            <Link to="/" className="link dim">
-              <h1 className="ml2 dib f5 black">Dennis Cortés</h1>
-            </Link>
-          </div>
-          <div className="flex items-center content-end flex-row pr4-l ml0-l ml3 mb0-l mb3">
-            <div className="ma0 pa0 flex-l dn hover-dropdown relative pointer">
-              <a href="https://dribbble.com/fromcortes" className="f6 link no-underline rainbow-hover black fw6">
-                Extras ↓
+      <div id="Header" className="flex-l justify-between w-100 pa3 system bb b--black-10 blur-late">
+        <div className="flex items-center mb0-l mb3">
+          <Link to="/" className="link dim">
+            <Logo />
+          </Link>
+          <Link to="/" className="link dim">
+            <h1 className="ml2 dib f5 black">Dennis Cortés</h1>
+          </Link>
+        </div>
+        <ul className="list pl0">
+            <li className="dib mr3">
+              <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="items-center flex f6 fw4 mb0-l mb3 br-pill db pv2 ph3 link black bg-black-10 hover-bg-black-20">
+                Recent Work ↗
               </a>
-              <div className="dropdown-content dn absolute pt4 z-max">
-                <div className="shadow-small bg-white br2 ba b--black-10">
-                  <Link to="/extras/tools" className="db pa3 f6 link rainbow-hover black fw6">
-                    Tools
-                  </Link>
-                  <a href="http://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="db pa3 f6 link rainbow-hover black fw6 bt b--black-10">
-                    Inspiration
-                  </a>
-                  <span className="db pa3 f6 black-30 fw6 bt b--black-10">
-                    Soon...
-                  </span>
-                  {/* <Link to="/extras/books" className="db pa3 f6 link rainbow-hover black fw6 bt b--black-10">
-                    Books
-                  </Link>
-                  <Link to="/extras/people" className="db pa3 f6 link rainbow-hover black fw6 bt b--black-10">
-                    People
-                  </Link> */}
-                </div>
-              </div>
-            </div>
-            <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="f6 link flex no-underline rainbow-hover black ml4-l ml0 fw6">
-              Recent Work ↗
+            </li>
+          <li className="dib mr3">
+            <Link to="/tools" className="items-center flex f6 fw4 mb0-l mb3 br-pill db pv2 ph3 link black bg-black-10 hover-bg-black-20">
+              Tools
+            </Link>
+          </li>
+          <li className="dib mr3">
+            <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="items-center flex f6 fw4 mb0-l mb3 br-pill db pv2 ph3 link black bg-black-10 hover-bg-black-20">
+              Inspo ↗
             </a>
-            <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="f6 link flex no-underline rainbow-hover black ml4-l ml3 fw6">
+          </li>
+          <li className="dib mr3">
+            <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f6 fw4 mb0-l mb3 br-pill db pv2 ph3 link black bg-black-10 hover-bg-black-20">
               Blog ↗
             </a>
-            <Link to="/about" className="f6 link dn-l flex rainbow-hover black ml4-l ml3 fw6">
+          </li>
+          <li className="dib mr3">
+            <Link to="/about" className="items-center dn-l flex f6 fw4 mb0-l mb3 br-pill db pv2 ph3 link black bg-black-10 hover-bg-black-20">
               About
             </Link>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     );
   }

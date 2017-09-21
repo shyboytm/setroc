@@ -18,8 +18,8 @@ ReactDOM.render(
       <IndexRoute component={Home} />
       <Route path="/newsletter/thanks" component={Thanks} />
       <Route path="/about" component={About} />
-      <Route path="/extras/books" component={Books} />
-      <Route path="/extras/tools" component={Tools} />
+      <Route path="/books" component={Books} />
+      <Route path="/tools" component={Tools} />
       <Route path='*' component={NotFound} />
     </Route>
   </Router>,
