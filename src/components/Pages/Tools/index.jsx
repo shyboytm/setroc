@@ -56,8 +56,9 @@ class Books extends Component {
     const xboxOne           = require('../../../img/tools/gaming/xbox-one-console.jpg');
     const xboxController    = require('../../../img/tools/gaming/xbox-one-controller.jpg');
     const samsungTV         = require('../../../img/tools/gaming/samsung-4k-tv.jpg');
-    const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
     const nintendo2DS       = require('../../../img/tools/gaming/nintendo-2ds-xl-console.jpg');
+    const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
+    const overwatch         = require('../../../img/tools/gaming/overwatch-game-case.jpg');
 
     // Coffee
     const chemex6Cup        = require('../../../img/tools/coffee/chemex-6-cup.jpg');
@@ -380,6 +381,11 @@ class Books extends Component {
                 image={pokemonSun}
                 title="Pokémon Sun and Moon"
                 description="I'm always playing a Pokémon game, this is the latest one you can get" />
+              <Item
+                href="http://amzn.to/2x7VRDJ"
+                image={overwatch}
+                title="Overwatch"
+                description="One of my favorite shooter games I am currently playing" />
             </div>
 
             {/* Coffee */}
