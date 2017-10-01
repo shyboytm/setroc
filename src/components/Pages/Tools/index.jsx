@@ -348,7 +348,7 @@ class Books extends Component {
               id="Gaming"
               title="Gaming"
               description="Consoles and accessories I use as well as my current favorite games"
-              number="11" />
+              number="12" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="http://amzn.to/2xgbrvi"
