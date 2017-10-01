@@ -57,8 +57,12 @@ class Books extends Component {
     const xboxController    = require('../../../img/tools/gaming/xbox-one-controller.jpg');
     const samsungTV         = require('../../../img/tools/gaming/samsung-4k-tv.jpg');
     const nintendo2DS       = require('../../../img/tools/gaming/nintendo-2ds-xl-console.jpg');
+    const pokemonDiamond    = require('../../../img/tools/gaming/pokemon-diamond-case.jpg');
     const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
     const overwatch         = require('../../../img/tools/gaming/overwatch-game-case.jpg');
+    const rocketLeague      = require('../../../img/tools/gaming/rocket-league-case.jpg');
+    const destiny2          = require('../../../img/tools/gaming/destiny-2-case.jpg');
+    const wolfenstein2      = require('../../../img/tools/gaming/wolfenstein-2-case.jpg');
 
     // Coffee
     const chemex6Cup        = require('../../../img/tools/coffee/chemex-6-cup.jpg');
@@ -377,6 +381,11 @@ class Books extends Component {
                 title="Nintendo 2DS XL"
                 description="I have the original 3DS but this one is better and cheaper" />
               <Item
+                href="http://amzn.to/2xMU7wO"
+                image={pokemonDiamond}
+                title="Pokémon Diamond"
+                description="Pokémon game I am currently playing through" />
+              <Item
                 href="http://amzn.to/2xLvYJD"
                 image={pokemonSun}
                 title="Pokémon Sun and Moon"
@@ -386,6 +395,21 @@ class Books extends Component {
                 image={overwatch}
                 title="Overwatch"
                 description="One of my favorite shooter games I am currently playing" />
+              <Item
+                href="hhttp://amzn.to/2x8lqPS"
+                image={rocketLeague}
+                title="Rocket League"
+                description="About 500 hrs in and I still love this game" />
+              <Item
+                href="http://amzn.to/2fDJggk"
+                image={destiny2}
+                title="Destiny 2"
+                description="Current story game I'm playing through on Xbox One" />
+              <Item
+                href="http://amzn.to/2x85EF0"
+                image={wolfenstein2}
+                title="Wolfenstein II"
+                description="Very much looking forward to playing this" />
             </div>
 
             {/* Coffee */}
