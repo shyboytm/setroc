@@ -67,17 +67,17 @@ class Mobile extends Component {
                 if you'd like.
               </p>
               <Feature
-                href="https://blog.cortes.us/beatsx-earphones-review"
-                name="BeatsX Earphones Review" />
+                href="https://blog.cortes.us/ebb-and-flow-of-design-process"
+                name="The Ebb and Flow of the Design Process" />
               <Feature
-                href="https://blog.cortes.us/your-workflow-is-not-important"
-                name="Your Workflow is Not Important" />
+                href="https://blog.cortes.us/marketing-yourself-as-designer-or-developer"
+                name="How I Market Myself — Designer or Developer?" />
               <Feature
-                href="https://blog.cortes.us/5-things-i-learned-applying-to-jobs-in-tech"
-                name="5 Things I Learned Applying to Jobs in the Tech World" />
+                href="https://blog.cortes.us/additional-before-necessary-patterns"
+                name="Additional Before Necessary Patterns in Tech Products" />
               <Feature
-                href="https://blog.cortes.us/help-people-help-you"
-                name="Help People Help You" />
+                href="https://blog.cortes.us/real-reason-i-love-apple-events"
+                name="The Real Reason I Love Apple Events" />
             </div>
         </div>
     );
