@@ -78,7 +78,7 @@ class Tools extends Component {
 
         <div className="w-75-ns w-100 center mv5-ns mv4 ph0-ns ph3 z-0 tc">
           <h1 className="f2-ns f3 fw4 lh-title leitura blur">Tools</h1>
-          <p className="fw4 lh-copy center measure black-60 mb4">
+          <p className="fw4 lh-copy center measure black mb4">
             These are the tools I use on a daily basis for work and life.
             Everything from apps I use, stuff I always carry, to games I play.
             Affliliate links are used when possible to help support my free to use

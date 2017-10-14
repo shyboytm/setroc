@@ -4,15 +4,15 @@ class Footer extends Component {
   render() {
     return (
       <div id="Footer" className="pb4 bg-black">
-        <div className="w-90 center cf pv5">
+        <div className="w-90 center cf pv4">
           <div className="w-100 ph3 mb3 mt0 tc">
             <h2 className="fw6 f2-ns f3 white shine bg-text-clip system">Say hello!</h2>
             <p className="white-80 lh-copy w-50-l w-70-m w-100 center">
-              I'd love to work with you on a new project or just talk about what's on your mind.
-              Introduce yourself and send me an email at <a className="link white underline rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a>
+              I'd love to work with you on a new project, answer any questions, or just talk about what's on your mind.
+              Send me an email at <a className="link white underline rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a>
             </p>
           </div>
-          <div className="w-100 tc pt3 mt4">
+          <div className="w-100 tc pt3 mv4">
             <a href="https://twitter.com/fromcortes" className="dim mr4-l mr0-l">
               <img src='https://icon.now.sh/twitter/25/ffffff' alt='twitter' />
             </a>
@@ -32,6 +32,7 @@ class Footer extends Component {
               <img src='https://icon.now.sh/email/25/ffffff' alt='email' />
             </a>
           </div>
+          <p className="white-30 f7 tc">© 2017 Dennis Cortés</p>
         </div>
       </div>
     );
