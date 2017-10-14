@@ -87,6 +87,7 @@ class Mentoring extends Component {
             title="Step 2: Choose a Date and Time!"
             description="Check below for a day and time that works for you. Any weekday after 7pm is best for me"
             number="45 min" />
+          <span className="dib center tc mb4 f7 black-60">Calendar not loading? <a href="https://calendly.com/cortes/mentorship" className="link black underline rainbow-hover">Click here please!</a></span>
           <div className="w-100 h-100 mb6 br3 shadow-large calendly-inline-widget" data-url="https://calendly.com/cortes/mentorship"></div>
 
           <Section
