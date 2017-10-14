@@ -59,6 +59,11 @@
 .blur-late { -webkit-animation: blur 2s ease-in-out; }
 .hover-shine:hover { -webkit-animation: shine 5s linear infinite; }
 
+.calendly-inline-widget {
+  min-width:320px;
+  height:500px;
+}
+
 @keyframes shine {
   to {
     background-position: 200% center;

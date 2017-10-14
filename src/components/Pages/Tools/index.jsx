@@ -5,7 +5,7 @@ import Item from '../../Item';
 import Section from '../../Section';
 import Title from '../../Title';
 
-class Books extends Component {
+class Tools extends Component {
   render() {
 
     // Setup
@@ -84,7 +84,7 @@ class Books extends Component {
             Affliliate links are used when possible to help support my free to use
             projects. Enjoy!
           </p>
-          <Title title="Last Updated Sep. 19th" />
+          <Title title="Last Updated Oct. 12th" />
           {/* Shortcuts */}
           <ul className="list ph0 pv4-ns pv3">
             <li className="dib mr3">
@@ -463,4 +463,4 @@ class Books extends Component {
   }
 }
 
-export default Books;
+export default Tools;
