@@ -13,7 +13,7 @@ class Mentoring extends Component {
         <div className="w-75-ns w-100 center mv5-ns mv4 ph0-ns ph3 z-0 tc">
           <h1 className="f2-ns f3 fw4 lh-title leitura blur">Mentoring</h1>
           <p className="fw4 lh-copy center measure black mb4">
-            I'm here to help. After years of requests for a mentorship service from me and my own personal views on mentoring,
+            I'm here to help. After years of requests for a mentorship service from me and my own personal views on the value of mentoring,
             I've figured out a way that you can book 1-on-1 a 45 minute video or audio chat with me.
           </p>
           <a className="link bn fw6 f6 ttu dib button-reset dim ph3 pv2 tc white bg-gradient pointer br2 mt3" href="#MentoringPay">
