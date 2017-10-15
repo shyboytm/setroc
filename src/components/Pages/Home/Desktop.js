@@ -12,7 +12,9 @@ import Work from './Data/Work';
 class Desktop extends Component {
   render() {
 
-    const aboutImage = require("../../../img/about-picture.jpg");
+    const aboutImage      = require("../../../img/about-picture.jpg");
+    const stardewValley   = require("../../../img/stardew-valley.jpg");
+    const pokemonPlatinum = require("../../../img/pokemon-platinum.jpg");
 
     return (
       <div className="w-100 grid-l dn">
@@ -35,8 +37,7 @@ class Desktop extends Component {
             Outside of design, I write and release at least one article a week (50+ weeks!). I also spend time
             learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
             to others, a lot of my efforts go to building things that will help others as well as helping those in
-            the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">Twitch</a>,
-            where others can hang out and maybe learn a few things.
+            the design and tech industry.
           </p>
           <p className="lh-copy">
             I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
@@ -51,6 +52,30 @@ class Desktop extends Component {
           <p className="fw4 lh-copy">
             When I'm not designing or writing code you can find me trying to learn new things, playing video games, writing, learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music.
           </p>
+
+          <Spacer />
+
+          <Title
+            title="Games I'm Playing"
+            toolTipText="🎮">
+          </Title>
+          <p className="fw4 lh-copy">
+            My current lineup of single-player games I am playing through.
+          </p>
+          <img src={stardewValley} alt="Stardew Valley" className="br2 shadow-large mt3" />
+          <h1 className="leitura fw4 f4-ns f5 mb1 lh-subtitle">
+            Stardew Valley
+          </h1>
+          <a className="link ba b--black-10 black br2 fw6 f6 dib rainbow-hover pointer ph2 pv1 tc pointer br2 mt2 mb3" target="_blank" rel="nofollow" href="http://amzn.to/2ypBctD">
+            See Details
+          </a>
+          <img src={pokemonPlatinum} alt="Pokémon Platinum" className="br2 shadow-large mt3" />
+          <h1 className="leitura fw4 f4-ns f5 mb1 lh-subtitle">
+            Pokémon Platinum
+          </h1>
+          <a className="link ba b--black-10 black br2 fw6 f6 dib rainbow-hover pointer ph2 pv1 tc pointer br2 mt2 mb3" target="_blank" rel="nofollow" href="http://amzn.to/2xHnMur">
+            See Details
+          </a>
 
         </div>
 
@@ -256,6 +281,9 @@ class Desktop extends Component {
                 I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
               </p>
               <Feature
+                href="https://blog.cortes.us/hyper-light-drifter-design-review"
+                name="Hyper Light Drifter Guidance Design Review and Analysis" />
+              <Feature
                 href="https://blog.cortes.us/ebb-and-flow-of-design-process"
                 name="The Ebb and Flow of the Design Process" />
               <Feature
@@ -264,9 +292,6 @@ class Desktop extends Component {
               <Feature
                 href="https://blog.cortes.us/additional-before-necessary-patterns"
                 name="Additional Before Necessary Patterns in Tech Products" />
-              <Feature
-                href="https://blog.cortes.us/real-reason-i-love-apple-events"
-                name="The Real Reason I Love Apple Events" />
             </div>
 
             <Spacer />
