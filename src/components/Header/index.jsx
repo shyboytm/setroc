@@ -22,11 +22,11 @@ class Header extends Component {
               Work ↗
             </a>
           </li>
-          <li className="dib mr3">
+          {/*<li className="dib mr3">
             <Link to="/mentoring" className="items-center flex f6 fw4 mb0-l mb3 br-pill db pv2 ph3 link black bg-black-10 hover-bg-black-20">
               Mentoring
             </Link>
-          </li>
+          </li>*/}
           <li className="dib mr3">
             <Link to="/tools" className="items-center flex f6 fw4 mb0-l mb3 br-pill db pv2 ph3 link black bg-black-10 hover-bg-black-20">
               Tools
