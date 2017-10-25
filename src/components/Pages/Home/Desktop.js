@@ -301,7 +301,7 @@ class Desktop extends Component {
               toolTipText="📬">
             </Title>
             <p className="measure mb4">
-              From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing.
+              Join the list for updates on my blog and projects I am working on. 
             </p>
             <form action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
                 {/*Hidden fields for Mailchimp account and list*/}
