@@ -14,7 +14,7 @@ class Mentoring extends Component {
           <h1 className="f2-ns f3 fw4 lh-title leitura blur">Mentoring</h1>
           <p className="fw4 lh-copy center measure black mb4">
             I'm here to help. After many requests for a mentorship service from me and my own personal views on the value of mentoring,
-            you can now book a 1-on-1 45 minute video or audio chat with me.
+            you can now book a 1-on-1 45-minute chat with me.
           </p>
           <a className="link bn fw6 f6 ttu dib button-reset dim ph3 pv2 tc white bg-gradient pointer br2 mt3" href="#MentoringPay">
             Get Started
