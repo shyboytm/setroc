@@ -27,14 +27,14 @@ class Home extends Component {
           <p className="lh-copy">
             I enjoy thinking about experienced based solutions through use of design and technological implementations.
             I find internal systematic struggles intriguing and set to solve and improve processes to better the way
-            I and people I work with think and work personally and professionally.
+            I and people I work with think and work personally and professionally. Through merging expertise in branding,
+            illustration, and web technologies, I can better approach problems for modern overarching solutions.
           </p>
           <p className="lh-copy">
-            Outside of design, I write quite a bit and release an article each week (45+ weeks!). I also spend time
-            learning code on my own and build projects with that knowledge for fun. As a firm believer in giving
-            to others, a lot of my efforts go to building things that will help others as well as helping those in
-            the design and tech industry. I stream the majority of my work on <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">Twitch</a>,
-            where others can hang out and maybe learn a few things.
+            Outside of design, I write and release at least one article a week (60+ weeks!). I also spend time
+            learning code on my own and build projects with that knowledge for fun. As a firm believer in helping
+            others, most of my efforts go towards finding ways to work with people and bringing value to their life
+            and ventures.
           </p>
           <p className="lh-copy">
             I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
