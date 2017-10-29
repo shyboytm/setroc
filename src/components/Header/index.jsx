@@ -7,7 +7,7 @@ import Spacer from '../Spacer';
 class Header extends Component {
   render() {
     return (
-      <div id="Header" className="blur-late flex-l justify-between w-100 pa3 system bb b--black-10">
+      <div id="Header" className="blur-late flex-l justify-between w-100 ph3 pv2 system bb b--black-10">
         <div className="flex items-center mb0-l mb3">
           <Link to="/" className="link dim">
             <Logo />
