@@ -18,6 +18,7 @@ class Tools extends Component {
     const iPadPro           = require('../../../img/tools/setup/ipad-pro.jpg');
     const applePencil       = require('../../../img/tools/setup/apple-pencil.jpg');
     const beatsXEarphones   = require('../../../img/tools/setup/beatsx-earphones.jpg');
+    const blueYeti          = require('../../../img/tools/setup/blue-yeti-microphone.jpg');
     const alexaEcho         = require('../../../img/tools/setup/amazon-alexa-echo.jpg');
     const alexaDot          = require('../../../img/tools/setup/amazon-alexa-dot.jpg');
     const renberget         = require('../../../img/tools/setup/renberget-ikea-chair.jpg');
@@ -57,7 +58,8 @@ class Tools extends Component {
     const xboxController    = require('../../../img/tools/gaming/xbox-one-controller.jpg');
     const samsungTV         = require('../../../img/tools/gaming/samsung-4k-tv.jpg');
     const nintendo2DS       = require('../../../img/tools/gaming/nintendo-2ds-xl-console.jpg');
-    const pokemonDiamond    = require('../../../img/tools/gaming/pokemon-diamond-case.jpg');
+    const marioOdyssey      = require('../../../img/tools/gaming/super-mario-odyssey.jpg');
+    const pokemonPlatinum   = require('../../../img/tools/gaming/pokemon-platinum.jpg');
     const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
     const overwatch         = require('../../../img/tools/gaming/overwatch-game-case.jpg');
     const rocketLeague      = require('../../../img/tools/gaming/rocket-league-case.jpg');
@@ -84,7 +86,7 @@ class Tools extends Component {
             Affliliate links are used when possible to help support my free to use
             projects. Enjoy!
           </p>
-          <Title title="Last Updated Oct. 12th" />
+          <Title title="Last Updated Oct. 29th" />
           {/* Shortcuts */}
           <ul className="list ph0 pv4-ns pv3">
             <li className="dib mr3">
@@ -188,6 +190,11 @@ class Tools extends Component {
                 image={beatsXEarphones}
                 title="BeatsX Earphones"
                 description="My favorite bluetooth headphones. Better than AirPods" />
+              <Item
+                href="http://amzn.to/2idzcvk"
+                image={blueYeti}
+                title="Blue Yeti Microphone"
+                description="For recording audio and livestreaming" />
               <Item
                 href="http://amzn.to/2xdW46z"
                 image={alexaEcho}
@@ -381,9 +388,14 @@ class Tools extends Component {
                 title="Nintendo 2DS XL"
                 description="I have the original 3DS but this one is better and cheaper" />
               <Item
-                href="http://amzn.to/2xMU7wO"
-                image={pokemonDiamond}
-                title="Pokémon Diamond"
+                href="http://amzn.to/2zOSvSQ"
+                image={marioOdyssey}
+                title="Super Mario Odyssey"
+                description="Super fun to play, great art style, lots of nostalgia" />
+              <Item
+                href="http://amzn.to/2icP80X"
+                image={pokemonPlatinum}
+                title="Pokémon Platinum"
                 description="Pokémon game I am currently playing through" />
               <Item
                 href="http://amzn.to/2xLvYJD"
