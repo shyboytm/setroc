@@ -12,10 +12,16 @@ class Work extends Component {
           toolTipText="💪">
         </Title>
         <div className="fw4 lh-copy">
-          <h4 className="fw4 pv1">Making stuff for the web at 
+          <h4 className="fw4 pv1">Making stuff for the web at
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="https://madebyspeak.com">
               Speak
+            </a>
+          </h4>
+          <h4 className="fw4 pv1">Helping brands grow and communicate at
+            <a className="link link-underlined rainbow-hover black ml1 fw6"
+              target="_blank" rel="nofollow" href="https://offgray.co">
+              Off Gray
             </a>
           </h4>
           <h4 className="fw4 pv1">Building products for others at
@@ -34,12 +40,6 @@ class Work extends Component {
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="https://livtra.co">
               Livtra
-            </a>
-          </h4>
-          <h4 className="fw4 pv1">Streaming my design and development work on
-            <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://twitch.tv/cortesarts">
-              Twitch
             </a>
           </h4>
           <h4 className="fw4 pv1">Curating inspiration for others at
