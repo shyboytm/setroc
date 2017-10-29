@@ -59,6 +59,7 @@ class Tools extends Component {
     const samsungTV         = require('../../../img/tools/gaming/samsung-4k-tv.jpg');
     const nintendo2DS       = require('../../../img/tools/gaming/nintendo-2ds-xl-console.jpg');
     const marioOdyssey      = require('../../../img/tools/gaming/super-mario-odyssey.jpg');
+    const stardewValley     = require('../../../img/tools/gaming/stardew-valley.jpg');
     const pokemonPlatinum   = require('../../../img/tools/gaming/pokemon-platinum.jpg');
     const pokemonSun        = require('../../../img/tools/gaming/pokemon-sun.jpg');
     const overwatch         = require('../../../img/tools/gaming/overwatch-game-case.jpg');
@@ -143,7 +144,7 @@ class Tools extends Component {
               id="Setup"
               title="Setup"
               description="Gear and furniture I use on the go and at my home office"
-              number="14" />
+              number="15" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.apple.com/macbook-pro"
@@ -355,7 +356,7 @@ class Tools extends Component {
               id="Gaming"
               title="Gaming"
               description="Consoles and accessories I use as well as my current favorite games"
-              number="12" />
+              number="14" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="http://amzn.to/2xgbrvi"
@@ -392,6 +393,11 @@ class Tools extends Component {
                 image={marioOdyssey}
                 title="Super Mario Odyssey"
                 description="Super fun to play, great art style, lots of nostalgia" />
+              <Item
+                href="http://amzn.to/2ypBctD"
+                image={stardewValley}
+                title="Stardew Valley"
+                description="Delightful and relaxing game showing the simpler side of life" />
               <Item
                 href="http://amzn.to/2icP80X"
                 image={pokemonPlatinum}

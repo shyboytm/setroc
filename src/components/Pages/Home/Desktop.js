@@ -13,8 +13,6 @@ class Desktop extends Component {
   render() {
 
     const aboutImage      = require("../../../img/about-picture.jpg");
-    const stardewValley   = require("../../../img/stardew-valley.jpg");
-    const pokemonPlatinum = require("../../../img/pokemon-platinum.jpg");
 
     return (
       <div className="w-100 grid-l dn">
@@ -62,21 +60,21 @@ class Desktop extends Component {
           <p className="fw4 lh-copy">
             My current lineup of single-player games I am playing through.
           </p>
-          <img src={stardewValley} alt="Stardew Valley" className="br2 shadow-large mt3" />
-          <h1 className="leitura fw4 f4-ns f5 mb1 lh-subtitle">
-            Stardew Valley
-          </h1>
-          <a className="link ba b--black-10 black br2 fw6 f6 dib rainbow-hover pointer ph2 pv1 tc pointer br2 mt2 mb3" target="_blank" rel="nofollow" href="http://amzn.to/2ypBctD">
-            See Details
-          </a>
-          <img src={pokemonPlatinum} alt="Pokémon Platinum" className="br2 shadow-large mt3" />
-          <h1 className="leitura fw4 f4-ns f5 mb1 lh-subtitle">
-            Pokémon Platinum
-          </h1>
-          <a className="link ba b--black-10 black br2 fw6 f6 dib rainbow-hover pointer ph2 pv1 tc pointer br2 mt2 mb3" target="_blank" rel="nofollow" href="http://amzn.to/2xHnMur">
-            See Details
-          </a>
-
+          <Feature
+            href="http://amzn.to/2zOSvSQ"
+            name="Super Mario Odyssey" />
+          <Feature
+            href="http://amzn.to/2x85EF0"
+            name="Wolfenstein II" />
+          <Feature
+            href="http://amzn.to/2ypBctD"
+            name="Stardew Valley" />
+          <Feature
+            href="http://amzn.to/2fDJggk"
+            name="Destiny 2" />
+          <Feature
+            href="http://amzn.to/2xHnMur"
+            name="Pokémon Platinum" />
         </div>
 
         <div className="grid-row-start-2-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
@@ -301,7 +299,7 @@ class Desktop extends Component {
               toolTipText="📬">
             </Title>
             <p className="measure mb4">
-              Join the list for updates on my blog and projects I am working on. 
+              Join the list for updates on my blog and projects I am working on.
             </p>
             <form action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
                 {/*Hidden fields for Mailchimp account and list*/}
