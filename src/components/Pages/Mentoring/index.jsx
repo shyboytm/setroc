@@ -62,7 +62,8 @@ class Mentoring extends Component {
                 in my life and want to give you that same value as best I can. All expertise, advice,
                 resources, connections, and tools I provide to you during our session took
                 years of hard work for me to learn and gather. With a mentorship session,
-                I happily bring these to you and openly to give you the headstart I wish I had.
+                I happily bring these to you and openly to give you the headstart I wish I had. And
+                let's be honest, $45 for for 45 min is pretty darn cheap.
               </p>
             </div>
           </div>
@@ -71,7 +72,7 @@ class Mentoring extends Component {
             id="MentoringPay"
             title="Step 1: Payment!"
             description="Payments are made securely through Plasso and Stripe"
-            number="$75" />
+            number="$45" />
           <div className="mb6 tc">
             <p className="lh-copy black-60 mt4 measure center">
               Let me help you by being a resource for knowledge on any unknowns you have. Plus,
