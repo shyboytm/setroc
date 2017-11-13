@@ -18,12 +18,12 @@ class Work extends Component {
               Speak
             </a>
           </h4>
-          <h4 className="fw4 pv1">Helping brands grow and communicate at
+          {/*<h4 className="fw4 pv1">Helping brands grow and communicate at
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="https://offgray.co">
               Off Gray
             </a>
-          </h4>
+          </h4>*/}
           <h4 className="fw4 pv1">Building products for others at
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="https://usequarry.com">

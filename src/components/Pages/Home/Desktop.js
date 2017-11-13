@@ -237,7 +237,7 @@ class Desktop extends Component {
             href="https://github.com/fromcortes"
             name="Github" />
           <Feature
-            href="https://twitch.tv/cortesarts"
+            href="https://twitch.tv/fromcortes"
             name="Twitch" />
           <Feature
             href="https://fromcortes.tumblr.com"
