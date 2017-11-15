@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import Feature from '../../Feature';
-import Footer from '../../Footer';
 import Subheader from '../../Subheader';
 import Spacer from '../../Spacer';
 import Title from '../../Title';

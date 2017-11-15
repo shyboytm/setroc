@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
 import Spacer from '../Spacer';
-import Title from '../Title';
 
 class SubHeader extends Component {
   render() {

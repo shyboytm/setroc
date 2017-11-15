@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Feature from '../../../Feature';
 import Title from '../../../Title';
 
 class Work extends Component {

@@ -7,7 +7,7 @@ class Title extends Component {
 
     return (
       <div>
-        <h2 className="f6 fw4 lh-subtitle black tooltip mv2 leitura ttu tracked">
+        <h2 className="f6 fw4 lh-subtitle black tooltip mv2 leitura ttu tracked dib">
           {title}
           <span className="black fs-normal tooltiptext">
             {toolTipText}

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 import Feature from '../../Feature';
-import Footer from '../../Footer';
-import Subheader from '../../Subheader';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
@@ -15,8 +13,8 @@ class Desktop extends Component {
     const aboutImage      = require("../../../img/about-picture.jpg");
 
     return (
-      <div className="w-100 grid-l dn">
-        <div className="grid-row-start-1-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
+      <div className="w-100 dn flex-l flex-wrap">
+        <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
           <h3 className="f4 fw6 lh-subtitle system mt4 mb0 blur">
             Hey There <span className="ml2 absolute spin">👋</span>
@@ -58,27 +56,29 @@ class Desktop extends Component {
             title="Games I'm Playing"
             toolTipText="🎮">
           </Title>
-          <p className="fw4 lh-copy">
-            My current lineup of single-player games I am playing through.
-          </p>
-          <Feature
-            href="http://amzn.to/2zOSvSQ"
-            name="Super Mario Odyssey" />
-          <Feature
-            href="http://amzn.to/2x85EF0"
-            name="Wolfenstein II" />
-          <Feature
-            href="http://amzn.to/2ypBctD"
-            name="Stardew Valley" />
-          <Feature
-            href="http://amzn.to/2fDJggk"
-            name="Destiny 2" />
-          <Feature
-            href="http://amzn.to/2xHnMur"
-            name="Pokémon Platinum" />
+          <div className="db">
+            <p className="fw4 lh-copy">
+              My current lineup of single-player games I am playing through.
+            </p>
+            <Feature
+              href="http://amzn.to/2zOSvSQ"
+              name="Super Mario Odyssey" />
+            <Feature
+              href="http://amzn.to/2x85EF0"
+              name="Wolfenstein II" />
+            <Feature
+              href="http://amzn.to/2ypBctD"
+              name="Stardew Valley" />
+            <Feature
+              href="http://amzn.to/2fDJggk"
+              name="Destiny 2" />
+            <Feature
+              href="http://amzn.to/2xHnMur"
+              name="Pokémon Platinum" />
+          </div>
         </div>
 
-        <div className="grid-row-start-2-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
+        <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <Currently />
 
           <Spacer />
@@ -128,7 +128,7 @@ class Desktop extends Component {
           </div>
         </div>
 
-        <div className="grid-row-start-3-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
+        <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <Work />
           <Spacer />
 
@@ -216,32 +216,34 @@ class Desktop extends Component {
           </ul>
         </div>
 
-        <div className="grid-row-start-4-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
+        <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <Title
             title="Contact"
             toolTipText="💌">
           </Title>
-          <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f5 ttu link shine bg-text-clip dim fw6">
-            hi@cortes.us
-          </a>
-          <Feature
-            href="https://twitter.com/fromcortes"
-            name="Twitter" />
-          <Feature
-            href="https://instagram.com/fromcortes"
-            name="Instagram" />
-          <Feature
-            href="https://dribbble.com/fromcortes"
-            name="Dribbble" />
-          <Feature
-            href="https://github.com/fromcortes"
-            name="Github" />
-          <Feature
-            href="https://twitch.tv/fromcortes"
-            name="Twitch" />
-          <Feature
-            href="https://fromcortes.tumblr.com"
-            name="Tumblr" />
+          <div className="db">
+            <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f5 ttu link shine bg-text-clip dim fw6">
+              hi@cortes.us
+            </a>
+            <Feature
+              href="https://twitter.com/fromcortes"
+              name="Twitter" />
+            <Feature
+              href="https://instagram.com/fromcortes"
+              name="Instagram" />
+            <Feature
+              href="https://dribbble.com/fromcortes"
+              name="Dribbble" />
+            <Feature
+              href="https://github.com/fromcortes"
+              name="Github" />
+            <Feature
+              href="https://twitch.tv/fromcortes"
+              name="Twitch" />
+            <Feature
+              href="https://fromcortes.tumblr.com"
+              name="Tumblr" />
+          </div>
 
           <Spacer />
 
@@ -276,17 +278,14 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
-              href="https://blog.cortes.us/how-to-work-after-a-full-time-job"
-              name="How to Work on Personal Projects after a Long Full-Time Job" />
+              href="https://blog.cortes.us/peek-into-my-illustration-process"
+              name="A Peek into my Illustration Process" />
+            <Feature
+              href="https://blog.cortes.us/removing-choice-from-productivity-equation"
+              name="Removing Choice from the Productivity Equation" />
             <Feature
               href="https://blog.cortes.us/mistake-i-make-that-kills-my-productivity"
               name="The Mistake I Make that Kills My Productivity" />
-            <Feature
-              href="https://blog.cortes.us/hyper-light-drifter-design-review"
-              name="Hyper Light Drifter Guidance Design Review and Analysis" />
-            <Feature
-              href="https://blog.cortes.us/ebb-and-flow-of-design-process"
-              name="The Ebb and Flow of the Design Process" />
           </div>
 
           <Spacer />
