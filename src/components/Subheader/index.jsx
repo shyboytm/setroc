@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
 import Spacer from '../Spacer';
-import Title from '../Title';
 
 class SubHeader extends Component {
   render() {
@@ -33,7 +31,7 @@ class SubHeader extends Component {
           <a href="https://twitter.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3">
             <img src='https://icon.now.sh/twitter/22/000000' alt='twitter' />
           </a>
-          <a href="https://twitch.tv/cortesarts" target="_blank" rel="nofollow" className="dim mr3 ml1">
+          <a href="https://twitch.tv/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">
             <img src='https://icon.now.sh/twitch/22/000000' alt='twitch' />
           </a>
           <a href="https://instagram.com/fromcortes" target="_blank" rel="nofollow" className="dim mr3 ml1">

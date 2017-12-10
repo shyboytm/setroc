@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-import Footer from '../../Footer';
-import Item from '../../Item';
-import Title from '../../Title';
-
 class NotFound extends Component {
   render() {
 

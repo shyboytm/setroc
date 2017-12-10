@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import Footer from '../../Footer';
-import Item from '../../Item';
 import Section from '../../Section';
 import Title from '../../Title';
 
