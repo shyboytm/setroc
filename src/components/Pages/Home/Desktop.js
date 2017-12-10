@@ -29,11 +29,11 @@ class Desktop extends Component {
           <p className="lh-copy">
             I enjoy thinking about experienced based solutions through use of design and technological implementations.
             I find internal systematic struggles intriguing and set to solve and improve processes to better the way
-            I and people I work with think and work personally and professionally. Through merging expertise in branding,
+            people work and interact with technology. Through merging expertise in product, branding,
             illustration, and web technologies, I can better approach problems for modern overarching solutions.
           </p>
           <p className="lh-copy">
-            Outside of design, I write and release at least one article a week (60+ weeks!). I also spend time
+            Outside of design, I write and release at least one article a week (65+ weeks!). I also spend time
             learning code on my own and build projects with that knowledge for fun. As a firm believer in helping
             others, most of my efforts go towards finding ways to work with people and bringing value to their life
             and ventures.
@@ -141,7 +141,7 @@ class Desktop extends Component {
           </h3>
           <ul className="list ml0 pl0 mb4">
             <li className="fw4 pv2 lh-copy dib mr4">
-              <span className="b">Currently at Speak</span>
+              <span className="b">Speak</span>
               <br />Web Designer & Developer
             </li>
             <li className="fw4 pv2 lh-copy dib mr4">
@@ -276,17 +276,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
-              href="https://blog.cortes.us/how-to-work-after-a-full-time-job"
-              name="How to Work on Personal Projects after a Long Full-Time Job" />
+              href="https://blog.cortes.us/tips-to-make-better-design-moodboards"
+              name="Tips to Make Better Design Moodboards" />
             <Feature
-              href="https://blog.cortes.us/mistake-i-make-that-kills-my-productivity"
-              name="The Mistake I Make that Kills My Productivity" />
+              href="https://blog.cortes.us/questions-to-ask-employers-hiring-remotely"
+              name="Questions to Ask Employers Hiring Remotely" />
             <Feature
-              href="https://blog.cortes.us/hyper-light-drifter-design-review"
-              name="Hyper Light Drifter Guidance Design Review and Analysis" />
+              href="https://blog.cortes.us/making-the-most-of-your-time-off"
+              name="Making the Most of Your Time Off" />
             <Feature
-              href="https://blog.cortes.us/ebb-and-flow-of-design-process"
-              name="The Ebb and Flow of the Design Process" />
+              href="https://blog.cortes.us/how-to-come-up-with-writing-topics"
+              name="How to Come Up with Writing Topics" />
           </div>
 
           <Spacer />
