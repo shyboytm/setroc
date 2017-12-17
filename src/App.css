@@ -2,21 +2,25 @@
 
 /*Tachyons Add-Ons*/
 
+.bg-about-image       { background-image: url("https://cortes.us/static/media/about-picture.7fc885ba.jpg"); }
+.br-chat-right-image  { border-radius: 1.6rem 0.25rem 0rem 0rem ; }
+.br-chat-right-media  { border-radius: 0rem 0rem 0.25rem 1.6rem; }
+.br-chat-right-middle { border-radius: 1.6rem 0.25rem 0.25rem 1.6rem; }
+.br-chat-right        { border-radius: 1.6rem 1.6rem 0.25rem 1.6rem; }
+.br-chat-left         { border-radius: 1.6rem 1.6rem 1.6rem 0.25rem; }
+.mw5                  { max-width: 25rem; }
+
 .system                   { font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
 .leitura                  { font-family: "leitura-news", Georgia, serif; }
 .small-caps               { font-variant-caps: small-caps; }
 .lh-subtitle              { line-height: 2rem; }
-.lh-copy                  { line-height: 1.75rem; }
+.bg-navy                  { background-color: #101A25; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
 .shadow-small             { box-shadow: 0px 2px 10px 0px rgba(0,0,0, 0.04); }
 .shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.075); }
 .text-outline             { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; }
+.tracked-tiny             { letter-spacing: .05rem; }
 .no-outline:focus         { outline: none; }
-.grid                     { display: grid; }
-  .grid-row-start-1       { grid-column-start: 1; }
-  .grid-row-start-2       { grid-column-start: 2; }
-  .grid-row-start-3       { grid-column-start: 3; }
-  .grid-row-start-4       { grid-column-start: 4; }
 
 /*Custom CSS*/
 
