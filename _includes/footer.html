@@ -1,0 +1,11 @@
+<footer class="pv4 ph3 ph5-m ph6-l mid-gray system">
+    <div class="tc mb2">
+{% for nav-links in site.data.nav-links %}
+  <a href="{{nav-links.href}}" class="f6 dib ph1 link gray hover-black">{{nav-links.text}}</a>
+{% endfor %}
+      <a href="/terms-of-service" class="f6 dib ph1 link gray hover-black">Terms</a>
+      <a href="/privacy-policy" class="f6 dib ph1 link gray hover-black">Privacy</a>
+      <a href="#top" class="f6 dib ph1 link bg-black white">Back To Top</a>
+  </div>
+  <small class="f6 db tc">© {{ site.start-year }} <script>new Date().getFullYear()>2015&&document.write("-"+new Date().getFullYear());</script> <b class="ttu">{{ site.company }}</b>., All Rights Reserved</small>
+</footer>
