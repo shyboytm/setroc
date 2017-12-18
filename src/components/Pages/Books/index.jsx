@@ -64,7 +64,8 @@ class Books extends Component {
             title="The Anatomy of Type"
             description="CEO and Founder of Gyroscope" />
         </div>
-        <Footer />*/}
+        */}
+        <Footer />
       </div>
     );
   }

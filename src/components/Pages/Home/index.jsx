@@ -17,14 +17,12 @@ class Home extends Component {
           <Footer />
         */}
         <div className="animated fadeIn center w-40-l w-60-l w-90">
-          <h1 className="center f2 fw2 lh-copy measure mb6 tracked-tiny shine bg-text-clip">
-            Dennis Cortés is a designer and illustrator that codes in Memphis, TN, currently working at MetaLab
-          </h1>
-          <div className="cf mb2">
-            <p className="bg-white-30 br-chat-left dib fl fw3 lh-copy ph3 pv2 mt1 mb3 white">
+          <div className="cf mb0">
+            <p className="bg-white-30 br-chat-left dib fl fw3 lh-copy mb0 ph3 pv2 white">
               I'm new here, who's this? What do you do?
             </p>
           </div>
+          <span className="db ttu tracked mt1 mb3 f7 white-30">You</span>
           <div className="cf">
             <p className="bg-white-90 black-80 br-chat-right dib fr lh-copy ph3 pv2 mv1 mw5">
               Hello! I'm Dennis Cortés 👋
