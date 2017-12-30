@@ -8,22 +8,23 @@ class Header extends Component {
     return (
       <div className="bg-black-90 pa4">
         <div className="flex flex-wrap w-100">
-          <Link to="/" className="bl bt bb b--white bg-animate hover-bg-white-20 link flex-auto pa4-ns pa3 pointer ttu tracked f7 white">
-            <h1 className="f7 fw6 mv0">Dennis Cortés</h1>
+          <Link to="/" className="bl bt bb b--white bg-animate hover-bg-white-20 link flex flex-auto items-center pa4-l pa3 pointer ttu tracked f7 white">
+            <Logo />
+            <h1 className="dib f7 fw6 mv0">Dennis Cortés</h1>
           </Link>
-          <a href="/" className="bl bt bb b--white bg-animate hover-bg-white-20 link pointer pa4-ns pa3 ttu tracked f7 white">
+          <a href="/" className="bl bt bb b--white bg-animate hover-bg-white-20 link pointer pa4-l pa3 ttu tracked f7 white">
             Work ↗
           </a>
-          <Link to="/mentoring" className="bl bt bb b--white bg-animate hover-bg-white-20 link pa4-ns pa3 pointer ttu tracked f7 white">
+          <Link to="/mentoring" className="bl bt bb b--white bg-animate hover-bg-white-20 link pa4-l pa3 pointer ttu tracked f7 white">
             Mentoring
           </Link>
-          <Link to="/tools" className="bl bt bb b--white bg-animate hover-bg-white-20 link pa4-ns pa3 pointer ttu tracked f7 white">
+          <Link to="/tools" className="bl bt bb b--white bg-animate hover-bg-white-20 link pa4-l pa3 pointer ttu tracked f7 white">
             Tools
           </Link>
-          <a href="/" className="bl bt bb b--white bg-animate hover-bg-white-20 link pointer pa4-ns pa3 ttu tracked f7 white">
+          <a href="/" className="bl bt bb b--white bg-animate hover-bg-white-20 link pointer pa4-l pa3 ttu tracked f7 white">
             Inspo ↗
           </a>
-          <a href="/" className="ba b--white bg-animate hover-bg-white-20 link pointer pa4-ns pa3 ttu tracked f7 white">
+          <a href="/" className="ba b--white bg-animate hover-bg-white-20 link pointer pa4-l pa3 ttu tracked f7 white">
             Blog ↗
           </a>
         </div>
