@@ -32,7 +32,7 @@ class Footer extends Component {
               <img src='https://icon.now.sh/email/25/ffffff' alt='email' />
             </a>
           </div>
-          <p className="white-30 f7 tc">© 2017 Dennis Cortés</p>
+          <p className="white-30 f7 tc">© 2018 Dennis Cortés</p>
         </div>
       </div>
     );
