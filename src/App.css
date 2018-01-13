@@ -8,6 +8,7 @@
 .br-chat-right-middle { border-radius: 1.6rem 0.25rem 0.25rem 1.6rem; }
 .br-chat-right        { border-radius: 1.6rem 1.6rem 0.25rem 1.6rem; }
 .br-chat-left         { border-radius: 1.6rem 1.6rem 1.6rem 0.25rem; }
+.lh-copy              { line-height: 1.7rem; }
 .mw5                  { max-width: 25rem; }
 
 .system                   { font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif; }
@@ -41,15 +42,6 @@
   transition: all 20s ease-in-out;
 }
 
-#IntroCircle {
-  left: -5rem;
-  top: -10rem;
-  background-color: #b7b7b7;
-  -webkit-animation: random 30s infinite;
-  animation: random 30s infinite;
-  transition: background-color 20s ease-in-out;
-}
-
 .bg-text-clip {
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(75deg, #00DBDE 0%, #FC00FF 50%, #00DBDE 100%);
@@ -76,7 +68,7 @@
 
 @keyframes blur {
     from  {
-      filter: blur(5px);
+      filter: blur(3px);
       opacity: 0;
       transform: translate3d(0, -50%, 0);
     }

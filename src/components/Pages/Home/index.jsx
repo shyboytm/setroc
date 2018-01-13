@@ -10,7 +10,7 @@ class Home extends Component {
     const aboutImage = require("../../../img/about-picture.jpg");
 
     return (
-      <div id="Home" className="black bg-white lh-copy f6">
+      <div id="Home" className="black bg-white f6">
           <Desktop />
           <Mobile />
           <Footer />
