@@ -9,7 +9,7 @@ class Header extends Component {
       <div>
         <div className="bg-rainbow w-100" style={{height: 3 + "px"}}></div>
         <div id="Header" className="flex-l justify-between tl-l tc w-100 ph3 pv2 system bb bg-black-90 b--white-10">
-          <div className="blur-late flex items-center justify-center mv0-l mv3">
+          <div className="blur flex items-center justify-center mv0-l mv3">
             <Link to="/" className="link dim">
               <h1 className="ml2-l dib f6 fw4 ttu tracked white">Dennis Cortés</h1>
             </Link>

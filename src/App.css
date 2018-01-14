@@ -59,7 +59,7 @@
 
 .shine { -webkit-animation: shine 5s linear infinite; }
 .blur { -webkit-animation: blur 1s ease-in-out; }
-.blur-late { -webkit-animation: blur 2s ease-in-out; }
+.blur-late { -webkit-animation: blur 3s ease-in-out; }
 .hover-shine:hover { -webkit-animation: shine 5s linear infinite; }
 
 .calendly-inline-widget {

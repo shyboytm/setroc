@@ -17,14 +17,14 @@ class Item extends Component {
           <a href={href} target="_blank" rel="nofollow" className="db-ns flex justify-around items-center link pointer black hover-black-30 no-outline">
             <img src={image} alt={title} className="grow no-drag w-100-ns w-30 ml0-ns ml2" />
             <div className="db-ns flex flex-column justify-between pa3">
-              <h1 className="leitura fw5 f5 mt0 mb1-ns mb0 lh-title">{title}</h1>
+              <h1 className="fw5 f5 mt0 mb1-ns mb0 lh-title">{title}</h1>
               <p className="f6 black-60 mt0 mb3-ns mb1" style={{lineHeight: "1.35rem"}}>
                 {description}
               </p>
-               <div className="flex items-center justify-between">
-                 <span className="fw4 f4-ns black-30">{price}</span>
-                  <a className="link ba bg-white dim shadow-small b--black-10 black br2 fw6 f6 db pointer ph2 pv1 tc pointer br2 mt2" target="_blank" rel="nofollow" href={href}>
-                    See Details
+               <div className="flex items-center justify-between mt2">
+                 <span className="fw4 f4-ns black-30">${price}</span>
+                  <a className="b--black-10 black br2 ba bg-white dim fw7 f7 link shadow-small ttu pointer ph2 pv1 tc tracked" target="_blank" rel="nofollow" href={href}>
+                    View
                   </a>
                </div>
             </div>

@@ -80,7 +80,7 @@ class Tools extends Component {
       <div id="Tools" className="animated fadeIn black">
         <div className="bg-dot-grid bg-pinkish">
           <div className="w-90-ns w-100 center pt5-ns pv4 ph0-ns ph3 z-0 tl">
-            <h1 className="f1-ns f2 fw6 lh-title blur pinkish">Tools</h1>
+            <h1 className="f1-ns f2 fw6 lh-title blur-late pinkish">Tools</h1>
             <p className="fw5 f4-ns f5 lh-subtitle measure black-60 mb4 tracked-tiny">
               These are things I use on a daily basis for work and life.
               From apps I use, stuff I always carry, to games I play.
@@ -139,7 +139,7 @@ class Tools extends Component {
           </div>
         </div>
 
-        <div className="w-75-l w-90 center mv5">
+        <div className="w-75-l w-80-m w-90 center mv5">
             {/* Setup */}
             <Section
               id="Setup"
@@ -152,91 +152,91 @@ class Tools extends Component {
                 image={macBookPro}
                 title='MacBook Pro 13"'
                 description="8GB RAM, 128GB SSD, 2.3 GHz i5"
-                price="$1,299" />
+                price="1,299" />
               <Item
                 href="http://amzn.to/2jxqf42"
                 image={roostStand}
                 title="Roost Laptop Stand"
                 description="Stand for improving posture"
-                price="$149" />
+                price="75" />
               <Item
                 href="http://amzn.to/2xb6Om8"
                 image={magicKeyboard}
                 title="Apple Magic Keyboard 2"
                 description="When using the Roost stand"
-                price="$149" />
+                price="89" />
               <Item
                 href="http://amzn.to/2wxN7kQ"
                 image={keyboardCover}
                 title="Mosiso Keyboard Cover"
                 description="All black everything ツ"
-                price="$149" />
+                price="6" />
               <Item
                 href="http://amzn.to/2wy4T7H"
                 image={magicMouse}
                 title="Apple Magic Mouse 2"
                 description="When using the Roost stand"
-                price="$149" />
+                price="77" />
               <Item
                 href="http://amzn.to/2xbQUIw"
                 image={mouseCover}
                 title="Cosmos Mouse Cover"
                 description="All black everything ツ"
-                price="$149" />
+                price="6" />
               <Item
                 href="https://www.apple.com/ipad-pro"
                 image={iPadPro}
                 title='iPad Pro 12.9"'
                 description="For illustration, research, writing, and wireframing"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.apple.com/apple-pencil"
                 image={applePencil}
                 title="Apple Pencil"
                 description="Must have tool for accompanying an iPad Pro"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2hbbj7i"
                 image={beatsXEarphones}
                 title="BeatsX Earphones"
                 description="My favorite bluetooth headphones. Better than AirPods"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2idzcvk"
                 image={blueYeti}
                 title="Blue Yeti Microphone"
                 description="For recording audio and livestreaming"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xdW46z"
                 image={alexaEcho}
                 title="Amazon Alexa Echo"
                 description="For all the home assistant needs"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xdzPhb"
                 image={alexaDot}
                 title="Amazon Alexa Dot"
                 description="For controlling my Echo from my office"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://www.ikea.com/us/en/catalog/products/50332238"
                 image={renberget}
                 title="Renberget Office Chair"
                 description="Cheap, but surprisingly comfortable"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://www.ikea.com/us/en/catalog/products/40246156/"
                 image={rissla}
                 title="Rissla Desk Mat"
                 description="All black everything ツ"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://www.ikea.com/us/en/catalog/products/S19022808/"
                 image={bekant}
                 title="Bekant Desk"
                 description="I really need a standing desk"
-                price="$149" />
+                price="149" />
             </div>
 
             {/* Every Day Carry */}
@@ -251,49 +251,49 @@ class Tools extends Component {
                 image={iPhone7}
                 title="iPhone 7 Plus"
                 description="Matte Black 32GB"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2wyw6Hy"
                 image={totalleeCase}
                 title="Totallee Thin Case"
                 description="Naked iPhone without the scratching"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xI1pof"
                 image={sonyA5100}
                 title="Sony α5100 Camera"
                 description="Great quality pictures, pocket-sized"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2wm8DxN"
                 image={appleWatch}
                 title="Apple Watch Series 1"
                 description="Have worn it every day since its release"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2jBqDOZ"
                 image={satechiReader}
                 title="Satechi USB-C SD Card Reader"
                 description="For editing pictures on-the-go with that dongle life"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xI63CH"
                 image={incaseBackpack}
                 title="Incase Laptop Backpack"
                 description="Durable, all-purpose backpack I've had for 3 years"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.gucci.com/us/en/pr/gifts/monogramming/gucci-signature-wallet-p-365466CWC1R1000?position=10&listName=SearchResultGridComponent"
                 image={gucciWallet}
                 title="Gucci Signature Wallet"
                 description="Gift from Italy that I've used the past 5 years"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://simple.com/friends/FPCJH2Y"
                 image={simpleCard}
                 title="Simple Card"
                 description="Best banking experience I've ever had"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.referyourchasecard.com/6/UMOZNMXU35"
                 image={chaseCard}
@@ -305,13 +305,13 @@ class Tools extends Component {
                 image={vanguard}
                 title="Baron Fig Notebooks"
                 description="I use dot-grid charcoal plus size Vanguards"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2haGY8V"
                 image={fieldNotes}
                 title="Field Notes Pocket Notebooks"
                 description="For on-the-go notes and sketches, I use kraft or pitch black ones"
-                price="$149" />
+                price="149" />
             </div>
 
             {/* Apps */}
@@ -326,67 +326,67 @@ class Tools extends Component {
                 image={notion}
                 title="Notion"
                 description="For managing my work, side projects, and life"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.google.com/chrome/index.html"
                 image={googleChrome}
                 title="Google Chrome"
                 description="My browser of choice"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://hyper.is"
                 image={hyper}
                 title="Hyper"
                 description="My terminal of choice"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://atom.io"
                 image={atom}
                 title="Atom"
                 description="My text editor of choice"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://sparkmailapp.com/"
                 image={sparkMail}
                 title="Spark Mail"
                 description="My mail app of choice for iOS and Mac"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://slack.com"
                 image={slack}
                 title="Slack"
                 description="For communication at my job and managing side project teams"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.apple.com/music"
                 image={appleMusic}
                 title="Apple Music"
                 description="My music player of choice for iOS and Mac"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.figma.com"
                 image={figma}
                 title="Figma"
                 description="My main workspace for UI & UX design work"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.adobe.com/illustrator"
                 image={adobeIllustrator}
                 title="Adobe Illustrator"
                 description="My go-to app for all Branding and Illustration work"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://www.sketchapp.com"
                 image={sketchApp}
                 title="Sketch App"
                 description="Secondary workspace for UI & UX design work when needed"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://www.gyrosco.pe"
                 image={gyroscopeApp}
                 title="Gyroscope"
                 description="An app to help track my fitness and health habits"
-                price="$149" />
+                price="149" />
             </div>
 
             {/* Gaming */}
@@ -401,85 +401,85 @@ class Tools extends Component {
                 image={nintendoSwitch}
                 title="Nintendo Switch"
                 description="My favorite console to date"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2wBMNBO"
                 image={switchController}
                 title="Nintendo Switch Controller"
                 description="Cheaper, 3rd party Pro Controller for Switch"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2ylotX9"
                 image={xboxOne}
                 title="Xbox One"
                 description="My main home console for gaming and TV watching"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2fveztY"
                 image={xboxController}
                 title="Xbox One Controller"
                 description="All black everything ツ"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xhWSaQ"
                 image={samsungTV}
                 title="Samsung MU7000"
                 description="49-Inch 4K Ultra HD Smart LED TV (2017 Model)"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xhCKp8"
                 image={nintendo2DS}
                 title="Nintendo 2DS XL"
                 description="I have the original 3DS but this one is better and cheaper"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2zOSvSQ"
                 image={marioOdyssey}
                 title="Super Mario Odyssey"
                 description="Super fun to play, great art style, lots of nostalgia"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2ypBctD"
                 image={stardewValley}
                 title="Stardew Valley"
                 description="Delightful and relaxing game showing the simpler side of life"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2icP80X"
                 image={pokemonPlatinum}
                 title="Pokémon Platinum"
                 description="Pokémon game I am currently playing through"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xLvYJD"
                 image={pokemonSun}
                 title="Pokémon Sun and Moon"
                 description="I'm always playing a Pokémon game, this is the latest one you can get"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2x7VRDJ"
                 image={overwatch}
                 title="Overwatch"
                 description="One of my favorite shooter games I am currently playing"
-                price="$149" />
+                price="149" />
               <Item
                 href="hhttp://amzn.to/2x8lqPS"
                 image={rocketLeague}
                 title="Rocket League"
                 description="About 500 hrs in and I still love this game"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2fDJggk"
                 image={destiny2}
                 title="Destiny 2"
                 description="Current story game I'm playing through on Xbox One"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2x85EF0"
                 image={wolfenstein2}
                 title="Wolfenstein II"
                 description="Very much looking forward to playing this"
-                price="$149" />
+                price="149" />
             </div>
 
             {/* Coffee */}
@@ -494,43 +494,43 @@ class Tools extends Component {
                 image={chemex6Cup}
                 title="Chemex 6-Cup"
                 description="Easy and reliable way to make a great pour-over"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2fgGfpI"
                 image={harioV60}
                 title="Hario V60 Kit"
                 description="My daily pour-over setup, amazing value for what you pay"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xv6I9C"
                 image={chemexFilters}
                 title="Chemex Filters"
                 description="Container for your ground coffee inside the Chemex or V60"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xhTFrs"
                 image={nourishScale}
                 title="Nourish Food Scale"
                 description="For measuring coffee and water during brewing"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2xOWlys"
                 image={conicalGrinder}
                 title="Conical Burr Coffee Grinder"
                 description="An easier, more efficient, and better way to grind coffee"
-                price="$149" />
+                price="149" />
               <Item
                 href="http://amzn.to/2jJmj0d"
                 image={fellowStagg}
                 title="Fellow Stagg Pour Over Kettle"
                 description="Matte Black, gorgeous hardware to pour your water"
-                price="$149" />
+                price="149" />
               <Item
                 href="https://goodfuckingdesignadvice.com/collections/drinkware/products/advice-travel-mug-black-on-black-edition"
                 image={gfdaMug}
                 title="GFDA Travel Mug"
                 description="Matte Black, I bring my coffee to work every day in this"
-                price="$149" />
+                price="149" />
             </div>
 
         </div>
