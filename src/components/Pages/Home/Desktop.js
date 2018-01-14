@@ -243,6 +243,9 @@ class Desktop extends Component {
             <Feature
               href="https://fromcortes.tumblr.com"
               name="Tumblr" />
+            <Feature
+              href="https://unsplash.com/@cortes"
+              name="Unsplash" />
           </div>
 
           <Spacer />
@@ -278,17 +281,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
-              href="https://blog.cortes.us/tips-to-make-better-design-moodboards"
-              name="Tips to Make Better Design Moodboards" />
+              href="https://blog.cortes.us/here-is-my-illustration-process"
+              name="Here’s My Illustration Process" />
             <Feature
-              href="https://blog.cortes.us/questions-to-ask-employers-hiring-remotely"
-              name="Questions to Ask Employers Hiring Remotely" />
+              href="https://blog.cortes.us/2017"
+              name="My 2017" />
             <Feature
-              href="https://blog.cortes.us/making-the-most-of-your-time-off"
-              name="Making the Most of Your Time Off" />
+              href="https://blog.cortes.us/giant-list-of-design-inspiration-to-use"
+              name="Here’s a Giant List of Design Inspiration for You to Use" />
             <Feature
-              href="https://blog.cortes.us/how-to-come-up-with-writing-topics"
-              name="How to Come Up with Writing Topics" />
+              href="https://blog.cortes.us/a-global-rule-for-your-work"
+              name="A Global Rule for Your Work" />
           </div>
 
           <Spacer />
