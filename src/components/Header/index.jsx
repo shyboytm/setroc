@@ -11,7 +11,7 @@ class Header extends Component {
         <div id="Header" className="flex-l justify-between tl-l tc w-100 ph3 pv2 system bb bg-black-90 b--white-10">
           <div className="blur-late flex items-center justify-center mv0-l mv3">
             <Link to="/" className="link dim">
-              <h1 className="ml2-l dib f3 fw4 tracked-tiny white">Dennis Cortés</h1>
+              <h1 className="ml2-l dib f4 fw5 tracked-tiny white">Dennis Cortés</h1>
             </Link>
           </div>
           <ul className="list pl0">
@@ -40,7 +40,7 @@ class Header extends Component {
                 Blog ↗
               </a>
             </li>
-            <li className="dib mr3">
+            <li className="dib">
               <Link to="/about" className="items-center dn-l flex f7 fw4 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 bg-white-20 hover-bg-white-20 bg-animate">
                 About
               </Link>

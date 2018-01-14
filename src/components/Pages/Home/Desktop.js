@@ -10,7 +10,7 @@ import Work from './Data/Work';
 class Desktop extends Component {
   render() {
 
-    const aboutImage      = require("../../../img/about-picture.jpg");
+    const aboutImage = require("../../../img/about-picture.jpg");
 
     return (
       <div className="w-100 dn flex-l flex-wrap">
