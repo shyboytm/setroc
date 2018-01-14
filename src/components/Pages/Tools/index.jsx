@@ -80,19 +80,19 @@ class Tools extends Component {
       <div id="Tools" className="black">
         <div className="bg-dot-grid bg-black-blue">
           <div className="animated fadeIn w-90-ns w-100 center pv4 ph0-ns ph3 z-0 tl">
-            <h1 className="f1-ns f2 fw6 lh-title blur-late white">Tools</h1>
-            <p className="fw4 f4-ns f5 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
+            <h1 className="f-subheadline-ns f1 fw3 lh-title blur-late white tracked-tiny"><span style={{letterSpacing: -7 + "px"}}>T</span>ools</h1>
+            <p className="fw4 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
               These are things I use on a daily basis for work and life.
               From apps I use, stuff I always carry, to games I play.
               Affliliate links are used when possible to help support my free to use
               projects. Enjoy!
             </p>
-            <h2 className="white fw4 tracked-tiny">Last Updated Jan 13th</h2>
+            <h2 className="white fw5 tracked-tiny">Last Updated Jan 13th</h2>
             {/* Shortcuts */}
             <ul className="list ph0 pv4-ns pv3">
               <li className="dib mr3">
-                <a href="#Setup" className="items-center flex f7 fw4 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link black dim glow bg-white">
-                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(0,0,0,1.0)" width="20" height="20" viewBox="0 0 28 18">
+                <a href="#Setup" className="items-center flex up f7 fw6 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white glow bg-green bg-animate">
+                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(256,256,256,1.0)" width="20" height="20" viewBox="0 0 28 18">
                     <title>Laptop Custom Icon</title>
                     <path d="M27,22V8a2,2,0,0,0-2-2H7A2,2,0,0,0,5,8V22H2v1a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V22ZM8,9H24V20H8Z" transform="translate(-2 -6)"/>
                   </svg>
@@ -100,8 +100,8 @@ class Tools extends Component {
                 </a>
               </li>
               <li className="dib mr3">
-                <a href="#EveryDay" className="items-center flex f7 fw4 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link black dim glow bg-white">
-                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(0,0,0,1.0)" width="18" height="18" viewBox="0 0 16 26">
+                <a href="#EveryDay" className="items-center flex up f7 fw6 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white glow bg-blue bg-animate">
+                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(256,256,256,1.0)" width="18" height="18" viewBox="0 0 16 26">
                     <title>Backpack Custom Icon</title>
                     <path d="M19,6.59V6a3,3,0,0,0-6,0v.59A8,8,0,0,0,8,14V27a2,2,0,0,0,2,2H22a2,2,0,0,0,2-2V14A8,8,0,0,0,19,6.59ZM14,6a2,2,0,0,1,4,0v.26a7.76,7.76,0,0,0-4,0Zm-1,6a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v1a1,1,0,0,1-1,1H14a1,1,0,0,1-1-1Zm9,11H20v2a1,1,0,0,1-2,0V23H10V21H22Z" transform="translate(-8 -3)"/>
                   </svg>
@@ -109,8 +109,8 @@ class Tools extends Component {
                 </a>
               </li>
               <li className="dib mr3">
-                <a href="#Apps" className="items-center flex f7 fw4 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link black dim glow bg-white">
-                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(0,0,0,1.0)" width="18" height="18" viewBox="0 0 28 28">
+                <a href="#Apps" className="items-center flex up f7 fw6 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white glow bg-light-purple bg-animate">
+                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(256,256,256,1.0)" width="18" height="18" viewBox="0 0 28 28">
                     <title>App Web Custom Icon</title>
                     <path d="M22,16a6,6,0,1,1-6-6A6,6,0,0,1,22,16Zm7.12-2.12a3,3,0,1,0,0,4.24A3,3,0,0,0,29.12,13.88ZM2.88,18.12a3,3,0,1,0,0-4.24A3,3,0,0,0,2.88,18.12ZM21.59,7.59a2,2,0,1,0,2.83,0A2,2,0,0,0,21.59,7.59Zm-14,14a2,2,0,1,0,2.83,0A2,2,0,0,0,7.59,21.59Zm16.83,0a2,2,0,1,0,0,2.83A2,2,0,0,0,24.41,21.59Zm-14-14a2,2,0,1,0,0,2.83A2,2,0,0,0,10.41,7.59Zm3.46-4.71a3,3,0,1,0,4.24,0A3,3,0,0,0,13.88,2.88Zm4.24,26.24a3,3,0,1,0-4.24,0A3,3,0,0,0,18.12,29.12Z" transform="translate(-2 -2)"/>
                   </svg>
@@ -118,8 +118,8 @@ class Tools extends Component {
                 </a>
               </li>
               <li className="dib mr3">
-                <a href="#Gaming" className="items-center flex f7 fw4 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link black dim glow bg-white">
-                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(0,0,0,1.0)" width="18" height="18" viewBox="0 0 26.7 25">
+                <a href="#Gaming" className="items-center flex up f7 fw6 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white glow bg-red bg-animate">
+                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(256,256,256,1.0)" width="18" height="18" viewBox="0 0 26.7 25">
                     <title>Gaming Custom Icon</title>
                     <path d="M29.3,23l-1.89-11.5a3.39,3.39,0,0,0-2.73-2.74h0a48.53,48.53,0,0,0-17.36,0h0a3.39,3.39,0,0,0-2.73,2.74L2.7,23A3.39,3.39,0,0,0,9,25.29l1.38-2.93a3,3,0,0,1,2.13-1.66h0a17.71,17.71,0,0,1,7,0,3,3,0,0,1,2.11,1.63l1.43,3A3.39,3.39,0,0,0,29.3,23ZM13,14.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,0-.5.5v1a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,0-.5-.5h-1a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5h1a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,1,.5-.5h1a.5.5,0,0,1,.5.5v1a.5.5,0,0,0,.5.5h1a.5.5,0,0,1,.5.5Zm7.5-.5A1.5,1.5,0,1,1,22,12.5,1.5,1.5,0,0,1,20.5,14Zm4,4A1.5,1.5,0,1,1,26,16.5,1.5,1.5,0,0,1,24.5,18Zm-8-11h-1a.5.5,0,0,1-.5-.5V3a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V6.5A.5.5,0,0,1,16.5,7Z" transform="translate(-2.65 -2)"/>
                   </svg>
@@ -127,8 +127,8 @@ class Tools extends Component {
                 </a>
               </li>
               <li className="dib mr3">
-                <a href="#Coffee" className="items-center flex f7 fw4 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link black dim glow bg-white">
-                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(0,0,0,1.0)" width="18" height="18" viewBox="0 0 28 26">
+                <a href="#Coffee" className="items-center flex up f7 fw6 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white glow bg-gold bg-animate">
+                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(256,256,256,1.0)" width="18" height="18" viewBox="0 0 28 26">
                     <title>Coffee Custom Icon</title>
                     <path d="M30,26a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V25H30ZM28,8a1,1,0,0,1,1,1v3a6,6,0,0,1-5,5.91V18a5,5,0,0,1-5,5H11a5,5,0,0,1-5-5V9A1,1,0,0,1,7,8Zm-1,2H24v5.86A4,4,0,0,0,27,12ZM13,6.5V3a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1V6.5a.5.5,0,0,0,.5.5h1A.5.5,0,0,0,13,6.5Zm6,0V4a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1V6.5a.5.5,0,0,0,.5.5h1A.5.5,0,0,0,19,6.5Z" transform="translate(-2 -2)"/>
                   </svg>
@@ -139,7 +139,7 @@ class Tools extends Component {
           </div>
         </div>
 
-        <div className="w-75-l w-80-m w-90 center mv5 animated fadeIn">
+        <div className="w-75-l w-80-m w-90 center mv5 animated fadeInUp">
             {/* Setup */}
             <Section
               id="Setup"

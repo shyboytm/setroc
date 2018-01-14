@@ -10,7 +10,7 @@ class Mentoring extends Component {
       <div id="Mentoring" className="animated fadeIn relative black">
 
         <div className="w-90-ns w-100 center mv5-ns mv4 ph0-ns ph3 z-0 tl">
-          <h1 className="f1-ns f2 fw6 lh-title blur">Mentoring</h1>
+          <h1 className="f1-ns f2 fw6 lh-title blur-late">Mentoring</h1>
           <p className="fw5 f4-ns f5 lh-subtitle measure black-60 mb4 tracked-tiny">
             I'm here to help. After many requests for a mentorship service from me and my own personal views on the value of mentoring,
             you can now book a 1-on-1 45-minute chat with me.

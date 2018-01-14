@@ -23,7 +23,8 @@
 .shadow-small             { box-shadow: 0px 4px 10px 0px rgba(0,0,0, 0.04); }
 .shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.075); }
 .text-outline             { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; }
-.tracked-tiny             { letter-spacing: .012rem; }
+.tracked-tiny             { letter-spacing: .04rem; }
+.up:hover                 { transform: translateY(-2px); transition: all .15s ease-in-out; }
 .no-outline:focus         { outline: none; }
 
 /*Custom CSS*/
@@ -61,7 +62,7 @@
 
 .shine { -webkit-animation: shine 5s linear infinite; }
 .blur { -webkit-animation: blur 1s ease-in-out; }
-.blur-late { -webkit-animation: blur 3s ease-in-out; }
+.blur-late { -webkit-animation: blur 2.5s ease-in-out; }
 .hover-shine:hover { -webkit-animation: shine 5s linear infinite; }
 
 .calendly-inline-widget {

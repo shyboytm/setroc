@@ -13,7 +13,7 @@ class Section extends Component {
     return (
       <div id={id} className="tl-ns tc bb b--black-10 pb3 mb4 flex flex-row-ns flex-column items-center justify-between mt5">
         <div>
-          <h2 className="shine bg-text-clip f3 fw6 lh-title mt0 mb2">
+          <h2 className="shine bg-text-clip f2 fw6 lh-title mt0 mb2 tracked-tiny">
             {title}
           </h2>
           <p className="fw5 f4 lh-subtitle measure-narrow black-80">
