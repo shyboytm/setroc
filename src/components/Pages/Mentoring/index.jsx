@@ -9,10 +9,6 @@ class Mentoring extends Component {
     return (
       <div id="Mentoring" className="animated fadeIn relative black">
 
-        <a className="bottom-1 right-1 fixed link bn fw6 f6 ttu dib dim ph3 pv2 tc white bg-gradient pointer br2 mt3" href="#MentoringPay">
-          Get Started
-        </a>
-
         <div className="w-90-ns w-100 center mv5-ns mv4 ph0-ns ph3 z-0 tl">
           <h1 className="f1-ns f2 fw6 lh-title blur">Mentoring</h1>
           <p className="fw5 f4-ns f5 lh-subtitle measure black-60 mb4 tracked-tiny">
@@ -20,6 +16,10 @@ class Mentoring extends Component {
             you can now book a 1-on-1 45-minute chat with me.
           </p>
         </div>
+
+        <a className="bottom-1 right-1 fixed link bn fw6 f6 ttu tc dib dim ph3 pv2 white bg-gradient pointer br2 mt3 z-max" href="#MentoringPay">
+          Get Started
+        </a>
 
         <div className="w-75-l w-90 center mv5">
           <div className="content-end flex flex-wrap">
