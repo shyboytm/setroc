@@ -16,7 +16,9 @@
 .lh-subtitle              { line-height: 2rem; }
 .bg-pinkish               { background-color: #FCEEE3; }
 .bg-navy                  { background-color: #101A25; }
+.bg-black-blue            { background-color: #1B1D20; }
 .bg-black-025             { background-color: rgba(0,0,0,.025); }
+.glow                     { box-shadow: 0px 4px 10px 0px rgba(256,256,256, 0.075); }
 .pinkish                  { color: #A66042; }
 .shadow-small             { box-shadow: 0px 4px 10px 0px rgba(0,0,0, 0.04); }
 .shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.075); }

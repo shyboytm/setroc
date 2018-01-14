@@ -22,8 +22,8 @@ class Item extends Component {
                 {description}
               </p>
                <div className="flex items-center justify-between mt2">
-                 <span className="fw4 f4-ns black-30">${price}</span>
-                  <a className="b--black-10 black br2 ba bg-white dim fw7 f7 link shadow-small ttu pointer ph2 pv1 tc tracked" target="_blank" rel="nofollow" href={href}>
+                 <span className="fw4 f4-ns black-30 dn">${price}</span>
+                  <a className="b--black-10 black br-pill ba bg-white db dim fw7 f7 link shadow-small ttu pointer ph2 pv1 tc tracked w-100" target="_blank" rel="nofollow" href={href}>
                     View
                   </a>
                </div>
