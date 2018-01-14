@@ -11,7 +11,7 @@ class Header extends Component {
         <div id="Header" className="flex-l justify-between tl-l tc w-100 ph3 pv2 system bb bg-black-90 b--white-10">
           <div className="blur-late flex items-center justify-center mv0-l mv3">
             <Link to="/" className="link dim">
-              <h1 className="ml2-l dib f4 fw5 white" style={{letterSpacing: 1.5 + "px"}}>Dennis Cortés</h1>
+              <h1 className="ml2-l dib f6 fw4 ttu tracked white">Dennis Cortés</h1>
             </Link>
           </div>
           <ul className="list pl0">
