@@ -7,21 +7,23 @@ import Title from '../../Title';
 class Mentoring extends Component {
   render() {
     return (
-      <div id="Mentoring" className="animated fadeIn relative black">
+      <div id="Mentoring" className="relative black">
 
-        <div className="w-90-ns w-100 center mv5-ns mv4 ph0-ns ph3 z-0 tl">
-          <h1 className="f1-ns f2 fw6 lh-title blur-late">Mentoring</h1>
-          <p className="fw5 f4-ns f5 lh-subtitle measure black-60 mb4 tracked-tiny">
-            I'm here to help. After many requests for a mentorship service from me and my own personal views on the value of mentoring,
-            you can now book a 1-on-1 45-minute chat with me.
-          </p>
+        <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tl">
+          <div className="center w-90">
+            <h1 className="f-subheadline-ns f1 fw3 lh-title blur-late white tracked-tiny">Mentoring</h1>
+            <p className="fw5 f4 lh-subtitle measure white-90 mb5">
+              I'm here to help. After many requests for a mentorship service from me and my own personal views on the value of mentoring,
+              you can now book a 1-on-1 45-minute chat with me.
+            </p>
+          </div>
         </div>
 
         <a className="bottom-1 right-1 fixed link bn fw6 f6 ttu tc dib dim ph3 pv2 white bg-gradient pointer br2 mt3 z-max" href="#MentoringPay">
           Get Started
         </a>
 
-        <div className="w-75-l w-90 center mv5">
+        <div className="animated fadeIn w-75-l w-90 center mv5">
           <div className="content-end flex flex-wrap">
             <div className="items-start relative ph4 pv3 w-50-ns w-100">
               <Title title="What is this & what to expect?" />

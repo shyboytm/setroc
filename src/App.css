@@ -24,7 +24,8 @@
 .shadow-large             { box-shadow: 0px 5px 30px rgba(30,30,45,0.075); }
 .text-outline             { -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: black; }
 .tracked-tiny             { letter-spacing: .04rem; }
-.up:hover                 { transform: translateY(-2px); transition: all .15s ease-in-out; }
+.up                       { transition: all .15s ease-in-out !important; }
+.up:hover                 { transform: translateY(-2px); }
 .no-outline:focus         { outline: none; }
 
 /*Custom CSS*/
