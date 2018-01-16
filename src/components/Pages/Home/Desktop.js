@@ -16,7 +16,7 @@ class Desktop extends Component {
       <div className="w-100 dn flex-l flex-wrap">
         <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
-          <h3 className="f3 fw6 lh-subtitle system mt4 mb0 blur tracked-tiny">
+          <h3 className="f3 fw6 lh-subtitle system mt4 mb0 blur-late tracked-tiny">
             Hey Friend <span className="ml2 absolute spin">👋</span>
           </h3>
           <p className="lh-copy">
@@ -25,29 +25,19 @@ class Desktop extends Component {
             I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">
-            I enjoy thinking about experienced based solutions through use of design and technological implementations.
+            I enjoy thinking about experience based solutions through use of design and technological implications.
             I find internal systematic struggles intriguing and set to solve and improve processes to better the way
             people work and interact with technology. Through merging expertise in product, branding,
             illustration, and web technologies, I can better approach problems for modern overarching solutions.
           </p>
           <p className="lh-copy">
-            Outside of design, I write and release at least one article a week (65+ weeks!). I also spend time
-            learning code on my own and build projects with that knowledge for fun. As a firm believer in helping
-            others, most of my efforts go towards finding ways to work with people and bringing value to their life
-            and ventures.
+            Outside of design, I write and release at least one article a week (70+ weeks!) and spend time
+            coding for the web to build projects to benefit myself and others. I love spending time with my dogs,
+            playing video games, making music, and eating food. As a firm believer in helping others, most of my efforts
+            go towards finding ways to work with people and bringing value to their life and ventures.
           </p>
           <p className="lh-copy">
             I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
-          </p>
-
-          <Spacer />
-
-          <Title
-            title="Hobbies"
-            toolTipText="🤓">
-          </Title>
-          <p className="fw4 lh-copy">
-            When I'm not designing or writing code you can find me trying to learn new things, playing video games, writing, learning about coffee, trying out new tech, treating my dogs like kids, catching Pokémon, or making music.
           </p>
 
           <Spacer />
@@ -61,20 +51,23 @@ class Desktop extends Component {
               My current lineup of single-player games I am playing through.
             </p>
             <Feature
+              href="http://amzn.to/2EJUrhY"
+              name="Night in the Woods" />
+            <Feature
               href="http://amzn.to/2zOSvSQ"
               name="Super Mario Odyssey" />
             <Feature
-              href="http://amzn.to/2x85EF0"
-              name="Wolfenstein II" />
+              href="http://amzn.to/2Di0X2d"
+              name="Assassin's Creed: Origins" />
+            <Feature
+              href="http://amzn.to/2D7mTK7"
+              name="Pokémon Gold" />
             <Feature
               href="http://amzn.to/2ypBctD"
               name="Stardew Valley" />
             <Feature
-              href="http://amzn.to/2fDJggk"
-              name="Destiny 2" />
-            <Feature
-              href="http://amzn.to/2xHnMur"
-              name="Pokémon Platinum" />
+              href="http://amzn.to/2D3hHXP"
+              name="Pokémon Ultra Moon" />
           </div>
         </div>
 
@@ -320,6 +313,19 @@ class Desktop extends Component {
               href="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s"
               name="Logomarked" />
           </div>
+
+          <Spacer />
+
+          <Title
+            title="Hobbies"
+            toolTipText="🤓">
+          </Title>
+          <p className="fw4 lh-copy">
+            When I'm not designing or writing code you can find me trying to learn new things, playing video games,
+            trying new restaurants, writing, learning about coffee, trying out new tech, treating my dogs like kids,
+            catching Pokémon, or making music.
+          </p>
+
         </div>
       </div>
     );

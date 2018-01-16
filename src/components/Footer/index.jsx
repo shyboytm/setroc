@@ -4,10 +4,10 @@ class Footer extends Component {
   render() {
     return (
       <div id="Footer" className="pb4 bg-black">
-        <div className="w-90 center cf pv4">
+        <div className="w-90 center cf pv5">
           <div className="w-100 ph3 mb3 mt0 tc">
-            <h2 className="fw6 f2-ns f3 white shine bg-text-clip system">Say hello!</h2>
-            <p className="white-80 lh-copy w-50-l w-70-m w-100 center">
+            <h2 className="fw5 f1-ns f2 white tracked-tiny system">Say hello!</h2>
+            <p className="white-80 fw5 f4 lh-subtitle w-60-l w-70-m w-100 center" style={{letterSpacing: 0.8 + "px"}}>
               I'd love to work with you on a new project, answer any questions, or just talk about what's on your mind.
               Send me an email at <a className="link white underline rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a>
             </p>
