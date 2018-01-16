@@ -82,11 +82,13 @@
       filter: blur(3px);
       opacity: 0;
       transform: translate3d(0, -50%, 0);
+      transform: skewY(10deg);
     }
     to {
       filter: blur(0px);
       transform: none;
       transform: matrix3d(0);
+      transform: skewY(0deg);
     }
 }
 
