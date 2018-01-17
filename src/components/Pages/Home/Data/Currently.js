@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Title from '../../../Title';
 
-class Work extends Component {
+class Currently extends Component {
   render() {
     return (
       <div>
@@ -57,4 +57,4 @@ class Work extends Component {
   }
 }
 
-export default Work;
+export default Currently;

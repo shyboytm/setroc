@@ -4,6 +4,7 @@ import Feature from '../../Feature';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
+import Date from './Data/Date';
 import Currently from './Data/Currently';
 import Work from './Data/Work';
 
@@ -210,6 +211,9 @@ class Desktop extends Component {
         </div>
 
         <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
+
+          <h1><Date /></h1>
+
           <Title
             title="Contact"
             toolTipText="💌">
