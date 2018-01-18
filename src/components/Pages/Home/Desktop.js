@@ -212,7 +212,7 @@ class Desktop extends Component {
 
         <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
 
-          <h1><Date /></h1>
+          <p className="f4 fw5 lh-subtitle tracked">It's currently <br /><Date /></p>
 
           <Title
             title="Contact"

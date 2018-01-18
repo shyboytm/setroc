@@ -5,11 +5,15 @@ class Today extends Component {
   constructor() {
       super();
 
-      var today = new Date(),
-          date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+      var   today = new Date(),
+            date = (today.getMonth()+1) + "/"
+                +  today.getDate() + "/"
+                + today.getFullYear();
+      const time = today.getHours() + ':' + today.getMinutes();
 
       this.state = {
-          date: date
+          date: date,
+          time: time
       };
   }
 
@@ -17,6 +21,7 @@ class Today extends Component {
 
     return (
       <div>
+        {this.state.time}<br />
         {this.state.date}
       </div>
     );
