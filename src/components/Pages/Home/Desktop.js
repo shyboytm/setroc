@@ -4,7 +4,7 @@ import Feature from '../../Feature';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
-import Date from './Data/Date';
+import Today from './Data/Today';
 import Currently from './Data/Currently';
 import Work from './Data/Work';
 
@@ -211,15 +211,12 @@ class Desktop extends Component {
         </div>
 
         <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
-
-          <p className="f4 fw5 lh-subtitle tracked">It's currently <br /><Date /></p>
-
           <Title
             title="Contact"
             toolTipText="💌">
           </Title>
           <div className="db">
-            <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f5 ttu link shine bg-text-clip dim fw6">
+            <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f4 ttu link shine bg-text-clip dim fw7">
               hi@cortes.us
             </a>
             <Feature
@@ -243,6 +240,9 @@ class Desktop extends Component {
             <Feature
               href="https://unsplash.com/@cortes"
               name="Unsplash" />
+            <Feature
+              href="https://ello.co/crts"
+              name="Ello" />
           </div>
 
           <Spacer />

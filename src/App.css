@@ -93,16 +93,16 @@
 }
 
 @keyframes random {
-    0%  { background-color: #000000; }
+    0%  { background-color: #00DBDE; }
     10% { background-color: #a6c1ee; }
     20% { background-color: #96e6a1; }
     30% { background-color: #fbc2eb; }
-    40% { background-color: #f6d365; }
+    40% { background-color: #00DBDE; }
     50% { background-color: #38f9d7; }
-    60% { background-color: #fda085; }
+    60% { background-color: #FC00FF; }
     70% { background-color: #667eea; }
     80% { background-color: #89f7fe; }
-    90% { background-color: #66a6ff; }
+    90% { background-color: #00DBDE; }
 }
 
 .animated {
