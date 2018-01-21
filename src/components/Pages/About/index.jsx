@@ -20,21 +20,20 @@ class Home extends Component {
             Hey There <span className="ml2 absolute spin">👋</span>
           </h2>
           <p className="lh-copy">
-            I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 6+ years of experience
-            in the world of design and illustration and have built products both on my own and on a team.
+            I’m Dennis, a 23 year old digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico.
             I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">
-            I enjoy thinking about experienced based solutions through use of design and technological implementations.
+            I enjoy thinking about experience based solutions through use of design and technological implications.
             I find internal systematic struggles intriguing and set to solve and improve processes to better the way
-            I and people I work with think and work personally and professionally. Through merging expertise in branding,
+            people work and interact with technology. Through merging expertise in product, branding,
             illustration, and web technologies, I can better approach problems for modern overarching solutions.
           </p>
           <p className="lh-copy">
-            Outside of design, I write and release at least one article a week (60+ weeks!). I also spend time
-            learning code on my own and build projects with that knowledge for fun. As a firm believer in helping
-            others, most of my efforts go towards finding ways to work with people and bringing value to their life
-            and ventures.
+            Outside of design, I write and release at least one article a week (70+ weeks!) and spend time
+            coding for the web to build projects to benefit myself and others. I love spending time with my dogs,
+            playing video games, making music, and eating food. As a firm believer in helping others, most of my efforts
+            go towards finding ways to work with people and bringing value to their life and ventures.
           </p>
           <p className="lh-copy">
             I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩

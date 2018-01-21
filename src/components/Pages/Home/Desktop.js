@@ -21,8 +21,7 @@ class Desktop extends Component {
             Hey Friend <span className="ml2 absolute spin">👋</span>
           </h3>
           <p className="lh-copy">
-            I’m a digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. I have 6+ years of experience
-            in the world of design and illustration and have built products both on my own and on a team.
+            I’m Dennis, a 23 year old digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. 
             I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">
