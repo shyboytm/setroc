@@ -21,7 +21,9 @@ class Home extends Component {
           </h2>
           <p className="lh-copy">
             I’m Dennis, a 23 year old digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico.
-            I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
+            I grew up mainly in Plantation, FL and studied design in college after putting my rap producer dreams to rest.
+            I love working day-to-day on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
+            I make a lot of products on my own outside of my full-time work on a team.
           </p>
           <p className="lh-copy">
             I enjoy thinking about experience based solutions through use of design and technological implications.
