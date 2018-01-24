@@ -26,37 +26,37 @@ class Header extends Component {
 
           <ul className="list ph0-l ph3">
             <li className="dib mr3">
-              <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="items-center flex f7-l f6 fw5 up mb0-l mb3 br-pill db pa1 ttu tracked link white">
+              <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 Work ↗
               </a>
             </li>
             <li className="dib mr3">
-              <Link to="/mentoring" className="items-center flex f7-l f6 fw5 up mb0-l mb3 br-pill db pa1 ttu tracked link white">
+              <Link to="/mentoring" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 Mentoring
               </Link>
             </li>
             <li className="dib mr3">
-              <Link to="/tools" className="items-center flex f7-l f6 fw5 up mb0-l mb3 br-pill db pa1 ttu tracked link white">
+              <Link to="/tools" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 Tools
               </Link>
             </li>
             {/* <li className="dib mr3">
-              <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="items-center flex f7-l f6 fw5 up mb0-l mb3 br-pill db pa1 ttu tracked link white">
+              <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 Inspo ↗
               </a>
             </li> */}
             <li className="dib mr3">
-              <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f7-l f6 fw5 up mb0-l mb3 br-pill db pa1 ttu tracked link white">
+              <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 Blog ↗
               </a>
             </li>
             <li className="dib mr3">
-              <Link to="/news" className="items-center flex f7-l f6 fw5 up mb0-l mb3 br-pill db pa1 ttu tracked link white">
+              <Link to="/news" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 News
               </Link>
             </li>
             <li className="dib">
-              <Link to="/about" className="items-center dn-l flex f7-l f6 fw5 up mb0-l mb3 br-pill db pa1 ttu tracked link white">
+              <Link to="/about" className="items-center dn-l flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 About
               </Link>
             </li>
