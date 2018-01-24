@@ -16,12 +16,12 @@ class Desktop extends Component {
     return (
       <div className="w-100 dn flex-l flex-wrap">
         <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 br bb b--black-10">
-          <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
+          <img src={aboutImage} alt="Dennis Cortés" className="blur-late br2 shadow-large mt3" />
           <h3 className="f3 fw6 lh-subtitle system mt4 mb0 blur-late tracked-tiny">
             Hey Friend <span className="ml2 absolute spin">👋</span>
           </h3>
           <p className="lh-copy">
-            I’m Dennis, a 23 year old digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico. 
+            I’m Dennis, a 23 year old digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico.
             I love working on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">

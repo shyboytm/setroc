@@ -9,6 +9,7 @@ import About from './components/Pages/About';
 import Books from './components/Pages/Books';
 import Home from './components/Pages/Home';
 import Mentoring from './components/Pages/Mentoring';
+import News from './components/Pages/News';
 import NotFound from './components/Pages/NotFound';
 import Thanks from './components/Pages/Thanks';
 import Tools from './components/Pages/Tools';
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="/about" component={About} />
       <Route path="/books" component={Books} />
       <Route path="/mentoring" component={Mentoring} />
+      <Route path="/news" component={News} />
       <Route path="/tools" component={Tools} />
       <Route path='*' component={NotFound} />
     </Route>
