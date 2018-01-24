@@ -19,7 +19,7 @@ class News extends Component {
           </div>
         </div>
 
-        <div className="pv5">
+        <div className="pt5 pb4">
           <div className="ba br2 b--blue bg-light-blue center pa4 w-90">
             <p>Testing This</p>
           </div>
@@ -29,20 +29,20 @@ class News extends Component {
           <ul className="center list pl0 w-90">
             <li className="bb b--black-10 pv3">
               <Link to="/" className="dim flex items-center-ns flex-row-ns flex-column justify-between link">
-                <h2 className="bg-text-clip fw5 f3 tracked-tiny shine">Item Example Header</h2>
-                <span className="black">Item date</span>
+                <h2 className="black fw5 f3 tracked-tiny">I'm Joining MetaLab!</h2>
+                <span className="bg-text-clip black shine">Feb 5 2018</span>
               </Link>
             </li>
             <li className="bb b--black-10 pv3">
               <Link to="/" className="dim flex items-center-ns flex-row-ns flex-column justify-between link">
-                <h2 className="bg-text-clip fw5 f3 tracked-tiny shine">Item Example Header</h2>
-                <span className="black">Item date</span>
+                <h2 className="black fw5 f3 tracked-tiny">Item Example Header</h2>
+                <span className="bg-text-clip black shine">Item date</span>
               </Link>
             </li>
             <li className="bb b--black-10 pv3">
               <Link to="/" className="dim flex items-center-ns flex-row-ns flex-column justify-between link">
-                <h2 className="bg-text-clip fw5 f3 tracked-tiny shine">Item Example Header</h2>
-                <span className="black">Item date</span>
+                <h2 className="black fw5 f3 tracked-tiny">Item Example Header</h2>
+                <span className="bg-text-clip black shine">Item date</span>
               </Link>
             </li>
           </ul>
