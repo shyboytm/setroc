@@ -20,8 +20,18 @@ class News extends Component {
         </div>
 
         <div className="pt5 pb4">
-          <div className="ba br2 b--blue bg-light-blue center pa4 w-90">
-            <p>Testing This</p>
+          <div className="ba br2 b--black-10 bg-black-10 black center flex flex-row-l flex-column items-center justify-between pv3 ph4 w-90">
+            <p className="flex-auto mv0 f4 fw5 tracked-tiny">Stay in the Loop 📬</p>
+            <form className="flex-auto items-center" action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
+              {/*Hidden fields for Mailchimp account and list*/}
+              <input type="hidden" name="u" value="574c615abddacf2d7b51d2104" />
+              <input type="hidden" name="id" value="7bd40f02a4" />
+              <label className="clip" for="email-address">Your Email</label>
+              <input className="flex-auto f6 input-reset black bg-white dib shadow-large bn pa3 br2 mr3 w-40"
+                placeholder="Email Address"
+                type="email" name="MERGE0" tabindex="-1" id="b_email" />
+              <input className="bn fw6 f6 ttu button-reset dim pv3 tc dib white bg-gradient pointer br2 w-40" type="submit" value="Subscribe" />
+            </form>
           </div>
         </div>
 
