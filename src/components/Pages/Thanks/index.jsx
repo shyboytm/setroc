@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Thanks extends Component {
   render() {
     return (
-      <div id="Thanks" className="animated fadeIn overflow-x-hidden-l">
+      <div id="Thanks" className="animated fadeIn overflow-x-hidden-l smooth-text">
         <div className="pv6-l pv5 tc w-80-ns center w-90">
           <h1 className="leitura fw4">Thanks for subscribing!</h1>
           <p className="lh-copy f5 black-60 measure-ns center">
