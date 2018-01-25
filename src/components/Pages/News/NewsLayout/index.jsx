@@ -13,7 +13,7 @@ class NewsLayout extends Component {
     const signatureImage = require('../../../../img/news-signature-image.png');
 
     return (
-      <div className="center pv5-ns pv4 w-50-l w-75-m w-90 bg-black-blue">
+      <div className="center pv5-ns pv4 w-50-l w-75-m w-90 bg-black-blue smooth-text">
         <p className="f6 ttu fw7 white-40 tracked">{date}</p>
         <h1 className="lh-title white fw6 f1-ns f2 tracked-tiny">{title}</h1>
         <h2 className="white-70 f3-ns f4 lh-subtitle tracked-tiny measure-narrow fw5 mb4">{subtitle}</h2>
