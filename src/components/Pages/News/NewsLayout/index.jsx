@@ -4,18 +4,20 @@ class NewsLayout extends Component {
   render() {
 
     const {
+      children,
       date,
+      subtitle,
       title
     } = this.props;
 
     return (
-      <div>
-        <h2>{title}</h2>
-        <span>{date}</span>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+      <div className="center pv5-ns pv4 w-50-l w-75-m w-90">
+        <p className="f6 ttu fw6 black-30 tracked-tiny">{date}</p>
+        <h1 className="lh-title fw6 f1-ns f2 tracked-tiny">{title}</h1>
+        <h2 className="black-60 f3-ns f4 lh-subtitle tracked-tiny measure-narrow fw5 mb4">{subtitle}</h2>
+        <div className="bg-rainbow mv5 w3" style={{height: 3 + "px"}}></div>
+        <div id={title} className="black-60 lh-copy">
+          {children}
         </div>
       </div>
     );
