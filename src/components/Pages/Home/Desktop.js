@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
+// Components
 import Feature from '../../Feature';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
-import Today from './Data/Today';
+// Data
 import Currently from './Data/Currently';
 import Work from './Data/Work';
 

@@ -6,9 +6,6 @@ import Mobile from './Mobile';
 
 class Home extends Component {
   render() {
-
-    const aboutImage = require("../../../img/about-picture.jpg");
-
     return (
       <div id="Home" className="black f6">
           <Desktop />

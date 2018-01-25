@@ -14,13 +14,13 @@ class Header extends Component {
               <div className="dib flex mr1">
                 <Logo />
               </div>
-              <h1 className="ml2-l dib f7-l f6 fw7 ttu tracked white">
+              <h1 className="ml2-l dib f6-l f5 fw7 ttu tracked white">
                 <span className="fw3">Dennis</span> Cortés
               </h1>
             </Link>
           </div>
 
-          <p className="f7-l f5 fw4 flex items-center justify-center dib mv2-l mt0 mb4 relative white">
+          <p className="f6-l f5 fw4 flex items-center justify-center dib mv2-l mt0 mb4 relative white">
             <span className="f3">🌦</span> <Today />
           </p>
 

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import Title from '../../Title';
+
 import Footer from '../../Footer';
 
 class News extends Component {
@@ -20,17 +22,19 @@ class News extends Component {
         </div>
 
         <div className="pt5 pb4">
-          <div className="ba br2 b--black-10 bg-black-10 black center flex flex-row-l flex-column items-center justify-between pv3 ph4 w-90">
-            <p className="flex-auto mv0 f4 fw5 tracked-tiny">Stay in the Loop 📬</p>
-            <form className="flex-auto items-center" action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
+          <div className="ba br2 b--black-10 bg-black-10 black center flex flex-row-l flex-column items-center-l justify-between pa3 ph4-ns w-90">
+            <p className="mv0-l mb4 mt2 tl-ns tc">
+              <Title title="Stay in the Loop" toolTipText="📬" />
+            </p>
+            <form className="items-center justify-between" action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
               {/*Hidden fields for Mailchimp account and list*/}
               <input type="hidden" name="u" value="574c615abddacf2d7b51d2104" />
               <input type="hidden" name="id" value="7bd40f02a4" />
               <label className="clip" for="email-address">Your Email</label>
-              <input className="flex-auto f6 input-reset black bg-white dib shadow-large bn pa3 br2 mr3 w-40"
+              <input className="f6 input-reset black bg-white dib-l db shadow-large bn pa3 br2 mb0-l mb3 w-auto-l w-100"
                 placeholder="Email Address"
                 type="email" name="MERGE0" tabindex="-1" id="b_email" />
-              <input className="bn fw6 f6 ttu button-reset dim pv3 tc dib white bg-gradient pointer br2 w-40" type="submit" value="Subscribe" />
+              <input className="bn fw6 f6 ttu button-reset dim pa3 tc dib-l db white bg-gradient pointer br2 ml3-l w-auto-l w-100" type="submit" value="Subscribe" />
             </form>
           </div>
         </div>
@@ -39,8 +43,9 @@ class News extends Component {
           <ul className="center list pl0 w-90">
             <li className="bb b--black-10 pv3">
               <Link to="/" className="dim flex items-center-ns flex-row-ns flex-column justify-between link">
-                <h2 className="black fw5 f3 tracked-tiny">I'm Joining MetaLab!</h2>
-                <span className="bg-text-clip black shine">Feb 5 2018</span>
+                <h2 className="black flex-auto fw5 f3 tracked-tiny">I'm Joining MetaLab!</h2>
+                <span className="black mr3">Feb 5 2018</span>
+                <span className="bg-text-clip black shine">Read &rarr;</span>
               </Link>
             </li>
             <li className="bb b--black-10 pv3">
