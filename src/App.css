@@ -30,6 +30,13 @@
 
 /*Custom CSS*/
 
+body {
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .rainbow-hover:hover {
   background-color: #000000;
   -webkit-animation: random 8s infinite;

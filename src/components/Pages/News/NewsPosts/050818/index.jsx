@@ -6,7 +6,7 @@ class iAmJoiningMetaLab extends Component {
   render() {
 
     return (
-      <div>
+      <div className="bg-black-blue">
         <NewsLayout
           title="I'm Joining MetaLab!"
           subtitle="Joining an amazing company to work with amazing people"
