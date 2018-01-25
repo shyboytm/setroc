@@ -23,12 +23,15 @@ class NewsLayout extends Component {
         </div>
         <div className="dib relative mt5">
           <span className="absolute spin f2 left-0 top-0">👋</span>
-          <img className="h4 w4 shadow-large br-pill" src={signatureImage} />
+          <img className="h4 w4 shadow-large br-pill" src={signatureImage} alt="Portrait of Dennis Cortés seated in well-lit industrial space" />
         </div>
-        <p className="f4 fw6 tracked-tiny lh-subtitle white">
+        <p className="f4 fw6 tracked-tiny lh-subtitle white mb5">
           Thanks for reading!<br />
           — Dennis Cortés
         </p>
+        <a href="/news" className="link bn fw6 f6 ttu button-reset dim ph3 pv2 tc dib-l db white bg-gradient pointer br2 w-auto-l w-100">
+          &larr; Back to all News
+        </a>
       </div>
     );
   }
