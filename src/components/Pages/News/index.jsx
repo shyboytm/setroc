@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
+import NewsItem from './NewsItem';
 import Title from '../../Title';
 
 import Footer from '../../Footer';
@@ -41,13 +42,11 @@ class News extends Component {
 
         <div className="pb5">
           <ul className="center list pl0 w-90">
-            <li className="bb b--black-10 pv3">
-              <Link to="/" className="black flex items-center-ns flex-row-ns flex-column hover-light-purple justify-between link">
-                <h2 className="flex-auto fw5 f3 tracked-tiny">I'm Joining MetaLab!</h2>
-                <span className="mr3">Feb 5 2018</span>
-                <span className="bg-text-clip shine fw5">Read &rarr;</span>
-              </Link>
-            </li>
+            <NewsItem
+              date="Feb 5 2018"
+              linkTo="/news/i-am-joining-metalab"
+              title="I'm Joining MetaLab!"
+            />
           </ul>
         </div>
 

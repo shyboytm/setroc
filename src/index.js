@@ -14,6 +14,8 @@ import NotFound from './components/Pages/NotFound';
 import Thanks from './components/Pages/Thanks';
 import Tools from './components/Pages/Tools';
 
+import iAmJoiningMetaLab from './components/Pages/News/NewsPosts/050818';
+
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
@@ -23,6 +25,7 @@ ReactDOM.render(
       <Route path="/books" component={Books} />
       <Route path="/mentoring" component={Mentoring} />
       <Route path="/news" component={News} />
+        <Route path="/news/i-am-joining-metalab" component={iAmJoiningMetaLab} />
       <Route path="/tools" component={Tools} />
       <Route path='*' component={NotFound} />
     </Route>
