@@ -9,7 +9,7 @@ class Feature extends Component {
     } = this.props;
 
     return (
-      <a className="f6 fw6 dib link rainbow-hover black ba br2 b--black-10 ph2 pv1 mv1 system mr2"
+      <a className="f6 fw6 dib link black ba br2 b--black-10 hover-light-purple ph2 pv1 mv1 system mr2"
         target="_blank" rel="nofollow" href={href}>
         {name}
       </a>

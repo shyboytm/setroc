@@ -42,22 +42,10 @@ class News extends Component {
         <div className="pb5">
           <ul className="center list pl0 w-90">
             <li className="bb b--black-10 pv3">
-              <Link to="/" className="dim flex items-center-ns flex-row-ns flex-column justify-between link">
-                <h2 className="black flex-auto fw5 f3 tracked-tiny">I'm Joining MetaLab!</h2>
-                <span className="black mr3">Feb 5 2018</span>
-                <span className="bg-text-clip black shine">Read &rarr;</span>
-              </Link>
-            </li>
-            <li className="bb b--black-10 pv3">
-              <Link to="/" className="dim flex items-center-ns flex-row-ns flex-column justify-between link">
-                <h2 className="black fw5 f3 tracked-tiny">Item Example Header</h2>
-                <span className="bg-text-clip black shine">Item date</span>
-              </Link>
-            </li>
-            <li className="bb b--black-10 pv3">
-              <Link to="/" className="dim flex items-center-ns flex-row-ns flex-column justify-between link">
-                <h2 className="black fw5 f3 tracked-tiny">Item Example Header</h2>
-                <span className="bg-text-clip black shine">Item date</span>
+              <Link to="/" className="black flex items-center-ns flex-row-ns flex-column hover-light-purple justify-between link">
+                <h2 className="flex-auto fw5 f3 tracked-tiny">I'm Joining MetaLab!</h2>
+                <span className="mr3">Feb 5 2018</span>
+                <span className="bg-text-clip shine fw5">Read &rarr;</span>
               </Link>
             </li>
           </ul>
