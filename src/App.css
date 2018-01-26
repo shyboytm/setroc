@@ -30,10 +30,19 @@
 
 /*Custom CSS*/
 
+body {
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings:    "kern";
+  -ms-font-feature-settings:     "kern";
+  font-feature-settings:         "kern";
+}
+
 .smooth-text {
   font-synthesis: none;
-  -moz-font-feature-settings: 'kern';
   -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
