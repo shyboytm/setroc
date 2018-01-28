@@ -23,7 +23,7 @@ class News extends Component {
         </div>
 
         <div className="pt5 pb4">
-          <div className="ba br2 b--black-10 bg-black-10 black center flex flex-row-l flex-column items-center-l justify-between pa3 ph4-ns w-90">
+          <div className="ba br2 b--black-10 bg-black-10 black center flex flex-row-l flex-column items-center-l justify-between pa3 pl4-ns w-90">
             <p className="mv0-l mb4 mt2 tl-ns tc">
               <Title title="Stay in the Loop" toolTipText="📬" />
             </p>
@@ -31,7 +31,7 @@ class News extends Component {
               {/*Hidden fields for Mailchimp account and list*/}
               <input type="hidden" name="u" value="574c615abddacf2d7b51d2104" />
               <input type="hidden" name="id" value="7bd40f02a4" />
-              <label className="clip" for="email-address">Your Email</label>
+              <label className="clip" htmlFor="email-address">Your Email</label>
               <input className="f6 input-reset black bg-white dib-l db shadow-large bn pa3 br2 mb0-l mb3 w-auto-l w-100"
                 placeholder="Email Address"
                 type="email" name="MERGE0" tabindex="-1" id="b_email" />
