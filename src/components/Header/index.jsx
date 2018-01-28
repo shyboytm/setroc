@@ -51,10 +51,15 @@ class Header extends Component {
               </a>
             </li>
             <li className="dib mr3">
+              <Link to="/folder" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
+                Folder
+              </Link>
+            </li>
+            {/* <li className="dib mr3">
               <Link to="/news" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 News
               </Link>
-            </li>
+            </li> */}
             <li className="dib">
               <Link to="/about" className="items-center dn-l flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 About
