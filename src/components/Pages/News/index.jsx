@@ -12,7 +12,7 @@ class News extends Component {
       <div id="News" className="relative black">
 
         <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tl smooth-text">
-          <div className="center w-90">
+          <div className="center w-90 animated fadeIn">
             <h1 className="f-subheadline-ns f1 fw3 lh-title blur-late white tracked-tiny">News</h1>
             <p className="fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
               I think it's hard to remember and give ourselves credit for our achievements. I wanted to be

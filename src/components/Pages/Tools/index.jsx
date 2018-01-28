@@ -86,7 +86,7 @@ class Tools extends Component {
               Affliliate links are used when possible to help support my free to use
               projects. Enjoy!
             </p>
-            <h2 className="white fw3 tracked-tiny">Last Updated Jan 13th</h2>
+            <h2 className="white fw6 tracked-tiny">Last Updated Jan 13th</h2>
             {/* Shortcuts */}
             <ul className="list ph0 pv4-ns pv3">
               <li className="dib mr3">
