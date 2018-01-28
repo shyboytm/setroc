@@ -19,6 +19,9 @@ class Work extends Component {
             href="https://dribbble.com/fromcortes"
             name="My Portfolio" />
           <Feature
+            href="/folder"
+            name="Folder" />
+          <Feature
             href="https://prompter.cortes.us"
             name="Prompter" />
           <Feature
