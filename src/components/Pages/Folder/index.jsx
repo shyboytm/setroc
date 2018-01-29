@@ -27,7 +27,7 @@ class Mentoring extends Component {
                   <input type="hidden" name="u" value="574c615abddacf2d7b51d2104" />
                   <input type="hidden" name="id" value="7bd40f02a4" />
                   <label className="clip" for="email-address">Your Email</label>
-                  <input className="f4 fw6 blue input-reset ba b--black-10 black bg-white pa3 w-100 br2 mb3"
+                  <input className="f4 fw6 blue input-reset ba b--black-10 bg-white pa3 w-100 br2 mb3 shadow-large"
                     placeholder="Your Email"
                     type="email" name="MERGE0" tabindex="-1" id="b_email" />
                   <input className="bn fw6 f6 ttu button-reset dim pv3 tc white bg-gradient pointer w-100 br2 mb0-l mb4" type="submit" value="Subscribe" />
