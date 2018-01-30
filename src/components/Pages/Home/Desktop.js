@@ -234,6 +234,9 @@ class Desktop extends Component {
               href="https://github.com/fromcortes"
               name="Github" />
             <Feature
+              href="https://open.spotify.com/user/hswlc8mdk5gxobfmshmki9gau?si=15BRL5VGRGydOG5YZUDxyg"
+              name="Spotify" />
+            <Feature
               href="https://twitch.tv/fromcortes"
               name="Twitch" />
             <Feature

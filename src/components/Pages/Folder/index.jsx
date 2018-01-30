@@ -4,10 +4,10 @@ import Footer from '../../Footer';
 import Section from '../../Section';
 import Title from '../../Title';
 
-class Mentoring extends Component {
+class Folder extends Component {
   render() {
     return (
-      <div id="Mentoring" className="relative black">
+      <div id="Folder" className="relative black">
 
         <div className="w-100 bg-dot-grid center pv4 ph0-ns z-0 tc smooth-text">
           <div className="center w-90">
@@ -75,4 +75,4 @@ class Mentoring extends Component {
   }
 }
 
-export default Mentoring;
+export default Folder;
