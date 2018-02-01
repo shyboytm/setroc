@@ -11,12 +11,12 @@ class Section extends Component {
     } = this.props;
 
     return (
-      <div id={id} className="tl-ns tc bb b--black-10 pb3 mb4 flex flex-row-ns flex-column items-center justify-between mt5">
+      <div id={id} className="tl-ns tc flex flex-row-ns flex-column items-center justify-between mt5 mb3">
         <div>
-          <h2 className="shine bg-text-clip f2 fw6 lh-title mt0 mb2 tracked-tiny">
+          <h2 className="f2 fw6 lh-title mt0 mb2 tracked-tiny">
             {title}
           </h2>
-          <p className="fw5 f4 lh-subtitle measure-narrow black-80">
+          <p className="fw5 f4 lh-subtitle measure-narrow black-60">
             {description}
           </p>
         </div>
