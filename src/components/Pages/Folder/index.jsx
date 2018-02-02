@@ -14,7 +14,7 @@ class Folder extends Component {
         <div className="w-100 bg-dot-grid center pv4 ph0-ns z-0 tc smooth-text">
           <div className="center w-90">
             <span className="f-subheadline-ns f1 db mt5">📂</span>
-            <h1 className="bg-text-clip f-headline-ns f-subheadline fw8 lh-title mb3 mt4 shine tracked-tiny">Folder</h1>
+            <h1 className="bg-text-clip f-headline-ns f-subheadline blur-late fw8 lh-title mb3 mt4 shine tracked-tiny">Folder</h1>
             <p className="animated fadeInUp black center fw5 f3 lh-subtitle measure mb5-l mb4 tracked-tiny">
               A monthly newsletter by Dennis Cortés
             </p>

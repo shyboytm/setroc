@@ -72,9 +72,10 @@ body {
   background-image: -moz-linear-gradient(45deg, #00DBDE 0%, #FC00FF 100%);
 }
 
-.shine { -webkit-animation: shine 5s linear infinite; }
-.blur { -webkit-animation: blur 1s ease-in-out; }
-.blur-late { -webkit-animation: blur 2.5s ease-in-out; }
+.shine             { -webkit-animation: shine 5s linear infinite; }
+.blur              { -webkit-animation: blur 1s ease-in-out; }
+.blur-late         { -webkit-animation: blur 2.5s ease-in-out; }
+.blur-skew         { -webkit-animation: blur-skew 2.5s ease-in-out; }
 .hover-shine:hover { -webkit-animation: shine 5s linear infinite; }
 
 .calendly-inline-widget {
@@ -88,7 +89,7 @@ body {
   }
 }
 
-@keyframes blur {
+@keyframes blur-skew {
     from  {
       filter: blur(3px);
       opacity: 0;
@@ -100,6 +101,19 @@ body {
       transform: none;
       transform: matrix3d(0);
       transform: skewY(0deg);
+    }
+}
+
+@keyframes blur {
+    from  {
+      filter: blur(3px);
+      opacity: 0;
+      transform: translate3d(0, -50%, 0);
+    }
+    to {
+      filter: blur(0px);
+      transform: none;
+      transform: translate3d(0);
     }
 }
 

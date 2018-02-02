@@ -79,7 +79,7 @@ class Tools extends Component {
       <div id="Tools" className="black">
         <div className="bg-dot-grid bg-black-blue smooth-text">
           <div className="animated fadeIn w-90-ns w-100 center pv4 ph0-ns ph3 z-0 tl">
-            <h1 className="f-subheadline-ns f1 fw3 lh-title blur-late white tracked-tiny"><span style={{letterSpacing: -7 + "px"}}>T</span>ools</h1>
+            <h1 className="f-subheadline-ns f1 fw3 lh-title blur-skew white tracked-tiny"><span style={{letterSpacing: -7 + "px"}}>T</span>ools</h1>
             <p className="fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
               These are things I use on a daily basis for work and life.
               From apps I use, stuff I always carry, to games I play.
@@ -138,7 +138,7 @@ class Tools extends Component {
           </div>
         </div>
 
-        <div className="w-75-l w-80-m w-90 center mv5 animated fadeInUp">
+        <div className="w-75-l w-80-m w-90 center mv5">
             {/* Setup */}
             <Section
               id="Setup"
