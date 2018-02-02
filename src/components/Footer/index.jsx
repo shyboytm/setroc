@@ -29,7 +29,7 @@ class Footer extends Component {
               {this.state.emoji}
               <a className="db link underline bg-text-clip shine fw6 f3 mt4" href="mailto:hi@cortes.us">hi@cortes.us</a>
             </p>
-            <span onClick={this.handleClick.bind(this)} className="f7 ttu tracked fw6 pointer dim">
+            <span onClick={this.handleClick.bind(this)} className="f6 ttu tracked fw8 pointer dim">
               more pls
             </span>
             <p className="black-30 f7">© 2018 Dennis Cortés</p>
