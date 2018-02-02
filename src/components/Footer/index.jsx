@@ -1,38 +1,68 @@
 import React, { Component } from 'react';
 
+import emojis from './emojis';
+
+import Feature from '../Feature';
+
 class Footer extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      emoji: emojis[Math.floor(Math.random()*emojis.length)]
+    }
+   }
+
+   handleClick(e) {
+     e.preventDefault();
+     this.setState({
+       emoji: emojis[Math.floor(Math.random()*emojis.length)]
+     });
+   }
+
   render() {
     return (
       <div id="Footer" className="pb4">
-        <div className="w-90 center cf pv5">
-          <div className="w-100 ph3 mb3 mt0 tc">
-            <h2 className="fw5 f1-ns f2 tracked-tiny system">Say hello!</h2>
-            <p className="fw5 f4 lh-subtitle w-60-l w-70-m w-100 center" style={{letterSpacing: 0.8 + "px"}}>
-              I'd love to work with you on a new project, answer any questions, or just talk about what's on your mind.
-              Send me an email at <a className="link underline rainbow-hover" href="mailto:hi@cortes.us">hi@cortes.us</a>
+        <div className="w-90-ns w-80 center flex justify-between items-center-l flex-row-l flex-column pv3-l">
+          <div className="flex-auto-l flex-column order-1-l order-2 mb3 mt0">
+            <p className="f1-l f2 lh-subtitle tracked-tiny">
+              {this.state.emoji}
+              <a className="db link underline bg-text-clip shine fw6 f3 mt4" href="mailto:hi@cortes.us">hi@cortes.us</a>
             </p>
+            <span onClick={this.handleClick.bind(this)} className="f7 ttu tracked fw6 pointer dim">
+              more pls
+            </span>
+            <p className="black-30 f7">© 2018 Dennis Cortés</p>
           </div>
-          <div className="w-100 tc pt3 mv4">
-            <a href="https://twitter.com/fromcortes" className="dim mr4-l mr0-l">
-              <img src='https://icon.now.sh/twitter/25/ffffff' alt='twitter' />
-            </a>
-            <a href="https://twitch.tv/fromcortes" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/twitch/25/ffffff' alt='twitch' />
-            </a>
-            <a href="https://youtube.com/cortesarts" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/play_arrow/25/ffffff' alt='youtube' />
-            </a>
-            <a href="https://instagram.com/fromcortes" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/instagram/25/ffffff' alt='instagram' />
-            </a>
-            <a href="https://github.com/fromcortes" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/github/25/ffffff' alt='github' />
-            </a>
-            <a href="mailto:hi@cortes.us" className="dim mr4-l ml0-l ml4">
-              <img src='https://icon.now.sh/email/25/ffffff' alt='email' />
-            </a>
+          <div className="order-2-l order-1 w-50-l tr-l">
+            <Feature
+              href="https://twitter.com/fromcortes"
+              name="Twitter" />
+            <Feature
+              href="https://instagram.com/fromcortes"
+              name="Instagram" />
+            <Feature
+              href="https://dribbble.com/fromcortes"
+              name="Dribbble" />
+            <Feature
+              href="https://github.com/fromcortes"
+              name="Github" />
+            <Feature
+              href="https://open.spotify.com/user/hswlc8mdk5gxobfmshmki9gau?si=15BRL5VGRGydOG5YZUDxyg"
+              name="Spotify" />
+            <Feature
+              href="https://twitch.tv/fromcortes"
+              name="Twitch" />
+            <Feature
+              href="https://fromcortes.tumblr.com"
+              name="Tumblr" />
+            <Feature
+              href="https://unsplash.com/@cortes"
+              name="Unsplash" />
+            <Feature
+              href="https://ello.co/crts"
+              name="Ello" />
           </div>
-          <p className="white-30 f7 tc">© 2018 Dennis Cortés</p>
         </div>
       </div>
     );
