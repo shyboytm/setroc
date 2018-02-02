@@ -46,7 +46,7 @@ class Header extends Component {
               </a>
             </li> */}
             <li className="dib mr3">
-              <a href="https://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
+              <a href="http://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f7 fw5 up mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white-90 glow bg-white-20 hover-bg-white hover-black bg-animate">
                 Blog ↗
               </a>
             </li>
