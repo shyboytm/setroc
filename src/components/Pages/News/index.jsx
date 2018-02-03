@@ -9,7 +9,7 @@ import Footer from '../../Footer';
 class News extends Component {
   render() {
     return (
-      <div id="News" className="relative black">
+      <div id="News" className="black pt4-l">
 
         <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tl smooth-text">
           <div className="center w-90 animated fadeIn">
@@ -24,7 +24,7 @@ class News extends Component {
 
         <div className="pt5 pb4">
           <div className="ba br2 b--black-10 bg-black-10 black center flex flex-row-l flex-column items-center-l justify-between pa3 pl4-ns w-90">
-            <p className="mv0-l mb4 mt2 tl-ns tc">
+            <p className="mb0-l mt2-l mb4 mt2 tl-ns tc">
               <Title title="Stay in the Loop" toolTipText="📬" />
             </p>
             <form className="items-center justify-between" action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">

@@ -14,13 +14,13 @@ class Header extends Component {
               <div className="dib flex mr1-l mr2">
                 <Logo />
               </div>
-              <h1 className="ml2-l dib f6-l f5 fw7 ttu tracked white">
-                <span className="fw3">Dennis</span> Cortés
+              <h1 className="ml2-l dib f5 fw5 tracked-tiny white">
+                <span className="fw3 white-50">Dennis</span> Cortés
               </h1>
             </Link>
           </div>
 
-          <p className="f6-l f5 fw4 flex items-center justify-center dib mv2-l mt0 mb4 relative white">
+          <p className="f6-l f5 fw4 flex items-center justify-center dib mv2-l mt0 mb4 relative white-70">
             <span className="f4">🌦</span> <Today />
           </p>
 
@@ -28,6 +28,11 @@ class Header extends Component {
             <li className="dib mr3">
               <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-10 br2 up mb0-l mb3 db link white-90 hover-bg-black-05 bg-animate tracked-tiny ph2">
                 Work ↗
+              </a>
+            </li>
+            <li className="dib mr3">
+              <a href="http://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-10 br2 up mb0-l mb3 db link white-90 hover-bg-black-05 bg-animate tracked-tiny ph2">
+                Blog ↗
               </a>
             </li>
             <li className="dib mr3">
@@ -40,26 +45,16 @@ class Header extends Component {
                 Tools
               </Link>
             </li>
-            {/* <li className="dib mr3">
-              <a href="https://fromcortes.tumblr.com" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-10 br2 up mb0-l mb3 db link white-90 hover-bg-black-05 bg-animate tracked-tiny ph2">
-                Inspo ↗
-              </a>
-            </li> */}
-            <li className="dib mr3">
-              <a href="http://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-10 br2 up mb0-l mb3 db link white-90 hover-bg-black-05 bg-animate tracked-tiny ph2">
-                Blog ↗
-              </a>
-            </li>
             <li className="dib mr3">
               <Link to="/folder" className="items-center flex f6 fw4 hover-bg-white-10 br2 up mb0-l mb3 db link white-90 hover-bg-black-05 bg-animate tracked-tiny ph2">
                 Folder
               </Link>
             </li>
-            {/* <li className="dib mr3">
+            <li className="dib mr3">
               <Link to="/news" className="items-center flex f6 fw4 hover-bg-white-10 br2 up mb0-l mb3 db link white-90 hover-bg-black-05 bg-animate tracked-tiny ph2">
                 News
               </Link>
-            </li> */}
+            </li>
             <li className="dib">
               <Link to="/about" className="dn-l items-center flex f6 fw4 hover-bg-white-10 br2 up mb0-l mb3 db link white-90 hover-bg-black-05 bg-animate tracked-tiny ph2">
                 About

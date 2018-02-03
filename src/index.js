@@ -26,8 +26,8 @@ ReactDOM.render(
       {/* <Route path="/books" component={Books} /> */}
       <Route path="/folder" component={Folder} />
       <Route path="/mentoring" component={Mentoring} />
-      {/* <Route path="/news" component={News} />
-        <Route path="/news/i-am-joining-metalab" component={iAmJoiningMetaLab} /> */}
+      <Route path="/news" component={News} />
+        <Route path="/news/i-am-joining-metalab" component={iAmJoiningMetaLab} />
       <Route path="/tools" component={Tools} />
       <Route path='*' component={NotFound} />
     </Route>

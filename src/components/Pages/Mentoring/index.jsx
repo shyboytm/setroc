@@ -7,7 +7,7 @@ import Title from '../../Title';
 class Mentoring extends Component {
   render() {
     return (
-      <div id="Mentoring" className="relative black pt4">
+      <div id="Mentoring" className="relative black pt4-l">
 
         <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tl smooth-text">
           <div className="animated fadeIn center w-90">

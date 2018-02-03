@@ -32,7 +32,7 @@ class Folder extends Component {
                   <input className="f4 fw6 blue input-reset ba b--black-10 bg-white pa3 w-100 br2 mb3 shadow-large"
                     placeholder="Your Email"
                     type="email" name="MERGE0" tabindex="-1" id="b_email" />
-                  <input className="bn fw6 f6 ttu button-reset dim pv3 tc white bg-gradient pointer w-100 br2 mb0-l mb4" type="submit" value="Subscribe" />
+                  <input className="bn fw7 f6 ttu tracked-tiny button-reset dim pv3 tc white bg-gradient pointer w-100 br2 mb0-l mb4" type="submit" value="Subscribe" />
                 </form>
               </div>
               <div className="cf fr-l w-60-l w-100">
