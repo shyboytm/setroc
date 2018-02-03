@@ -22,8 +22,8 @@ class Footer extends Component {
 
   render() {
     return (
-      <div id="Footer" className="pb4">
-        <div className="w-90-ns w-80 center flex justify-between items-center-l flex-row-l flex-column pv3-l">
+      <div id="Footer" className="bg-black-05 bt b--black-05">
+        <div className="w-90-ns w-80 center flex justify-between items-center-l flex-row-l flex-column pv2-l">
           <div className="flex-auto-l flex-column order-1-l order-2 mb3 mt0">
             <p className="f1-l f2 lh-subtitle tracked-tiny">
               {this.state.emoji}
