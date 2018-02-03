@@ -39,9 +39,6 @@ class Desktop extends Component {
             playing video games, making music, and eating food. As a firm believer in helping others, most of my efforts
             go towards finding ways to work with people and bringing value to their life and ventures.
           </p>
-          <p className="lh-copy">
-            I'm always open to chat! Say hello at <a className="fw6 link link-underlined black rainbow-hover" target="_blank" rel="nofollow" href="mailto:hi@cortes.us">hi@cortes.us</a> 📩
-          </p>
 
           <Spacer />
 
@@ -218,7 +215,7 @@ class Desktop extends Component {
             toolTipText="💌">
           </Title>
           <div className="db">
-            <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f4 ttu link shine bg-text-clip dim fw7">
+            <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f4 link shine bg-text-clip dim fw6 tracked-tiny">
               hi@cortes.us
             </a>
             <Feature

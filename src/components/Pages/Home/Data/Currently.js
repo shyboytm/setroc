@@ -11,10 +11,10 @@ class Currently extends Component {
           toolTipText="💪">
         </Title>
         <div className="fw4 lh-copy">
-          <h4 className="fw4 pv1">Making stuff for the web at
+          <h4 className="fw4 pv1">A Product Designer at
             <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://madebyspeak.com">
-              Speak
+              target="_blank" rel="nofollow" href="http://metalab.co">
+              MetaLab
             </a>
           </h4>
           {/*<h4 className="fw4 pv1">Helping brands grow and communicate at
@@ -31,7 +31,7 @@ class Currently extends Component {
           </h4>
           <h4 className="fw4 pv1">Writing weekly about work and life at
             <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://blog.cortes.us">
+              target="_blank" rel="nofollow" href="http://blog.cortes.us">
               The Rate of Change
             </a>
           </h4>

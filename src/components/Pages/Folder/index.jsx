@@ -9,7 +9,7 @@ import Footer from '../../Footer';
 class Folder extends Component {
   render() {
     return (
-      <div id="Folder" className="relative black">
+      <div id="Folder" className="relative black pt4">
 
         <div className="w-100 bg-dot-grid center pv4 ph0-ns z-0 tc smooth-text">
           <div className="center w-90">
