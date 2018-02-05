@@ -15,7 +15,7 @@ import NotFound from './components/Pages/NotFound';
 import Thanks from './components/Pages/Thanks';
 import Tools from './components/Pages/Tools';
 
-import iAmJoiningMetaLab from './components/Pages/News/NewsPosts/050818';
+import iAmJoiningMetaLab from './components/Pages/News/NewsPosts/020718';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
