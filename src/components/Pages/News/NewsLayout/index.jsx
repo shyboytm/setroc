@@ -34,7 +34,7 @@ class NewsLayout extends Component {
             </div>
           </div>
         </div>
-        <div id={title} className="white-80 lh-copy">
+        <div id={title} className="white-90 lh-copy">
           {children}
         </div>
         <div className="dib relative mt5">
