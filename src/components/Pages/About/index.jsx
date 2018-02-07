@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Footer from '../../Footer';
 import Spacer from '../../Spacer';
@@ -9,13 +10,32 @@ class Home extends Component {
 
     const aboutImage = require("../../../img/about-picture.jpg");
 
+    const pageName = "About";
+    const pageDescription = "Dennis Cortes is a Designer, Illustrator, Developer, Writer, and Beat-Maker.";
+
     return (
-      <div id="About" className="animated fadeIn black mt5">
-        {/* <div id="IntroCircle" className="br-100 bg-black-05 fixed h5-ns w5-ns h4 w4 o-30 mt6 z-1" /> */}
+      <div id={pageName} className="black pt4-l">
+
+        <Helmet>
+          <title>Dennis Cortés - {pageName} 🎉</title>
+          <meta name="description" content={pageDescription} />
+          {/* Twitter Card Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:site" content="@fromcortes"/>
+          <meta name="twitter:creator" content="@fromcortes"/>
+          <meta name="twitter:title" content={`Dennis Cortés - ${pageName}`}/>
+          <meta name="twitter:description" content={pageDescription} />
+          <meta name="twitter:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+          {/* Open Graph Meta Tags */}
+          <meta property="og:type" content="website"/>
+          <meta property="og:title" content={`Dennis Cortés - ${pageName}`}/>
+          <meta property="og:description" content={pageDescription} />
+          <meta property="og:url" content="https://www.cortes.us/news"/>
+          <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+        </Helmet>
+
         <div className="w-40-l w-75-m w-90 center mv5-ns ph0-ns ph3 z-0">
-
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large" />
-
           <h2 className="f2 fw6 mb4 lh-title black mt5">
             Hey There <span className="ml2 absolute spin">👋</span>
           </h2>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Title from '../../Title';
 import NewsItem from '../News/NewsItem';
@@ -8,21 +9,42 @@ import Footer from '../../Footer';
 
 class Folder extends Component {
   render() {
+
+    const pageName = "Folder";
+    const pageDescription = "A curated selection of great resources, people, updates, other valuable things delivered straight to your inbox on the first of each month.";
+
     return (
-      <div id="Folder" className="relative black pt4">
+      <div id={pageName} className="black pt4-l">
+
+        <Helmet>
+          <title>Dennis Cortés - {pageName} 📂</title>
+          <meta name="description" content={pageDescription} />
+          {/* Twitter Card Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:site" content="@fromcortes"/>
+          <meta name="twitter:creator" content="@fromcortes"/>
+          <meta name="twitter:title" content={`Dennis Cortés - ${pageName}`}/>
+          <meta name="twitter:description" content={pageDescription} />
+          <meta name="twitter:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+          {/* Open Graph Meta Tags */}
+          <meta property="og:type" content="website"/>
+          <meta property="og:title" content={`Dennis Cortés - ${pageName}`}/>
+          <meta property="og:description" content={pageDescription} />
+          <meta property="og:url" content="https://www.cortes.us/news"/>
+          <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+        </Helmet>
 
         <div className="w-100 bg-dot-grid center pv4 ph0-ns z-0 tc smooth-text">
           <div className="center w-90">
             <span className="f-subheadline-ns f1 db mt5">📂</span>
-            <h1 className="bg-text-clip f-headline-ns f-subheadline blur-late fw8 lh-title mb3 mt4 shine tracked-tiny">Folder</h1>
+            <h1 className="bg-text-clip f-headline-ns f-subheadline blur-late fw8 lh-title mb3 mt4 shine tracked-tiny">{pageName}</h1>
             <p className="animated fadeInUp black center fw5 f3 lh-subtitle measure mb5-l mb4 tracked-tiny">
               A monthly newsletter by Dennis Cortés
             </p>
             <div className="w-100 cf">
               <div className="fl-l w-40-l w-50-m center-m w-100 pr5-l mb0-l mb4">
                 <p className="black-60 f4 lh-subtitle measure mb4 tl-l tracked-tiny">
-                  A curated selection of great resources, people, updates, other valuable things delivered
-                  straight to your inbox on the first of each month.
+                  {pageDescription}
                 </p>
                 <form action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
                   {/*Hidden fields for Mailchimp account and list*/}

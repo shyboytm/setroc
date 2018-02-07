@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Footer from '../../Footer';
 import Item from '../../Item';
@@ -75,16 +76,35 @@ class Tools extends Component {
     const fellowStagg       = require('../../../img/tools/coffee/fellow-stagg-kettle.jpg');
     const gfdaMug           = require('../../../img/tools/coffee/gfda-travel-mug.jpg');
 
+    const pageName = "Tools";
+    const pageDescription = "These are things I use on a daily basis for work and life. From apps I use, stuff I always carry, to games I play. Affliliate links are used when possible to help support my free to use projects. Enjoy!";
+
     return (
-      <div id="Tools" className="black pt4-l">
+      <div id={pageName} className="black pt4-l">
+
+        <Helmet>
+          <title>Dennis Cortés - {pageName} 💻</title>
+          <meta name="description" content={pageDescription} />
+          {/* Twitter Card Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:site" content="@fromcortes"/>
+          <meta name="twitter:creator" content="@fromcortes"/>
+          <meta name="twitter:title" content={`Dennis Cortés - ${pageName}`}/>
+          <meta name="twitter:description" content={pageDescription} />
+          <meta name="twitter:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+          {/* Open Graph Meta Tags */}
+          <meta property="og:type" content="website"/>
+          <meta property="og:title" content={`Dennis Cortés - ${pageName}`}/>
+          <meta property="og:description" content={pageDescription} />
+          <meta property="og:url" content="https://www.cortes.us/news"/>
+          <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+        </Helmet>
+
         <div className="bg-dot-grid bg-black-blue smooth-text">
           <div className="animated fadeIn w-90-ns w-100 center pv4 ph0-ns ph3 z-0 tl">
             <h1 className="f-subheadline-ns f1 fw3 lh-title blur-skew white tracked-tiny"><span style={{letterSpacing: -7 + "px"}}>T</span>ools</h1>
             <p className="fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
-              These are things I use on a daily basis for work and life.
-              From apps I use, stuff I always carry, to games I play.
-              Affliliate links are used when possible to help support my free to use
-              projects. Enjoy!
+              {pageDescription}
             </p>
             <h2 className="white fw6 tracked-tiny">Last Updated Jan 13th</h2>
             {/* Shortcuts */}
