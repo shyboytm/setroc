@@ -17,16 +17,10 @@ class Currently extends Component {
               MetaLab
             </a>
           </h4>
-          {/*<h4 className="fw4 pv1">Helping brands grow and communicate at
+          <h4 className="fw4 pv1">Building a life-tracking tool called
             <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://offgray.co">
-              Off Gray
-            </a>
-          </h4>*/}
-          <h4 className="fw4 pv1">Building products for others at
-            <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://usequarry.com">
-              Quarry
+              target="_blank" rel="nofollow" href="https://livtra.co">
+              Livtra
             </a>
           </h4>
           <h4 className="fw4 pv1">Writing weekly about work and life at
@@ -35,10 +29,16 @@ class Currently extends Component {
               The Rate of Change
             </a>
           </h4>
-          <h4 className="fw4 pv1">Building a life-tracking tool called
+          <h4 className="fw4 pv1">Producing music and beats as
             <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://livtra.co">
-              Livtra
+              target="_blank" rel="nofollow" href="https://twitter.com/cordiofm">
+              Cordio
+            </a>
+          </h4>
+          <h4 className="fw4 pv1">Building things for others at
+            <a className="link link-underlined rainbow-hover black ml1 fw6"
+              target="_blank" rel="nofollow" href="https://usequarry.com">
+              Quarry
             </a>
           </h4>
           <h4 className="fw4 pv1">Curating inspiration for others at
