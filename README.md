@@ -14,7 +14,8 @@ Okay but really now; this site is built using React (with some organized and pre
 
 ### Disclaimer
 
-Although I provide this code publicly, it is only to be used for learning and I ask that you not copy it or anything on it directly. I worked my butt off to get this site how it is now and it's unfair to just take someone's work like that. Thanks friend.
+Although I provide this code publicly, it is only to be used for learning purposes and I ask that you not copy it or anything on it directly. I worked my butt off to get this site how it is now and it's unfair to just take someone's work like that. Thanks friend.
 
 
-© Dennis Cortes 2018
+
+*© Dennis Cortes 2018*
