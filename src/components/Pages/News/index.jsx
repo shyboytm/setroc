@@ -13,7 +13,19 @@ class News extends Component {
       <div id="News" className="black pt4-l">
 
         <Helmet>
-          <title>News of Dennis</title>
+          <title>Dennis Cortés - News</title>
+          <meta name="description" content="I think it's hard to remember and give ourselves credit for our achievements. I wanted to be better at highlighting my own and updating you so here's a hub for what's going on in my work and personal life (as well as other random posts sometimes)." />
+          {/* Twitter Card Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:site" content="@fromcortes"/>
+          <meta name="twitter:creator" content="@fromcortes"/>
+          <meta name="twitter:title" content="Dennis Cortés - News"/>
+          <meta name="twitter:description" content="I think it's hard to remember and give ourselves credit for our achievements. I wanted to be better at highlighting my own and updating you so here's a hub for what's going on in my work and personal life (as well as other random posts sometimes)."/>
+          {/* Open Graph Meta Tags */}
+          <meta property="og:type" content="website"/>
+          <meta property="og:title" content="Dennis Cortés - News"/>
+          <meta property="og:description" content="I think it's hard to remember and give ourselves credit for our achievements. I wanted to be better at highlighting my own and updating you so here's a hub for what's going on in my work and personal life (as well as other random posts sometimes)."/>
+          <meta property="og:url" content="https://www.cortes.us/news"/>
         </Helmet>
 
         <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tl smooth-text">
