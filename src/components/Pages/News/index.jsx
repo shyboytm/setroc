@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import { Helmet } from 'react-helmet';
 
 import NewsItem from './NewsItem';
 import Title from '../../Title';
@@ -10,6 +11,10 @@ class News extends Component {
   render() {
     return (
       <div id="News" className="black pt4-l">
+
+        <Helmet>
+          <title>News of Dennis</title>
+        </Helmet>
 
         <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tl smooth-text">
           <div className="center w-90 animated fadeIn">
