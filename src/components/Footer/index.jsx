@@ -22,7 +22,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <div id="Footer" className="bt b--black-05">
+      <div id="Footer" className="bt b--black-05 bg-white bg-dot-grid">
         <div className="w-90-ns w-80 center flex justify-between items-center-l flex-row-l flex-column pv2-l">
           <div className="flex-auto-l flex-column order-1-l order-2 mb3 mt0">
             <p className="f1-l f2 lh-subtitle tracked-tiny">
