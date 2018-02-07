@@ -28,7 +28,7 @@ class Mentoring extends Component {
           <meta property="og:type" content="website"/>
           <meta property="og:title" content={`Dennis Cortés - ${pageName}`}/>
           <meta property="og:description" content={pageDescription} />
-          <meta property="og:url" content="https://www.cortes.us/news"/>
+          <meta property="og:url" content={`https://www.cortes.us/${pageName}`} />
           <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
         </Helmet>
 

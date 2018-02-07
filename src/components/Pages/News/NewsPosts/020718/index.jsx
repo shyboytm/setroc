@@ -12,6 +12,7 @@ class iAmJoiningMetaLab extends Component {
           title="I'm Joining MetaLab!"
           subtitle="Joining an amazing company to work with amazing people"
           date="Feb 7th, 2018"
+          url="i-am-joining-metalab"
           twitterLink="https://twitter.com/home?status=I%20am%20Joining%20MetaLab!%20by%20%40fromcortes%20http%3A//cortes.us/news/i-am-joining-metalab"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//cortes.us/news/i-am-joining-metalab"
           googleLink="https://plus.google.com/share?url=http%3A//cortes.us/news/i-am-joining-metalab"

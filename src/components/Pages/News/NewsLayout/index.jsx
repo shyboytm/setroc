@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 import Footer from '../../../Footer';
 
@@ -10,6 +11,7 @@ class NewsLayout extends Component {
       date,
       subtitle,
       title,
+      url,
       twitterLink,
       facebookLink,
       googleLink
@@ -19,6 +21,24 @@ class NewsLayout extends Component {
 
     return (
       <div>
+        <Helmet>
+          <title>{title} by Dennis Cortés</title>
+          <meta name="description" content={subtitle} />
+          {/* Twitter Card Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:site" content="@fromcortes"/>
+          <meta name="twitter:creator" content="@fromcortes"/>
+          <meta name="twitter:title" content={`${title} by Dennis Cortés`}/>
+          <meta name="twitter:description" content={subtitle} />
+          <meta name="twitter:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+          {/* Open Graph Meta Tags */}
+          <meta property="og:type" content="website"/>
+          <meta property="og:title" content={`${title} by Dennis Cortés`}/>
+          <meta property="og:description" content={subtitle} />
+          <meta property="og:url" content={`https://www.cortes.us/news/${url}`}/>
+          <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+        </Helmet>
+
         <div className="animated fadeIn center pv5-ns pv4 w-50-l w-75-m w-90 bg-black-blue smooth-text">
           <p className="f6 ttu fw7 mt4 white-40 tracked">{date}</p>
           <h1 className="lh-title white fw6 f1-ns f2 tracked-tiny">{title}</h1>

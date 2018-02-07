@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 
 class Thanks extends Component {
   render() {
+
     const pageName = "Thanks";
     const pageDescription = "Of all the newsletters in the world, I'm glad mine is one that you trust to be in your inbox. We'll be in touch!";
 
@@ -23,7 +24,7 @@ class Thanks extends Component {
           <meta property="og:type" content="website"/>
           <meta property="og:title" content={`Dennis Cortés - ${pageName}`}/>
           <meta property="og:description" content={pageDescription} />
-          <meta property="og:url" content="https://www.cortes.us/news"/>
+          <meta property="og:url" content={`https://www.cortes.us/newsletter/${pageName}`} />
           <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
         </Helmet>
 
