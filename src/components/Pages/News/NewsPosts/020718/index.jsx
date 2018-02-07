@@ -11,7 +11,11 @@ class iAmJoiningMetaLab extends Component {
         <NewsLayout
           title="I'm Joining MetaLab!"
           subtitle="Joining an amazing company to work with amazing people"
-          date="Feb 5th, 2018">
+          date="Feb 7th, 2018"
+          twitterLink="https://twitter.com/home?status=I%20am%20Joining%20MetaLab!%20by%20%40fromcortes%20http%3A//cortes.us/news/i-am-joining-metalab"
+          facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//cortes.us/news/i-am-joining-metalab"
+          googleLink="https://plus.google.com/share?url=http%3A//cortes.us/news/i-am-joining-metalab"
+        >
           <p>
             I never thought I’d be one of those that wrote a “I’m joining…” posts, yet here we are!
             This definitely won’t be a dragged on post by any means, but I think landing a dream job
@@ -46,7 +50,8 @@ class iAmJoiningMetaLab extends Component {
             cared about employees. Choosing your own hours for what suits your lifestyle best, encouraging
             you to travel and take time off, helping cover your fitness fees so you can stay healthy, etc.
             Overall MetaLab wants you to have the freedom you would have if you worked for yourself without
-            having to worry about the business side of things that come with that.
+            having to worry about the business side of things that come with that. I couldn't imagine a better
+            fit for what I was looking for.
           </p>
           <p>
             A couple months later after 3 interviews and a test project, I received a call with an offer

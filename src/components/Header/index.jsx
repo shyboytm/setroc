@@ -15,12 +15,12 @@ class Header extends Component {
                 <Logo />
               </div>
               <h1 className="ml2-l dib f6 fw5 tracked-tiny white">
-                <span className="fw3 white-50">Dennis</span> Cortés
+                <span className="fw3 white-80">Dennis</span> Cortés
               </h1>
             </Link>
           </div>
 
-          <p className="f6-l f5 fw4 flex items-center justify-center dib mv2-l mt0 mb4 relative white-70">
+          <p className="f6-l f5 fw4 flex items-center justify-center dib mv2-l mt0 mb4 relative white-80">
             <span className="f4">🌦</span> <Today />
           </p>
 

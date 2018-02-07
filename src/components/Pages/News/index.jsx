@@ -17,7 +17,7 @@ class News extends Component {
             <p className="fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
               I think it's hard to remember and give ourselves credit for our achievements. I wanted to be
               better at highlighting my own and updating you so here's a hub for what's going on in my work
-              and personal life.
+              and personal life (as well as other random posts sometimes).
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ class News extends Component {
         <div className="pb5">
           <ul className="center list pl0 w-90">
             <NewsItem
-              date="Feb 5 2018"
+              date="Feb 7 2018"
               linkTo="/news/i-am-joining-metalab"
               title="I'm Joining MetaLab!"
             />
