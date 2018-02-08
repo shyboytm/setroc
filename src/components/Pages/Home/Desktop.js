@@ -242,6 +242,9 @@ class Desktop extends Component {
               href="https://open.spotify.com/user/hswlc8mdk5gxobfmshmki9gau?si=15BRL5VGRGydOG5YZUDxyg"
               name="Spotify" />
             <Feature
+              href="https://soundcloud.com/cordio/tracks"
+              name="Soundcloud" />
+            <Feature
               href="https://twitch.tv/fromcortes"
               name="Twitch" />
             <Feature
