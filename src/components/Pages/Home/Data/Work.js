@@ -13,7 +13,7 @@ class Work extends Component {
         </Title>
         <div className="fw4 lh-copy">
           <p className="measure mb4">
-            In addition to branding, illustration, and UI/UX work for others in my portfolio, a lot of my work is living and breathing projects I've built that people rely on and use on a regular basis.
+            Here's a list of projects and recent work either made on my own or with teams I've worked with.
           </p>
           <Feature
             href="https://dribbble.com/fromcortes"

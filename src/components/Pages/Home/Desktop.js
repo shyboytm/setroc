@@ -130,13 +130,18 @@ class Desktop extends Component {
             toolTipText="💼">
           </Title>
           <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+            2018
+          </h3>
+          <ul className="list ml0 pl0 mb4">
+            <li className="bg-text-clip shine fw4 pv2 lh-copy dib mr4">
+              <span className="b">MetaLab</span>
+              <br />Product Designer
+            </li>
+          </ul>
+          <h3 className="black-40 f5 fw6 lh-title mv0">
             2017
           </h3>
           <ul className="list ml0 pl0 mb4">
-            <li className="fw4 pv2 lh-copy dib mr4">
-              <span className="b">Speak</span>
-              <br />Web Designer & Developer
-            </li>
             <li className="fw4 pv2 lh-copy dib mr4">
               <span className="b">Satchel Health</span>
               <br />Design Lead & Developer
@@ -147,11 +152,14 @@ class Desktop extends Component {
             </li>
           </ul>
 
-          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+          <h3 className="black-40 f5 fw6 lh-title mv0">
             2016
           </h3>
           <ul className="list ml0 pl0 mb4">
-            <li className="fw4 pv2">Graduated College</li>
+            <li className="fw4 pv2 lh-copy dib mr4">
+              <span className="b">Graduated College</span>
+              <br />Belmont University
+            </li>
             <li className="fw4 pv2 lh-copy dib mr4">
               <span className="b">Satchel Health</span>
               <br />Product Designer
@@ -162,7 +170,7 @@ class Desktop extends Component {
             </li>
           </ul>
 
-          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+          <h3 className="black-40 f5 fw6 lh-title mv0">
             2015
           </h3>
           <ul className="list ml0 pl0 mb4">
@@ -176,7 +184,7 @@ class Desktop extends Component {
             </li>
           </ul>
 
-          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+          <h3 className="black-40 f5 fw6 lh-title mv0">
             2014
           </h3>
           <ul className="list ml0 pl0 mb4">
@@ -194,7 +202,7 @@ class Desktop extends Component {
             </li>
           </ul>
 
-          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+          <h3 className="black-40 f5 fw6 lh-title mv0">
             2013
           </h3>
           <ul className="list ml0 pl0 mb4">
@@ -245,6 +253,9 @@ class Desktop extends Component {
             <Feature
               href="https://ello.co/crts"
               name="Ello" />
+            <Feature
+              href="https://www.last.fm/user/fromcortes"
+              name="Last.fm" />
           </div>
 
           <Spacer />
@@ -254,8 +265,8 @@ class Desktop extends Component {
             toolTipText="📬">
           </Title>
           <p className="lh-copy measure mb4">
-            Join the Folder newsletter for valuable information including useful recommendations,
-            and updates on new work, articles, and projects.
+            Join my monthly newsletter for valuable information including useful recommendations,
+            updates on new work, articles, gear, and people.
           </p>
           <form action="https://cortes.us9.list-manage.com/subscribe/post" method="POST">
             {/*Hidden fields for Mailchimp account and list*/}
@@ -265,7 +276,7 @@ class Desktop extends Component {
             <input className="f6 fw6 shine bg-text-clip input-reset ba b--black-10 black bg-transparent pa3 w-100 br2 mb3"
               placeholder="Your Email"
               type="email" name="MERGE0" tabindex="-1" id="b_email" />
-            <input className="bn fw6 f6 ttu button-reset dim pv3 tc white bg-gradient pointer w-100 br2" type="submit" value="Subscribe" />
+            <input className="bn fw5 tracked f6 ttu button-reset dim pv3 tc white bg-gradient pointer w-100 br2" type="submit" value="Subscribe" />
           </form>
 
 
@@ -280,17 +291,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
-              href="https://blog.cortes.us/here-is-my-illustration-process"
+              href="https://medium.com/@fromcortes/how-i-manage-my-to-do-list-to-help-me-stay-productive-b4d6a84be643"
+              name="How I Manage my To-Do List to Help Me Stay Productive" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/can-you-use-a-base-model-macbook-pro-for-design-and-development-d66be268e4cd"
+              name="Can You Use a Base Model MacBook Pro for Design and Development?" />
+            <Feature
+              href="https://medium.com/@fromcortes/how-i-take-and-edit-photos-on-my-phone-784d59951313"
+              name="How I Take and Edit Photos on My Phone" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/heres-my-illustration-process-8f80576ef8ec"
               name="Here’s My Illustration Process" />
-            <Feature
-              href="https://blog.cortes.us/2017"
-              name="My 2017" />
-            <Feature
-              href="https://blog.cortes.us/giant-list-of-design-inspiration-to-use"
-              name="Here’s a Giant List of Design Inspiration for You to Use" />
-            <Feature
-              href="https://blog.cortes.us/a-global-rule-for-your-work"
-              name="A Global Rule for Your Work" />
           </div>
 
           <Spacer />
