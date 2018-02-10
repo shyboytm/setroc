@@ -294,6 +294,9 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/@fromcortes/how-i-prioritize-and-organize-goals-in-my-life-aabc3d6c606e"
+              name="How I Prioritize and Organize Goals in My Life" />
+            <Feature
               href="https://medium.com/@fromcortes/how-i-manage-my-to-do-list-to-help-me-stay-productive-b4d6a84be643"
               name="How I Manage my To-Do List to Help Me Stay Productive" />
             <Feature
@@ -302,9 +305,6 @@ class Desktop extends Component {
             <Feature
               href="https://medium.com/@fromcortes/how-i-take-and-edit-photos-on-my-phone-784d59951313"
               name="How I Take and Edit Photos on My Phone" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/heres-my-illustration-process-8f80576ef8ec"
-              name="Here’s My Illustration Process" />
           </div>
 
           <Spacer />
