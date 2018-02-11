@@ -52,8 +52,8 @@ class Header extends Component {
               </Link>
             </li>
             <li className="dib mr3">
-              <Link to="/news" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
-                News
+              <Link to="/thoughts" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+                thoughts
               </Link>
             </li>
             <li className="dib">

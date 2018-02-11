@@ -5,7 +5,7 @@ import Footer from '../../Footer';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
 
-class Home extends Component {
+class About extends Component {
   render() {
 
     const aboutImage = require("../../../img/about-picture.jpg");
@@ -216,4 +216,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default About;

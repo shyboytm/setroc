@@ -10,14 +10,14 @@ import Footer from '../../Footer';
 class News extends Component {
   render() {
 
-    const pageName = "News";
+    const pageName = "Thoughts";
     const pageDescription = "I think it's hard to remember and give ourselves credit for our achievements. I wanted to be better at highlighting my own and updating you so here's a hub for what's going on in my work and personal life (as well as other random posts sometimes).";
 
     return (
       <div id={pageName} className="black pt4-l">
 
         <Helmet>
-          <title>Dennis Cortés - {pageName} 📰</title>
+          <title>Dennis Cortés - {pageName} 🧠</title>
           <meta name="description" content={pageDescription} />
           {/* Twitter Card Meta Tags */}
           <meta name="twitter:card" content="summary_large_image"/>

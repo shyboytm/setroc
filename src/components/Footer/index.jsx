@@ -70,6 +70,9 @@ class Footer extends Component {
               <Feature
                 href="https://www.last.fm/user/fromcortes"
                 name="Last.fm" />
+              <Feature
+                href="https://rawg.io/@cortes/overview"
+                name="RAWG" />
             </div>
             {/* <ul className="list pl0 mt4">
               <li className="dib mr3">
