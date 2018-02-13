@@ -324,6 +324,9 @@ class Desktop extends Component {
               href="https://www.typewolf.com/site-of-the-day/taste-notes"
               name="Typewolf" />
             <Feature
+              href="http://www.creative-portfolios.com/portfolio_page/dennis-cortes/"
+              name="Creative Port" />
+            <Feature
               href="https://sitesee.co/sites/taste-notes"
               name="Site See" />
             <Feature
