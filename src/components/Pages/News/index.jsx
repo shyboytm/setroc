@@ -65,7 +65,7 @@ class News extends Component {
           <ul className="center list pl0 w-90">
             <NewsItem
               date="Feb 7 2018"
-              linkTo="/news/i-am-joining-metalab"
+              linkTo="/journal/i-am-joining-metalab"
               title="I'm Joining MetaLab!"
             />
           </ul>
