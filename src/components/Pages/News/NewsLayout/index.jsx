@@ -35,7 +35,7 @@ class NewsLayout extends Component {
           <meta property="og:type" content="website"/>
           <meta property="og:title" content={`${title} by Dennis Cortés`}/>
           <meta property="og:description" content={subtitle} />
-          <meta property="og:url" content={`https://www.cortes.us/news/${url}`}/>
+          <meta property="og:url" content={`https://www.cortes.us/journal/${url}`}/>
           <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
         </Helmet>
 
