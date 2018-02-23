@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Feature from '../../Feature';
 import Spacer from '../../Spacer';
 import Title from '../../Title';
+import Today from './Data/Today';
 
 // Data
 import Currently from './Data/Currently';
@@ -218,6 +219,14 @@ class Desktop extends Component {
         </div>
 
         <div className="flex flex-column w-25-l pv4-l ph4-l pa5-m pa4 br b--black-10">
+
+          <div className="ba br2 b--black-10 pa3 mb4">
+            <p className="f4-l f5 fw4 db mv1 black">
+              <span className="db f2 mb2">🌦</span>
+              <Today />
+            </p>
+          </div>
+
           <Title
             title="Contact"
             toolTipText="💌">

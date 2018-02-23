@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-import Today from '../Pages/Home/Data/Today';
 import Logo from '../Logo';
 
 class Header extends Component {
@@ -20,10 +19,6 @@ class Header extends Component {
               </h1>
             </Link>
           </div>
-
-          <p className="f6-l f5 fw4 flex items-center justify-center dib mv2-l mt0 mb4 relative white-80">
-            <span className="f4">🌦</span> <Today />
-          </p>
 
           <ul className="list ph0-l ph3 mv1">
             <li className="dib mr3">
@@ -54,6 +49,11 @@ class Header extends Component {
             <li className="dib mr3">
               <Link to="/journal" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
                 Journal
+              </Link>
+            </li>
+            <li className="dib mr3">
+              <Link to="/music" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+                Music
               </Link>
             </li>
             <li className="dib">

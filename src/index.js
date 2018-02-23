@@ -10,6 +10,7 @@ import Books from './components/Pages/Books';
 import Home from './components/Pages/Home';
 import Folder from './components/Pages/Folder';
 import Mentoring from './components/Pages/Mentoring';
+import Music from './components/Pages/Music';
 import News from './components/Pages/News';
 import NotFound from './components/Pages/NotFound';
 import Thanks from './components/Pages/Thanks';
@@ -25,9 +26,10 @@ ReactDOM.render(
       <Route path="/about" component={About} />
       {/* <Route path="/books" component={Books} /> */}
       <Route path="/folder" component={Folder} />
-      <Route path="/mentoring" component={Mentoring} />
       <Route path="/journal" component={News} />
         <Route path="/journal/i-am-joining-metalab" component={iAmJoiningMetaLab} />
+      <Route path="/mentoring" component={Mentoring} />
+      <Route path="/music" component={Music} />
       <Route path="/tools" component={Tools} />
       <Route path='*' component={NotFound} />
     </Route>
