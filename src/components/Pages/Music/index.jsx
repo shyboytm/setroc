@@ -96,9 +96,36 @@ class Mentoring extends Component {
               </svg>
             </div>
           </div>
+
+          <div className="bg-black-blue pv5 w-100">
+            <div className="center w-80-ns w-90">
+              <h2 className="blur-skew f1-l f2-m f3 fw3 lh-title mt0 mb5-l mb4 tl-l tc tracked-tiny white">
+                Latest Music Release
+              </h2>
+              <div className="center flex flex-row-l flex-column w-100-l w-90">
+                <div className="bg-white flex-column shadow-large mr4 w5 h5"></div>
+                <div className="flex flex-column justify-between">
+                  <div>
+                    <h3 className="white f2">HM-01</h3>
+                    <p className="center fw5 f4 lh-subtitle measure mb0-l mb4 white-70 mt0" style={{letterSpacing: 0.8 + "px"}}>hello there this is a fake paragraph and description for an example</p>
+                  </div>
+                  <div>
+                    <span className="f6 mr3 ttu tracked white-30">5 Songs</span>
+                    <span className="f6 ttu tracked white-30">15 Min</span>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-wrap">
+                <div className="ba b--white-10 items-center justify-center w3 h3 white">
+                  <span>S</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="center w-80-ns w-90">
             <Section
-              title="Releases"
+              title="Other Releases"
               description="Most recent releases including singles and full records"
               number="5"
             />
