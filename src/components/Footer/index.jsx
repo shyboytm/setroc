@@ -56,8 +56,8 @@ class Footer extends Component {
                 href="https://soundcloud.com/cordio/tracks"
                 name="Soundcloud" />
               <Feature
-                href="https://twitch.tv/fromcortes"
-                name="Twitch" />
+                href="https://youtube.com/cortesarts"
+                name="Youtube" />
               <Feature
                 href="https://fromcortes.tumblr.com"
                 name="Tumblr" />
