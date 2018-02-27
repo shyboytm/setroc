@@ -13,6 +13,8 @@ class Mentoring extends Component {
     const pageName = "Music";
     const pageDescription = "I'm also a beat-maker and producer working under the alias Cordio; mixing elements of ambient, electronic, jazz, lo-fi, and hip-hop music genres";
 
+    const hm01 = require("../../../img/music/hm01-final-artwork.jpg");
+
     return (
       <div id={pageName} className="black pt4-l">
 
@@ -35,7 +37,7 @@ class Mentoring extends Component {
         </Helmet>
 
         <div>
-          <div className="bg-silver overflow-hidden pt5 pb6 ph4 relative tc-l">
+          <div className="bg-black-20 overflow-hidden pt5 pb6 ph4 relative tc-l">
             <div className="center w-80-l w-90">
               <h1 className="f1 ttu fw8 flex items-center justify-center-ns">
                 <svg id="CordioLogo" className="mr3 spin-full shadow-large" data-name="Cordio" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.04 401.04" height="35" width="35"><title>Cordio Logo</title><path d="M258.21,258.21c-78.31,78.31-78.31,205.27,0,283.58s205.27,78.31,283.58,0,78.31-205.27,0-283.58S336.52,179.9,258.21,258.21ZM506.34,506.34,293.66,293.66A150.39,150.39,0,0,1,506.34,506.34Z" transform="translate(-199.48 -199.48)"/></svg>
@@ -123,8 +125,8 @@ class Mentoring extends Component {
               <h2 className="blur-skew f1-l f2-m f3 fw3 lh-title mt0 mb5-l mb4 tl-l tc tracked-tiny white">
                 Latest Music Release
               </h2>
-              <div className="center flex flex-row-l flex-column w-100-l w-90">
-                <div className="bg-white flex-column shadow-large mr4 w5 h5"></div>
+              <div className="center flex flex-row-l flex-column mb4 w-100-l w-90">
+                <img src={hm01} className="mr4 w5 h5" />
                 <div className="flex flex-column justify-between">
                   <div>
                     <h3 className="white f2">HM-01</h3>
