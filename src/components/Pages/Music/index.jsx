@@ -115,10 +115,11 @@ class Mentoring extends Component {
                   </div>
                 </div>
               </div>
+              <h4 className="bg-text-clip fw6 shine white">Places to Listen to HM-01</h4>
               <div className="flex flex-wrap">
-                <div className="ba b--white-10 items-center justify-center w3 h3 white">
-                  <span>S</span>
-                </div>
+                <a href="" target="_blank" rel="nofollow" className="ba b--white-10 flex items-center justify-center pa3 white">
+                  <img src='https:icon.now.sh/spotify/ffffff/30' alt='Listen on Spotify'  />
+                </a>
               </div>
             </div>
           </div>
