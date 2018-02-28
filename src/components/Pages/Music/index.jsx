@@ -13,7 +13,7 @@ class Mentoring extends Component {
     const pageName = "Music";
     const pageDescription = "I'm also a beat-maker and producer working under the alias Cordio; mixing elements of ambient, electronic, jazz, lo-fi, and hip-hop music genres";
 
-    const hm01 = require("../../../img/music/hm01-final-artwork.jpg");
+    const hm01 = require("../../../img/music/hm01-final-artwork.png");
 
     return (
       <div id={pageName} className="black pt4-l">
@@ -23,23 +23,23 @@ class Mentoring extends Component {
           <meta name="description" content={pageDescription} />
           {/* Twitter Card Meta Tags */}
           <meta name="twitter:card" content="summary_large_image"/>
-          <meta name="twitter:site" content="@fromcortes"/>
-          <meta name="twitter:creator" content="@fromcortes"/>
+          <meta name="twitter:site" content="@cordiofm"/>
+          <meta name="twitter:creator" content="@cordiofm"/>
           <meta name="twitter:title" content={`Dennis Cortés - ${pageName}`}/>
           <meta name="twitter:description" content={pageDescription} />
-          <meta name="twitter:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+          <meta name="twitter:image" content="https://www.cortes.us/images/hm-01-by-cordio.png"/>
           {/* Open Graph Meta Tags */}
           <meta property="og:type" content="website"/>
           <meta property="og:title" content={`Dennis Cortés - ${pageName}`}/>
           <meta property="og:description" content={pageDescription} />
           <meta property="og:url" content={`https://www.cortes.us/${pageName}`} />
-          <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
+          <meta property="og:image" content="https://www.cortes.us/images/hm-01-by-cordio.png"/>
         </Helmet>
 
         <div>
           <div className="bg-black-20 overflow-hidden pt5 pb6 ph4 relative tc-ns tl z-0">
             <div className="center w-80-l w-90">
-              <h1 className="f1 ttu fw8 flex items-center justify-center-ns">
+              <h1 className="blur-late f1 ttu fw8 flex items-center justify-center-ns">
                 <svg id="CordioLogo" className="mr3 spin-full shadow-large" data-name="Cordio" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.04 401.04" height="35" width="35"><title>Cordio Logo</title><path d="M258.21,258.21c-78.31,78.31-78.31,205.27,0,283.58s205.27,78.31,283.58,0,78.31-205.27,0-283.58S336.52,179.9,258.21,258.21ZM506.34,506.34,293.66,293.66A150.39,150.39,0,0,1,506.34,506.34Z" transform="translate(-199.48 -199.48)"/></svg>
                 Cordio
               </h1>
@@ -124,14 +124,14 @@ class Mentoring extends Component {
             <div className="center w-50-l w-75-m w-90">
               <div className="center flex flex-row-l flex-column w-100-l w-90">
                 <div className="w5 h5 relative nt5">
-                  <img src={hm01} className="z-1" />
-                  <span className="absolute bg-gradient br2 fw6 f7 ph2 pv1 top-1 left--2 shadow-large ttu tracked white">
+                  <img src={hm01} className="animated fadeInUp z-1" />
+                  <span className="blur-late absolute bg-gradient br2 fw6 f7 ph2 pv1 top-1 left--2 shadow-large ttu tracked white">
                     Latest
                   </span>
                 </div>
                 <div className="flex flex-column justify-between ml4-l">
                   <div>
-                    <h3 className="f1-l f2 mr3 mb3 white">
+                    <h3 className="animated fadeInUp f1-l f2 mr3 mb3 white">
                       HM-01
                     </h3>
                     <span className="db fw6 mb3 ttu tracked white-70">EP</span>
