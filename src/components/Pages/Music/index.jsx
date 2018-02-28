@@ -144,28 +144,28 @@ class Mentoring extends Component {
               </div>
               <h4 className="bg-text-clip center fw6 shine white w-100-l w-90">Places to Listen to HM-01</h4>
               <div className="center flex flex-wrap w-100-l w-90">
-                <a href="https://open.spotify.com/album/5JsGXUhthfhmEnw5OB6gZ7?si=jDHRv2bxQNmsNvJVSO3WLg" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                <a href="https://goo.gl/DGeFCX" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/spotify/ffffff/30' alt='Listen on Spotify'  />
                 </a>
-                <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                <a href="https://goo.gl/C4dGxJ" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/apple/ffffff/30' alt='Listen on Apple Music'  />
                 </a>
                 <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/soundcloud/ffffff/30' alt='Listen on Soundcloud'  />
                 </a>
-                <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                <a href="https://youtu.be/Djd0VbScnPo" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/play_circle_filled/ffffff/30' alt='Listen on YouTube'  />
                 </a>
-                <a href="https://play.google.com/store/music/album/Cordio_HM_01?id=Bo3huswmpznlvtadptcaypmng6m" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                <a href="https://goo.gl/khpJDg" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/googleplay/ffffff/30' alt='Listen on Google Play'  />
                 </a>
-                <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                <a href="https://cordio.bandcamp.com/album/hm-01" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/bandcamp/ffffff/30' alt='View on Bandcamp'  />
                 </a>
                 <a href="http://amzn.to/2GNRqyd" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/amazon/ffffff/30' alt='Listen on Amazon'  />
                 </a>
-                <a href="https://itunes.apple.com/us/album/hm-01-ep/1352726280?app=itunes&ign-mpt=uo%3D4" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 f6 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                <a href="https://goo.gl/nqyagJ" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 f6 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/apple/ffffff/30' alt='View on iTunes' className="mr2"  />
                   iTunes
                 </a>
