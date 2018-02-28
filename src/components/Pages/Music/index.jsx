@@ -37,7 +37,7 @@ class Mentoring extends Component {
         </Helmet>
 
         <div>
-          <div className="bg-black-20 overflow-hidden pt5 pb6 ph4 relative tc-l">
+          <div className="bg-black-20 overflow-hidden pt5 pb6 ph4 relative tc-ns tl z-0">
             <div className="center w-80-l w-90">
               <h1 className="f1 ttu fw8 flex items-center justify-center-ns">
                 <svg id="CordioLogo" className="mr3 spin-full shadow-large" data-name="Cordio" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.04 401.04" height="35" width="35"><title>Cordio Logo</title><path d="M258.21,258.21c-78.31,78.31-78.31,205.27,0,283.58s205.27,78.31,283.58,0,78.31-205.27,0-283.58S336.52,179.9,258.21,258.21ZM506.34,506.34,293.66,293.66A150.39,150.39,0,0,1,506.34,506.34Z" transform="translate(-199.48 -199.48)"/></svg>
@@ -120,17 +120,21 @@ class Mentoring extends Component {
             </div>
           </div>
 
-          <div className="bg-black-blue pv5 w-100">
-            <div className="center w-80-ns w-90">
-              <h2 className="blur-skew f1-l f2-m f3 fw3 lh-title mt0 mb5-l mb4 tl-l tc tracked-tiny white">
-                Latest Music Release
-              </h2>
-              <div className="center flex flex-row-l flex-column mb4 w-100-l w-90">
-                <img src={hm01} className="mr4 w5 h5" />
-                <div className="flex flex-column justify-between">
+          <div className="bg-black-blue pb5 w-100">
+            <div className="center w-50-l w-75-m w-90">
+              <div className="center flex flex-row-l flex-column w-100-l w-90">
+                <div className="w5 h5 relative nt5">
+                  <img src={hm01} className="z-1" />
+                  <span className="absolute bg-gradient br2 fw6 f7 ph2 pv1 top-1 left--2 shadow-large ttu tracked white">
+                    Latest
+                  </span>
+                </div>
+                <div className="flex flex-column justify-between ml4-l">
                   <div>
-                    <h3 className="white f2">HM-01</h3>
-                    <p className="center fw5 f4 lh-subtitle measure mb0-l mb4 white-70 mt0" style={{letterSpacing: 0.8 + "px"}}>hello there this is a fake paragraph and description for an example</p>
+                    <h3 className="f1-l f2 mr3 mb3 white">
+                      HM-01
+                    </h3>
+                    <span className="db fw6 mb3 ttu tracked white-70">EP</span>
                   </div>
                   <div>
                     <span className="f6 mr3 ttu tracked white-30">5 Songs</span>
@@ -138,37 +142,38 @@ class Mentoring extends Component {
                   </div>
                 </div>
               </div>
-              <h4 className="bg-text-clip fw6 shine tl-l tc white">Places to Listen to HM-01</h4>
+              <h4 className="bg-text-clip center fw6 shine white w-100-l w-90">Places to Listen to HM-01</h4>
               <div className="center flex flex-wrap w-100-l w-90">
                 <a href="https://open.spotify.com/album/5JsGXUhthfhmEnw5OB6gZ7?si=jDHRv2bxQNmsNvJVSO3WLg" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/spotify/ffffff/30' alt='Listen on Spotify'  />
+                  <img src='https://icon.now.sh/spotify/ffffff/30' alt='Listen on Spotify'  />
                 </a>
                 <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/apple/ffffff/30' alt='Listen on Apple Music'  />
+                  <img src='https://icon.now.sh/apple/ffffff/30' alt='Listen on Apple Music'  />
                 </a>
                 <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/soundcloud/ffffff/30' alt='Listen on Soundcloud'  />
+                  <img src='https://icon.now.sh/soundcloud/ffffff/30' alt='Listen on Soundcloud'  />
                 </a>
                 <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/play_circle_filled/ffffff/30' alt='Listen on YouTube'  />
+                  <img src='https://icon.now.sh/play_circle_filled/ffffff/30' alt='Listen on YouTube'  />
+                </a>
+                <a href="https://play.google.com/store/music/album/Cordio_HM_01?id=Bo3huswmpznlvtadptcaypmng6m" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                  <img src='https://icon.now.sh/googleplay/ffffff/30' alt='Listen on Google Play'  />
                 </a>
                 <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/googleplay/ffffff/30' alt='Listen on Google Play'  />
+                  <img src='https://icon.now.sh/bandcamp/ffffff/30' alt='View on Bandcamp'  />
                 </a>
-                <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/bandcamp/ffffff/30' alt='View on Bandcamp'  />
+                <a href="http://amzn.to/2GNRqyd" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                  <img src='https://icon.now.sh/amazon/ffffff/30' alt='Listen on Amazon'  />
                 </a>
-                <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/amazon/ffffff/30' alt='Listen on Amazon'  />
-                </a>
-                <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 f6 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
-                  <img src='https:icon.now.sh/apple/ffffff/30' alt='View on iTunes' className="mr2"  />
+                <a href="https://itunes.apple.com/us/album/hm-01-ep/1352726280?app=itunes&ign-mpt=uo%3D4" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 f6 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                  <img src='https://icon.now.sh/apple/ffffff/30' alt='View on iTunes' className="mr2"  />
                   iTunes
                 </a>
               </div>
             </div>
           </div>
 
+          {/*
           <div className="center w-80-ns w-90">
             <Section
               title="Other Releases"
@@ -185,6 +190,7 @@ class Mentoring extends Component {
               />
             </div>
           </div>
+          */}
         </div>
 
         <Footer />
