@@ -10,7 +10,7 @@ class L extends Component {
         href={href}
         title={children}
         target="_blank" rel="nofollow"
-        className="bg-text-clip shine no-outline link sans-serif dib fw6">
+        className="bg-text-clip shine no-outline link sans-serif dib dim fw6">
         {children}
       </a>
     );
