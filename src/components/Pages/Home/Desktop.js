@@ -306,17 +306,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/my-process-and-a-listening-guide-for-my-first-solo-ep-bf6bc635e315"
+              name="My Process and a Listening Guide for My First Solo EP" />
+            <Feature
+              href="https://medium.com/@fromcortes/guide-to-a-distraction-free-digital-setup-9ce645f9056a"
+              name="Guide to a Distraction Free Digital Setup" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/how-to-make-great-coffee-at-home-f732c9fe0469"
+              name="How to Make Great Coffee at Home" />
+            <Feature
               href="https://medium.com/@fromcortes/how-i-prioritize-and-organize-goals-in-my-life-aabc3d6c606e"
               name="How I Prioritize and Organize Goals in My Life" />
-            <Feature
-              href="https://medium.com/@fromcortes/how-i-manage-my-to-do-list-to-help-me-stay-productive-b4d6a84be643"
-              name="How I Manage my To-Do List to Help Me Stay Productive" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/can-you-use-a-base-model-macbook-pro-for-design-and-development-d66be268e4cd"
-              name="Can You Use a Base Model MacBook Pro for Design and Development?" />
-            <Feature
-              href="https://medium.com/@fromcortes/how-i-take-and-edit-photos-on-my-phone-784d59951313"
-              name="How I Take and Edit Photos on My Phone" />
           </div>
 
           <Spacer />

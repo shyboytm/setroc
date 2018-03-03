@@ -10,6 +10,7 @@ class Feature extends Component {
 
     return (
       <a className="f6 fw6 dib link black ba br2 b--black-10 hover-light-purple ph2 pv1 mv1 system mr2"
+        style={{lineHeight: "1.25" + "rem"}}
         target="_blank" rel="nofollow" href={href}>
         {name}
       </a>

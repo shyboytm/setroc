@@ -33,12 +33,12 @@ class Work extends Component {
           <Feature
             href="https://usequarry.com"
             name="Quarry" />
-          <Feature
+          {/* <Feature
             href="https://sogol.co"
-            name="Sogol" />
-          <Feature
+            name="Sogol" /> */}
+          {/* <Feature
             href="https://fieldy.co"
-            name="Fieldy" />
+            name="Fieldy" /> */}
           <Feature
             href="https://www.instagram.com/illustree/"
             name="Illustree" />
@@ -57,6 +57,12 @@ class Work extends Component {
           <p className="measure mt4 mb3">
             Made with teams
           </p>
+          <Feature
+            href="https://wiseacrebrew.com"
+            name="Wiseacre Brew" />
+          <Feature
+            href="https://tec.sco.edu"
+            name="TEC SCO" />
           <Feature
             href="https://satchelhealth.com"
             name="Satchel Health" />

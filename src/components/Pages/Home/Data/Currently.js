@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 import Title from '../../../Title';
 
@@ -30,10 +31,10 @@ class Currently extends Component {
             </a>
           </h4>
           <h4 className="fw4 pv1">Producing music and beats as
-            <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://twitter.com/cordiofm">
+            <Link className="link link-underlined rainbow-hover black ml1 fw6"
+              rel="nofollow" to="/music">
               Cordio
-            </a>
+            </Link>
           </h4>
           <h4 className="fw4 pv1">Building things for others at
             <a className="link link-underlined rainbow-hover black ml1 fw6"
