@@ -17,6 +17,7 @@ import Thanks from './components/Pages/Thanks';
 import Tools from './components/Pages/Tools';
 
 import iAmJoiningMetaLab from './components/Pages/News/NewsPosts/020718';
+import myFirstEPIsAvailable from './components/Pages/News/NewsPosts/030118';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Route path="/folder" component={Folder} />
       <Route path="/journal" component={News} />
         <Route path="/journal/i-am-joining-metalab" component={iAmJoiningMetaLab} />
+        <Route path="/journal/my-first-ep-is-available" component={myFirstEPIsAvailable} />
       <Route path="/mentoring" component={Mentoring} />
       <Route path="/music" component={Music} />
       <Route path="/tools" component={Tools} />

@@ -150,7 +150,7 @@ class Mentoring extends Component {
                 <a href="https://goo.gl/C4dGxJ" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/apple/ffffff/30' alt='Listen on Apple Music'  />
                 </a>
-                <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
+                <a href="https://soundcloud.com/cordio/tracks" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
                   <img src='https://icon.now.sh/soundcloud/ffffff/30' alt='Listen on Soundcloud'  />
                 </a>
                 <a href="https://youtu.be/Djd0VbScnPo" target="_blank" rel="nofollow" className="ba bg-animate b--white-10 flex hover-bg-white-20 items-center justify-center link mb2 mr2 pa3 white">
