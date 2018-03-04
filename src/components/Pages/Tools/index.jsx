@@ -106,7 +106,6 @@ class Tools extends Component {
             <p className="fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
               {pageDescription}
             </p>
-            <h2 className="white fw6 tracked-tiny">Last Updated on March 3rd</h2>
             {/* Shortcuts */}
             <ul className="list ph0 pv4-ns pv3">
               <li className="dib mr3">
@@ -143,6 +142,15 @@ class Tools extends Component {
                     <path d="M29.3,23l-1.89-11.5a3.39,3.39,0,0,0-2.73-2.74h0a48.53,48.53,0,0,0-17.36,0h0a3.39,3.39,0,0,0-2.73,2.74L2.7,23A3.39,3.39,0,0,0,9,25.29l1.38-2.93a3,3,0,0,1,2.13-1.66h0a17.71,17.71,0,0,1,7,0,3,3,0,0,1,2.11,1.63l1.43,3A3.39,3.39,0,0,0,29.3,23ZM13,14.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,0-.5.5v1a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,0-.5-.5h-1a.5.5,0,0,1-.5-.5v-1a.5.5,0,0,1,.5-.5h1a.5.5,0,0,0,.5-.5v-1a.5.5,0,0,1,.5-.5h1a.5.5,0,0,1,.5.5v1a.5.5,0,0,0,.5.5h1a.5.5,0,0,1,.5.5Zm7.5-.5A1.5,1.5,0,1,1,22,12.5,1.5,1.5,0,0,1,20.5,14Zm4,4A1.5,1.5,0,1,1,26,16.5,1.5,1.5,0,0,1,24.5,18Zm-8-11h-1a.5.5,0,0,1-.5-.5V3a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V6.5A.5.5,0,0,1,16.5,7Z" transform="translate(-2.65 -2)"/>
                   </svg>
                   Gaming
+                </a>
+              </li>
+              <li className="dib mr3">
+                <a href="#Music" className="items-center flex up f7 fw6 mb0-l mb3 br-pill db pv1 ph3 ttu tracked link white glow bg-pink bg-animate">
+                  <svg className="mr2" xmlns="http://www.w3.org/2000/svg" fill="rgba(256,256,256,1.0)" width="18" height="18" viewBox="0 0 27 27.89">
+                    <title>Music Custom Icon</title>
+                    <path d="M10,21a4.92,4.92,0,0,0-4.08-.9A5,5,0,0,0,7.73,30,5.12,5.12,0,0,0,12,24.82v-17L27,6.21V19a4.92,4.92,0,0,0-4.08-.9A5,5,0,0,0,24.73,28,5.12,5.12,0,0,0,29,22.82V3.11a1,1,0,0,0-1.1-1l-17,1.79a1,1,0,0,0-.9,1Z" transform="translate(-2 -2.11)"/>
+                  </svg>
+                  Music
                 </a>
               </li>
               <li className="dib mr3">
