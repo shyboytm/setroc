@@ -166,7 +166,7 @@ class Tools extends Component {
           </div>
         </div>
 
-        <div className="w-75-l w-80-m w-90 center mv5">
+        <div className="mw8 w-75-l w-80-m w-90 center mv5">
             {/* Setup */}
             <Section
               id="Setup"
