@@ -18,12 +18,6 @@ class Currently extends Component {
               MetaLab
             </a>
           </h4>
-          <h4 className="fw4 pv1">Building a life-tracking tool called
-            <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="https://livtra.co">
-              Livtra
-            </a>
-          </h4>
           <h4 className="fw4 pv1">Writing weekly about work and life at
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="http://blog.cortes.us">
@@ -35,6 +29,12 @@ class Currently extends Component {
               rel="nofollow" to="/music">
               Cordio
             </Link>
+          </h4>
+          <h4 className="fw4 pv1">Building a life-tracking tool called
+            <a className="link link-underlined rainbow-hover black ml1 fw6"
+              target="_blank" rel="nofollow" href="https://livtra.co">
+              Livtra
+            </a>
           </h4>
           <h4 className="fw4 pv1">Building things for others at
             <a className="link link-underlined rainbow-hover black ml1 fw6"

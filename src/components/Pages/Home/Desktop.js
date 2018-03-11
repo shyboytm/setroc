@@ -44,6 +44,31 @@ class Desktop extends Component {
           <Spacer />
 
           <Title
+            title="Let's Play"
+            toolTipText="👾">
+          </Title>
+          <div className="db">
+            <p className="fw4 lh-copy mb4">
+              Always down to play some multiplayer games and chat, feel free to add
+              me! <em>Rocket League</em> and <em>Fortnite</em> are my go-to games currently.
+            </p>
+            <p className="i lh-copy">
+              <span className="bg-blue br2 fs-normal fw6 ph2 pv1 mr2 white">PS4</span>
+              - fromcortes
+            </p>
+            <p className="i lh-copy">
+              <span className="bg-green br2 fs-normal fw6 ph2 pv1 mr2 white">XB1</span>
+              - dcrts
+            </p>
+            <p className="i lh-copy">
+              <span className="bg-red br2 fs-normal fw6 ph2 pv1 mr2 white">Switch</span>
+              - SW-5930-2652-8511
+            </p>
+          </div>
+
+          <Spacer />
+
+          <Title
             title="Games I'm Playing"
             toolTipText="🎮">
           </Title>
@@ -52,23 +77,23 @@ class Desktop extends Component {
               My current lineup of single-player games I am playing through.
             </p>
             <Feature
-              href="http://amzn.to/2EJUrhY"
-              name="Night in the Woods" />
+              href="http://amzn.to/2FKp5vI"
+              name="Horizon Zero Dawn" />
             <Feature
-              href="http://amzn.to/2zOSvSQ"
-              name="Super Mario Odyssey" />
+              href="http://amzn.to/2HroPPF"
+              name="Uncharted" />
             <Feature
-              href="http://amzn.to/2Di0X2d"
-              name="Assassin's Creed: Origins" />
+              href="http://amzn.to/2DjfxCA"
+              name="Kirby Star Allies" />
             <Feature
-              href="http://amzn.to/2D7mTK7"
-              name="Pokémon Gold" />
+              href="http://amzn.to/2FwdEo1"
+              name="Pokémon Black" />
             <Feature
-              href="http://amzn.to/2ypBctD"
-              name="Stardew Valley" />
+              href="http://amzn.to/2GefI5e"
+              name="Ratchet and Clank" />
             <Feature
-              href="http://amzn.to/2D3hHXP"
-              name="Pokémon Ultra Moon" />
+              href="http://amzn.to/2Gfe8Af"
+              name="Bloodborne" />
           </div>
         </div>
 
@@ -306,6 +331,9 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/my-front-end-web-development-setup-and-approach-1ad711977124"
+              name="My Front-End Web Development Setup and Approach" />
+            <Feature
               href="https://medium.com/the-rate-of-change/my-process-and-a-listening-guide-for-my-first-solo-ep-bf6bc635e315"
               name="My Process and a Listening Guide for My First Solo EP" />
             <Feature
@@ -314,9 +342,6 @@ class Desktop extends Component {
             <Feature
               href="https://medium.com/the-rate-of-change/how-to-make-great-coffee-at-home-f732c9fe0469"
               name="How to Make Great Coffee at Home" />
-            <Feature
-              href="https://medium.com/@fromcortes/how-i-prioritize-and-organize-goals-in-my-life-aabc3d6c606e"
-              name="How I Prioritize and Organize Goals in My Life" />
           </div>
 
           <Spacer />
