@@ -12,7 +12,7 @@ class Item extends Component {
     } = this.props;
 
     return (
-      <div className="items-start relative ph2 pv2 w-33-l w-50-m w-100">
+      <div className="items-start relative ph2 pv2 w-25-l w-50-m w-100">
         <div className="db-ns flex overflow-hidden" style={{backgroundColor: "#F6F6F6"}}>
           <a href={href} target="_blank" rel="nofollow" className="db-ns flex justify-around items-center link pointer black hover-black-30 no-outline">
             <img src={image} alt={title} className="grow no-drag w-100-ns w-30 ml0-ns ml2" />
