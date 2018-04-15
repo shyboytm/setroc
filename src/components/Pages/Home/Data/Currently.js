@@ -18,17 +18,23 @@ class Currently extends Component {
               MetaLab
             </a>
           </h4>
-          <h4 className="fw4 pv1">Writing weekly about work and life at
-            <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="http://blog.cortes.us">
-              The Rate of Change
-            </a>
-          </h4>
-          <h4 className="fw4 pv1">Producing music and beats as
+          <h4 className="fw4 pv1">Working on my second EP as
             <Link className="link link-underlined rainbow-hover black ml1 fw6"
               rel="nofollow" to="/music">
               Cordio
             </Link>
+          </h4>
+          <h4 className="fw4 pv1">Writing a book called
+            <a className="link link-underlined rainbow-hover black ml1 fw6"
+              target="_blank" rel="nofollow" href="https://twitter.com/oversolving">
+              Oversolving
+            </a>
+          </h4>
+          <h4 className="fw4 pv1">Writing weekly articles on
+            <a className="link link-underlined rainbow-hover black ml1 fw6"
+              target="_blank" rel="nofollow" href="http://blog.cortes.us">
+              The Rate of Change
+            </a>
           </h4>
           <h4 className="fw4 pv1">Building a life-tracking tool called
             <a className="link link-underlined rainbow-hover black ml1 fw6"
