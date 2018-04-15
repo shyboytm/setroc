@@ -331,17 +331,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
-              href="https://medium.com/the-rate-of-change/my-front-end-web-development-setup-and-approach-1ad711977124"
-              name="My Front-End Web Development Setup and Approach" />
+              href="https://medium.com/the-rate-of-change/my-remote-working-travel-setup-and-gear-99d16544ca5c"
+              name="My Remote Working Travel Setup and Gear" />
             <Feature
-              href="https://medium.com/the-rate-of-change/my-process-and-a-listening-guide-for-my-first-solo-ep-bf6bc635e315"
-              name="My Process and a Listening Guide for My First Solo EP" />
+              href="https://medium.com/the-rate-of-change/apps-that-make-macos-a-better-operating-system-to-use-fb0be76eb0b6"
+              name="Apps That Make MacOS a Better Operating System to Use" />
             <Feature
-              href="https://medium.com/@fromcortes/guide-to-a-distraction-free-digital-setup-9ce645f9056a"
-              name="Guide to a Distraction Free Digital Setup" />
+              href="https://medium.com/the-rate-of-change/a-systematic-approach-to-harmonious-neutral-color-palettes-in-product-design-9b4aa19e2156"
+              name="A Systematic Approach to Harmonious Neutral Color Palettes in Product Design" />
             <Feature
-              href="https://medium.com/the-rate-of-change/how-to-make-great-coffee-at-home-f732c9fe0469"
-              name="How to Make Great Coffee at Home" />
+              href="https://medium.com/the-rate-of-change/a-better-system-for-using-text-colors-in-product-design-23ff16605bf3"
+              name="A Better System for Using Text Colors in Product Design" />
           </div>
 
           <Spacer />
