@@ -99,12 +99,17 @@ class Folder extends Component {
                 number="1" />
               <ul className="list pl0">
                 <NewsItem
-                  date="Mar 1 2018"
+                  date="Apr 2018"
+                  linkTo="https://mailchi.mp/980d2722e724/3-design-apis-light-phones-and-2017-design-reports"
+                  title="#3 - 2017 Design Report, Light Phones, and Design APIs"
+                />
+                <NewsItem
+                  date="Mar 2018"
                   linkTo="https://mailchi.mp/8baa1b9d8975/2-setup-galore-ml-synths-op-1-and-spicy-type?e=f619597c23"
                   title="#2 - Setup Galore, ML Synths, OP-1, and Spicy Type"
                 />
                 <NewsItem
-                  date="Feb 1 2018"
+                  date="Feb 2018"
                   linkTo="https://mailchi.mp/9f404acbc093/golden-kittens-3d-interviews-and-shipping-stuff"
                   title="#1 - Golden Kittens, 3D Interviews, and Shipping Stuff"
                 />
