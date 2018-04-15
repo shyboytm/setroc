@@ -18,6 +18,7 @@ class Tools extends Component {
     const mxMaster2S        = require('../../../img/tools/setup/logitech-mx-master-2s.jpg');
     const iPadPro           = require('../../../img/tools/setup/ipad-pro.jpg');
     const applePencil       = require('../../../img/tools/setup/apple-pencil.jpg');
+    const boseQC35ii        = require('../../../img/tools/setup/bose-qc35-ii-headphones.jpg');
     const beatsXEarphones   = require('../../../img/tools/setup/beatsx-earphones.jpg');
     const blueYeti          = require('../../../img/tools/setup/blue-yeti-microphone.jpg');
     const alexaEcho         = require('../../../img/tools/setup/amazon-alexa-echo.jpg');
@@ -54,15 +55,17 @@ class Tools extends Component {
 
     // Gaming
     const nintendoSwitch    = require('../../../img/tools/gaming/nintendo-switch-console.jpg');
-    const switchController  = require('../../../img/tools/gaming/nintendo-switch-controller.jpg');
     const xboxOne           = require('../../../img/tools/gaming/xbox-one-console.jpg');
+    const ps4Slim           = require('../../../img/tools/gaming/ps4-slim-1tb-playstation.jpg');
+    const switchController  = require('../../../img/tools/gaming/nintendo-switch-controller.jpg');
     const xboxController    = require('../../../img/tools/gaming/xbox-one-controller.jpg');
     const samsungTV         = require('../../../img/tools/gaming/samsung-4k-tv.jpg');
     const nintendo2DS       = require('../../../img/tools/gaming/nintendo-2ds-xl-console.jpg');
 
-    // music
-    const op1               = require('../../../img/tools/music/op-1.jpg');
+    // Music
     const abletonLive       = require('../../../img/tools/music/ableton-live.jpg');
+    const op1               = require('../../../img/tools/music/op-1.jpg');
+    const volcaFM           = require('../../../img/tools/music/volca-fm-synthesis-synth.jpg');
     const korgNanoKeyboard  = require('../../../img/tools/music/korg-nano-keyboard.jpg');
     const po33              = require('../../../img/tools/music/po-33.jpg');
     const po20              = require('../../../img/tools/music/po-20.jpg');
@@ -172,7 +175,7 @@ class Tools extends Component {
               id="Setup"
               title="Setup"
               description="Gear and furniture I use on the go and at my home office"
-              number="16" />
+              number="17" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="https://www.apple.com/shop/buy-mac/macbook-pro"
@@ -229,10 +232,16 @@ class Tools extends Component {
                 description="Must have tool for accompanying an iPad Pro"
               />
               <Item
+                href="https://amzn.to/2IVPhBy"
+                image={boseQC35ii}
+                title="Bose QuietComfort 35 ii"
+                description="Headphones I use for work and music, best I've ever used"
+              />
+              <Item
                 href="http://amzn.to/2hbbj7i"
                 image={beatsXEarphones}
                 title="BeatsX Earphones"
-                description="My favorite bluetooth headphones. Better than AirPods"
+                description="Headphones I use for the gym"
               />
               <Item
                 href="http://amzn.to/2idzcvk"
@@ -427,7 +436,7 @@ class Tools extends Component {
               id="Gaming"
               title="Gaming"
               description="Consoles and accessories I use for gaming"
-              number="6" />
+              number="7" />
             <div className="content-end flex flex-wrap">
               <Item
                 href="http://amzn.to/2xgbrvi"
@@ -436,16 +445,22 @@ class Tools extends Component {
                 description="My favorite console to date"
               />
               <Item
-                href="http://amzn.to/2wBMNBO"
-                image={switchController}
-                title="Nintendo Switch Controller"
-                description="Cheaper, 3rd party Pro Controller for Switch"
-              />
-              <Item
                 href="http://amzn.to/2ylotX9"
                 image={xboxOne}
                 title="Xbox One"
                 description="My main home console for gaming and TV watching"
+              />
+              <Item
+                href="https://amzn.to/2voM3F1"
+                image={ps4Slim}
+                title="PS4 Slim 1TB"
+                description="Had to get it for all those exclusives"
+              />
+              <Item
+                href="http://amzn.to/2wBMNBO"
+                image={switchController}
+                title="Nintendo Switch Controller"
+                description="Cheaper, 3rd party Pro Controller for Switch"
               />
               <Item
                 href="http://amzn.to/2fveztY"
@@ -472,25 +487,31 @@ class Tools extends Component {
               id="Music"
               title="Music"
               description="Hardware and software I use for music production"
-              number="5" />
+              number="6" />
             <div className="content-end flex flex-wrap">
+              <Item
+                href="https://www.ableton.com/en/live/"
+                image={abletonLive}
+                title="Ableton Live 10"
+                description="My DAW of choice"
+              />
               <Item
                 href="https://teenageengineering.com/products/op-1"
                 image={op1}
                 title="OP-1"
-                description="All-in-one synth, drum sequencer, sampler, and more"
+                description="All-in-one synthesizer, drum sequencer, sampler, recorder, and more"
               />
               <Item
-                href="https://www.ableton.com/en/live/"
-                image={abletonLive}
-                title="Ableton Live"
-                description="My DAW of choice"
+                href="https://amzn.to/2JNdiMz"
+                image={volcaFM}
+                title="Volca FM"
+                description="A digital FM synthesizer based on the DX7, really great depth of sounds"
               />
               <Item
                 href="http://amzn.to/2FbpR1c"
                 image={korgNanoKeyboard}
-                title="Korg Nano Keyboard"
-                description="Simple portable keyboard"
+                title="Korg Nano MIDI Keyboard"
+                description="Simple (and cheap) portable MIDI keyboard"
               />
               <Item
                 href="http://amzn.to/2FP9g4B"

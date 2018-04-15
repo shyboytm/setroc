@@ -96,7 +96,7 @@ class Folder extends Component {
                 id="Folder Archive"
                 title="Folder Archive"
                 description="Read past issues and get a sneak peek of what you'll get"
-                number="1" />
+                number="3" />
               <ul className="list pl0">
                 <NewsItem
                   date="Apr 2018"
