@@ -245,12 +245,14 @@ class Desktop extends Component {
 
         <div className="flex flex-column w-25-l pv4-l ph4-l pa5-m pa4 br b--black-10">
 
-          <div className="ba br2 b--black-10 pa3 mb4">
-            <p className="f4-l f5 fw4 db mv1 black">
-              <span className="db f2 mb2">🌦</span>
+          <div className="pa0">
+            <p className="f4-l f5 flex fw6 items-center justify-between db mv1 black">
+              <span className="dib f2">🌦</span>
               <Today />
             </p>
           </div>
+
+          <Spacer />
 
           <Title
             title="Contact"

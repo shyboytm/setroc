@@ -25,7 +25,7 @@ class Today extends Component {
 
     return (
       <div className="dib ml1">
-        {this.state.date}, {this.state.time}
+        {this.state.date}<span className="black-20 ph2">|</span>{this.state.time}
       </div>
     );
   }

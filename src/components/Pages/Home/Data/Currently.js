@@ -18,7 +18,7 @@ class Currently extends Component {
               MetaLab
             </a>
           </h4>
-          <h4 className="fw4 pv1">Working on my second EP as
+          <h4 className="fw4 pv1">Producing music as 
             <Link className="link link-underlined rainbow-hover black ml1 fw6"
               rel="nofollow" to="/music">
               Cordio
