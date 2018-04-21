@@ -64,6 +64,11 @@ class News extends Component {
         <div className="pb5">
           <ul className="center list pl0 w-90">
             <NewsItem
+              date="Apr 27 2018"
+              linkTo="/journal/my-second-ep-is-available"
+              title="HM-02 is Available Now"
+            />
+            <NewsItem
               date="Mar 1 2018"
               linkTo="/journal/my-first-ep-is-available"
               title="My EP HM-01 is Available Now"
