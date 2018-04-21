@@ -71,7 +71,7 @@ class News extends Component {
             <NewsItem
               date="Mar 1 2018"
               linkTo="/journal/my-first-ep-is-available"
-              title="My EP HM-01 is Available Now"
+              title="My First EP HM-01 is Available Now"
             />
             <NewsItem
               date="Feb 7 2018"

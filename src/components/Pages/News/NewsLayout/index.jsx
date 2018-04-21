@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import { Helmet } from 'react-helmet';
 
 import Footer from '../../../Footer';
@@ -68,9 +69,9 @@ class NewsLayout extends Component {
             <span className="fw4">Thanks for reading!</span><br />
             — Dennis Cortés
           </p>
-          <a href="/news" className="link bn fw7 f6 ttu tracked-tiny button-reset dim ph3 pv2 tc dib-l db white bg-gradient pointer br2 w-auto-l w-100">
+          <Link to="/journal" className="link bn fw7 f6 ttu tracked-tiny button-reset dim ph3 pv2 tc dib-l db white bg-gradient pointer br2 w-auto-l w-100">
             <span className="mr2">&larr;</span> Back to all News
-          </a>
+          </Link>
         </div>
         <Footer />
       </div>

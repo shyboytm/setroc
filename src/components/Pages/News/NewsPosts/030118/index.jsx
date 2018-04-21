@@ -8,11 +8,11 @@ class myFirstEPIsAvailable extends Component {
     return (
       <div className="bg-black-blue">
         <NewsLayout
-          title="My EP HM-01 is Available Now"
+          title="My First EP HM-01 is Available Now"
           subtitle="My first of many releases in my musical creation hobby"
           date="Mar 1st, 2018"
           url="my-first-ep-is-available"
-          twitterLink="https://twitter.com/home?status=My%20EP%20HM-01%20is%20Available%20Now%20by%20%40fromcortes%20http%3A//cortes.us/news/my-first-ep-is-available"
+          twitterLink="https://twitter.com/home?status=My%20First%20EP%20HM-01%20is%20Available%20Now%20by%20%40fromcortes%20http%3A//cortes.us/news/my-first-ep-is-available"
           facebookLink="https://www.facebook.com/sharer/sharer.php?u=http%3A//cortes.us/news/my-first-ep-is-available"
           googleLink="https://plus.google.com/share?url=http%3A//cortes.us/news/my-first-ep-is-available"
         >
@@ -26,7 +26,7 @@ class myFirstEPIsAvailable extends Component {
           <p>
             If I had to give you a genre for the type of music it is, I'd say it's ambient-electronic with
             elements from jazz and hip-hop. HM-01 is great for studying, working, or chilling out to if that's what
-            you're looking for. I have some more music already in the works and just recently bought an <L href="https://teenageengineering.com/products/op-1">OP-1</L> to 
+            you're looking for. I have some more music already in the works and just recently bought an <L href="https://teenageengineering.com/products/op-1">OP-1</L> to
             really put me in a great spot fo make music a main hobby for myself outside of my design and development work.
             I can't wait to share even more music with you, but I hope you'll love HM-01 as much as I did making it for now.
           </p>
