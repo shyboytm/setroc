@@ -77,8 +77,8 @@ class Desktop extends Component {
               My current lineup of single-player games I am playing through.
             </p>
             <Feature
-              href="http://amzn.to/2FKp5vI"
-              name="Horizon Zero Dawn" />
+              href="https://amzn.to/2qZ3p6v"
+              name="God of War" />
             <Feature
               href="http://amzn.to/2HroPPF"
               name="Uncharted" />
@@ -89,8 +89,8 @@ class Desktop extends Component {
               href="http://amzn.to/2FwdEo1"
               name="Pokémon Black" />
             <Feature
-              href="http://amzn.to/2GefI5e"
-              name="Ratchet and Clank" />
+              href="https://amzn.to/2Khb3kH"
+              name="Pokémon Yellow" />
             <Feature
               href="http://amzn.to/2Gfe8Af"
               name="Bloodborne" />
@@ -333,6 +333,9 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/how-to-get-into-product-design-an-addition-of-encompassing-strategy-d7c2ad910e95"
+              name="How to Get into Product Design—An Addition of Encompassing Strategy" />
+            <Feature
               href="https://medium.com/the-rate-of-change/my-remote-working-travel-setup-and-gear-99d16544ca5c"
               name="My Remote Working Travel Setup and Gear" />
             <Feature
@@ -341,9 +344,6 @@ class Desktop extends Component {
             <Feature
               href="https://medium.com/the-rate-of-change/a-systematic-approach-to-harmonious-neutral-color-palettes-in-product-design-9b4aa19e2156"
               name="A Systematic Approach to Harmonious Neutral Color Palettes in Product Design" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/a-better-system-for-using-text-colors-in-product-design-23ff16605bf3"
-              name="A Better System for Using Text Colors in Product Design" />
           </div>
 
           <Spacer />
