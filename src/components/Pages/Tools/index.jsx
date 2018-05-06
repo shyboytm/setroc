@@ -105,7 +105,7 @@ class Tools extends Component {
 
         <div className="bg-dot-grid bg-black-blue smooth-text">
           <div className="animated fadeIn w-80-l w-90-m w-100 center pv4 ph0-ns ph3 z-0 tl">
-            <h1 className="f-subheadline-ns f1 fw3 lh-title blur-skew white tracked-tiny"><span style={{letterSpacing: -7 + "px"}}>T</span>ools</h1>
+            <h1 className="blur-skew f-subheadline-ns f1 fw8 lh-title white tracked-tiny ttu">Tools</h1>
             <p className="fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
               {pageDescription}
             </p>

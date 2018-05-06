@@ -40,7 +40,7 @@ class Mentoring extends Component {
         <div>
           <div className="bg-black-20 overflow-hidden pt5 pb6 ph4 relative tc-ns tl z-0">
             <div className="center w-80-l w-90">
-              <h1 className="blur-skew f1 ttu fw8 flex items-center justify-center-ns">
+              <h1 className="blur-late f1 ttu fw8 flex items-center justify-center-ns">
                 <svg id="CordioLogo" className="mr3 spin-full shadow-large" data-name="Cordio" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 401.04 401.04" height="35" width="35"><title>Cordio Logo</title><path d="M258.21,258.21c-78.31,78.31-78.31,205.27,0,283.58s205.27,78.31,283.58,0,78.31-205.27,0-283.58S336.52,179.9,258.21,258.21ZM506.34,506.34,293.66,293.66A150.39,150.39,0,0,1,506.34,506.34Z" transform="translate(-199.48 -199.48)"/></svg>
                 Cordio
               </h1>
@@ -125,7 +125,7 @@ class Mentoring extends Component {
             <div className="center w-75-ns w-90">
               <img src={hm02} className="animated fadeInUp fl-l w-60-l w-100" />
               <div className="fl-l center w-40-l w-100">
-                <h3 className="animated blur f1-l f2 mr3 mb3 black">
+                <h3 className="animated blur-late f1-l f2 mr3 mb3 black">
                   HM-02
                 </h3>
                 <span className="db fw6 f6 mb3 ttu tracked-tiny black-60">Apr 20 2018 · 8 track EP · 21 min</span>

@@ -96,8 +96,13 @@ class Folder extends Component {
                 id="Folder Archive"
                 title="Folder Archive"
                 description="Read past issues and get a sneak peek of what you'll get"
-                number="3" />
+                number="4" />
               <ul className="list pl0">
+                <NewsItem
+                  date="May 2018"
+                  linkTo="https://mailchi.mp/1727b32cdd07/folder-4"
+                  title="#4 - Braun Museum, Side Projects, and Dumb Phones"
+                />
                 <NewsItem
                   date="Apr 2018"
                   linkTo="https://mailchi.mp/980d2722e724/3-design-apis-light-phones-and-2017-design-reports"

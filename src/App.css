@@ -95,12 +95,14 @@ body {
       opacity: 0;
       transform: translate3d(0, -50%, 0);
       transform: skewY(10deg);
+      -webkit-backface-visibility: hidden;
     }
     to {
       filter: blur(0px);
       transform: none;
       transform: matrix3d(0);
       transform: skewY(0deg);
+      -webkit-backface-visibility: hidden;
     }
 }
 
@@ -109,11 +111,13 @@ body {
       filter: blur(3px);
       opacity: 0;
       transform: translate3d(0, -50%, 0);
+      -webkit-backface-visibility: hidden;
     }
     to {
       filter: blur(0px);
       transform: none;
       transform: translate3d(0);
+      -webkit-backface-visibility: hidden;
     }
 }
 

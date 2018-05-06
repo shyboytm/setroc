@@ -36,7 +36,7 @@ class News extends Component {
 
         <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tl smooth-text">
           <div className="center w-90 animated fadeIn">
-            <h1 className="f-subheadline-ns f1 fw3 lh-title blur-skew white tracked-tiny">{pageName}</h1>
+            <h1 className="f-subheadline-ns f1 fw8 lh-title blur-skew white tracked-tiny ttu">{pageName}</h1>
             <p className="fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
               {pageDescription}
             </p>
