@@ -330,8 +330,11 @@ class Desktop extends Component {
           </Title>
           <div className="fw4 lh-copy">
             <p className="lh-copy measure mb4">
-              I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="https://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
+              I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
+            <Feature
+              href="https://medium.com/the-rate-of-change/how-i-use-different-apple-watch-faces-throughout-my-day-d0dc00a8f34f"
+              name="How I Use Different Apple Watch Faces Throughout My Day" />
             <Feature
               href="https://medium.com/the-rate-of-change/how-to-get-into-product-design-an-addition-of-encompassing-strategy-d7c2ad910e95"
               name="How to Get into Product Design—An Addition of Encompassing Strategy" />
@@ -341,9 +344,6 @@ class Desktop extends Component {
             <Feature
               href="https://medium.com/the-rate-of-change/apps-that-make-macos-a-better-operating-system-to-use-fb0be76eb0b6"
               name="Apps That Make MacOS a Better Operating System to Use" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/a-systematic-approach-to-harmonious-neutral-color-palettes-in-product-design-9b4aa19e2156"
-              name="A Systematic Approach to Harmonious Neutral Color Palettes in Product Design" />
           </div>
 
           <Spacer />
