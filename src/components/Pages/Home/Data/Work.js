@@ -58,6 +58,9 @@ class Work extends Component {
             Made with teams
           </p>
           <Feature
+            href="https://metalab.co"
+            name="MetaLab" />
+          <Feature
             href="https://wiseacrebrew.com"
             name="Wiseacre Brew" />
           <Feature

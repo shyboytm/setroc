@@ -333,17 +333,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/how-to-be-well-prepared-for-that-morning-standup-41d64da2a6c0"
+              name="How to Be Well Prepared for That Morning Standup" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/material-design-just-got-a-lot-more-flexible-and-fun-8e613da258b9"
+              name="Material Design Just Got a Lot More Flexible and Fun" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/making-your-phone-a-tool-not-a-distraction-96f435b1270"
+              name="Making Your Phone a Tool, Not a Distraction" />
+            <Feature
               href="https://medium.com/the-rate-of-change/how-i-use-different-apple-watch-faces-throughout-my-day-d0dc00a8f34f"
               name="How I Use Different Apple Watch Faces Throughout My Day" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/how-to-get-into-product-design-an-addition-of-encompassing-strategy-d7c2ad910e95"
-              name="How to Get into Product Design—An Addition of Encompassing Strategy" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/my-remote-working-travel-setup-and-gear-99d16544ca5c"
-              name="My Remote Working Travel Setup and Gear" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/apps-that-make-macos-a-better-operating-system-to-use-fb0be76eb0b6"
-              name="Apps That Make MacOS a Better Operating System to Use" />
           </div>
 
           <Spacer />
