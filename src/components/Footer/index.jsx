@@ -27,13 +27,12 @@ class Footer extends Component {
         <div className="w-90-ns w-80 center flex justify-between items-center-l flex-row-l flex-column pv2-l">
           <div className="flex-auto-l flex-column order-1-l order-2 mb3 mt0">
             <p className="f1-l f2 lh-subtitle tracked-tiny">
-              <span className="db">{this.state.emoji}</span>
-              <a className="dib link underline bg-text-clip shine fw6 f3 mt4" href="mailto:hi@cortes.us">hi@cortes.us</a>
+              <span onClick={this.handleClick.bind(this)} className="hover-bg-black-10 bg-animate br2 pa1 pointer">{this.state.emoji}</span>
+              <a className="db link underline bg-text-clip shine fw6 f3 mt4" href="mailto:hi@cortes.us">hi@cortes.us</a>
             </p>
-            <span onClick={this.handleClick.bind(this)} className="f6 ttu tracked fw8 pointer dim">
-              more pls
-            </span>
-            <p className="black-30 f7">© 2018 Dennis Cortés</p>
+            <div className="mb4">
+              <a href="https://amzn.to/2sJNZEc" className="black fw6 i link underline-hover">Support the hustle on Amazon &rarr;</a>
+            </div>
           </div>
           <div className="order-2-l order-1 w-50-l tr-l">
             <div>
@@ -83,6 +82,7 @@ class Footer extends Component {
             </ul> */}
           </div>
         </div>
+        <p className="bg-black-05 black-30 f7 pv2 mb0 tc w-100">© 2018 Dennis Cortés</p>
       </footer>
     );
   }

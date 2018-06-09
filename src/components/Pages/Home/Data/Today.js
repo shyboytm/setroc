@@ -6,8 +6,8 @@ class Today extends Component {
       super();
 
       const today = new Date(),
-            date = (today.getMonth()+1) + " / "
-                +  today.getDate() + " / "
+            date = (today.getMonth()+1) + "."
+                +  today.getDate() + "."
                 + today.getFullYear().toString().substr(-2);
 
       const minutes = ("0" + today.getMinutes()).slice(-2);

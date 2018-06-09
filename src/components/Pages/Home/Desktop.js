@@ -77,23 +77,20 @@ class Desktop extends Component {
               My current lineup of single-player games I am playing through.
             </p>
             <Feature
+              href="https://amzn.to/2HCVu4e"
+              name="The Witcher 3" />
+            <Feature
+              href="https://pokemonquest.pokemon.com/en-us/?ref=cortes"
+              name="Pokémon Quest" />
+            <Feature
               href="https://amzn.to/2qZ3p6v"
               name="God of War" />
             <Feature
-              href="http://amzn.to/2HroPPF"
-              name="Uncharted" />
+              href="https://amzn.to/2JFUzFi"
+              name="Pokémon HG" />
             <Feature
-              href="http://amzn.to/2DjfxCA"
-              name="Kirby Star Allies" />
-            <Feature
-              href="http://amzn.to/2FwdEo1"
-              name="Pokémon Black" />
-            <Feature
-              href="https://amzn.to/2Khb3kH"
-              name="Pokémon Yellow" />
-            <Feature
-              href="http://amzn.to/2Gfe8Af"
-              name="Bloodborne" />
+              href="https://amzn.to/2xX5m9r"
+              name="Pokémon Ultra Moon" />
           </div>
         </div>
 
@@ -246,7 +243,7 @@ class Desktop extends Component {
         <div className="flex flex-column w-25-l pv4-l ph4-l pa5-m pa4 br b--black-10">
 
           <div className="pa0">
-            <p className="f4-l f5 flex fw6 items-center justify-between db mv1 black">
+            <p className="f5 flex fw6 items-center justify-between db mv0 black">
               <span className="dib f2">🌦</span>
               <Today />
             </p>
@@ -333,17 +330,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/ways-to-use-an-ipad-for-product-design-work-91acdb514ac9"
+              name="Ways to Use an iPad for Product Design Work" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/how-a-creative-outlet-can-benefit-your-creative-profession-ea304187843b"
+              name="How a Creative Outlet Can Benefit Your Creative Profession" />
+            <Feature
               href="https://medium.com/the-rate-of-change/how-to-be-well-prepared-for-that-morning-standup-41d64da2a6c0"
               name="How to Be Well Prepared for That Morning Standup" />
             <Feature
               href="https://medium.com/the-rate-of-change/material-design-just-got-a-lot-more-flexible-and-fun-8e613da258b9"
               name="Material Design Just Got a Lot More Flexible and Fun" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/making-your-phone-a-tool-not-a-distraction-96f435b1270"
-              name="Making Your Phone a Tool, Not a Distraction" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/how-i-use-different-apple-watch-faces-throughout-my-day-d0dc00a8f34f"
-              name="How I Use Different Apple Watch Faces Throughout My Day" />
           </div>
 
           <Spacer />
@@ -356,6 +353,9 @@ class Desktop extends Component {
             <p className="lh-copy measure mb4">
               From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing.
             </p>
+            <Feature
+              href="https://daily.bandcamp.com/2018/05/23/best-new-ambient-may-2018/"
+              name="Bandcamp" />
             <Feature
               href="https://www.typewolf.com/site-of-the-day/taste-notes"
               name="Typewolf" />
