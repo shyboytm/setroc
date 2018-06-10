@@ -6,7 +6,7 @@ import './index.css';
 
 import App from './App';
 import About from './components/Pages/About';
-import Books from './components/Pages/Books';
+import Collection from './components/Pages/Collection';
 import Home from './components/Pages/Home';
 import Folder from './components/Pages/Folder';
 import Mentoring from './components/Pages/Mentoring';
@@ -24,9 +24,8 @@ ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
-      <Route path="/newsletter/thanks" component={Thanks} />
       <Route path="/about" component={About} />
-      {/* <Route path="/books" component={Books} /> */}
+      <Route path="/collection" component={Collection} />
       <Route path="/folder" component={Folder} />
       <Route path="/journal" component={News} />
         <Route path="/journal/i-am-joining-metalab" component={iAmJoiningMetaLab} />
@@ -34,6 +33,7 @@ ReactDOM.render(
         <Route path="/journal/my-second-ep-is-available" component={mySecondEPIsAvailable} />
       <Route path="/mentoring" component={Mentoring} />
       <Route path="/music" component={Music} />
+      <Route path="/newsletter/thanks" component={Thanks} />
       <Route path="/tools" component={Tools} />
       <Route path='*' component={NotFound} />
     </Route>
