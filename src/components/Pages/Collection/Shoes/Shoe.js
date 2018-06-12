@@ -11,14 +11,18 @@ class Shoe extends React.Component {
           href={details.href}
           target="_blank" rel="nofollow"
           title={`Check out ${details.name}`}>
-          <img src={`http://cortes.us/images/collection/shoes/${details.image}.jpg`} alt={`${details.name} ${details.model}`} className="nb2"/>
-          <div className="pa3" style={{backgroundColor: `${details.color}`}}>
-            <h2 className="black-40 f4">{details.name}</h2>
-            <h3>{details.model}</h3>
-          </div>
-          <div className="flex items-center justify-between w-100">
-            <span className="black-40 f7 fw6 ttu">{details.date}</span>
-            <span className="black-40 fw6 mv0">${details.price}</span>
+          <div style={{backgroundColor: `${details.color}`}}>
+            <img src={`http://cortes.us/images/collection/shoes/${details.image}.jpg`}
+                 alt={`${details.name} ${details.model}`}
+                 className="multiply hover-unmultiply bg-animate nb2"/>
+            <div className="pa3 tc">
+              <h2 className="black-60 f3 fw8 mv0">{details.name}</h2>
+              <h3 className="black-40 mt0 mb3">{details.model}</h3>
+              <div className="flex items-center justify-between w-100">
+                <span className="black-40 f6 fw6 ttu">Got {details.date}</span>
+                <span className="black-40 fw6 mv0">${details.price}</span>
+              </div>
+            </div>
           </div>
         </a>
       </li>
