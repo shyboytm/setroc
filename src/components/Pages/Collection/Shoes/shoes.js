@@ -1,4 +1,13 @@
 const shoes = {
+  adidasProphereTripleBlack: {
+    color: '#6D6C71',
+    date: '06/16/18',
+    href: 'https://www.twelvesouth.com/store/product/airfly',
+    image: 'adidas-prophere-triple-black',
+    model: 'Adidas Prophere',
+    name: 'Triple Black',
+    price: '58'
+  },
   airMax97LightBone: {
     color: '#D4CEC9',
     date: '06/10/18',
@@ -53,6 +62,15 @@ const shoes = {
     name: 'Core Blacks',
     price: '89'
   },
+  nikeAirHuaracheGreenGums: {
+    color: '#8D8F75',
+    date: '02/21/18',
+    href: 'https://www.twelvesouth.com/store/product/airfly',
+    image: 'nike-air-huarache-green-gum',
+    model: 'Nike Air Huarache',
+    name: 'Green Gums',
+    price: '84'
+  }
 };
 
 export default shoes;
