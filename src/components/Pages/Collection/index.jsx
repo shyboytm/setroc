@@ -12,10 +12,7 @@ class Collection extends Component {
   render() {
 
     const pageName = "Collection";
-    const pageDescription = "A curated selection of great resources, people, updates, other valuable things delivered straight to your inbox on the first of each month.";
-
-    const airMax97lightBone     = require('../../../img/collection/shoes/air-max-97-light-bone.jpg');
-    const airJordan1CyberMonday = require('../../../img/collection/shoes/air-jordan-1-cyber-monday.jpg');
+    const pageDescription = "A gallery of the shoes I own in my collection currently plus when and how much I got them for";
 
     return (
       <div id={pageName} className="black pt4-l">
@@ -38,13 +35,17 @@ class Collection extends Component {
           <meta property="og:image" content="https://www.cortes.us/images/dennis-cortes-meta-photo.jpg"/>
         </Helmet>
 
-        <div className="w-100 bg-black-05 bg-dot-grid center pv4 ph0-ns z-0 smooth-text">
-          <div className="center w-90">
-            {pageName}
+        <div className="w-100 bg-dot-grid bg-black-blue center pv4 ph0-ns z-0 tc smooth-text">
+          <div className="animated fadeIn center w-90">
+            <h1 className="f-subheadline-ns f1 fw8 lh-title blur-late white tracked-tiny ttu">{pageName}</h1>
+            <p className="center fw5 f4 lh-subtitle measure white-90 mb5" style={{letterSpacing: 0.8 + "px"}}>
+              {pageDescription}
+            </p>
           </div>
-          <div className="center flex flex-wrap w-80-l w-90-m w-100">
-            <ShoeList />
-          </div>
+        </div>
+
+        <div className="center flex flex-wrap mw9 w-100">
+          <ShoeList />
         </div>
 
 
