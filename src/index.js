@@ -19,6 +19,7 @@ import Tools from './components/Pages/Tools';
 import iAmJoiningMetaLab from './components/Pages/News/NewsPosts/020718';
 import myFirstEPIsAvailable from './components/Pages/News/NewsPosts/030118';
 import mySecondEPIsAvailable from './components/Pages/News/NewsPosts/042718';
+import featuredInBestAmbientMusicOnBandcamp from './components/Pages/News/NewsPosts/061518';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
@@ -31,6 +32,7 @@ ReactDOM.render(
         <Route path="/journal/i-am-joining-metalab" component={iAmJoiningMetaLab} />
         <Route path="/journal/my-first-ep-is-available" component={myFirstEPIsAvailable} />
         <Route path="/journal/my-second-ep-is-available" component={mySecondEPIsAvailable} />
+        <Route path="/journal/featured-in-best-ambient-music-of-2018-on-bandcamp" component={featuredInBestAmbientMusicOnBandcamp} />
       <Route path="/mentoring" component={Mentoring} />
       <Route path="/music" component={Music} />
       <Route path="/newsletter/thanks" component={Thanks} />

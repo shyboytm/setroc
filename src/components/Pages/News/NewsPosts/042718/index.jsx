@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import L from '../../L';
 import NewsLayout from '../../NewsLayout';
 
-class myFirstEPIsAvailable extends Component {
+class mySecondEPIsAvailable extends Component {
   render() {
     return (
       <div className="bg-black-blue">
@@ -44,4 +44,4 @@ class myFirstEPIsAvailable extends Component {
   }
 }
 
-export default myFirstEPIsAvailable;
+export default mySecondEPIsAvailable;

@@ -35,7 +35,7 @@ class Desktop extends Component {
             illustration, and web technologies, I can better approach problems for modern overarching solutions.
           </p>
           <p className="lh-copy">
-            Outside of design, I write and release at least one article a week (70+ weeks!) and spend time
+            Outside of design, I write and release at least one article a week (90+ weeks!) and spend time
             coding for the web to build projects to benefit myself and others. I love spending time with my dogs,
             playing video games, making music, and eating food. As a firm believer in helping others, most of my efforts
             go towards finding ways to work with people and bringing value to their life and ventures.
@@ -330,6 +330,9 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/how-to-find-great-new-music-on-spotify-2e5433c67841"
+              name="How to Find Great New Music on Spotify" />
+            <Feature
               href="https://medium.com/the-rate-of-change/ways-to-use-an-ipad-for-product-design-work-91acdb514ac9"
               name="Ways to Use an iPad for Product Design Work" />
             <Feature
@@ -338,9 +341,6 @@ class Desktop extends Component {
             <Feature
               href="https://medium.com/the-rate-of-change/how-to-be-well-prepared-for-that-morning-standup-41d64da2a6c0"
               name="How to Be Well Prepared for That Morning Standup" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/material-design-just-got-a-lot-more-flexible-and-fun-8e613da258b9"
-              name="Material Design Just Got a Lot More Flexible and Fun" />
           </div>
 
           <Spacer />
