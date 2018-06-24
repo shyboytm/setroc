@@ -71,11 +71,6 @@ class Header extends Component {
               <div className="absolute dropdown-content dn right-0 pt3">
                 <ul className="ba b--black-10 bg-white black br2 list pa2 shadow-large">
                   <li className="db mr3">
-                    <Link to="/collection" className="items-center flex f6 fw5 hover-bg-black-10 br2 mb0-l link black-90 bg-animate ph2 pv1 w-100">
-                      Collection
-                    </Link>
-                  </li>
-                  <li className="db mr3">
                     <Link to="/folder" className="items-center flex f6 fw5 hover-bg-black-10 br2 mb0-l link black-90 bg-animate ph2 pv1 w-100">
                       Folder
                     </Link>
@@ -93,6 +88,11 @@ class Header extends Component {
                   <li className="db mr3">
                     <Link to="/tools" className="items-center flex f6 fw5 hover-bg-black-10 br2 mb0-l link black-90 bg-animate ph2 pv1 w-100">
                       Tools
+                    </Link>
+                  </li>
+                  <li className="db mr3">
+                    <Link to="/collection" className="items-center flex f6 fw5 hover-bg-black-10 br2 mb0-l link black-90 bg-animate ph2 pv1 w-100">
+                      Collection
                     </Link>
                   </li>
                 </ul>

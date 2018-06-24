@@ -330,6 +330,9 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/the-struggle-of-having-too-many-interests-c7069270f79f"
+              name="The Struggle of Having Too Many Interests" />
+            <Feature
               href="https://medium.com/the-rate-of-change/how-to-find-great-new-music-on-spotify-2e5433c67841"
               name="How to Find Great New Music on Spotify" />
             <Feature
@@ -338,9 +341,6 @@ class Desktop extends Component {
             <Feature
               href="https://medium.com/the-rate-of-change/how-a-creative-outlet-can-benefit-your-creative-profession-ea304187843b"
               name="How a Creative Outlet Can Benefit Your Creative Profession" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/how-to-be-well-prepared-for-that-morning-standup-41d64da2a6c0"
-              name="How to Be Well Prepared for That Morning Standup" />
           </div>
 
           <Spacer />

@@ -12,7 +12,7 @@ class Collection extends Component {
   render() {
 
     const pageName = "Collection";
-    const pageDescription = "A gallery of the shoes I own in my collection currently plus when and how much I got them for";
+    const pageDescription = "A gallery of the shoes I own in my collection with links to purchase, will be adding my other collections of things here when I have the time!";
 
     return (
       <div id={pageName} className="black pt4-l">
