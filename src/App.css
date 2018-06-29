@@ -65,14 +65,14 @@ body {
 
 .bg-cordio {
   background:
-    -webkit-linear-gradient(rgba(190, 228, 240, 1) 0%, rgba(256, 256, 256, 1.0) 100%)
-    url("https://images.unsplash.com/photo-1506921054449-27ba9b9264b3");
+    -webkit-linear-gradient(rgba(190, 228, 240, 0.75) 0%, rgba(228,228,228, 1.0) 100%)
+    url("http://cortes.us/images/surf-ocean-background.png");
   background:
-    -o-linear-gradient(rgba(190, 228, 240, 1) 0%, rgba(256, 256, 256, 1.0) 100%)
-    url("https://images.unsplash.com/photo-1506921054449-27ba9b9264b3");
+    -o-linear-gradient(rgba(190, 228, 240, 0.75) 0%, rgba(228,228,228, 1.0) 100%)
+    url("http://cortes.us/images/surf-ocean-background.png");
   background:
-    linear-gradient(rgba(190, 228, 240, 1) 0%, rgba(256, 256, 256, 1.0) 100%),
-    url("https://images.unsplash.com/photo-1506921054449-27ba9b9264b3");
+    linear-gradient(rgba(190, 228, 240, 0.75) 0%, rgba(228,228,228, 1.0) 100%),
+    url("http://cortes.us/images/surf-ocean-background.png");
   background-position: center;
 }
 
