@@ -11,7 +11,7 @@ class Mentoring extends Component {
   render() {
 
     const pageName = "Music";
-    const pageDescription = "I'm also a beat-maker and producer working under the alias Cordio; mixing elements of ambient, electronic, jazz, lo-fi, and hip-hop music genres";
+    const pageDescription = "I'm also a beat-maker and producer working under the alias Cordio mixing elements of ambient, electronic, jazz, lo-fi, and hip-hop music genres";
 
     const hm03 = require("../../../img/music/hm-03-vinyl.png");
     const hm02 = require("../../../img/music/hm-02-vinyl.png");
@@ -74,40 +74,45 @@ class Mentoring extends Component {
             </div>
 
             <div className="pv5 overflow-hidden tl w-100">
-              <div className="center w-90">
-                <img src={hm03} className="animated fadeInUp fl-l w-60-l w-100" />
-                <div className="fl-l center w-40-l w-100">
-                  <span className="bg-blue br2 ph2 pv1 ttu f6 fw5 tracked white">
-                    New
-                  </span>
-                  <h3 className="animated blur-late f1-l f2 mr3 mb3 mt4 black">
-                    HM-03
-                  </h3>
-                  <span className="db fw6 f6 mb3 ttu tracked-tiny black-60">Jul 05 2018 · 6 track EP · 16 min</span>
-                  <h4 className="bg-text-clip fw6 shine black">Places to Listen to HM-03</h4>
-                  <div className="center flex flex-wrap w-100">
-                    <a href="https://goo.gl/1MoEx6" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                      <img src='https://icon.now.sh/spotify/626262/30' alt='Listen on Spotify'  />
-                    </a>
-                    <a href="https://goo.gl/G4jUsc" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                      <img src='https://icon.now.sh/apple/626262/30' alt='Listen on Apple Music'  />
-                    </a>
-                    <a href="https://soundcloud.com/cordio/tracks" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                      <img src='https://icon.now.sh/soundcloud/626262/30' alt='Listen on Soundcloud'  />
-                    </a>
-                    <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                      <img src='https://icon.now.sh/play_circle_filled/626262/30' alt='Listen on YouTube'  />
-                    </a>
-                    <a href="https://goo.gl/xqy1J4" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                      <img src='https://icon.now.sh/googleplay/626262/30' alt='Listen on Google Play'  />
-                    </a>
-                    <a href="https://goo.gl/TeKNaw" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                      <img src='https://icon.now.sh/bandcamp/626262/30' alt='View on Bandcamp'  />
-                    </a>
-                    <a href="https://amzn.to/2qOKtYh" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                      <img src='https://icon.now.sh/amazon/626262/30' alt='Listen on Amazon'  />
-                    </a>
-                  </div>
+              <img src={hm03} className="animated fadeInUp fl-l w-60-l w-100" />
+              <div className="fl-l center w-40-l w-75-m w-100">
+                <span className="bg-blue br2 ph2 pv1 ttu f6 fw5 tracked white">
+                  New
+                </span>
+                <h3 className="animated blur-late f1-l f2 mr3 mb3 mt4 black">
+                  HM-03
+                </h3>
+                <span className="db fw6 f6 mb3 ttu tracked-tiny black-60">Jul 05 2018 · 6 track EP · 16 min</span>
+                <p className="measure f5-ns f6 black-60 pr5-l">
+                  HM-03 is an exploration mainly on the theme of true loneliness in a world
+                  filled with other beings. Learning to accept and and thrive in what seems
+                  like solitude is how we cope. Listen for mellow melodies paired with
+                  hard-hitting kicks and snares sprinkled with unique but familiar
+                  extras. Try and find all the themes on this medium-sized EP.
+                </p>
+                <h4 className="bg-text-clip fw6 shine black">Places to Listen to HM-03</h4>
+                <div className="center flex flex-wrap w-100">
+                  <a href="https://goo.gl/1MoEx6" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/spotify/626262/30' alt='Listen on Spotify'  />
+                  </a>
+                  <a href="https://goo.gl/G4jUsc" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/apple/626262/30' alt='Listen on Apple Music'  />
+                  </a>
+                  <a href="https://goo.gl/TeKNaw" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/bandcamp/626262/30' alt='View on Bandcamp'  />
+                  </a>
+                  <a href="https://soundcloud.com/cordio/tracks" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/soundcloud/626262/30' alt='Listen on Soundcloud'  />
+                  </a>
+                  <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/play_circle_filled/626262/30' alt='Listen on YouTube'  />
+                  </a>
+                  <a href="https://goo.gl/xqy1J4" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/googleplay/626262/30' alt='Listen on Google Play'  />
+                  </a>
+                  <a href="https://amzn.to/2qOKtYh" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/amazon/626262/30' alt='Listen on Amazon'  />
+                  </a>
                 </div>
               </div>
             </div>
@@ -166,7 +171,7 @@ class Mentoring extends Component {
           </div>
 
 
-          <div className="bg-black-10 bb b--black-10 pv5 overflow-hidden w-100">
+          <div className="bg-black-10 pv5 overflow-hidden w-100">
             <div className="center w-75-ns w-90">
               <img src={hm02} className="animated fadeInUp fl-l w-60-l w-100" />
               <div className="fl-l center w-40-l w-100">
@@ -182,6 +187,9 @@ class Mentoring extends Component {
                   <a href="https://goo.gl/G4jUsc" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/apple/626262/30' alt='Listen on Apple Music'  />
                   </a>
+                  <a href="https://goo.gl/TeKNaw" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/bandcamp/626262/30' alt='View on Bandcamp'  />
+                  </a>
                   <a href="https://soundcloud.com/cordio/tracks" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/soundcloud/626262/30' alt='Listen on Soundcloud'  />
                   </a>
@@ -190,9 +198,6 @@ class Mentoring extends Component {
                   </a>
                   <a href="https://goo.gl/xqy1J4" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/googleplay/626262/30' alt='Listen on Google Play'  />
-                  </a>
-                  <a href="https://goo.gl/TeKNaw" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                    <img src='https://icon.now.sh/bandcamp/626262/30' alt='View on Bandcamp'  />
                   </a>
                   <a href="https://amzn.to/2qOKtYh" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/amazon/626262/30' alt='Listen on Amazon'  />
@@ -218,6 +223,9 @@ class Mentoring extends Component {
                   <a href="https://goo.gl/C4dGxJ" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/apple/626262/30' alt='Listen on Apple Music'  />
                   </a>
+                  <a href="https://cordio.bandcamp.com/album/hm-01" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                    <img src='https://icon.now.sh/bandcamp/626262/30' alt='View on Bandcamp'  />
+                  </a>
                   <a href="https://soundcloud.com/cordio/hm-01" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/soundcloud/626262/30' alt='Listen on Soundcloud'  />
                   </a>
@@ -226,9 +234,6 @@ class Mentoring extends Component {
                   </a>
                   <a href="https://goo.gl/khpJDg" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/googleplay/626262/30' alt='Listen on Google Play'  />
-                  </a>
-                  <a href="https://cordio.bandcamp.com/album/hm-01" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
-                    <img src='https://icon.now.sh/bandcamp/626262/30' alt='View on Bandcamp'  />
                   </a>
                   <a href="http://amzn.to/2GNRqyd" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/amazon/626262/30' alt='Listen on Amazon'  />
