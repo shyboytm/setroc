@@ -70,7 +70,7 @@ class NewsLayout extends Component {
             — Dennis Cortés
           </p>
           <Link to="/journal" className="link bn fw7 f6 ttu tracked-tiny button-reset dim ph3 pv2 tc dib-l db white bg-gradient pointer br2 w-auto-l w-100">
-            <span className="mr2">&larr;</span> Back to all News
+            <span className="mr2">&larr;</span> Back to all Posts
           </Link>
         </div>
         <Footer />

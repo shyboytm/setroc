@@ -17,10 +17,32 @@ class HM03IsOutEverywhereNow extends Component {
           googleLink="https://plus.google.com/share?url=http%3A//cortes.us/news/hm-03-is-out-everywhere-now"
         >
           <p>
-            After releasing <L href="/music">HM-02</L> at the end of April, I was pleasantly surprised
-            to land a feature in Bandcamp's <L href="https://daily.bandcamp.com/2018/05/23/best-new-ambient-may-2018/"><em>The Best New Ambient Music on Bandcamp, May 2018</em></L>.
-            Being a "new" artist (I've been a musician for ~12 years technically, this is my first time
-            releasing produced music though), this is huge for me.
+            ery proud and excited to announce that my 3rd EP is now finished and available for you
+            to <L href="/music">stream anywhere</L> you listen to music! It's been just over 7 months since I started working
+            on my first EP, and now I have 3 completed and ready for you to listen to.
+          </p>
+          <p>
+            The main theme of HM-03 is an exploration of true loneliness in a world filled with other
+            beings. Learning to accept and and thrive in what seems like solitude is how we cope, and
+            we "ride the waves" of these emotions to the best of our abilities. While there are other
+            overarching themes and smaller ones as well, I'd like to leave the rest up to your
+            interpretation. Listen for mellow melodies paired with hard-hitting kicks and snares sprinkled
+            with unique but familiar extras. Try and find all the themes on this medium-sized EP.
+          </p>
+          <p>
+            I'm very excited for you to hear this EP as it's my favorite so far in terms of messaging
+            and style. I'd call the style very much "Ambient Hip-Hop" and am quite content with how
+            my musical style is developing. I still have a ton to learn, which is exciting for me as
+            someone passionate towards music production, music culture, and bringing other passions
+            and perspectives from my life into my work.
+          </p>
+          <p>
+            I plan to make 9 EPs before my first full-fledged album and will be starting on HM-04 before
+            you know it. Until then, I invite you to enjoy listening to HM-03 (best experienced with
+            headphones 😉) and would love to hear your thoughts on <L href="https://twitter.com/fromcortes">Twitter</L> afterwards.
+          </p>
+          <p>
+            <L href="/music">Find a direct link to your streaming service on the brand new music page I made for Cordio here →</L>
           </p>
         </NewsLayout>
       </div>
