@@ -64,6 +64,11 @@ class News extends Component {
         <div className="pb5">
           <ul className="center list pl0 w-90">
             <NewsItem
+              date="Jul 5 2018"
+              linkTo="/journal/hm-03-is-out-everywhere-now"
+              title="HM-03 is Out Everywhere Now"
+            />
+            <NewsItem
               date="Jun 15 2018"
               linkTo="/journal/featured-in-best-ambient-music-of-2018-on-bandcamp"
               title="Featured in Best Ambient Music of 2018 on Bandcamp"

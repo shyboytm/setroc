@@ -242,21 +242,19 @@ class Desktop extends Component {
 
         <div className="flex flex-column w-25-l pv4-l ph4-l pa5-m pa4 br b--black-10">
 
-          <div className="pa0">
+          <div className="pa0 mb4">
             <p className="f5 flex fw6 items-center justify-between db mv0 black">
               <span className="dib f2">🌦</span>
               <Today />
             </p>
           </div>
 
-          <Spacer />
-
           <Title
             title="Contact"
             toolTipText="💌">
           </Title>
           <div className="db">
-            <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt3 mb4 f4 link shine bg-text-clip dim fw6 tracked-tiny">
+            <a href="mailto:hi@cortes.us" target="_blank" rel="nofollow" className="db mt2 mb4 f4 link shine bg-text-clip dim fw6 tracked-tiny">
               hi@cortes.us
             </a>
             <Feature
@@ -330,17 +328,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/hm-03-is-out-everywhere-now-39fc9259ddb6"
+              name="HM-03 is Out Everywhere Now" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/easy-ways-to-make-your-product-design-work-more-polished-50acbf018625"
+              name="Easy Ways to Make Your Product Design Work More Polished" />
+            <Feature
               href="https://medium.com/the-rate-of-change/the-struggle-of-having-too-many-interests-c7069270f79f"
               name="The Struggle of Having Too Many Interests" />
             <Feature
               href="https://medium.com/the-rate-of-change/how-to-find-great-new-music-on-spotify-2e5433c67841"
               name="How to Find Great New Music on Spotify" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/ways-to-use-an-ipad-for-product-design-work-91acdb514ac9"
-              name="Ways to Use an iPad for Product Design Work" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/how-a-creative-outlet-can-benefit-your-creative-profession-ea304187843b"
-              name="How a Creative Outlet Can Benefit Your Creative Profession" />
           </div>
 
           <Spacer />
