@@ -49,7 +49,7 @@ class Mentoring extends Component {
                 {pageDescription}
               </p>
             </div>
-            <div className="db pb6">
+            <div className="db pb6-l pb4-m pb3">
               <Feature
                 href="https://cordio.bandcamp.com"
                 name="Bandcamp" />
