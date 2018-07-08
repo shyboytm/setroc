@@ -17,7 +17,7 @@ class HM03IsOutEverywhereNow extends Component {
           googleLink="https://plus.google.com/share?url=http%3A//cortes.us/news/hm-03-is-out-everywhere-now"
         >
           <p>
-            ery proud and excited to announce that my 3rd EP is now finished and available for you
+            Very proud and excited to announce that my 3rd EP is now finished and available for you
             to <L href="/music">stream anywhere</L> you listen to music! It's been just over 7 months since I started working
             on my first EP, and now I have 3 completed and ready for you to listen to.
           </p>
