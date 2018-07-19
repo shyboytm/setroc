@@ -65,14 +65,14 @@ body {
 
 .bg-cordio {
   background:
-    -webkit-linear-gradient(rgba(190, 228, 240, 0.75) 0%, rgba(228,228,228, 1.0) 100%)
-    url("http://cortes.us/images/surf-ocean-background.png");
+    -webkit-linear-gradient(rgba(187, 158, 229, 0.9) 0%, rgba(228,228,228, 1.0) 100%)
+    url("http://cortes.us/images/vertintro-flower-background.jpg");
   background:
-    -o-linear-gradient(rgba(190, 228, 240, 0.75) 0%, rgba(228,228,228, 1.0) 100%)
-    url("http://cortes.us/images/surf-ocean-background.png");
+    -o-linear-gradient(rgba(187, 158, 229, 0.9) 0%, rgba(228,228,228, 1.0) 100%)
+    url("http://cortes.us/images/vertintro-flower-background.jpg");
   background:
-    linear-gradient(rgba(190, 228, 240, 0.75) 0%, rgba(228,228,228, 1.0) 100%),
-    url("http://cortes.us/images/surf-ocean-background.png");
+    linear-gradient(rgba(187, 158, 229, 0.9) 0%, rgba(228,228,228, 1.0) 100%),
+    url("http://cortes.us/images/vertintro-flower-background.jpg");
   background-position: center;
 }
 
