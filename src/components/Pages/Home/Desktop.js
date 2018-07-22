@@ -23,10 +23,9 @@ class Desktop extends Component {
             Hey Friend <span className="ml2 absolute spin">👋</span>
           </h3>
           <p className="lh-copy">
-            I’m Dennis, a 23 year old digital designer and illustrator that codes based in Memphis, TN from Bayamón, Puerto Rico.
+            I’m Dennis, a 23 year old digital designer and illustrator that codes based in Murfreesboro, TN from Bayamón, Puerto Rico.
             I grew up mainly in Plantation, FL and studied design in college after putting my rap producer dreams to rest.
             I love working day-to-day on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
-            I make a lot of products on my own outside of my full-time work on a team.
           </p>
           <p className="lh-copy">
             I enjoy thinking about experience based solutions through use of design and technological implications.
@@ -35,10 +34,10 @@ class Desktop extends Component {
             illustration, and web technologies, I can better approach problems for modern overarching solutions.
           </p>
           <p className="lh-copy">
-            Outside of design, I write and release at least one article a week (90+ weeks!) and spend time
-            coding for the web to build projects to benefit myself and others. I love spending time with my dogs,
-            playing video games, making music, and eating food. As a firm believer in helping others, most of my efforts
-            go towards finding ways to work with people and bringing value to their life and ventures.
+            When I'm not working on design work at MetaLab, I write and release at least one article a week (90+ weeks!)
+            and spend time coding for the web to build projects to benefit myself and others. I also spend a lot of my time working on
+            new music under the alias Cordio. Besides that you'll find me spending time with my dogs, making pour overs, learning,
+            playing video games, and eating food.
           </p>
 
           <Spacer />
@@ -328,17 +327,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
+              href="https://medium.com/the-rate-of-change/perspectives-on-design-code-routines-productivity-work-and-personal-life-884bdcb0143c"
+              name="Perspectives on Design, Code, Routines, Productivity, Work, and Personal Life" />
+            <Feature
+              href="https://medium.com/the-rate-of-change/how-to-put-your-music-on-streaming-services-without-a-record-label-27f25af37c11"
+              name="How to Put Your Music on Streaming Services Without a Record Label" />
+            <Feature
               href="https://medium.com/the-rate-of-change/hm-03-is-out-everywhere-now-39fc9259ddb6"
               name="HM-03 is Out Everywhere Now" />
             <Feature
               href="https://medium.com/the-rate-of-change/easy-ways-to-make-your-product-design-work-more-polished-50acbf018625"
               name="Easy Ways to Make Your Product Design Work More Polished" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/the-struggle-of-having-too-many-interests-c7069270f79f"
-              name="The Struggle of Having Too Many Interests" />
-            <Feature
-              href="https://medium.com/the-rate-of-change/how-to-find-great-new-music-on-spotify-2e5433c67841"
-              name="How to Find Great New Music on Spotify" />
           </div>
 
           <Spacer />
@@ -351,6 +350,9 @@ class Desktop extends Component {
             <p className="lh-copy measure mb4">
               From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews if that's your thing.
             </p>
+            <Feature
+              href="https://davidsilva.co/podcast/dennis-cortes-how-to-find-focus-and-the-challenges-of-ux-in-product-design/"
+              name="Always Sunday" />
             <Feature
               href="https://daily.bandcamp.com/2018/05/23/best-new-ambient-may-2018/"
               name="Bandcamp" />
