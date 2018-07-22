@@ -1,4 +1,13 @@
 const shoes = {
+  airMax97ReflectiveSilver: {
+    color: '#C2C7C7',
+    date: '07/03/18',
+    href: 'https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_from%3DR40%26_trksid%3Dm570.l1313%26_nkw%3Dair%2Bmax%2B97%2Breflective%2Bsilver%26_sacat%3D0&campid=5338327500&toolid=20008',
+    image: 'air-max-97-reflective-silver',
+    model: 'Air Max 97',
+    name: 'Reflective Silver',
+    price: '138'
+  },
   nikeOffWhiteZoomFlyMercurialBlack: {
     color: '#9C8EDC',
     date: '06/24/18',
