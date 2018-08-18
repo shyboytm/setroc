@@ -327,17 +327,17 @@ class Desktop extends Component {
               I write an article every week for my blog, <a className="link link-underlined rainbow-hover black mh1 fw6" target="_blank" rel="nofollow" href="http://blog.cortes.us">The Rate of Change</a>. Here are some of the most recent articles.
             </p>
             <Feature
-              href="https://medium.com/the-rate-of-change/perspectives-on-design-code-routines-productivity-work-and-personal-life-884bdcb0143c"
-              name="Perspectives on Design, Code, Routines, Productivity, Work, and Personal Life" />
+              href="https://medium.com/the-rate-of-change/you-dont-lack-motivation-to-get-started-you-lack-clarity-d6742004db4e"
+              name="You Don’t Lack Motivation to Get Started, You Lack Clarity" />
             <Feature
-              href="https://medium.com/the-rate-of-change/how-to-put-your-music-on-streaming-services-without-a-record-label-27f25af37c11"
-              name="How to Put Your Music on Streaming Services Without a Record Label" />
+              href="https://medium.com/the-rate-of-change/since-when-does-learning-feel-like-youre-being-unproductive-d6e79f81c77f"
+              name="Since When Does Learning Feel Like You’re Being Unproductive?" />
             <Feature
-              href="https://medium.com/the-rate-of-change/hm-03-is-out-everywhere-now-39fc9259ddb6"
-              name="HM-03 is Out Everywhere Now" />
+              href="https://medium.com/the-rate-of-change/i-went-on-vacation-and-came-back-with-a-new-album-d9e052b65005"
+              name="I Went on Vacation and Came Back with a New Album" />
             <Feature
-              href="https://medium.com/the-rate-of-change/easy-ways-to-make-your-product-design-work-more-polished-50acbf018625"
-              name="Easy Ways to Make Your Product Design Work More Polished" />
+              href="https://medium.com/the-rate-of-change/knowing-when-and-where-to-seek-feedback-on-your-ideas-a5e8fc25d443"
+              name="Knowing When and Where to Seek Feedback on Your Ideas" />
           </div>
 
           <Spacer />
