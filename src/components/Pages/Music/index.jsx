@@ -78,33 +78,32 @@ class Mentoring extends Component {
             <div className="pv5 overflow-hidden tl w-100">
               <img src={hm04} className="animated fadeInUp fl-l w-60-l w-100" />
               <div className="fl-l center w-40-l w-75-m w-100">
-                <span className="bg-red br2 ph2 pv1 ttu f6 fw5 tracked white">
+                <span className="bg-blue br2 ph2 pv1 ttu f6 fw5 tracked white">
                   New
                 </span>
                 <h3 className="animated blur-late f1-l f2 mr3 mb3 mt4 black">
                   HM-04
                 </h3>
                 <span className="db fw6 f6 mb3 ttu tracked-tiny black-60">Nov 8 2018 · 6 track EP · 16 min</span>
-                {/* <p className="measure f5-ns f6 black-60 pr5-l">
-                  Vertintro, A small and personal EP exploring the stages of being an introvert and the
-                  emotions that come with this personality. An experimental dive into the deep Ambient music
-                  style. My fourth full EP album release as Cordio.
-                </p> */}
+                <p className="measure f5-ns f6 black-60 pr5-l">
+                  HM-04 is a reflection on anxiety, depression, and relationships in my life wrapped
+                  in a mix of different styles and moods on 6 tracks. My fifth full EP album release as Cordio.
+                </p>
                 <h4 className="bg-text-clip fw6 shine black">Places to Listen to HM-04</h4>
                 <div className="center flex flex-wrap w-100">
                   <a href="https://goo.gl/5zsZJW" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/spotify/626262/30' alt='Listen on Spotify'  />
                   </a>
-                  <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                  <a href="https://goo.gl/f9XpG7" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/apple/626262/30' alt='Listen on Apple Music'  />
                   </a>
-                  <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                  <a href="https://goo.gl/GzqB3J" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/bandcamp/626262/30' alt='View on Bandcamp'  />
                   </a>
-                  <a href="" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                  <a href="https://goo.gl/Mrm7Ax" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/soundcloud/626262/30' alt='Listen on Soundcloud'  />
                   </a>
-                  <a href="https://www.youtube.com/cortesarts" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
+                  <a href="https://youtu.be/x1v_CC4Cly0" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
                     <img src='https://icon.now.sh/play_circle_filled/626262/30' alt='Listen on YouTube'  />
                   </a>
                   <a href="https://goo.gl/mDptjn" target="_blank" rel="nofollow" className="ba bg-animate b--black-10 br2 flex hover-bg-black-10 items-center justify-center link mb2 mr2 pa3 black">
@@ -158,9 +157,6 @@ class Mentoring extends Component {
             <div className="center w-75-ns w-90">
               <img src={hm03} className="animated fadeInUp fl-l w-60-l w-100" />
               <div className="fl-l center w-40-l w-100">
-                <span className="bg-blue br2 ph2 pv1 ttu f6 fw5 tracked white">
-                  New
-                </span>
                 <h3 className="animated blur-late f1-l f2 mr3 mb3 black">
                   HM-03
                 </h3>

@@ -65,13 +65,13 @@ body {
 
 .bg-cordio {
   background:
-    -webkit-linear-gradient(rgba(228,228,228, 0.9) 0%, rgba(228,228,228, 1.0) 100%)
+    -webkit-linear-gradient(rgba(103,99,194, 0.9) 0%, rgba(228,228,228, 1.0) 100%)
     url("http://cortes.us/images/vertintro-flower-background.jpg");
   background:
-    -o-linear-gradient(rgba(228,228,228, 0.9) 0%, rgba(228,228,228, 1.0) 100%)
+    -o-linear-gradient(rgba(103,99,194, 0.9) 0%, rgba(228,228,228, 1.0) 100%)
     url("http://cortes.us/images/vertintro-flower-background.jpg");
   background:
-    linear-gradient(rgba(228,228,228, 0.9) 0%, rgba(228,228,228, 1.0) 100%),
+    linear-gradient(rgba(103,99,194, 0.9) 0%, rgba(228,228,228, 1.0) 100%),
     url("http://cortes.us/images/vertintro-flower-background.jpg");
   background-position: center;
 }
