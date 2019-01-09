@@ -12,10 +12,22 @@ class Currently extends Component {
           toolTipText="💪">
         </Title>
         <div className="fw4 lh-copy">
-          <h4 className="fw4 pv1">A Product Designer at
+          <a href="mailto:hi@cortes.us" className="dn-l db bg-gradient br2 link pa3">
+            <h2 className="white f5 fw5 mv0">Looking for a new Full-Time role or freelance work! &rarr;</h2>
+          </a>
+          <h4 className="fw4 pv1 i">
+            Looking for a new full-time role and freelance projects!
+          </h4>
+          <h4 className="fw4 pv1">Making a collective gifting tool called
             <a className="link link-underlined rainbow-hover black ml1 fw6"
-              target="_blank" rel="nofollow" href="http://metalab.co">
-              MetaLab
+              target="_blank" rel="nofollow" href="http://thegiftatlas.com">
+              The Gift Atlas
+            </a>
+          </h4>
+          <h4 className="fw4 pv1">Making a toolkit for designers named
+            <a className="link link-underlined rainbow-hover black ml1 fw6"
+              target="_blank" rel="nofollow" href="http://yerframe.com">
+              Yerframe
             </a>
           </h4>
           <h4 className="fw4 pv1">Producing music as
@@ -24,18 +36,20 @@ class Currently extends Component {
               Cordio
             </Link>
           </h4>
-          <h4 className="fw4 pv1">Writing weekly articles on
+          <h4 className="fw4 pv1">Writing articles on
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="http://blog.cortes.us">
               The Rate of Change
             </a>
           </h4>
+          {/*
           <h4 className="fw4 pv1">Building a life-tracking tool called
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="https://livtra.co">
               Livtra
             </a>
           </h4>
+          */}
           <h4 className="fw4 pv1">Writing a book called
             <a className="link link-underlined rainbow-hover black ml1 fw6"
               target="_blank" rel="nofollow" href="https://twitter.com/oversolving">

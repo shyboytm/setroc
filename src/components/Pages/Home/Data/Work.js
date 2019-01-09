@@ -61,6 +61,9 @@ class Work extends Component {
             href="https://metalab.co"
             name="MetaLab" />
           <Feature
+            href="https://www.ambi.school"
+            name="Ambi" />
+          <Feature
             href="https://itunes.apple.com/us/app/eagleview/id352070517?mt=8"
             name="EagleView" />
           <Feature

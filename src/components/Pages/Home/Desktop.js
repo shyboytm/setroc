@@ -13,7 +13,7 @@ import Work from './Data/Work';
 class Desktop extends Component {
   render() {
 
-    const aboutImage = require("../../../img/about-picture.jpg");
+    const aboutImage = require("../../../img/dennis-cortes-product-designer.jpeg");
 
     return (
       <div id="Desktop Home" className="w-100 dn flex-l flex-wrap" style={{paddingTop: '3' + 'rem'}}>

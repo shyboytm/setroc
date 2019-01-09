@@ -15,9 +15,12 @@ class Header extends Component {
                 <Logo />
               </div>
               <h1 className="ml2-l dib f6 fw5 tracked-tiny white">
-                <span className="fw3 white-80">Dennis</span> Cortés
+                Dennis Cortés
               </h1>
             </Link>
+            <a href="mailto:hi@cortes.us" className="bg-white-20 hover-bg-white-40 br2 dib-l dn f7 link ml4 mv0 pv0 ph3 up white">
+              Currently looking for a new full-time role or freelance work!
+            </a>
           </div>
 
           <ul className="list ph0-l ph3 mv1">
@@ -34,6 +37,11 @@ class Header extends Component {
             <li className="dib mr3">
               <Link to="/music" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
                 Music
+              </Link>
+            </li>
+            <li className="dib mr3">
+              <Link to="/folder" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+                Folder
               </Link>
             </li>
             <li className="dib mr3">

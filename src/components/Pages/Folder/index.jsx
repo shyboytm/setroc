@@ -99,37 +99,37 @@ class Folder extends Component {
                 number="7" />
               <ul className="list pl0">
                 <NewsItem
-                  date="Aug 2018"
+                  date=" "
                   linkTo="https://mailchi.mp/f07333df00b8/7-stories-drawing-boards-and-nasa-streetwear"
                   title="#7 - Stories, Drawing Boards, and NASA Streetwear"
                 />
                 <NewsItem
-                  date="Jul 2018"
+                  date=" "
                   linkTo="https://mailchi.mp/8cfcc3e1ed38/folder-newsletter-6"
                   title="#6 - 3D Snapchat, Cake Art, and Air Max Day"
                 />
                 <NewsItem
-                  date="Jun 2018"
+                  date=" "
                   linkTo="https://mailchi.mp/d5dbc50c00bb/5"
                   title="#5 - Cereal Type, Canadian Design, and Embossers"
                 />
                 <NewsItem
-                  date="May 2018"
+                  date=" "
                   linkTo="https://mailchi.mp/1727b32cdd07/folder-4"
                   title="#4 - Braun Museum, Side Projects, and Dumb Phones"
                 />
                 <NewsItem
-                  date="Apr 2018"
+                  date=" "
                   linkTo="https://mailchi.mp/980d2722e724/3-design-apis-light-phones-and-2017-design-reports"
                   title="#3 - 2017 Design Report, Light Phones, and Design APIs"
                 />
                 <NewsItem
-                  date="Mar 2018"
+                  date=" "
                   linkTo="https://mailchi.mp/8baa1b9d8975/2-setup-galore-ml-synths-op-1-and-spicy-type?e=f619597c23"
                   title="#2 - Setup Galore, ML Synths, OP-1, and Spicy Type"
                 />
                 <NewsItem
-                  date="Feb 2018"
+                  date=" "
                   linkTo="https://mailchi.mp/9f404acbc093/golden-kittens-3d-interviews-and-shipping-stuff"
                   title="#1 - Golden Kittens, 3D Interviews, and Shipping Stuff"
                 />

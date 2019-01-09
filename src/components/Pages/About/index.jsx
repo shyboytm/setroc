@@ -8,7 +8,7 @@ import Title from '../../Title';
 class About extends Component {
   render() {
 
-    const aboutImage = require("../../../img/about-picture.jpg");
+    const aboutImage = require("../../../img/dennis-cortes-product-designer.jpeg");
 
     const pageName = "About";
     const pageDescription = "Dennis Cortes is a Designer, Illustrator, Developer, Writer, and Beat-Maker.";
