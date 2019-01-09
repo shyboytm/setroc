@@ -82,7 +82,7 @@ class Footer extends Component {
             </ul> */}
           </div>
         </div>
-        <p className="bg-black-05 black-30 f7 pv2 mb0 tc w-100">© 2018 Dennis Cortés</p>
+        <p className="bg-black-05 black-30 f7 pv2 mb0 tc w-100">© 2019 Dennis Cortés All Rights Reserved</p>
       </footer>
     );
   }
