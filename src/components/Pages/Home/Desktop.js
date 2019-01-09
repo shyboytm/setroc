@@ -23,8 +23,8 @@ class Desktop extends Component {
             Hey Friend <span className="ml2 absolute spin">👋</span>
           </h3>
           <p className="lh-copy">
-            I’m Dennis, a 23 year old digital designer and illustrator that codes based in Murfreesboro, TN from Bayamón, Puerto Rico.
-            I grew up mainly in Plantation, FL and studied design in college after putting my rap producer dreams to rest.
+            I’m Dennis, a digital designer and illustrator that codes based in the USA from Bayamón, Puerto Rico.
+            I grew up mainly in South Florida and studied design in college after putting my rap producer dreams to rest.
             I love working day-to-day on projects that require multidisciplinary skill sets solving complex issues that make the lives of people better.
           </p>
           <p className="lh-copy">
@@ -34,9 +34,8 @@ class Desktop extends Component {
             illustration, and web technologies, I can better approach problems for modern overarching solutions.
           </p>
           <p className="lh-copy">
-            When I'm not working on design work at MetaLab, I write and release at least one article a week (90+ weeks!)
-            and spend time coding for the web to build projects to benefit myself and others. I also spend a lot of my time working on
-            new music under the alias Cordio. Besides that you'll find me spending time with my dogs, making pour overs, learning,
+            When I'm not working on design, I spend time coding for the web to build projects to benefit myself and others. I also work on
+            new music under the alias Cordio. Besides that you'll find me spending time with my dog and my girlfriend, traveling, making pour overs, learning,
             playing video games, and eating food.
           </p>
 
@@ -49,7 +48,7 @@ class Desktop extends Component {
           <div className="db">
             <p className="fw4 lh-copy mb4">
               Always down to play some multiplayer games and chat, feel free to add
-              me! <em>Rocket League</em> and <em>Fortnite</em> are my go-to games currently.
+              me! <em>SSB: Ultimate</em> and <em>Fortnite</em> are my go-to games currently.
             </p>
             <p className="i lh-copy">
               <span className="bg-blue br2 fs-normal fw6 ph2 pv1 mr2 white">PS4</span>
@@ -73,23 +72,17 @@ class Desktop extends Component {
           </Title>
           <div className="db">
             <p className="fw4 lh-copy">
-              My current lineup of single-player games I am playing through.
+              My current lineup of games I am playing through.
             </p>
             <Feature
-              href="https://amzn.to/2HCVu4e"
-              name="The Witcher 3" />
+              href="https://amzn.to/2SNsJIr"
+              name="SSB: Ultimate" />
             <Feature
-              href="https://pokemonquest.pokemon.com/en-us/?ref=cortes"
-              name="Pokémon Quest" />
+              href="https://amzn.to/2M5P5Te"
+              name="Pokémon Let's Go" />
             <Feature
-              href="https://amzn.to/2qZ3p6v"
-              name="God of War" />
-            <Feature
-              href="https://amzn.to/2JFUzFi"
-              name="Pokémon HG" />
-            <Feature
-              href="https://amzn.to/2xX5m9r"
-              name="Pokémon Ultra Moon" />
+              href="https://amzn.to/2SM2J0n"
+              name="Gris" />
           </div>
         </div>
 

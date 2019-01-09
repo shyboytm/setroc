@@ -49,11 +49,6 @@ class Header extends Component {
                 Tools
               </Link>
             </li>
-            <li className="dib mr3">
-              <Link to="/mentoring" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
-                Mentoring
-              </Link>
-            </li>
           </ul>
         </div>
       </header>

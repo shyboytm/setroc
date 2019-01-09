@@ -19,11 +19,14 @@ class Work extends Component {
             href="https://dribbble.com/fromcortes"
             name="My Portfolio" />
           <Feature
-            href="/folder"
-            name="Folder" />
+            href="http://thegiftatlas.com"
+            name="The Gift Atlas" />
           <Feature
             href="https://prompter.cortes.us"
             name="Prompter" />
+          <Feature
+            href="/folder"
+            name="Folder" />
           <Feature
             href="https://coffee.cortes.us"
             name="Taste Notes" />
@@ -48,9 +51,6 @@ class Work extends Component {
           <Feature
             href="https://atom.io/users/fromcortes"
             name="Prisma" />
-          <Feature
-            href="https://www.instagram.com/muchclean/"
-            name="Much Clean" />
           <Feature
             href="http://calligritype.us"
             name="Calligritype" />
