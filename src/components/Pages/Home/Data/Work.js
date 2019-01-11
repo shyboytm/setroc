@@ -28,6 +28,9 @@ class Work extends Component {
             href="/folder"
             name="Folder" />
           <Feature
+            href="https://remotely.cortes.us"
+            name="Remotely" />
+          <Feature
             href="https://coffee.cortes.us"
             name="Taste Notes" />
           <Feature

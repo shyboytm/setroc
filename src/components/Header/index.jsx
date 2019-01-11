@@ -19,33 +19,38 @@ class Header extends Component {
               </h1>
             </Link>
             <a href="mailto:hi@cortes.us" className="bg-white-20 hover-bg-white-40 br2 dib-l dn f7 link ml4 mv0 pv0 ph3 up white">
-              Currently looking for a new full-time role or freelance work!
+              I'm looking for a new full-time role or freelance work!
             </a>
           </div>
 
           <ul className="list ph0-l ph3 mv1">
             <li className="dib mr3">
-              <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+              <a href="https://cortes.us/images/dennis-cortes-resume-2019.pdf" download className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph1">
+                Resume &darr;
+              </a>
+            </li>
+            <li className="dib mr3">
+              <a href="https://dribbble.com/fromcortes" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph1">
                 Work ↗
               </a>
             </li>
             <li className="dib mr3">
-              <a href="http://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+              <a href="http://blog.cortes.us" target="_blank" rel="nofollow" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph1">
                 Blog ↗
               </a>
             </li>
             <li className="dib mr3">
-              <Link to="/music" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+              <Link to="/music" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph1">
                 Music
               </Link>
             </li>
             <li className="dib mr3">
-              <Link to="/folder" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+              <Link to="/folder" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph1">
                 Folder
               </Link>
             </li>
             <li className="dib mr3">
-              <Link to="/tools" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph2">
+              <Link to="/tools" className="items-center flex f6 fw4 hover-bg-white-20 br2 up mb0-l mb3 db link white-90 bg-animate tracked-tiny ph1">
                 Tools
               </Link>
             </li>

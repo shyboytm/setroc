@@ -15,7 +15,7 @@ class Currently extends Component {
           <a href="mailto:hi@cortes.us" className="dn-l db bg-gradient br2 link pa3">
             <h2 className="white f5 fw5 mv0">Looking for a new Full-Time role or freelance work! &rarr;</h2>
           </a>
-          <h4 className="db-l dn fw4 pv1 i">
+          <h4 className="db-l dn fw4 pv1 i shine bg-text-clip">
             Looking for a new full-time role and freelance projects!
           </h4>
           <h4 className="fw4 pv1">Making a collective gifting tool called
