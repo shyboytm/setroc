@@ -19,7 +19,7 @@ class Desktop extends Component {
       <div id="Desktop Home" className="w-100 dn flex-l flex-wrap" style={{paddingTop: '3' + 'rem'}}>
         <div className="flex flex-column w-25-l pv3-l ph4-l pa5-m pa4 bl br b--black-10">
           <img src={aboutImage} alt="Dennis Cortés" className="br2 shadow-large mt3" />
-          <h3 className="f3 fw6 lh-subtitle system mt4 mb0 blur-late tracked-tiny">
+          <h3 className="f3 fw6 lh-subtitle system mt4 mb0 blur tracked-tiny">
             Hey Friend <span className="ml2 absolute spin">👋</span>
           </h3>
           <p className="lh-copy">
