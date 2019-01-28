@@ -12,11 +12,11 @@ class Currently extends Component {
           toolTipText="💪">
         </Title>
         <div className="fw4 lh-copy">
-          <a href="mailto:hi@cortes.us" className="dn-l db bg-gradient br2 link pa3">
-            <h2 className="white f5 fw5 mv0">Looking for a new Full-Time role or freelance work! &rarr;</h2>
-          </a>
-          <h4 className="db-l dn fw6 pv1 i shine bg-text-clip">
-            Looking for a new full-time role and freelance projects!
+          <h4 className="fw4 pv1">Building the future of finance at
+            <a className="link link-underlined rainbow-hover black ml1 fw6"
+              target="_blank" rel="nofollow" href="http://dave.com">
+              Dave
+            </a>
           </h4>
           <h4 className="fw4 pv1">Making a collective gifting tool called
             <a className="link link-underlined rainbow-hover black ml1 fw6"

@@ -145,10 +145,19 @@ class Desktop extends Component {
             toolTipText="💼">
           </Title>
           <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
+            2019
+          </h3>
+          <ul className="list ml0 pl0 mb2">
+            <li className="fw4 pv2 lh-copy dib mr4">
+            <span className="b">Dave</span>
+            <br />Product Designer
+            </li>
+          </ul>
+          <h3 className="black-40 f5 fw6 lh-title mt3 mb0">
             2018
           </h3>
           <ul className="list ml0 pl0 mb4">
-            <li className="bg-text-clip shine fw4 pv2 lh-copy dib mr4">
+            <li className="fw4 pv2 lh-copy dib mr4">
               <span className="b">MetaLab</span>
               <br />Product Designer
             </li>
