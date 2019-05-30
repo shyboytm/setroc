@@ -20,5 +20,31 @@ body {
 }
 
 .shadow {
-  box-shadow: 0px 16px 16px rgba(0, 0, 0, .04);
+  box-shadow: 0px 24px 24px rgba(0, 0, 0, .025);
+}
+
+#list .card { animation: fadeIn 1s ease-in-out both; }
+
+#list .card:nth-child(2) {
+	animation-delay: .25s;
+}
+#list .card:nth-child(3) {
+	animation-delay: .5s;
+}
+#list .card:nth-child(4) {
+	animation-delay: .75s;
+}
+#list .card:nth-child(5) {
+	animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
 }
