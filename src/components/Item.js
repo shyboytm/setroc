@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Title extends Component {
+class Item extends Component {
   render() {
     return (
-      <h2 className="f2 fw6 mb5">
+      <li className="">
         {this.props.children}
-      </h2>
+      </li>
     );
   }
 }
 
-export default Title;
+export default Item;

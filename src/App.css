@@ -19,11 +19,9 @@ body {
   background-image: -webkit-linear-gradient(45deg, #D3D0DD 0%, #DDDDDD 50%, #DDD0D6 100%);
 }
 
-.shadow {
-  box-shadow: 0px 24px 24px rgba(0, 0, 0, .025);
-}
-
-#list .card { animation: fadeIn 1s ease-in-out both; }
+.blur { animation: fadeIn 1s ease-in-out both; }
+.card { animation: fadeIn 1s ease-in-out both; }
+.shadow { box-shadow: 0px 24px 24px rgba(0, 0, 0, .025); }
 
 #list .card:nth-child(2) {
 	animation-delay: .25s;
@@ -47,4 +45,19 @@ body {
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}
+}
+
+@keyframes blur {
+    from  {
+      filter: blur(3px);
+      opacity: 0;
+      transform: translate3d(0, -50%, 0);
+      -webkit-backface-visibility: hidden;
+    }
+    to {
+      filter: blur(0px);
+      transform: none;
+      transform: translate3d(0);
+      -webkit-backface-visibility: hidden;
+    }
 }
