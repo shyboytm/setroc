@@ -112,7 +112,7 @@ class Home extends Component {
               <div className="bg-white br3 h5 shadow w5"></div>
               <div className="pl4">
                 <h3 className="black-70 f2 fw6 mb2">HM-06</h3>
-                <span className="black-70 db mb4">by Cordio</span>
+                <span className="black-70 db mb4">EP by Cordio</span>
                 <Button
                   href="#"
                   name="Play" />

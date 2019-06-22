@@ -6,7 +6,6 @@ class Item extends Component {
 
     const {
       type,
-      color,
       children,
     } = this.props;
 

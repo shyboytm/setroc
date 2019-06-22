@@ -6,7 +6,6 @@ class Card extends Component {
 
     const {
       size,
-      color,
       children,
       title
     } = this.props;

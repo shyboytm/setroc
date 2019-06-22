@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
+import Logo from './Logo';
 import Today from './Today';
 
 class Header extends Component {
   render() {
     return (
       <div className="flex pa4 justify-between items-center">
-        <div className="flex">
-          <a className="f5 mv0">Dennis Cortés</a>
+        <div className="flex items-center">
+          <Logo />
+          <a className="f5 mb0 mt1 ml3">Dennis Cortés</a>
         </div>
         <div className="flex">
           <div className="br-pill bg-white-20 flex items-center shadow">

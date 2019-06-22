@@ -15,7 +15,7 @@ body {
 }
 
 .blur         { animation: blur 2s ease-in-out both; }
-.bg-gradient  { background-color: #b7b7b7; -webkit-animation: random 40s infinite; animation: random 40s infinite; transition: all 20s ease-in-out; }
+.bg-gradient  { background-color: #b7b7b7; -webkit-animation: random 20s infinite; animation: random 20s infinite; transition: all 20s ease-in-out; }
 .card         { animation: fadeIn 1s ease-in-out both; }
 .lh-copy      { line-height: 1.7rem; }
 .link-inline  { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
