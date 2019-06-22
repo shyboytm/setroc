@@ -8,7 +8,7 @@ class Card extends Component {
           <div className="b bb b--black-10 ph4 pv3">
             {this.props.title}
           </div>
-          <div className="ph4 pv3">
+          <div className="ph4 pv3" >
             {this.props.children}
           </div>
         </div>
