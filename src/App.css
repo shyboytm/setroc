@@ -14,16 +14,14 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif;
 }
 
-.bg-gradient {
-  background-image: linear-gradient(45deg, #D3D0DD 0%, #DDDDDD 50%, #DDD0D6 100%);
-  background-image: -webkit-linear-gradient(45deg, #D3D0DD 0%, #DDDDDD 50%, #DDD0D6 100%);
-}
-
-.blur     { animation: blur 2s ease-in-out both; }
-.card     { animation: fadeIn 1s ease-in-out both; }
-.lh-copy  { line-height: 1.7rem; }
-.link     { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
-.shadow   { box-shadow: 0px 24px 24px rgba(0, 0, 0, .025); }
+.blur         { animation: blur 2s ease-in-out both; }
+.bg-gradient  { background-color: #b7b7b7; -webkit-animation: random 40s infinite; animation: random 40s infinite; transition: all 20s ease-in-out; }
+.card         { animation: fadeIn 1s ease-in-out both; }
+.lh-copy      { line-height: 1.7rem; }
+.link-inline  { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
+.shadow       { box-shadow: 0px 24px 24px rgba(0, 0, 0, .03); }
+.up           { transition: all .15s ease-in-out !important; }
+.up:hover     { transform: translateY(-2px); }
 
 
 
@@ -40,6 +38,12 @@ body {
 }
 #list .card:nth-child(5) {
 	animation-delay: 1s;
+}
+#list .card:nth-child(6) {
+	animation-delay: 1.25s;
+}
+#list .card:nth-child(7) {
+	animation-delay: 1.5s;
 }
 
 @keyframes fadeIn {
@@ -64,4 +68,18 @@ body {
       transform: none;
       -webkit-backface-visibility: hidden;
     }
+}
+
+@keyframes random {
+    0%  { background-color: #E7E7E7; }
+    10% { background-color: #E7DDDD; }
+    20% { background-color: #E7E2DD; }
+    30% { background-color: #E7E6DD; }
+    40% { background-color: #E1E7DD; }
+    50% { background-color: #DDE7E1; }
+    60% { background-color: #DDE3E7; }
+    70% { background-color: #DDDDE7; }
+    80% { background-color: #E4DDE7; }
+    90% { background-color: #E7DDE2; }
+    100% { background-color: #E7E7E7; }
 }

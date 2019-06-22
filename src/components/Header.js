@@ -10,9 +10,14 @@ class Header extends Component {
           <a className="f5 mv0">Dennis Cortés</a>
         </div>
         <div className="flex">
-          <a className="b f6 tracked ttu">Modern</a>
-          <span className="black-20 ph2">|</span>
-          <a className="b f6 tracked ttu">Vintage</a>
+          <div className="br-pill bg-white-20 flex items-center shadow">
+            <a href="#" className="dim ph3 pt1">
+              <img src='https://icon.now.sh/restore/696969' alt='vintage restore icon' />
+            </a>
+            <a href="#" className="dim bl b--black-10 ph3 pt1">
+              <img src='https://icon.now.sh/today/696969' alt='modern today icon' />
+            </a>
+          </div>
           <div className="pl4">
             <Today />
           </div>
