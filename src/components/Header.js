@@ -10,7 +10,12 @@ class Header extends Component {
           <a className="f5 mv0">Dennis Cortés</a>
         </div>
         <div className="flex">
-          <Today />
+          <a className="b f6 tracked ttu">Modern</a>
+          <span className="black-20 ph2">|</span>
+          <a className="b f6 tracked ttu">Vintage</a>
+          <div className="pl4">
+            <Today />
+          </div>
         </div>
       </div>
     );

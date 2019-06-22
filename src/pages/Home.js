@@ -8,10 +8,9 @@ import Title from '../components/Title';
 class Home extends Component {
   render() {
     return (
-      <div className="pt5 ph5">
-
+      <div className="blur pa5-l pa4-m pa3">
         <div id="list" className="content-end flex flex-wrap">
-          <Card title="Welcome friend">
+          <Card size={2} title="Welcome friend">
             <h2>I'm Dennis,</h2>
             <p className="black-60 f6 lh-copy">
               a digital designer and illustrator that codes based in the USA from Bayamón, Puerto Rico.
@@ -36,7 +35,7 @@ class Home extends Component {
               <h3 className="black-30 f7 tracked ttu">Contact me</h3>
             </div>
           </Card>
-          <Card title="I'm currently">
+          <Card size={3} title="I'm currently">
             <ul className="list pl0">
               <Item>
                 Building the future of finances at <Link href="https://dave.com">Dave</Link>
@@ -46,11 +45,25 @@ class Home extends Component {
               </Item>
             </ul>
           </Card>
-          <Card>
-            Yo yo yo
+          <Card size={.5} title="I'm currently">
+            <ul className="list pl0">
+              <Item>
+                Building the future of finances at <Link href="https://dave.com">Dave</Link>
+              </Item>
+              <Item>
+                Making physical products at <Link href="https://trademarked.store">Trademarked</Link>
+              </Item>
+            </ul>
           </Card>
-          <Card>
-            Yo yo yo
+          <Card size={.5} title="I'm currently">
+            <ul className="list pl0">
+              <Item>
+                Building the future of finances at <Link href="https://dave.com">Dave</Link>
+              </Item>
+              <Item>
+                Making physical products at <Link href="https://trademarked.store">Trademarked</Link>
+              </Item>
+            </ul>
           </Card>
         </div>
       </div>

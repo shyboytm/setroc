@@ -19,11 +19,15 @@ body {
   background-image: -webkit-linear-gradient(45deg, #D3D0DD 0%, #DDDDDD 50%, #DDD0D6 100%);
 }
 
-.blur     { animation: fadeIn 1s ease-in-out both; }
+.blur     { animation: blur 2s ease-in-out both; }
 .card     { animation: fadeIn 1s ease-in-out both; }
 .lh-copy  { line-height: 1.7rem; }
 .link     { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
 .shadow   { box-shadow: 0px 24px 24px rgba(0, 0, 0, .025); }
+
+
+
+/* Animations */
 
 #list .card:nth-child(2) {
 	animation-delay: .25s;
@@ -53,13 +57,11 @@ body {
     from  {
       filter: blur(3px);
       opacity: 0;
-      transform: translate3d(0, -50%, 0);
       -webkit-backface-visibility: hidden;
     }
     to {
       filter: blur(0px);
       transform: none;
-      transform: translate3d(0);
       -webkit-backface-visibility: hidden;
     }
 }
