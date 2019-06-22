@@ -12,15 +12,15 @@ class Item extends Component {
 
     var classes = ({
       // Defaults
-      'black-60 f6 lh-copy mb3': true,
+      'black-70 f6 lh-copy mb3': true,
     });
 
     if (type === "bordered") {
-      var classes = ({'bl b--black-10 black-60 bw2 f6 lh-copy mb3 pl3': true});
+      var classes = ({'bl b--black-10 black-70 bw2 f6 lh-copy mb3 pl3': true});
     }
 
-    if (type === "bordered green") {
-      var classes = ({'bl b--green black-60 bw2 f6 lh-copy mb3 pl3': true});
+    if (type === "no spacing") {
+      var classes = ({'black-70 f6 lh-copy': true});
     }
 
     return (

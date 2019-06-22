@@ -9,7 +9,7 @@ class Link extends Component {
     } = this.props;
 
     return (
-      <a href={href} className="b bg-animate black-70 hover-light-purple link link-inline underline up">
+      <a href={href} className="bg-animate black-70 fw6 hover-light-purple link link-inline underline up">
         {children}
       </a>
     );

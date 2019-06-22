@@ -5,12 +5,13 @@ class Button extends Component {
 
     const {
       href,
-      name
+      name,
+      subname
     } = this.props;
 
     return (
       <a href={href} target="_blank" rel="nofollow"
-         className="ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer up">
+         className="bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer up">
         {name}
       </a>
     );

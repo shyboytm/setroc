@@ -9,25 +9,25 @@ import Title from '../components/Title';
 class Home extends Component {
   render() {
     return (
-      <div className="blur pa5-l pa4-m pa3">
+      <div className="blur center mw9 pa5-l pa4-m pa3">
         <div id="list" className="content-end flex flex-wrap">
           <Card size={2} title="Welcome">
             <h2 className="black-70 f4 fw6">I'm Dennis,</h2>
-            <p className="black-60 f6 lh-copy">
+            <p className="black-70 f6 lh-copy">
               a 24 year old digital designer and illustrator that codes based in the USA from Bayamón, Puerto Rico.
               I grew up mainly in South Florida and studied design in college after putting my rap
               producer dreams to rest. I love working day-to-day on projects that require multidisciplinary
               skill sets solving complex issues that make the lives of people better. I've been designing for
               7+ years and coding for 4+ years.
             </p>
-            <p className="black-60 f6 lh-copy">
+            <p className="black-70 f6 lh-copy">
               I enjoy thinking about experience based solutions through use of design and technological
               implications. I find internal systematic struggles intriguing and set to solve and improve
               processes to better the way people work and interact with technology. Through merging
               expertise in product, branding, illustration, and web technologies, I can better approach
               problems for modern overarching solutions.
             </p>
-            <p className="black-60 f6 lh-copy mb4">
+            <p className="black-70 f6 lh-copy mb4">
               When I'm not working on design, I spend time coding for the web to build projects to benefit
               myself and others. I also work on new music under the alias Cordio. Besides that you'll find
               me spending time with my dog and my girlfriend, traveling, making pour overs, learning, playing
@@ -38,7 +38,8 @@ class Home extends Component {
               <div className="flex-wrap">
                 <Button
                   href="mailto:hi@cortes.us"
-                  name="hi@cortes.us" />
+                  name="hi@cortes.us"
+                  subname="Email me" />
                 <Button
                   href="https://twitter.com/fromcortes"
                   name="Twitter" />
@@ -101,8 +102,54 @@ class Home extends Component {
             </ul>
           </Card>
           <Card size={.5} title="My Work">
+            <p className="black-70 f6 lh-copy">
+
+            </p>
           </Card>
           <Card size={.5} title="My Music">
+            <h2 className="black-70 f4 fw6">Latest Release</h2>
+            <div className="flex mb4">
+              <div className="bg-white br3 h5 shadow w5"></div>
+              <div className="pl4">
+                <h3 className="black-70 f2 fw6 mb2">HM-06</h3>
+                <span className="black-70 db mb4">by Cordio</span>
+                <Button
+                  href="#"
+                  name="Play" />
+              </div>
+            </div>
+            <ol className="list pl0">
+              <Item type="no spacing">
+                <div className="bt b--black-05 pv2">
+                  <span className="black-40 mr3">1</span> Precautionary
+                </div>
+              </Item>
+              <Item type="no spacing">
+                <div className="bt b--black-05 pv2">
+                  <span className="black-40 mr3">2</span> Low Fidelity
+                </div>
+              </Item>
+              <Item type="no spacing">
+                <div className="bt b--black-05 pv2">
+                  <span className="black-40 mr3">3</span> Héroe
+                </div>
+              </Item>
+              <Item type="no spacing">
+                <div className="bt b--black-05 pv2">
+                  <span className="black-40 mr3">4</span> Strength
+                </div>
+              </Item>
+              <Item type="no spacing">
+                <div className="bt b--black-05 pv2">
+                  <span className="black-40 mr3">5</span> Kalio
+                </div>
+              </Item>
+              <Item type="no spacing">
+                <div className="bt b--black-05 pv2">
+                  <span className="black-40 mr3">6</span> Not a Dream
+                </div>
+              </Item>
+            </ol>
           </Card>
         </div>
       </div>
