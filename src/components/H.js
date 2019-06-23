@@ -18,6 +18,7 @@ class Header extends Component {
   render() {
 
     const {
+      color,
       size,
       children
     } = this.props;
@@ -28,18 +29,28 @@ class Header extends Component {
     });
 
     if (size === 1 ) {
-      var classes = ({'black-70 f2 fw6': true});
+      var classes = ({'black-70 f2 fw6 mb2': true});
     }
 
     if (size === 2 ) {
       var classes = ({'black-70 f4 fw6': true});
     }
 
+    if (size === 5 ) {
+      var classes = ({'black-40 fw6 mb0 tracked ttu': true});
+    }
+
+    if (size === 6 ) {
+      var classes = ({'black-70 f5 fw6 mt0 mb2': true});
+    }
+
     this.headerTag = chooseHeaderTag(size);
     return (
       <this.headerTag
           className={classNames(classes)}>
-        {children}
+        <span className={color}>
+          {children}
+        </span>
       </this.headerTag>
     );
   }

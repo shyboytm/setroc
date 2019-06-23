@@ -4,3 +4,7 @@
     { "src": "date.js", "use": "@now/node" }
   ]
 }
+
+{
+  "name": "Setroc"
+}

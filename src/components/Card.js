@@ -20,19 +20,19 @@ class Card extends Component {
     });
 
     if (size === 1 ) {
-      var classes = ({'card items-start pr4 pb4 relative w-100': true});
+      var classes = ({'card items-start pr4 pr3-m pr0 pb4 relative w-100': true});
     }
 
     if (size === 2) {
-      var classes = ({'card items-start pr4 pb4 relative w-two-thirds-l w-100': true});
+      var classes = ({'card items-start pr4 pr3-m pr0 pb4 relative w-two-thirds-l w-100': true});
     }
 
     if (size === 3) {
-      var classes = ({'card items-start pr4 pb4 relative w-33-l w-100': true});
+      var classes = ({'card items-start pr4 pr3-m pr0 pb4 relative w-33-l w-100': true});
     }
 
     if (size === .5) {
-      var classes = ({'card items-start pr4 pb4 relative w-50-l w-100': true});
+      var classes = ({'card items-start pr4 pr3-m pr0 pb4 relative w-50-l w-100': true});
     }
 
     return (

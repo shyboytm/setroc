@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Button from '../components/Button';
 import Card from '../components/Card';
 import H from '../components/H';
+import ImageCard from '../components/ImageCard';
 import Item from '../components/Item';
 import Link from '../components/Link';
 
@@ -13,10 +14,20 @@ class Home extends Component {
     const hm06Audio = require("../music/HM-06.mp3");
     const hm06Artwork = require("../img/hm-06-album-artwork.png");
 
+    const portfolioImage = require("../img/work/my-portfolio-thumbnail.png");
+    const daveImage = require("../img/work/dave-inc-portfolio-thumbnail.png");
+    const metalabImage = require("../img/work/metalab-portfolio-thumbnail.png");
+    const tastenotesImage = require("../img/work/taste-notes-portfolio-thumbnail.png");
+    const thegiftatlasImage = require("../img/work/the-gift-atlas-portfolio-thumbnail.png");
+    const prompterImage = require("../img/work/prompter-portfolio-thumbnail.png");
+
     return (
       <div className="blur center mw9 pa5-l pa4-m pa3">
         <div id="list" className="content-end flex flex-wrap">
           <Card size={2} title="Welcome">
+            {/*<div className="ba b--white bw2 bg-white br3 dib h3 w3 shadow-colored bg-white overflow-hidden">
+              <img src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
+            </div>*/}
             <H size={2}>I'm Dennis,</H>
             <p className="black-70 f6 lh-copy">
               a 24 year old digital designer and illustrator that codes based in the USA from Bayamón, Puerto Rico.
@@ -64,9 +75,6 @@ class Home extends Component {
             </div>
           </Card>
           <Card size={3} title="Experience">
-            <div className="absolute ba b--white bw2 bg-white br-100 h3 w3 shadow-colored bg-white overflow-hidden right--4 top--2">
-              <img src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
-            </div>
             <H size={2}>Currently</H>
             <ul className="list pl0 mb4">
               <Item>
@@ -109,28 +117,130 @@ class Home extends Component {
               </Item>
             </ul>
           </Card>
-          <Card size={.5} title="My Work">
-            <p className="black-70 f6 lh-copy">
-
-            </p>
+          <Card size={2} title="My Work">
+            <ul id="list" className="content-end flex flex-wrap list pl0">
+              <ImageCard
+                size={3}
+                color="black-70"
+                href="https://dribbble.com/fromcortes"
+                image={portfolioImage}
+                name="My Portfolio"
+                description="An overview of the type of work I do and the work that I can show publicly." />
+              <ImageCard
+                size={3}
+                color="green"
+                href="https://dave.com"
+                image={daveImage}
+                name="Dave Inc."
+                description="This is where I work full-time, I work on everything from our website to our product." />
+              <ImageCard
+                size={3}
+                color="purple"
+                href="https://metalab.co"
+                image={metalabImage}
+                name="MetaLab"
+                description="My previous full-time job. The work I did is under NDA but I did help create their new site." />
+              <ImageCard
+                size={3}
+                color="orange"
+                href="https://coffee.cortes.us"
+                image={tastenotesImage}
+                name="Taste Notes"
+                description="My personal blog about coffee methods, roasts, and shops that I've tried and rated." />
+              <ImageCard
+                size={3}
+                color="light-purple"
+                href="https://thegiftatlas.com"
+                image={thegiftatlasImage}
+                name="The Gift Atlas"
+                description="A collective gift giving guide tool to help others buy the perfect gift for anyone." />
+              <ImageCard
+                size={3}
+                color="gold"
+                href="https://prompter.cortes.us"
+                image={prompterImage}
+                name="Prompter"
+                description="A prompt randomizer for artists and illustrators to use for practicing and improving." />
+              <ImageCard
+                size={3}
+                color="blue"
+                href="https://remotely.cortes.us"
+                image={daveImage}
+                name="Remotely"
+                description="A fun experiment and attempt at making a resource for remote workers." />
+              <Button
+                href="/folder"
+                name="Folder" />
+              <Button
+                href="https://remotely.cortes.us"
+                name="Remotely" />
+              <Button
+                href="https://livtra.co"
+                name="Livtra" />
+              <Button
+                href="https://usequarry.com"
+                name="Quarry" />
+              <Button
+                href="https://www.instagram.com/illustree/"
+                name="Illustree" />
+              <Button
+                href="https://blog.cortes.us"
+                name="The Rate of Change" />
+              <Button
+                href="https://atom.io/users/fromcortes"
+                name="Prisma" />
+              <Button
+                href="http://calligritype.us"
+                name="Calligritype" />
+              <p className="measure mt4 mb3">
+                Made with teams
+              </p>
+              <Button
+                href="https://metalab.co"
+                name="MetaLab" />
+              <Button
+                href="https://www.ambi.school"
+                name="Ambi" />
+              <Button
+                href="https://itunes.apple.com/us/app/eagleview/id352070517?mt=8"
+                name="EagleView" />
+              <Button
+                href="https://wiseacrebrew.com"
+                name="Wiseacre Brew" />
+              <Button
+                href="https://tec.sco.edu"
+                name="TEC SCO" />
+              <Button
+                href="https://satchelhealth.com"
+                name="Satchel Health" />
+              <Button
+                href="http://unclekragers.com/app"
+                name="Uncle Kragers" />
+              <Button
+                href="http://simplesam.com"
+                name="Simple Sam" />
+              <Button
+                href="http://12ounceapp.com/"
+                name="Twelve Ounce" />
+            </ul>
           </Card>
-          <Card size={.5} title="My Music">
-            <div className="flex mb4">
-              <div style={{"height":"12rem", "width":"12rem"}} className="ba b--white bw2 bg-white br3 mt3 shadow-colored">
+          <Card size={3} title="My Music">
+              <div className="tc">
+                <H size={5}>Latest Release</H>
+              </div>
+              <div style={{"height":"16rem", "width":"16rem"}} className="ba b--white bw2 bg-white br3 center mv3 shadow-colored">
                 <img src={hm06Artwork} alt="Album artwork for HM-06 by Cordio" className="br2"/>
               </div>
-              <div className="pl4">
-                <H size={4}>Latest Release</H>
+              <div className="tc mv4">
                 <H size={1}>HM-06</H>
-                <span className="black-40 db mb4 nt3">EP by Cordio</span>
+                <span className="black-40">EP by Cordio</span>
               </div>
-            </div>
             <audio className="w-100" controls controlsList="nodownload" preload="auto">
               <source src={hm06Audio} type="audio/mpeg" />
             </audio>
-            <ol className="list pl0">
+            <ol className="list pl0 pv0">
               <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pv2">
+                <div className="flex items-center justify-between pb2">
                   <div>
                     <span className="black-40 mr3">1</span>
                     Precautionary
@@ -185,7 +295,7 @@ class Home extends Component {
                 </div>
               </Item>
               <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pv2">
+                <div className="bt b--black-05 flex items-center justify-between pt2">
                   <div>
                     <span className="black-40 mr3">6</span>
                     Not a Dream
