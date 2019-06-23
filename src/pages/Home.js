@@ -20,6 +20,7 @@ class Home extends Component {
     const tastenotesImage = require("../img/work/taste-notes-portfolio-thumbnail.png");
     const thegiftatlasImage = require("../img/work/the-gift-atlas-portfolio-thumbnail.png");
     const prompterImage = require("../img/work/prompter-portfolio-thumbnail.png");
+    const quarryImage = require("../img/work/quarry-portfolio-thumbnail.png");
 
     return (
       <div className="blur center mw9 pa5-l pa4-m pa3">
@@ -168,12 +169,13 @@ class Home extends Component {
                 image={daveImage}
                 name="Remotely"
                 description="A fun experiment and attempt at making a resource for remote workers." />
-              <Button
-                href="/folder"
-                name="Folder" />
-              <Button
-                href="https://remotely.cortes.us"
-                name="Remotely" />
+              <ImageCard
+                size={3}
+                color="black-70"
+                href="https://usequarry.com"
+                image={quarryImage}
+                name="Quarry"
+                description="A place where I used to house all my side projects. Obsolete now, but still love the site I made." />
               <Button
                 href="https://livtra.co"
                 name="Livtra" />
