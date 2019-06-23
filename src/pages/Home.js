@@ -16,11 +16,15 @@ class Home extends Component {
 
     const portfolioImage = require("../img/work/my-portfolio-thumbnail.png");
     const daveImage = require("../img/work/dave-inc-portfolio-thumbnail.png");
+    const trademarkedImage = require("../img/work/trademarked-portfolio-thumbnail.gif");
     const metalabImage = require("../img/work/metalab-portfolio-thumbnail.png");
     const tastenotesImage = require("../img/work/taste-notes-portfolio-thumbnail.png");
     const thegiftatlasImage = require("../img/work/the-gift-atlas-portfolio-thumbnail.png");
     const prompterImage = require("../img/work/prompter-portfolio-thumbnail.png");
+    const remotelyImage = require("../img/work/remotely-portfolio-thumbnail.png");
+    const livtraImage = require("../img/work/livtra-portfolio-thumbnail.png");
     const quarryImage = require("../img/work/quarry-portfolio-thumbnail.png");
+    const illustreeImage = require("../img/work/illustree-portfolio-thumbnail.png");
 
     return (
       <div className="blur center mw9 pa5-l pa4-m pa3">
@@ -136,6 +140,13 @@ class Home extends Component {
                 description="This is where I work full-time, I work on everything from our website to our product." />
               <ImageCard
                 size={3}
+                color="black-40"
+                href="https://trademarked.store"
+                image={trademarkedImage}
+                name="Trademarked"
+                description="Nice stuff for nice people with character. A line of minimal clothing to buy." />
+              <ImageCard
+                size={3}
                 color="purple"
                 href="https://metalab.co"
                 image={metalabImage}
@@ -164,11 +175,18 @@ class Home extends Component {
                 description="A prompt randomizer for artists and illustrators to use for practicing and improving." />
               <ImageCard
                 size={3}
-                color="blue"
+                color="black-40"
                 href="https://remotely.cortes.us"
-                image={daveImage}
+                image={remotelyImage}
                 name="Remotely"
                 description="A fun experiment and attempt at making a resource for remote workers." />
+              <ImageCard
+                size={3}
+                color="light-purple"
+                href="https://livtra.co"
+                image={livtraImage}
+                name="Livtra"
+                description="A life-tracking tool I was working on that ended up being too advanced for me to create alone." />
               <ImageCard
                 size={3}
                 color="black-70"
@@ -176,12 +194,13 @@ class Home extends Component {
                 image={quarryImage}
                 name="Quarry"
                 description="A place where I used to house all my side projects. Obsolete now, but still love the site I made." />
-              <Button
-                href="https://livtra.co"
-                name="Livtra" />
-              <Button
-                href="https://usequarry.com"
-                name="Quarry" />
+              <ImageCard
+                size={3}
+                color="green"
+                href="https://instagram.com/illustree"
+                image={illustreeImage}
+                name="Illustree"
+                description="A place where I used to house all my side projects. Obsolete now, but still love the site I made." />
               <Button
                 href="https://www.instagram.com/illustree/"
                 name="Illustree" />
