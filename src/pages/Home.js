@@ -21,15 +21,20 @@ class Home extends Component {
     const tastenotesImage = require("../img/work/taste-notes-portfolio-thumbnail.png");
     const thegiftatlasImage = require("../img/work/the-gift-atlas-portfolio-thumbnail.png");
     const prompterImage = require("../img/work/prompter-portfolio-thumbnail.png");
+    const ambiImage = require("../img/work/ambi-portfolio-thumbnail.png");
+    const eagleviewImage = require("../img/work/eagleview-portfolio-thumbnail.png");
     const remotelyImage = require("../img/work/remotely-portfolio-thumbnail.png");
     const livtraImage = require("../img/work/livtra-portfolio-thumbnail.png");
+    const calligritypeImage = require("../img/work/calligritype-portfolio-thumbnail.png");
     const quarryImage = require("../img/work/quarry-portfolio-thumbnail.png");
     const illustreeImage = require("../img/work/illustree-portfolio-thumbnail.png");
+    const trocImage = require("../img/work/troc-portfolio-thumbnail.png");
+    const wiseacreImage = require("../img/work/wiseacre-portfolio-thumbnail.png");
 
     return (
       <div className="blur center mw9 pa5-l pa4-m pa3">
         <div id="list" className="content-end flex flex-wrap">
-          <Card size={2} title="Welcome">
+          <Card size={3} title="Welcome">
             {/*<div className="ba b--white bw2 bg-white br3 dib h3 w3 shadow-colored bg-white overflow-hidden">
               <img src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
             </div>*/}
@@ -122,129 +127,6 @@ class Home extends Component {
               </Item>
             </ul>
           </Card>
-          <Card size={2} title="My Work">
-            <ul id="list" className="content-end flex flex-wrap list pl0">
-              <ImageCard
-                size={3}
-                color="black-70"
-                href="https://dribbble.com/fromcortes"
-                image={portfolioImage}
-                name="My Portfolio"
-                description="An overview of the type of work I do and the work that I can show publicly." />
-              <ImageCard
-                size={3}
-                color="green"
-                href="https://dave.com"
-                image={daveImage}
-                name="Dave Inc."
-                description="This is where I work full-time, I work on everything from our website to our product." />
-              <ImageCard
-                size={3}
-                color="black-40"
-                href="https://trademarked.store"
-                image={trademarkedImage}
-                name="Trademarked"
-                description="Nice stuff for nice people with character. A line of minimal clothing to buy." />
-              <ImageCard
-                size={3}
-                color="purple"
-                href="https://metalab.co"
-                image={metalabImage}
-                name="MetaLab"
-                description="My previous full-time job. The work I did is under NDA but I did help create their new site." />
-              <ImageCard
-                size={3}
-                color="orange"
-                href="https://coffee.cortes.us"
-                image={tastenotesImage}
-                name="Taste Notes"
-                description="My personal blog about coffee methods, roasts, and shops that I've tried and rated." />
-              <ImageCard
-                size={3}
-                color="light-purple"
-                href="https://thegiftatlas.com"
-                image={thegiftatlasImage}
-                name="The Gift Atlas"
-                description="A collective gift giving guide tool to help others buy the perfect gift for anyone." />
-              <ImageCard
-                size={3}
-                color="gold"
-                href="https://prompter.cortes.us"
-                image={prompterImage}
-                name="Prompter"
-                description="A prompt randomizer for artists and illustrators to use for practicing and improving." />
-              <ImageCard
-                size={3}
-                color="black-40"
-                href="https://remotely.cortes.us"
-                image={remotelyImage}
-                name="Remotely"
-                description="A fun experiment and attempt at making a resource for remote workers." />
-              <ImageCard
-                size={3}
-                color="light-purple"
-                href="https://livtra.co"
-                image={livtraImage}
-                name="Livtra"
-                description="A life-tracking tool I was working on that ended up being too advanced for me to create alone." />
-              <ImageCard
-                size={3}
-                color="black-70"
-                href="https://usequarry.com"
-                image={quarryImage}
-                name="Quarry"
-                description="A place where I used to house all my side projects. Obsolete now, but still love the site I made." />
-              <ImageCard
-                size={3}
-                color="green"
-                href="https://instagram.com/illustree"
-                image={illustreeImage}
-                name="Illustree"
-                description="A place where I used to house all my side projects. Obsolete now, but still love the site I made." />
-              <Button
-                href="https://www.instagram.com/illustree/"
-                name="Illustree" />
-              <Button
-                href="https://blog.cortes.us"
-                name="The Rate of Change" />
-              <Button
-                href="https://atom.io/users/fromcortes"
-                name="Prisma" />
-              <Button
-                href="http://calligritype.us"
-                name="Calligritype" />
-              <p className="measure mt4 mb3">
-                Made with teams
-              </p>
-              <Button
-                href="https://metalab.co"
-                name="MetaLab" />
-              <Button
-                href="https://www.ambi.school"
-                name="Ambi" />
-              <Button
-                href="https://itunes.apple.com/us/app/eagleview/id352070517?mt=8"
-                name="EagleView" />
-              <Button
-                href="https://wiseacrebrew.com"
-                name="Wiseacre Brew" />
-              <Button
-                href="https://tec.sco.edu"
-                name="TEC SCO" />
-              <Button
-                href="https://satchelhealth.com"
-                name="Satchel Health" />
-              <Button
-                href="http://unclekragers.com/app"
-                name="Uncle Kragers" />
-              <Button
-                href="http://simplesam.com"
-                name="Simple Sam" />
-              <Button
-                href="http://12ounceapp.com/"
-                name="Twelve Ounce" />
-            </ul>
-          </Card>
           <Card size={3} title="My Music">
               <div className="tc">
                 <H size={5}>Latest Release</H>
@@ -327,6 +209,124 @@ class Home extends Component {
                 </div>
               </Item>
             </ol>
+          </Card>
+          <Card size={1} title="My Work">
+            <ul id="list" className="content-end flex flex-wrap list pl0">
+              <ImageCard
+                color="black-70"
+                href="https://dribbble.com/fromcortes"
+                image={portfolioImage}
+                name="My Portfolio"
+                description="An overview of the type of work I do and the work that I can show publicly." />
+              <ImageCard
+                color="green"
+                href="https://dave.com"
+                image={daveImage}
+                name="Dave Inc."
+                description="This is where I work full-time, I work on everything from our website to our product." />
+              <ImageCard
+                color="black-40"
+                href="https://trademarked.store"
+                image={trademarkedImage}
+                name="Trademarked"
+                description="Nice stuff for nice people with character. A line of minimal clothing to buy." />
+              <ImageCard
+                color="purple"
+                href="https://metalab.co"
+                image={metalabImage}
+                name="MetaLab"
+                description="My previous full-time job. The work I did is under NDA but I did help create their new site." />
+              <ImageCard
+                color="orange"
+                href="https://coffee.cortes.us"
+                image={tastenotesImage}
+                name="Taste Notes"
+                description="My personal blog about coffee methods, roasts, and shops that I've tried and rated." />
+              <ImageCard
+                color="light-purple"
+                href="https://thegiftatlas.com"
+                image={thegiftatlasImage}
+                name="The Gift Atlas"
+                description="A collective gift giving guide tool to help others buy the perfect gift for anyone." />
+              <ImageCard
+                color="gold"
+                href="https://prompter.cortes.us"
+                image={prompterImage}
+                name="Prompter"
+                description="A prompt randomizer for artists and illustrators to use for practicing and improving." />
+              <ImageCard
+                color="pink"
+                href="https://www.facebook.com/ambigeneration/videos/782611065420372/"
+                image={ambiImage}
+                name="Ambi"
+                description="A product that aims to replace those crappy existing internal school systems." />
+              <ImageCard
+                color="blue"
+                href="https://apps.apple.com/app/id352070517"
+                image={eagleviewImage}
+                name="EagleView"
+                description="A product that helps contractors get accurate home reports and track their projects." />
+              <ImageCard
+                color="black-40"
+                href="https://remotely.cortes.us"
+                image={remotelyImage}
+                name="Remotely"
+                description="A fun experiment and attempt at making a resource for remote workers." />
+              <ImageCard
+                color="light-purple"
+                href="https://livtra.co"
+                image={livtraImage}
+                name="Livtra"
+                description="A life-tracking tool I was working on that ended up being too advanced for me to create alone." />
+              <ImageCard
+                color="black"
+                href="https://instagram.com/calligritype"
+                image={calligritypeImage}
+                name="Calligritype"
+                description="A place for artists & designers to get inspired that I started back in 2013." />
+              <ImageCard
+                color="black-70"
+                href="https://usequarry.com"
+                image={quarryImage}
+                name="Quarry"
+                description="A place where I used to house all my side projects. Obsolete now, but still love the site I made." />
+              <ImageCard
+                color="green"
+                href="https://instagram.com/illustree"
+                image={illustreeImage}
+                name="Illustree"
+                description="A resource and showcase for illustration inspiration that I started back in 2013." />
+              <ImageCard
+                color="dark-blue"
+                href="https://blog.cortes.us"
+                image={trocImage}
+                name="The Rate of Change"
+                description="My personal blog that I've written 100+ articles for over the past few years." />
+              <ImageCard
+                color="black"
+                href="https://wiseacrebrew.com"
+                image={wiseacreImage}
+                name="Wiseacre"
+                description="Quirky website created for one of the best breweries in the South." />
+              <ImageCard
+                color="black-50"
+                href="http://unclekragers.com/app"
+                image={illustreeImage}
+                name="Uncle Kragers"
+                description="A salsa tracker app for homemade salsa in Nashville." />
+              <ImageCard
+                color="blue"
+                href="http://simplesam.com"
+                image={illustreeImage}
+                name="Simple Sam"
+                description="Management and fundraising tracking for non-profits and companies." />
+              <ImageCard
+                color="purple"
+                href="http://12ounceapp.com/"
+                image={illustreeImage}
+                name="Twelve Ounce"
+                description="Coffee subscription app for coffee in coffee shops in Nashville." />
+            </ul>
           </Card>
         </div>
       </div>
