@@ -16,11 +16,14 @@ body {
 
 .blur            { animation: blur 2s ease-in-out both; }
 .bg-gradient     { background-color: #b7b7b7; -webkit-animation: random 20s infinite; animation: random 20s infinite; transition: all 20s ease-in-out; }
+.bg-text-clip    { -webkit-text-fill-color: transparent; background-image: linear-gradient(75deg, #00DBDE 0%, #FC00FF 50%, #00DBDE 100%); -webkit-background-clip: text;background-size: 200% auto; }
 .card            { animation: fadeIn 1s ease-in-out both; }
 .lh-copy         { line-height: 1.7rem; }
 .link-inline     { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
 .shadow          { box-shadow: 0px 24px 24px rgba(0, 0, 0, .03); }
 .shadow-colored  { box-shadow: 0px 24px 24px rgba(122, 33, 130, .15); }
+.shine           { -webkit-animation: shine 5s linear infinite; }
+.spin            { -webkit-animation:spin 3s ease-in-out infinite; -moz-animation:spin 3s ease-in-out infinite; animation:spin 3s ease-in-out infinite; }
 .top--4          { top: -4rem; }
 .up              { transition: all .2s ease-in-out !important; }
 .up:hover        { transform: translateY(-3px); }
@@ -84,4 +87,38 @@ body {
     80% { background-color: #E4DDE7; }
     90% { background-color: #E7DDE2; }
     100% { background-color: #E7E7E7; }
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@-moz-keyframes spin {
+  0%   { -moz-transform:rotate(0deg);
+         -moz-transform-origin: 50% 50%; }
+  50%  { -moz-transform:rotate(45deg);
+         -moz-transform-origin: 50% 50%; }
+  100% { -moz-transform: rotate(0deg);
+         -moz-transform-origin: 50% 50%; }
+}
+
+@-webkit-keyframes spin {
+  0%   { -webkit-transform:rotate(0deg);
+         -webkit-transform-origin: 50% 50%; }
+  50%  { -webkit-transform:rotate(45deg);
+         -webkit-transform-origin: 50% 50%; }
+  100% { -webkit-transform: rotate(0deg);
+         -webkit-transform-origin: 50% 50%;
+        }
+}
+
+@keyframes spin {
+  0%   { transform:rotate(0deg);
+         transform-origin: 50% 50%; }
+  50%  { transform:rotate(45deg);
+         transform-origin: 50% 50%; }
+  100% { transform:rotate(0deg);
+         transform-origin: 50% 50%; }
 }

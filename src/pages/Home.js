@@ -10,7 +10,6 @@ import Link from '../components/Link';
 class Home extends Component {
   render() {
 
-    const dennisCortes = require("../img/dennis-cortes-product-designer.jpeg")
     const hm06Audio = require("../music/HM-06.mp3");
     const hm06Artwork = require("../img/hm-06-album-artwork.png");
 
@@ -30,15 +29,14 @@ class Home extends Component {
     const illustreeImage = require("../img/work/illustree-portfolio-thumbnail.png");
     const trocImage = require("../img/work/troc-portfolio-thumbnail.png");
     const wiseacreImage = require("../img/work/wiseacre-portfolio-thumbnail.png");
+    const uncleKragersImage = require("../img/work/unclekragers-portfolio-thumbnail.png");
+    const twelveOunceImage = require("../img/work/twelveounce-portfolio-thumbnail.png");
 
     return (
-      <div className="blur center mw9 pa5-l pa4-m pa3">
+      <div className="blur center mw9 pa4-ns pa3">
         <div id="list" className="content-end flex flex-wrap">
-          <Card size={3} title="Welcome">
-            {/*<div className="ba b--white bw2 bg-white br3 dib h3 w3 shadow-colored bg-white overflow-hidden">
-              <img src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
-            </div>*/}
-            <H size={2}>I'm Dennis,</H>
+          <Card size={3} title="Welcome" buttonText="hi@cortes.us" href="mailto:hi@cortes.us">
+            <H size={2}>I'm Dennis Cortés <span className="absolute spin ml2">👋</span></H>
             <p className="black-70 f6 lh-copy">
               a 24 year old digital designer and illustrator that codes based in the USA from Bayamón, Puerto Rico.
               I grew up mainly in South Florida and studied print design in college, learning code, product, and
@@ -53,19 +51,22 @@ class Home extends Component {
               expertise in product, branding, illustration, and web technologies, I can better approach
               problems for modern overarching solutions.
             </p>
-            <p className="black-70 f6 lh-copy mb4">
+            <p className="black-70 f6 lh-copy">
+              I rarely take on freelance projects nowadays, but if you're working on something exciting feel
+              free to reach out if I can be of any help or guidance.
+            </p>
+            {/*<p className="black-70 f6 lh-copy mb4">
               When I'm not working on design, I spend time coding for the web to build projects to benefit
               myself and others. I also work on new music under the alias Cordio. Besides that you'll find
               me spending time with my pets and my girlfriend, traveling, making pour overs, learning, playing
               video games, and eating food.
-            </p>
+            </p>*/}
             <div className="mb3">
               <h3 className="black-30 f7 mv3 tracked ttu">Contact me</h3>
               <div className="flex-wrap">
                 <Button
                   href="mailto:hi@cortes.us"
-                  name="hi@cortes.us"
-                  subname="Email me" />
+                  name="hi@cortes.us" />
                 <Button
                   href="https://twitter.com/fromcortes"
                   name="Twitter" />
@@ -76,6 +77,12 @@ class Home extends Component {
                   href="https://dribbble.com/fromcortes"
                   name="Dribbble" />
                 <Button
+                  href="https://youtube.com/cortesarts"
+                  name="YouTube" />
+                <Button
+                  href="https://soundcloud.com/cordio"
+                  name="Soundcloud" />
+                <Button
                   href="https://github.com/fromcortes"
                   name="Github" />
                 <Button
@@ -85,6 +92,11 @@ class Home extends Component {
             </div>
           </Card>
           <Card size={3} title="Experience">
+            <p className="black-70 f6 lh-copy">
+              I specialize in design, mainly working in product design for both the web and mobile apps. I have extensive
+              experience with both visual and interaction design, design systems, user research, branding, and shipping products.
+              I am also a front-end developer focusing on React, CSS architecture, and component systems.
+            </p>
             <H size={2}>Currently</H>
             <ul className="list pl0 mb4">
               <Item>
@@ -127,11 +139,8 @@ class Home extends Component {
               </Item>
             </ul>
           </Card>
-          <Card size={3} title="My Music">
-              <div className="tc">
-                <H size={5}>Latest Release</H>
-              </div>
-              <div style={{"height":"16rem", "width":"16rem"}} className="ba b--white bw2 bg-white br3 center mv3 shadow-colored">
+          <Card size={3} title="My Music" buttonText="See All" href="https://open.spotify.com/artist/75jwCgOQHHq1qQAJ2dqoul?si=Fv-8PlK2Q3indabwNGMOnQ">
+              <div style={{"height":"90%", "width":"90%"}} className="ba b--white bw2 bg-white br3 center mv3 shadow-colored">
                 <img src={hm06Artwork} alt="Album artwork for HM-06 by Cordio" className="br2"/>
               </div>
               <div className="tc mv4">
@@ -235,7 +244,7 @@ class Home extends Component {
                 href="https://metalab.co"
                 image={metalabImage}
                 name="MetaLab"
-                description="My previous full-time job. The work I did is under NDA but I did help create their new site." />
+                description="My previous full-time job. Most work I did is under NDA but I did help create their new site." />
               <ImageCard
                 color="orange"
                 href="https://coffee.cortes.us"
@@ -311,21 +320,15 @@ class Home extends Component {
               <ImageCard
                 color="black-50"
                 href="http://unclekragers.com/app"
-                image={illustreeImage}
+                image={uncleKragersImage}
                 name="Uncle Kragers"
                 description="A salsa tracker app for homemade salsa in Nashville." />
               <ImageCard
                 color="blue"
-                href="http://simplesam.com"
-                image={illustreeImage}
-                name="Simple Sam"
-                description="Management and fundraising tracking for non-profits and companies." />
-              <ImageCard
-                color="purple"
                 href="http://12ounceapp.com/"
-                image={illustreeImage}
+                image={twelveOunceImage}
                 name="Twelve Ounce"
-                description="Coffee subscription app for coffee in coffee shops in Nashville." />
+                description="Coffee subscription app for unlimited coffee at coffee shops in Nashville." />
             </ul>
           </Card>
         </div>
