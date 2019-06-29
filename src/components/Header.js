@@ -9,7 +9,7 @@ class Header extends Component {
     const dennisCortes = require("../img/dennis-cortes-product-designer.jpeg")
 
     return (
-      <div className="flex pa4 justify-between items-center">
+      <div className="flex-ns pa4 justify-between items-center">
         <div className="flex items-center">
           <Logo />
           <h1 style={{"fontSize" : "0"}}>Dennis Cortés</h1>
@@ -19,26 +19,23 @@ class Header extends Component {
           <a href="https://trademarked.store" target="blank" className="black-70 f7 fw6 hover-light-purple ttu tracked link mr4 up">
             Shop
           </a>
-          <a href="mailto:hi@cortes.us" className="black-70 f7 fw6 hover-light-purple ttu tracked link mr4 up">
+          <span href="mailto:hi@cortes.us" className="black-30 dib-ns dn f7 fw6 relative ttu tracked link mr4">
+            Tools <br />
+            <span className="absolute right-1 tc top-1 ttu" style={{"fontSize" : "8px", "letterSpacing" : "0px"}}>soon</span>
+          </span>
+          <span href="mailto:hi@cortes.us" className="black-30 dib-ns dn f7 fw6 relative ttu tracked link mr4">
+            Music <br />
+            <span className="absolute right-1 tc top-1 ttu" style={{"fontSize" : "8px", "letterSpacing" : "0px"}}>soon</span>
+          </span>
+          <a href="mailto:hi@cortes.us" className="black-70 f7 fw6 hover-light-purple ttu tracked link up">
             Contact
           </a>
           {/*<div className="bg-white br-100 dib h2 w2 shadow-colored bg-white ml2 overflow-hidden">
             <img src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
           </div>*/}
         </div>
-        <div className="flex">
-          {/*
-          <div className="br-pill bg-white-20 flex items-center shadow">
-            <a href="#" className="dim ph3 pt1">
-              <img src='https://icon.now.sh/restore/696969' alt='vintage restore icon' />
-            </a>
-            <a href="#" className="dim bl b--black-10 ph3 pt1">
-              <img src='https://icon.now.sh/today/696969' alt='modern today icon' />
-            </a>
-          </div>*/}
-          <div className="pl4">
-            <Today />
-          </div>
+        <div className="dib-ns dn pl4">
+          <Today />
         </div>
       </div>
     );

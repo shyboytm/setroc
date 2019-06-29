@@ -36,7 +36,7 @@ class Home extends Component {
       <div className="blur center mw9 pa4-ns pa3">
         <div id="list" className="content-end flex flex-wrap">
           <Card size={3} title="Welcome" buttonText="hi@cortes.us" href="mailto:hi@cortes.us">
-            <H size={2}>I'm Dennis Cortés <span className="absolute spin ml2">👋</span></H>
+            <H size={2}>I'm Dennis Cortés <span className="absolute black spin ml2">👋</span></H>
             <p className="black-70 f6 lh-copy">
               a 24 year old digital designer and illustrator that codes based in the USA from Bayamón, Puerto Rico.
               I grew up mainly in South Florida and studied print design in college, learning code, product, and
