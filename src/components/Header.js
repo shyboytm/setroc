@@ -13,10 +13,10 @@ class Header extends Component {
         <div className="flex items-center">
           <Logo />
           <h1 style={{"fontSize" : "0"}}>Dennis Cortés</h1>
-          <a href="/" className="black-70 f7 fw6 hover-light-purple ttu tracked link mh4 up">
+          {/*<a href="/" className="black-70 f7 fw6 hover-light-purple ttu tracked link mh4 up">
             Home
-          </a>
-          <a href="https://trademarked.store" target="blank" className="black-70 f7 fw6 hover-light-purple ttu tracked link mr4 up">
+          </a>*/}
+          <a href="https://trademarked.store" target="blank" className="black-70 f7 fw6 hover-light-purple ttu tracked link mh4 up">
             Shop
           </a>
           <span href="mailto:hi@cortes.us" className="black-30 dib-ns dn f7 fw6 relative ttu tracked link mr4">

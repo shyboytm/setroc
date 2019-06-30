@@ -55,14 +55,8 @@ class Home extends Component {
               I rarely take on freelance projects nowadays, but if you're working on something exciting feel
               free to reach out if I can be of any help or guidance.
             </p>
-            {/*<p className="black-70 f6 lh-copy mb4">
-              When I'm not working on design, I spend time coding for the web to build projects to benefit
-              myself and others. I also work on new music under the alias Cordio. Besides that you'll find
-              me spending time with my pets and my girlfriend, traveling, making pour overs, learning, playing
-              video games, and eating food.
-            </p>*/}
             <div className="mb3">
-              <h3 className="black-30 f7 mv3 tracked ttu">Contact me</h3>
+              <H size={3}>Contact me</H>
               <div className="flex-wrap">
                 <Button
                   href="mailto:hi@cortes.us"
@@ -140,8 +134,8 @@ class Home extends Component {
             </ul>
           </Card>
           <Card size={3} title="My Music" buttonText="See All" href="https://open.spotify.com/artist/75jwCgOQHHq1qQAJ2dqoul?si=Fv-8PlK2Q3indabwNGMOnQ">
-              <div style={{"height":"90%", "width":"90%"}} className="ba b--white bw2 bg-white br3 center mv3 shadow-colored">
-                <img src={hm06Artwork} alt="Album artwork for HM-06 by Cordio" className="br2"/>
+              <div style={{"height":"90%", "width":"90%"}} className="ba b--white bw2 bg-white br3 center mv3 pa0 shadow-colored">
+                <img src={hm06Artwork} alt="Album artwork for HM-06 by Cordio" className="br2 db"/>
               </div>
               <div className="tc mv4">
                 <H size={1}>HM-06</H>
@@ -330,6 +324,92 @@ class Home extends Component {
                 name="Twelve Ounce"
                 description="Coffee subscription app for unlimited coffee at coffee shops in Nashville." />
             </ul>
+          </Card>
+          <Card size={.5} title="Approach">
+            <p className="black-70 f6 lh-copy mb4">
+              I believe all work is more than just technique. Thought process is driven by a combination
+              of knowledge, ethics, and philosophy. I think about these topics a lot and am always trying
+              to refine and improve, here's how I currently approach my work and process.
+            </p>
+            <H size={3}>Inclusion</H>
+            <p className="black-70 f6 lh-copy mb4">
+              People are the essence of the technology industry. Without people, we would have no clear
+              purpose in our work. I believe in helping people feel welcomed and included when it comes
+              to my work and who I am as a person.
+            </p>
+            <H size={3}>Accessibility</H>
+            <p className="black-70 f6 lh-copy mb4">
+              Unfortunately overlooked nowadays, accessibility is a very important aspect of my work.
+              I believe in equal access to technology and providing the tools and refinements to style,
+              typography, and code neccessary to do so.
+            </p>
+            <H size={3}>Simplicity</H>
+            <p className="black-70 f6 lh-copy mb4">
+              Although an overused term, Simplicity is at the heart of my goals in my work. I believe
+              in a simple approach with a touch of uniqueness, developing work into the purest form
+              with tasteful novelty.
+            </p>
+            <H size={3}>Transparency</H>
+            <p className="black-70 f6 lh-copy mb4">
+              Openly and actively sharing my process to help others is a core element of my process. I
+              always try my best to share what I can for the benefit of others. I believe this is also
+              important in a workplace setting in both positive and negative situations for more empathy
+              and understanding.
+            </p>
+            <H size={3}>Ethics</H>
+            <p className="black-70 f6 lh-copy mb4">
+              I believe that morals and ethics in design play a large part in process. Both business
+              and experience decisions based on the greater good of users makes a better, more
+              personable product and brand.
+            </p>
+          </Card>
+          <Card size={.5} title="Other stuff">
+              <H size={3}>Recognition</H>
+                <p className="black-70 f6 lh-copy mb4">
+                  From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews and podcasts if that's your thing.
+                </p>
+                <div className="mb4 mt0">
+                  <Button
+                    href="https://davidsilva.co/podcast/dennis-cortes-how-to-find-focus-and-the-challenges-of-ux-in-product-design/"
+                    name="Always Sunday" />
+                  <Button
+                    href="https://daily.bandcamp.com/2018/05/23/best-new-ambient-may-2018/"
+                    name="Bandcamp" />
+                  <Button
+                    href="https://www.typewolf.com/site-of-the-day/taste-notes"
+                    name="Typewolf" />
+                  <Button
+                    href="http://www.creative-portfolios.com/portfolio_page/dennis-cortes/"
+                    name="Creative Port" />
+                  <Button
+                    href="https://sitesee.co/sites/taste-notes"
+                    name="Site See" />
+                  <Button
+                    href="https://www.youtube.com/watch?v=8vTTJ-W-Axc&feature=youtu.be"
+                    name="ta–lk" />
+                  <Button
+                    href="https://365awesomedesigners.com/dennis-cortes/"
+                    name="365 Designers" />
+                  <Button
+                    href="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s"
+                    name="Logomarked" />
+                </div>
+              <H size={3}>Outside of Work</H>
+              <p className="black-70 f6 lh-copy mb4">
+                When I'm not working on design, I mainly work on new music under the alias Cordio. Besides that you'll find me spending time with my dog and my
+                girlfriend, traveling, making pour overs, learning, playing video games, and eating food. My girlfriend and I make physical products and a podcast
+                (where we talk about the crappy things in everyday life) in our free time.
+              </p>
+              <p className="black-70 f6 lh-copy mb4">
+                I used to more often then now since I found this thing called a work/life balance, but every now and then I'll get the itch to design and code outside
+                of my full-time job making things that I wish existed. I also want to make more of this thing they call "friends" outside of work, so I'd love to grab
+                coffee or hop on a video call and talk the shop about music, games, code, design, life, etc. Feel free to shoot over an email and we'll figure it out!
+              </p>
+              <H size={3}>Gaming</H>
+              <p className="black-70 f6 lh-copy mb4">
+                Always down to play some multiplayer games and chat, feel free to add me! Mortal Kombat 11, Rocket League, and Fortnite are my go-to online games currently.
+                My PSN is fromcortes :)
+              </p>
           </Card>
         </div>
       </div>

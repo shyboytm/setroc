@@ -22,7 +22,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer id="Footer" className="bg-white pt0-l pt4">
+      <footer id="Footer" className="bg-transparent pt0-l pt4">
         <div className="w-90-ns w-80 center flex justify-between items-center-l flex-row-l flex-column pv2-l">
           <div className="flex-auto-l flex-column order-1-l order-2 mb3 mt0">
             <p className="f1-l f2 lh-subtitle tracked-tiny">
@@ -72,7 +72,7 @@ class Footer extends Component {
               name="RAWG" />
           </div>
         </div>
-        <p className="bg-black-05 black-30 f7 pv2 mb0 tc w-100">© 2019 Dennis Cortés All Rights Reserved</p>
+        <p className="bg-gradient black-30 f7 pv2 mb0 tc w-100">© 2019 Dennis Cortés All Rights Reserved</p>
       </footer>
     );
   }
