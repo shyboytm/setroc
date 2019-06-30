@@ -12,7 +12,7 @@ class Button extends Component {
 
     var classes = ({
       // Defaults
-      'bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up': true,
+      'ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up': true,
 
       // Type Color
       // 'blue':    color === 'blue',
