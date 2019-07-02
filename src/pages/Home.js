@@ -116,7 +116,7 @@ class Home extends Component {
                 <span className="b black-30 db f7 nt1 nb2">2016-2018</span>
               </Item>
               <Item>
-                Writing articles on <Link href="https://blog.cortes.us">The Rate of Change</Link>
+                Writing articles on <Link href="http://blog.cortes.us">The Rate of Change</Link>
                 <span className="b black-30 db f7 nt1 nb2">2016-2018</span>
               </Item>
               <Item>
@@ -301,7 +301,7 @@ class Home extends Component {
                 description="A resource and showcase for illustration inspiration that I started back in 2013." />
               <ImageCard
                 color="dark-blue"
-                href="https://blog.cortes.us"
+                href="http://blog.cortes.us"
                 image={trocImage}
                 name="The Rate of Change"
                 description="My personal blog that I've written 100+ articles for over the past few years." />
