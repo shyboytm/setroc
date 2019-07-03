@@ -45,7 +45,7 @@ class Footer extends Component {
               name="Dribbble" />
             <Button
               href="https://github.com/fromcortes"
-              name="Github" />
+              name="GitHub" />
             <Button
               href="https://open.spotify.com/user/hswlc8mdk5gxobfmshmki9gau?si=15BRL5VGRGydOG5YZUDxyg"
               name="Spotify" />
