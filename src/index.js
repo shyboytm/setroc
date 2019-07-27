@@ -6,11 +6,13 @@ import './index.css';
 
 import App from './App';
 import Home from './pages/Home';
+import Music from './pages/Music';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
+      <Route path="/music" component={Music} />
     </Route>
   </Router>,
   document.getElementById('root')
