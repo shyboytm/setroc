@@ -10,7 +10,7 @@ class App extends Component {
     const { children } = this.props;
 
     return (
-      <div className="App bg-gradient h-100 w-100">
+      <div className="App bg-gradient h-100 w-100 overflow-x-hidden">
         <div className="top-0">
           <Header />
         </div>
