@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b986aeea3c57a74ef5962f8d09c42bfa",
+    "revision": "cea45cc16c7a1bd03b6329a657e75cd9",
     "url": "/index.html"
   },
   {
-    "revision": "9258b0c0a90f6c1df309",
+    "revision": "c75ffe934823b80a01c3",
     "url": "/static/css/main.29ecc302.chunk.css"
   },
   {
-    "revision": "edf4c4a43eb0dc7a5aa6",
-    "url": "/static/js/2.734d810e.chunk.js"
+    "revision": "051441c4e3db965bacbb",
+    "url": "/static/js/2.063cca02.chunk.js"
   },
   {
-    "revision": "9258b0c0a90f6c1df309",
-    "url": "/static/js/main.fbeb0e9f.chunk.js"
+    "revision": "c75ffe934823b80a01c3",
+    "url": "/static/js/main.b872496a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0e1d9772c387a10b627c9e239a150416",
     "url": "/static/media/hm-06-album-artwork.0e1d9772.png"
+  },
+  {
+    "revision": "4f0b5bbdc87d2f92d0e84b5b03757e25",
+    "url": "/static/media/hm-07-album-artwork.4f0b5bbd.png"
   },
   {
     "revision": "fe6d28772e9abfefa9868c10680e0718",

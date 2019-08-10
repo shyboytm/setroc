@@ -11,7 +11,7 @@ class Home extends Component {
   render() {
 
     const hm06Audio = require("../music/HM-06.mp3");
-    const hm06Artwork = require("../img/hm-06-album-artwork.png");
+    const hm07Artwork = require("../img/hm-07-album-artwork.png");
 
     const portfolioImage = require("../img/work/my-portfolio-thumbnail.png");
     const daveImage = require("../img/work/dave-inc-portfolio-thumbnail.png");
@@ -133,13 +133,13 @@ class Home extends Component {
               </Item>
             </ul>
           </Card>
-          <Card size={3} title="My Music" buttonText="See All" href="https://open.spotify.com/artist/75jwCgOQHHq1qQAJ2dqoul?si=Fv-8PlK2Q3indabwNGMOnQ">
+          <Card size={3} title="My Music" buttonText="See All" href="/music">
               <div style={{"height":"90%", "width":"90%"}} className="ba b--white bw2 bg-white br3 center mv3 pa0 shadow-colored">
-                <img src={hm06Artwork} alt="Album artwork for HM-06 by Cordio" className="br2 db"/>
+                <img src={hm07Artwork} alt="Album artwork for HM-06 by Cordio" className="br2 db"/>
               </div>
               <div className="tc mv4">
-                <H size={1}>HM-06</H>
-                <span className="black-40">EP by Cordio</span>
+                <H size={1}>HM-07</H>
+                <span className="black-40">Latest EP by Cordio</span>
               </div>
             <audio className="w-100" controls controlsList="nodownload" preload="auto">
               <source src={hm06Audio} type="audio/mpeg" />
@@ -149,7 +149,7 @@ class Home extends Component {
                 <div className="flex items-center justify-between pb2">
                   <div>
                     <span className="black-40 mr3">1</span>
-                    Precautionary
+                    Neither One
                   </div>
                   <div>
                     <span className="black-40 mr3">0:00</span>
@@ -160,7 +160,7 @@ class Home extends Component {
                 <div className="bt b--black-05 flex items-center justify-between pv2">
                   <div>
                     <span className="black-40 mr3">2</span>
-                    Low Fidelity
+                    Found &amp; Lost
                   </div>
                   <div>
                     <span className="black-40 mr3">2:38</span>
@@ -171,7 +171,7 @@ class Home extends Component {
                 <div className="bt b--black-05 flex items-center justify-between pv2">
                   <div>
                     <span className="black-40 mr3">3</span>
-                    Héroe
+                    Casita
                   </div>
                   <div>
                     <span className="black-40 mr3">5:18</span>
@@ -182,7 +182,7 @@ class Home extends Component {
                 <div className="bt b--black-05 flex items-center justify-between pv2">
                   <div>
                     <span className="black-40 mr3">4</span>
-                    Strength
+                    Waterfall
                   </div>
                   <div>
                     <span className="black-40 mr3">7:25</span>
@@ -193,7 +193,7 @@ class Home extends Component {
                 <div className="bt b--black-05 flex items-center justify-between pv2">
                   <div>
                     <span className="black-40 mr3">5</span>
-                    Kalio
+                    Feels Good
                   </div>
                   <div>
                     <span className="black-40 mr3">10:07</span>
@@ -201,10 +201,21 @@ class Home extends Component {
                 </div>
               </Item>
               <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pt2">
+                <div className="bt b--black-05 flex items-center justify-between pv2">
                   <div>
                     <span className="black-40 mr3">6</span>
-                    Not a Dream
+                    Untold Promises
+                  </div>
+                  <div>
+                    <span className="black-40 mr3">13:15</span>
+                  </div>
+                </div>
+              </Item>
+              <Item type="no spacing">
+                <div className="bt b--black-05 flex items-center justify-between pt2">
+                  <div>
+                    <span className="black-40 mr3">7</span>
+                    Mamita (Bonus Track)
                   </div>
                   <div>
                     <span className="black-40 mr3">13:15</span>
