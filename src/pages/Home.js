@@ -38,11 +38,11 @@ class Home extends Component {
           <Card size={3} title="Welcome" buttonText="hi@cortes.us" href="mailto:hi@cortes.us">
             <H size={2}>I'm Dennis Cortés <span className="absolute black spin ml2">👋</span></H>
             <p className="black-70 f6 lh-copy">
-              a 24 year old digital designer and illustrator that codes based in the USA from Bayamón, Puerto Rico.
+              a designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico.
               I grew up mainly in South Florida and studied print design in college, learning code, product, and
               business on my own time. I love working day-to-day on projects that require multidisciplinary
               skill sets solving complex issues that make the lives of people better. I've been designing for
-              7+ years and coding for 4+ years.
+              8+ years and coding for 4+ years.
             </p>
             <p className="black-70 f6 lh-copy">
               I enjoy thinking about experience based solutions through use of design and technological

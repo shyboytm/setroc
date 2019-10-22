@@ -19,13 +19,14 @@ class Header extends Component {
           <a href="https://trademarked.store" target="blank" className="black-70 f7 fw6 hover-light-purple ttu tracked link mh4 up">
             Shop
           </a>
-          <span href="mailto:hi@cortes.us" className="black-30 dib-ns dn f7 fw6 relative ttu tracked link mr4">
+          <span className="black-30 dib-ns dn f7 fw6 relative ttu tracked link mr4">
             Tools <br />
             <span className="absolute right-1 tc top-1 ttu" style={{"fontSize" : "8px", "letterSpacing" : "0px"}}>soon</span>
           </span>
-          <a href="/music" className="black-70 f7 fw6 hover-light-purple ttu tracked link mr4 up">
-            Music
-          </a>
+          <span className="black-30 dib-ns dn f7 fw6 relative ttu tracked link mr4">
+            Music <br />
+            <span className="absolute right-1 tc top-1 ttu" style={{"fontSize" : "8px", "letterSpacing" : "0px"}}>soon</span>
+          </span>
           <a href="mailto:hi@cortes.us" className="black-70 f7 fw6 hover-light-purple ttu tracked link up">
             Contact
           </a>
