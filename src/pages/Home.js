@@ -45,15 +45,12 @@ class Home extends Component {
               8+ years and coding for 4+ years.
             </p>
             <p className="black-70 f6 lh-copy">
-              I enjoy thinking about experience based solutions through use of design and technological
-              implications. I find internal systematic struggles intriguing and set to solve and improve
-              processes to better the way people work and interact with technology. Through merging
-              expertise in product, branding, illustration, and web technologies, I can better approach
-              problems for modern overarching solutions.
+              I specialize in design, mainly working in product design for both the web and mobile apps. I have extensive
+              experience with both visual and interaction design, design systems, user research, branding, and shipping products.
+              I am also a front-end engineer focusing on React, CSS architecture, and component systems.
             </p>
             <p className="black-70 f6 lh-copy">
-              I rarely take on freelance projects nowadays, but if you're working on something exciting feel
-              free to reach out if I can be of any help or guidance.
+              Got a project I can help with? Let's chat!
             </p>
             <div className="mb3">
               <H size={3}>Contact me</H>
@@ -86,15 +83,10 @@ class Home extends Component {
             </div>
           </Card>
           <Card size={3} title="Experience">
-            <p className="black-70 f6 lh-copy">
-              I specialize in design, mainly working in product design for both the web and mobile apps. I have extensive
-              experience with both visual and interaction design, design systems, user research, branding, and shipping products.
-              I am also a front-end developer focusing on React, CSS architecture, and component systems.
-            </p>
             <H size={2}>Currently</H>
             <ul className="list pl0 mb4">
               <Item>
-                Building the future of finances at <Link href="https://dave.com">Dave</Link>
+                Lead Product Designer at <Link herf="https://mothership.com">Mothership</Link>
               </Item>
               <Item>
                 Producing beat music as <Link href="/music">Cordio</Link>
@@ -111,6 +103,10 @@ class Home extends Component {
             </ul>
             <H size={2}>Previously</H>
             <ul className="list pl0 mb4">
+              <Item>
+                Senior Product Designer at <Link href="https://dave.com">Dave</Link>
+                <span className="b black-30 db f7 nt1 nb2">2019</span>
+              </Item>
               <Item>
                 Product Designer at <Link href="https://metalab.co">MetaLab</Link>
                 <span className="b black-30 db f7 nt1 nb2">2016-2018</span>
@@ -237,7 +233,7 @@ class Home extends Component {
                 href="https://dave.com"
                 image={daveImage}
                 name="Dave Inc."
-                description="This is where I work full-time, I work on everything from our website to our product." />
+                description="A previous full-time job, I worked on everything from our website to our product." />
               <ImageCard
                 color="black-40"
                 href="https://trademarked.store"
@@ -249,7 +245,7 @@ class Home extends Component {
                 href="https://metalab.co"
                 image={metalabImage}
                 name="MetaLab"
-                description="My previous full-time job. Most work I did is under NDA but I did help create their new site." />
+                description="A previous full-time job. Most work I did is under NDA but I did help create their new site." />
               <ImageCard
                 color="orange"
                 href="https://coffee.cortes.us"
