@@ -18,7 +18,7 @@ class Card extends Component {
 
     var classes = ({
       // Defaults
-      'card items-start pr4-l pr3-m pb4 relative w-25-l w-50-m w-100': true,
+      'card items-start pr4-l pr3-m pb4 relative w-50-l w-100': true,
 
       // Type Color
       // 'blue':    color === 'blue',

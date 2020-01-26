@@ -35,10 +35,10 @@ class Home extends Component {
     return (
       <div className="blur center mw9 pa4-ns pa3">
         <div id="list" className="content-end flex flex-wrap">
-          <Card size={3} title="Welcome" buttonText="hi@cortes.us" href="mailto:hi@cortes.us">
+          <div className="center w-50-l w-100">
             <H size={2}>I'm Dennis Cortés <span className="absolute black spin ml2">👋</span></H>
             <p className="black-70 f6 lh-copy">
-              a designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico.
+              Designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico.
               I grew up mainly in South Florida and studied print design in college, learning code, product, and
               business on my own time. I love working day-to-day on projects that require multidisciplinary
               skill sets solving complex issues that make the lives of people better. I've been designing for
@@ -52,8 +52,7 @@ class Home extends Component {
             <p className="black-70 f6 lh-copy">
               Got a project I can help with? Let's chat!
             </p>
-            <div className="mb3">
-              <H size={3}>Contact me</H>
+            <div className="mv4">
               <div className="flex-wrap">
                 <Button
                   href="mailto:hi@cortes.us"
@@ -81,10 +80,8 @@ class Home extends Component {
                   name="RAWG" />
               </div>
             </div>
-          </Card>
-          <Card size={3} title="Experience">
             <H size={2}>Currently</H>
-            <ul className="list pl0 mb4">
+            <ul className="cf list pl0 mb4">
               <Item>
                 Lead Product Designer at <Link herf="https://mothership.com">Mothership</Link>
               </Item>
@@ -128,99 +125,9 @@ class Home extends Component {
                 <span className="b black-30 db f7 nt1 nb2">2013-2014</span>
               </Item>
             </ul>
-          </Card>
-          <Card size={3} title="My Music" buttonText="See All" href="/music">
-              <div style={{"height":"90%", "width":"90%"}} className="ba b--white bw2 bg-white br3 center mv3 pa0 shadow-colored">
-                <img src={hm07Artwork} alt="Album artwork for HM-06 by Cordio" className="br2 db"/>
-              </div>
-              <div className="tc mv4">
-                <H size={1}>HM-07</H>
-                <span className="black-40">Latest EP by Cordio</span>
-              </div>
-            <audio className="w-100" controls controlsList="nodownload" preload="auto">
-              <source src={hm06Audio} type="audio/mpeg" />
-            </audio>
-            <ol className="list pl0 pv0">
-              <Item type="no spacing">
-                <div className="flex items-center justify-between pb2">
-                  <div>
-                    <span className="black-40 mr3">1</span>
-                    Neither One
-                  </div>
-                  <div>
-                    <span className="black-40 mr3">0:00</span>
-                  </div>
-                </div>
-              </Item>
-              <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pv2">
-                  <div>
-                    <span className="black-40 mr3">2</span>
-                    Found &amp; Lost
-                  </div>
-                  <div>
-                    <span className="black-40 mr3">2:38</span>
-                  </div>
-                </div>
-              </Item>
-              <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pv2">
-                  <div>
-                    <span className="black-40 mr3">3</span>
-                    Casita
-                  </div>
-                  <div>
-                    <span className="black-40 mr3">5:18</span>
-                  </div>
-                </div>
-              </Item>
-              <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pv2">
-                  <div>
-                    <span className="black-40 mr3">4</span>
-                    Waterfall
-                  </div>
-                  <div>
-                    <span className="black-40 mr3">7:25</span>
-                  </div>
-                </div>
-              </Item>
-              <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pv2">
-                  <div>
-                    <span className="black-40 mr3">5</span>
-                    Feels Good
-                  </div>
-                  <div>
-                    <span className="black-40 mr3">10:07</span>
-                  </div>
-                </div>
-              </Item>
-              <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pv2">
-                  <div>
-                    <span className="black-40 mr3">6</span>
-                    Untold Promises
-                  </div>
-                  <div>
-                    <span className="black-40 mr3">13:15</span>
-                  </div>
-                </div>
-              </Item>
-              <Item type="no spacing">
-                <div className="bt b--black-05 flex items-center justify-between pt2">
-                  <div>
-                    <span className="black-40 mr3">7</span>
-                    Mamita (Bonus Track)
-                  </div>
-                  <div>
-                    <span className="black-40 mr3">13:15</span>
-                  </div>
-                </div>
-              </Item>
-            </ol>
-          </Card>
-          <Card size={1} title="My Work">
+          </div>
+
+          <div className="center w-50-l w-100">
             <ul id="list" className="content-end flex flex-wrap list pl0">
               <ImageCard
                 color="black-70"
@@ -331,7 +238,7 @@ class Home extends Component {
                 name="Twelve Ounce"
                 description="Coffee subscription app for unlimited coffee at coffee shops in Nashville." />
             </ul>
-          </Card>
+          </div>
           <Card size={.5} title="Approach">
             <p className="black-70 f6 lh-copy mb4">
               I believe all work is more than just technique. Thought process is driven by a combination

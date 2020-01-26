@@ -33,7 +33,7 @@ class Header extends Component {
     }
 
     if (size === 2 ) {
-      var classes = ({'black-70 f3 fw6': true});
+      var classes = ({'black-70 f3 fw6 db': true});
     }
 
     if (size === 3 ) {
