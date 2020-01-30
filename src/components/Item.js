@@ -11,7 +11,7 @@ class Item extends Component {
 
     var classes = ({
       // Defaults
-      'black-70 f6 lh-copy mb3 w-50-l w-100 fl-l': true,
+      'black-70 dib f6 lh-copy mb3 w-50-l w-100 fl-l': true,
     });
 
     if (type === "bordered") {

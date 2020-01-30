@@ -35,7 +35,7 @@ class Home extends Component {
     return (
       <div className="blur center mw9 pa4-ns pa3">
         <div id="list" className="content-end flex flex-wrap">
-          <div className="center w-50-l w-100">
+          <Card size={2} title="Welcome" href="mailto:hi@cortes.us" buttonText="hi@cortes.us">
             <H size={2}>I'm Dennis Cortés <span className="absolute black spin ml2">👋</span></H>
             <p className="black-70 f6 lh-copy">
               Designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico.
@@ -99,7 +99,7 @@ class Home extends Component {
               </Item>
             </ul>
             <H size={2}>Previously</H>
-            <ul className="list pl0 mb4">
+            <ul className="list pl0 mb5 db">
               <Item>
                 Senior Product Designer at <Link href="https://dave.com">Dave</Link>
                 <span className="b black-30 db f7 nt1 nb2">2019</span>
@@ -125,9 +125,58 @@ class Home extends Component {
                 <span className="b black-30 db f7 nt1 nb2">2013-2014</span>
               </Item>
             </ul>
-          </div>
+          </Card>
 
-          <div className="center w-50-l w-100">
+          <Card size={3} title="Other stuff">
+              <H size={3}>Recognition</H>
+                <p className="black-70 f6 lh-copy mb4">
+                  From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews and podcasts if that's your thing.
+                </p>
+                <div className="mb4 mt0">
+                  <Button
+                    href="https://davidsilva.co/podcast/dennis-cortes-how-to-find-focus-and-the-challenges-of-ux-in-product-design/"
+                    name="Always Sunday" />
+                  <Button
+                    href="https://daily.bandcamp.com/2018/05/23/best-new-ambient-may-2018/"
+                    name="Bandcamp" />
+                  <Button
+                    href="https://www.typewolf.com/site-of-the-day/taste-notes"
+                    name="Typewolf" />
+                  <Button
+                    href="http://www.creative-portfolios.com/portfolio_page/dennis-cortes/"
+                    name="Creative Port" />
+                  <Button
+                    href="https://sitesee.co/sites/taste-notes"
+                    name="Site See" />
+                  <Button
+                    href="https://www.youtube.com/watch?v=8vTTJ-W-Axc&feature=youtu.be"
+                    name="ta–lk" />
+                  <Button
+                    href="https://365awesomedesigners.com/dennis-cortes/"
+                    name="365 Designers" />
+                  <Button
+                    href="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s"
+                    name="Logomarked" />
+                </div>
+              <H size={3}>Outside of Work</H>
+              <p className="black-70 f6 lh-copy mb4">
+                When I'm not working on design, I mainly work on new music under the alias Cordio. Besides that you'll find me spending time with my dog and my
+                girlfriend, traveling, making pour overs, learning, playing video games, and eating food. My girlfriend and I make physical products and a podcast
+                (where we talk about the crappy things in everyday life) in our free time.
+              </p>
+              <p className="black-70 f6 lh-copy mb4">
+                I used to more often then now since I found this thing called a work/life balance, but every now and then I'll get the itch to design and code outside
+                of my full-time job making things that I wish existed. I also want to make more of this thing they call "friends" outside of work, so I'd love to grab
+                coffee or hop on a video call and talk the shop about music, games, code, design, life, etc. Feel free to shoot over an email and we'll figure it out!
+              </p>
+              {/* <H size={3}>Gaming</H>
+              <p className="black-70 f6 lh-copy mb4">
+                Always down to play some multiplayer games and chat, feel free to add me! Mortal Kombat 11, Rocket League, and Fortnite are my go-to online games currently.
+                My PSN is fromcortes :)
+              </p> */}
+          </Card>
+
+          <Card size={1} title="Welcome" href="mailto:hi@cortes.us" buttonText="hi@cortes.us">
             <ul id="list" className="content-end flex flex-wrap list pl0">
               <ImageCard
                 color="black-70"
@@ -238,8 +287,9 @@ class Home extends Component {
                 name="Twelve Ounce"
                 description="Coffee subscription app for unlimited coffee at coffee shops in Nashville." />
             </ul>
-          </div>
-          <Card size={.5} title="Approach">
+          </Card>
+
+          {/* <Card size={.5} title="Approach">
             <p className="black-70 f6 lh-copy mb4">
               I believe all work is more than just technique. Thought process is driven by a combination
               of knowledge, ethics, and philosophy. I think about these topics a lot and am always trying
@@ -276,55 +326,7 @@ class Home extends Component {
               and experience decisions based on the greater good of users makes a better, more
               personable product and brand.
             </p>
-          </Card>
-          <Card size={.5} title="Other stuff">
-              <H size={3}>Recognition</H>
-                <p className="black-70 f6 lh-copy mb4">
-                  From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews and podcasts if that's your thing.
-                </p>
-                <div className="mb4 mt0">
-                  <Button
-                    href="https://davidsilva.co/podcast/dennis-cortes-how-to-find-focus-and-the-challenges-of-ux-in-product-design/"
-                    name="Always Sunday" />
-                  <Button
-                    href="https://daily.bandcamp.com/2018/05/23/best-new-ambient-may-2018/"
-                    name="Bandcamp" />
-                  <Button
-                    href="https://www.typewolf.com/site-of-the-day/taste-notes"
-                    name="Typewolf" />
-                  <Button
-                    href="http://www.creative-portfolios.com/portfolio_page/dennis-cortes/"
-                    name="Creative Port" />
-                  <Button
-                    href="https://sitesee.co/sites/taste-notes"
-                    name="Site See" />
-                  <Button
-                    href="https://www.youtube.com/watch?v=8vTTJ-W-Axc&feature=youtu.be"
-                    name="ta–lk" />
-                  <Button
-                    href="https://365awesomedesigners.com/dennis-cortes/"
-                    name="365 Designers" />
-                  <Button
-                    href="https://www.youtube.com/watch?v=XWLhtUGbQwk&t=1s"
-                    name="Logomarked" />
-                </div>
-              <H size={3}>Outside of Work</H>
-              <p className="black-70 f6 lh-copy mb4">
-                When I'm not working on design, I mainly work on new music under the alias Cordio. Besides that you'll find me spending time with my dog and my
-                girlfriend, traveling, making pour overs, learning, playing video games, and eating food. My girlfriend and I make physical products and a podcast
-                (where we talk about the crappy things in everyday life) in our free time.
-              </p>
-              <p className="black-70 f6 lh-copy mb4">
-                I used to more often then now since I found this thing called a work/life balance, but every now and then I'll get the itch to design and code outside
-                of my full-time job making things that I wish existed. I also want to make more of this thing they call "friends" outside of work, so I'd love to grab
-                coffee or hop on a video call and talk the shop about music, games, code, design, life, etc. Feel free to shoot over an email and we'll figure it out!
-              </p>
-              <H size={3}>Gaming</H>
-              <p className="black-70 f6 lh-copy mb4">
-                Always down to play some multiplayer games and chat, feel free to add me! Mortal Kombat 11, Rocket League, and Fortnite are my go-to online games currently.
-                My PSN is fromcortes :)
-              </p>
-          </Card>
+          </Card> */}
         </div>
       </div>
     );
