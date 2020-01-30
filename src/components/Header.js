@@ -23,10 +23,9 @@ class Header extends Component {
             Tools <br />
             <span className="absolute right-1 tc top-1 ttu" style={{"fontSize" : "8px", "letterSpacing" : "0px"}}>soon</span>
           </span>
-          <span className="black-30 dib-ns dn f7 fw6 relative ttu tracked link mr4">
+          <a href="/music" className="black-70 dib-ns dn hover-light-purple f7 fw6 relative ttu tracked link mr4 up">
             Music <br />
-            <span className="absolute right-1 tc top-1 ttu" style={{"fontSize" : "8px", "letterSpacing" : "0px"}}>soon</span>
-          </span>
+          </a>
           <a href="mailto:hi@cortes.us" className="black-70 f7 fw6 hover-light-purple ttu tracked link up">
             Contact
           </a>

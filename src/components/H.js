@@ -29,7 +29,7 @@ class Header extends Component {
     });
 
     if (size === 1 ) {
-      var classes = ({'black-70 f2 fw6 mb2': true});
+      var classes = ({'black-70 f4 fw7 mb0': true});
     }
 
     if (size === 2 ) {

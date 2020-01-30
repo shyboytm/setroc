@@ -124,6 +124,7 @@ class Home extends Component {
                 Designer at <Link href="https://vrasa.com">Vrasa</Link>
                 <span className="b black-30 db f7 nt1 nb2">2013-2014</span>
               </Item>
+              <div className="h4"></div>
             </ul>
           </Card>
 

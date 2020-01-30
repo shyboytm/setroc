@@ -9,9 +9,14 @@ class App extends Component {
     const hm07Artwork = require("../../img/hm-07-album-artwork.png");
     const hm06Artwork = require("../../img/hm-06-album-artwork.png");
     const hm05Artwork = require("../../img/hm-05-album-artwork.png");
+    const hm04Artwork = require("../../img/hm-04-album-artwork.png");
+    const vertintroArtwork = require("../../img/vertintro-cover.jpg");
+    const hm03Artwork = require("../../img/hm-03-album-artwork.png");
+    const hm02Artwork = require("../../img/hm-02-album-artwork.png");
+    const hm01Artwork = require("../../img/hm-01-album-artwork.jpg");
 
     return (
-      <div className="blur center mw9 pa4-ns pa3">
+      <div id="albums" className="blur center mw9 pa4-ns pa3">
         <div className="mv5 tc">
           <svg fill="rgba(0,0,0,0.7)" version="1.1" x="0px" y="0px" height="40" viewBox="0 0 288 71.89">
             <circle cx="18" cy="17.89" r="9"/>
@@ -61,67 +66,75 @@ class App extends Component {
             </div>
         </div>
 
-        <a href="/music/hm-07"className="dib fl link pl4-ns mb4 w-25-l w-33-m w-100">
-          <img src={hm07Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/hm-08" className="album dib fl link pl4-ns mb4 pointer w-25-l w-33-m w-100">
+          <img src={hm07Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>HM-07</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/hm-08" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 
-        <a href="/music/hm-06"className="dib fl pl4-ns mb4 link w-25-l w-33-m w-100">
-          <img src={hm06Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/hm-07" className="album dib fl link pl4-ns mb4 pointer w-25-l w-33-m w-100">
+          <img src={hm07Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
+            <H size={1}>HM-07</H>
+            <a href="https://songwhip.com/album/cordio/hm-07" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          </div>
+        </a>
+
+        <a href="https://songwhip.com/album/cordio/hm-06" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
+          <img src={hm06Artwork} alt="HM-06 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>HM-06</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/hm-06" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 
-        <a href="/music/hm-06"className="dib fl pl4-ns mb4 link w-25-l w-33-m w-100">
-          <img src={hm05Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/hm-05" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
+          <img src={hm05Artwork} alt="HM-05 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>HM-05</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/hm-05" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 
-        <a href="/music/hm-06"className="dib fl pl4-ns mb4 link w-25-l w-33-m w-100">
-          <img src={hm06Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/hm-04" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
+          <img src={hm04Artwork} alt="HM-06 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>HM-04</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/hm-04" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 
-        <a href="/music/hm-06"className="dib fl pl4-ns mb4 link w-25-l w-33-m w-100">
-          <img src={hm06Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/vertintro" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
+          <img src={vertintroArtwork} alt="Vertintro Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>Vertintro</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/vertintro" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 
-        <a href="/music/hm-06"className="dib fl pl4-ns mb4 link w-25-l w-33-m w-100">
-          <img src={hm06Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/hm-03" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
+          <img src={hm03Artwork} alt="HM-03 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>HM-03</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/hm-03" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 
-        <a href="/music/hm-06"className="dib fl pl4-ns mb4 link w-25-l w-33-m w-100">
-          <img src={hm06Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/hm-02" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
+          <img src={hm02Artwork} alt="HM-02 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>HM-02</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/hm-02" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 
-        <a href="/music/hm-06"className="dib fl pl4-ns mb4 link w-25-l w-33-m w-100">
-          <img src={hm06Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white dim shadow" />
-          <div className="tc">
+        <a href="https://songwhip.com/album/cordio/hm-01" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
+          <img src={hm01Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="tl">
             <H size={1}>HM-01</H>
-            <span className="black-50 f6">Design, Direction, Composer</span>
+            <a href="https://songwhip.com/album/cordio/hm-01" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
 

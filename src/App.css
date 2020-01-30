@@ -18,6 +18,7 @@ body {
 .bg-gradient     { background-color: #b7b7b7; -webkit-animation: random 20s infinite; animation: random 20s infinite; transition: all 20s ease-in-out; }
 .bg-text-clip    { -webkit-text-fill-color: transparent; background-image: linear-gradient(75deg, #00DBDE 0%, #FC00FF 50%, #00DBDE 100%); -webkit-background-clip: text;background-size: 200% auto; }
 .card            { animation: fadeIn 1s ease-in-out both; }
+.album           { animation: fadeIn 1.5s ease-in-out both; }
 .lh-copy         { line-height: 1.7rem; }
 .link-inline     { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
 .shadow          { box-shadow: 0px 24px 24px rgba(0, 0, 0, .03); }
@@ -26,7 +27,9 @@ body {
 .spin            { -webkit-animation:spin 3s ease-in-out infinite; -moz-animation:spin 3s ease-in-out infinite; animation:spin 3s ease-in-out infinite; }
 .top--4          { top: -4rem; }
 .up              { transition: all .2s ease-in-out !important; }
-.up:hover        { transform: translateY(-3px); }
+.up:hover        { transform: translateY(-5px); }
+.right           { transition: all .2s ease-in-out !important; }
+.right:hover     { transform: translateX(3px); }
 
 
 
@@ -50,6 +53,25 @@ body {
 #list .card:nth-child(17) { animation-delay: 4s; }
 #list .card:nth-child(18) { animation-delay: 4.25s; }
 #list .card:nth-child(19) { animation-delay: 4.5s; }
+
+#albums .album:nth-child(2) { animation-delay: .25s; }
+#albums .album:nth-child(3) { animation-delay: .5s; }
+#albums .album:nth-child(4) { animation-delay: .75s; }
+#albums .album:nth-child(5) { animation-delay: 1s; }
+#albums .album:nth-child(6) { animation-delay: 1.25s; }
+#albums .album:nth-child(7) { animation-delay: 1.5s; }
+#albums .album:nth-child(8) { animation-delay: 1.75s; }
+#albums .album:nth-child(9) { animation-delay: 2s; }
+#albums .album:nth-child(10) { animation-delay: 2.25s; }
+#albums .album:nth-child(11) { animation-delay: 2.5s; }
+#albums .album:nth-child(12) { animation-delay: 2.75s; }
+#albums .album:nth-child(13) { animation-delay: 3.00s; }
+#albums .album:nth-child(14) { animation-delay: 3.25s; }
+#albums .album:nth-child(15) { animation-delay: 3.5s; }
+#albums .album:nth-child(16) { animation-delay: 3.75s; }
+#albums .album:nth-child(17) { animation-delay: 4s; }
+#albums .album:nth-child(18) { animation-delay: 4.25s; }
+#albums .album:nth-child(19) { animation-delay: 4.5s; }
 
 @keyframes fadeIn {
 	from {
