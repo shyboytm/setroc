@@ -6,14 +6,15 @@ import H from '../../components/H';
 class App extends Component {
   render() {
 
+    const hm08Artwork = require("../../img/hm-08-album-artwork.png");
     const hm07Artwork = require("../../img/hm-07-album-artwork.png");
     const hm06Artwork = require("../../img/hm-06-album-artwork.png");
     const hm05Artwork = require("../../img/hm-05-album-artwork.png");
     const hm04Artwork = require("../../img/hm-04-album-artwork.png");
-    const vertintroArtwork = require("../../img/vertintro-cover.jpg");
+    const vertintroArtwork = require("../../img/vertintro-cover.png");
     const hm03Artwork = require("../../img/hm-03-album-artwork.png");
     const hm02Artwork = require("../../img/hm-02-album-artwork.png");
-    const hm01Artwork = require("../../img/hm-01-album-artwork.jpg");
+    const hm01Artwork = require("../../img/hm-01-album-artwork.png");
 
     return (
       <div id="albums" className="blur center mw9 pa4-ns pa3">
@@ -67,9 +68,9 @@ class App extends Component {
         </div>
 
         <a href="https://songwhip.com/album/cordio/hm-08" className="album dib fl link pl4-ns mb4 pointer w-25-l w-33-m w-100">
-          <img src={hm07Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <img src={hm08Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
           <div className="tl">
-            <H size={1}>HM-07</H>
+            <H size={1}>HM-08</H>
             <a href="https://songwhip.com/album/cordio/hm-08" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
           </div>
         </a>
