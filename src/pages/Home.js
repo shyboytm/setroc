@@ -10,10 +10,8 @@ import Link from '../components/Link';
 class Home extends Component {
   render() {
 
-    const hm06Audio = require("../music/HM-06.mp3");
-    const hm07Artwork = require("../img/hm-07-album-artwork.png");
-
     const portfolioImage = require("../img/work/my-portfolio-thumbnail.png");
+    const mothershipImage = require("../img/work/mothership-portfolio-thumbnail.png");
     const daveImage = require("../img/work/dave-inc-portfolio-thumbnail.png");
     const trademarkedImage = require("../img/work/trademarked-portfolio-thumbnail.gif");
     const metalabImage = require("../img/work/metalab-portfolio-thumbnail.png");
@@ -58,13 +56,13 @@ class Home extends Component {
                   href="mailto:hi@cortes.us"
                   name="hi@cortes.us" />
                 <Button
-                  href="https://twitter.com/fromcortes"
+                  href="https://twitter.com/shyboytm"
                   name="Twitter" />
                 <Button
-                  href="https://instagram.com/fromcortes"
+                  href="https://instagram.com/shyboytm"
                   name="Instagram" />
                 <Button
-                  href="https://dribbble.com/fromcortes"
+                  href="https://dribbble.com/shyboytm"
                   name="Dribbble" />
                 <Button
                   href="https://youtube.com/cortesarts"
@@ -87,6 +85,9 @@ class Home extends Component {
               </Item>
               <Item>
                 Producing beat music as <Link href="/music">Cordio</Link>
+              </Item>
+              <Item>
+                Creating a community at <Link herf="https://la.cortes.us">LA Music Group</Link>
               </Item>
               <Item>
                 Making physical products at <Link href="https://trademarked.store">Trademarked</Link>
@@ -163,12 +164,12 @@ class Home extends Component {
               <p className="black-70 f6 lh-copy mb4">
                 When I'm not working on design, I mainly work on new music under the alias Cordio. Besides that you'll find me spending time with my dog and my
                 girlfriend, traveling, making pour overs, learning, playing video games, and eating food. My girlfriend and I make physical products and a podcast
-                (where we talk about the crappy things in everyday life) in our free time.
+                in our free time.
               </p>
               <p className="black-70 f6 lh-copy mb4">
-                I used to more often then now since I found this thing called a work/life balance, but every now and then I'll get the itch to design and code outside
-                of my full-time job making things that I wish existed. I also want to make more of this thing they call "friends" outside of work, so I'd love to grab
-                coffee or hop on a video call and talk the shop about music, games, code, design, life, etc. Feel free to shoot over an email and we'll figure it out!
+                I used to more often since I found this thing called a work/life balance, but every now and then I'll get the itch to design and code outside
+                of my full-time job making things that I wish existed. I'd love to grab coffee or hop on a video call and talk the shop about music, games, code, 
+                design, life, etc. Feel free to shoot over an email!
               </p>
               {/* <H size={3}>Gaming</H>
               <p className="black-70 f6 lh-copy mb4">
@@ -185,6 +186,12 @@ class Home extends Component {
                 image={portfolioImage}
                 name="My Portfolio"
                 description="An overview of the type of work I do and the work that I can show publicly." />
+              <ImageCard
+                color="dark-blue"
+                href="https://mothership.com"
+                image={mothershipImage}
+                name="Mothership"
+                description="My full-time job, where I lead the product design team to ship things." />
               <ImageCard
                 color="green"
                 href="https://dave.com"
