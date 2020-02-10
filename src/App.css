@@ -21,6 +21,7 @@ body {
 .album           { animation: fadeIn 1.5s ease-in-out both; }
 .lh-copy         { line-height: 1.7rem; }
 .link-inline     { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
+.ls-fix          { letter-spacing: -1.1px; }
 .shadow          { box-shadow: 0px 24px 24px rgba(0, 0, 0, .03); }
 .shadow-colored  { box-shadow: 0px 16px 24px rgba(122, 33, 130, .1); }
 .shine           { -webkit-animation: shine 5s linear infinite; }
