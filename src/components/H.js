@@ -45,7 +45,7 @@ class Header extends Component {
     }
 
     if (size === 6 ) {
-      var classes = ({'black-70 f5 fw6 ls-fix mt0 mb2': true});
+      var classes = ({'black-70 f5 fw6 mt0 mb2': true});
     }
 
     this.headerTag = chooseHeaderTag(size);

@@ -68,74 +68,119 @@ class App extends Component {
         </div>
 
         <a href="https://songwhip.com/album/cordio/hm-08" className="album dib fl link pl4-ns mb4 pointer w-25-l w-33-m w-100">
-          <img src={hm08Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-08</H>
-            <a href="https://songwhip.com/album/cordio/hm-08" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <img src={hm08Artwork} alt="HM-08 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-08</H>
+              <a href="https://songwhip.com/album/cordio/hm-08" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-08" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/hm-07" className="album dib fl link pl4-ns mb4 pointer w-25-l w-33-m w-100">
           <img src={hm07Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-07</H>
-            <a href="https://songwhip.com/album/cordio/hm-07" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-07</H>
+              <a href="https://songwhip.com/album/cordio/hm-07" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-07" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/hm-06" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
           <img src={hm06Artwork} alt="HM-06 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-06</H>
-            <a href="https://songwhip.com/album/cordio/hm-06" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-06</H>
+              <a href="https://songwhip.com/album/cordio/hm-06" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-05" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/hm-05" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
           <img src={hm05Artwork} alt="HM-05 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-05</H>
-            <a href="https://songwhip.com/album/cordio/hm-05" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-05</H>
+              <a href="https://songwhip.com/album/cordio/hm-05" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-05" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/hm-04" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
-          <img src={hm04Artwork} alt="HM-06 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-04</H>
-            <a href="https://songwhip.com/album/cordio/hm-04" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <img src={hm04Artwork} alt="HM-04 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-04</H>
+              <a href="https://songwhip.com/album/cordio/hm-04" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-04" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/vertintro" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
           <img src={vertintroArtwork} alt="Vertintro Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>Vertintro</H>
-            <a href="https://songwhip.com/album/cordio/vertintro" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>Vertintro</H>
+              <a href="https://songwhip.com/album/cordio/vertintro" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/vertintro" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/hm-03" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
           <img src={hm03Artwork} alt="HM-03 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-03</H>
-            <a href="https://songwhip.com/album/cordio/hm-03" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-03</H>
+              <a href="https://songwhip.com/album/cordio/hm-03" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-03" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/hm-02" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
           <img src={hm02Artwork} alt="HM-02 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-02</H>
-            <a href="https://songwhip.com/album/cordio/hm-02" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-02</H>
+              <a href="https://songwhip.com/album/cordio/hm-02" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-02" name="Buy" />
+            </div>
           </div>
         </a>
 
         <a href="https://songwhip.com/album/cordio/hm-01" className="album dib fl pl4-ns mb4 link pointer w-25-l w-33-m w-100">
-          <img src={hm01Artwork} alt="HM-07 Album Artwork" className="ba bw2 br3 b--white shadow up" />
-          <div className="tl">
-            <H size={1}>HM-01</H>
-            <a href="https://songwhip.com/album/cordio/hm-01" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+          <img src={hm01Artwork} alt="HM-01 Album Artwork" className="ba bw2 br3 b--white shadow up" />
+          <div className="flex items-center justify-between">
+            <div className="tl">
+              <H size={1}>HM-01</H>
+              <a href="https://songwhip.com/album/cordio/hm-01" className="black-50 dib link hover-light-purple mb4 right" target="blank">Stream album ↗</a>
+            </div>
+            <div className="nr2 nt2">
+              <Button href="https://cordio.bandcamp.com/album/hm-01" name="Buy" />
+            </div>
           </div>
         </a>
 
