@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 import H from './H';
 
-class Card extends Component {
+class ImageCard extends Component {
   render() {
 
     const {
@@ -43,13 +43,13 @@ class Card extends Component {
 
     return (
       <div className={classNames(classes)}>
-        <a href={href} target="_blank" rel="nofollow" className="bg-white-30 dib br4 link pointer shadow up">
+        <a href={href} target="_blank" rel="nofollow" className="dib br4 link pointer up">
           <div className="br3 grow relative w-100">
-            <img className="br3 shadow" src={image} alt="sounder" />
+            <img className="br3 shadow" src={image} alt={name} />
           </div>
-          <div className="ph3 pt2 pb3" >
-            <H size={6} color={color}>{name}</H>
-            <p className="black-40 f6 lh-copy mv0">
+          <div className="pt3 pb4" >
+            <H size={3} color={color}>{name}</H>
+            <p className="black-70 f5 lh-copy mv0">
               {description}
             </p>
           </div>
@@ -59,4 +59,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default ImageCard;

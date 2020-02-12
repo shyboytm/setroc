@@ -35,19 +35,19 @@ class Home extends Component {
         <div id="list" className="content-end flex flex-wrap">
           <Card size={2} title="Welcome" href="mailto:hi@cortes.us" buttonText="hi@cortes.us">
             <H size={2}>I'm Dennis Cortés <span className="absolute black spin ml2">👋</span></H>
-            <p className="black-70 f6 lh-copy">
+            <p className="black-70 lh-copy">
               Designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico.
               I grew up mainly in South Florida and studied print design in college, learning code, product, and
               business on my own time. I love working day-to-day on projects that require multidisciplinary
               skill sets solving complex issues that make the lives of people better. I've been designing for
               8+ years and coding for 4+ years.
             </p>
-            <p className="black-70 f6 lh-copy">
+            <p className="black-70 lh-copy">
               I specialize in design, mainly working in product design for both the web and mobile apps. I have extensive
               experience with both visual and interaction design, design systems, user research, branding, and shipping products.
               I am also a front-end engineer focusing on React, CSS architecture, and component systems.
             </p>
-            <p className="black-70 f6 lh-copy">
+            <p className="black-70 lh-copy">
               Got a project I can help with? Let's chat!
             </p>
             <div className="mv4">
@@ -81,13 +81,13 @@ class Home extends Component {
             <H size={2}>Currently</H>
             <ul className="cf list pl0 mb4">
               <Item>
-                Lead Product Designer at <Link herf="https://mothership.com">Mothership</Link>
+                Lead Product Designer at <Link href="https://mothership.com">Mothership</Link>
               </Item>
               <Item>
                 Producing beat music as <Link href="/music">Cordio</Link>
               </Item>
               <Item>
-                Creating a community at <Link herf="https://la.cortes.us">LA Music Group</Link>
+                Creating a community at <Link href="https://la.cortes.us">LA Music Group</Link>
               </Item>
               <Item>
                 Making physical products at <Link href="https://trademarked.store">Trademarked</Link>
@@ -131,7 +131,7 @@ class Home extends Component {
 
           <Card size={3} title="Other stuff">
               <H size={3}>Recognition</H>
-                <p className="black-70 f6 lh-copy mb4">
+                <p className="black-70 lh-copy mb4">
                   From awards to interviews, here are some folks who think my work and I are pretty cool. I'm always open to interviews and podcasts if that's your thing.
                 </p>
                 <div className="mb4 mt0">
@@ -161,18 +161,18 @@ class Home extends Component {
                     name="Logomarked" />
                 </div>
               <H size={3}>Outside of Work</H>
-              <p className="black-70 f6 lh-copy mb4">
+              <p className="black-70 lh-copy mb4">
                 When I'm not working on design, I mainly work on new music under the alias Cordio. Besides that you'll find me spending time with my dog and my
                 girlfriend, traveling, making pour overs, learning, playing video games, and eating food. My girlfriend and I make physical products and a podcast
                 in our free time.
               </p>
-              <p className="black-70 f6 lh-copy mb4">
+              <p className="black-70 lh-copy mb4">
                 I used to more often since I found this thing called a work/life balance, but every now and then I'll get the itch to design and code outside
                 of my full-time job making things that I wish existed. I'd love to grab coffee or hop on a video call and talk the shop about music, games, code, 
                 design, life, etc. Feel free to shoot over an email!
               </p>
               {/* <H size={3}>Gaming</H>
-              <p className="black-70 f6 lh-copy mb4">
+              <p className="black-70 lh-copy mb4">
                 Always down to play some multiplayer games and chat, feel free to add me! Mortal Kombat 11, Rocket League, and Fortnite are my go-to online games currently.
                 My PSN is fromcortes :)
               </p> */}
@@ -298,38 +298,38 @@ class Home extends Component {
           </Card>
 
           {/* <Card size={.5} title="Approach">
-            <p className="black-70 f6 lh-copy mb4">
+            <p className="black-70 lh-copy mb4">
               I believe all work is more than just technique. Thought process is driven by a combination
               of knowledge, ethics, and philosophy. I think about these topics a lot and am always trying
               to refine and improve, here's how I currently approach my work and process.
             </p>
             <H size={3}>Inclusion</H>
-            <p className="black-70 f6 lh-copy mb4">
+            <p className="black-70 lh-copy mb4">
               People are the essence of the technology industry. Without people, we would have no clear
               purpose in our work. I believe in helping people feel welcomed and included when it comes
               to my work and who I am as a person.
             </p>
             <H size={3}>Accessibility</H>
-            <p className="black-70 f6 lh-copy mb4">
+            <p className="black-70 lh-copy mb4">
               Unfortunately overlooked nowadays, accessibility is a very important aspect of my work.
               I believe in equal access to technology and providing the tools and refinements to style,
               typography, and code neccessary to do so.
             </p>
             <H size={3}>Simplicity</H>
-            <p className="black-70 f6 lh-copy mb4">
+            <p className="black-70 lh-copy mb4">
               Although an overused term, Simplicity is at the heart of my goals in my work. I believe
               in a simple approach with a touch of uniqueness, developing work into the purest form
               with tasteful novelty.
             </p>
             <H size={3}>Transparency</H>
-            <p className="black-70 f6 lh-copy mb4">
+            <p className="black-70 lh-copy mb4">
               Openly and actively sharing my process to help others is a core element of my process. I
               always try my best to share what I can for the benefit of others. I believe this is also
               important in a workplace setting in both positive and negative situations for more empathy
               and understanding.
             </p>
             <H size={3}>Ethics</H>
-            <p className="black-70 f6 lh-copy mb4">
+            <p className="black-70 lh-copy mb4">
               I believe that morals and ethics in design play a large part in process. Both business
               and experience decisions based on the greater good of users makes a better, more
               personable product and brand.
