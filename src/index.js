@@ -7,15 +7,14 @@ import './index.css';
 import App from './App';
 import Home from './pages/Home';
 import Music from './pages/music/Music';
-
-import HM07 from './pages/music/HM-07';
+import Tools from './pages/tools/Tools';
 
 ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="/music" component={Music} />
-      <Route path="/music/hm-07" component={HM07} />
+      <Route path="/tools" component={Tools} />
     </Route>
   </Router>,
   document.getElementById('root')

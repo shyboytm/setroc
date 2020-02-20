@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Button from '../../components/Button';
 import H from '../../components/H';
 
-class App extends Component {
+class Music extends Component {
   render() {
 
     const hm08Artwork = require("../../img/hm-08-album-artwork.png");
@@ -189,4 +189,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Music;
