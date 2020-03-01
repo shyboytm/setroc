@@ -27,9 +27,9 @@ body {
 .shine           { -webkit-animation: shine 5s linear infinite; }
 .spin            { -webkit-animation:spin 3s ease-in-out infinite; -moz-animation:spin 3s ease-in-out infinite; animation:spin 3s ease-in-out infinite; }
 .top--4          { top: -4rem; }
-.up              { transition: all .15s ease-in-out !important; }
+.up              { transition: all .25s ease-in-out !important; }
 .up:hover        { transform: translateY(-5px); }
-.right           { transition: all .15s ease-in-out !important; }
+.right           { transition: all .25s ease-in-out !important; }
 .right:hover     { transform: translateX(3px); }
 
 

@@ -20,18 +20,30 @@ class Tools extends Component {
             </p>
         </div>
         <div>
-          <div id ="everydayCarry" className="mt5 mv4">
+          <div id ="everydayUse" className="mt5 mv4">
             <div className="pl3">
-              <H size={3}>Everyday Carry</H>
+              <H size={3}>Everyday Use</H>
+              <p className="black-70 lh-copy mt2 mb0">Stuff I use almost every day in my personal life</p>
             </div>
             <hr className="b--black-10 mt3" />
           </div>
-          <ImageCard
-            color="dark-blue"
-            href="https://mothership.com"
-            image={mothershipImage}
-            name="Tesla Model 3"
-            description="My daily driver car and personal project that I work on in my spare time. I have the base model with black interior." />
+          <ul className="content-end flex flex-wrap list pl0">
+            <ImageCard
+              href="https://ts.la/dennis60542"
+              image={mothershipImage}
+              name="Tesla Model 3"
+              description="My daily driver car and personal project that I work on in my spare time. I have the base model with black interior." />
+            <ImageCard
+              href="https://ts.la/dennis60542"
+              image={mothershipImage}
+              name="Tesla Model 3"
+              description="My daily driver car and personal project that I work on in my spare time. I have the base model with black interior." />
+            <ImageCard
+              href="https://ts.la/dennis60542"
+              image={mothershipImage}
+              name="Tesla Model 3"
+              description="My daily driver car and personal project that I work on in my spare time. I have the base model with black interior." />
+          </ul>
         </div>
       </div>
     );
