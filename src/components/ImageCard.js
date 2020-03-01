@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 
+import Button from './Button';
 import H from './H';
 
 class ImageCard extends Component {
@@ -8,17 +9,17 @@ class ImageCard extends Component {
 
     const {
       children,
-      color,
       description,
       href,
       image,
       name,
+      price,
       size
     } = this.props;
 
     var classes = ({
       // Defaults
-      'card items-start pr4-l pr3-m pb4 relative w-33-l w-50-m w-100': true,
+      'card items-start pr4-l pr3-m pb4 relative w-25-l w-50-m w-100': true,
 
       // Type Color
       // 'blue':    color === 'blue',
@@ -48,8 +49,13 @@ class ImageCard extends Component {
             <img className="br3 shadow" src={image} alt={name} />
           </div>
           <div className="pt3 pb4" >
-            <H size={3} color={color}>{name}</H>
-            <p className="black-70 f5 lh-copy mv0">
+            <div className="flex items-center justify-between">
+              <H size={3}>{name}</H>
+              <div className="nr2">
+                <Button href={href} name="Buy" />
+              </div>
+            </div>
+            <p className="black-70 f5 lh-copy mt2 mb0">
               {description}
             </p>
           </div>
