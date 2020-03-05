@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import Button from '../../components/Button';
 import H from '../../components/H';
 import ImageCard from '../../components/ImageCard';
 
@@ -14,10 +13,11 @@ class Tools extends Component {
     const fieldNotes      = require("../../img/tools/everyday/field-notes-table-with-coffee.png");
     const planner         = require("../../img/tools/everyday/planner-held-by-woman.png");
     const backpack        = require("../../img/tools/everyday/incase-city-backpack-worn-outside.png");
-    const macbookAir      = require("../../img/tools/everyday/macbook-air-on-wooden-table.png");
-    const macbookPro      = require("../../img/tools/everyday/macbook-pro-on-desk-with-books.png");
-    const mxMasterII      = require("../../img/tools/everyday/logitech-mouse-mx-on-table.png");
-    const mxVertical      = require("../../img/tools/everyday/logitech-vertical-on-table.png");
+    const macbookAir      = require("../../img/tools/setup/macbook-air-on-wooden-table.png");
+    const macbookPro      = require("../../img/tools/setup/macbook-pro-on-desk-with-books.png");
+    const mxMasterII      = require("../../img/tools/setup/logitech-mouse-mx-on-table.png");
+    const mxVertical      = require("../../img/tools/setup/logitech-vertical-on-table.png");
+    const airpods         = require("../../img/tools/setup/airpods-held-on-hand-blurred-background.png");
     
     return (
       <div id="tools" className="blur center mw9 pa4-ns pa3">
@@ -106,6 +106,11 @@ class Tools extends Component {
               href="https://amzn.to/2TAf1u3"
               image={mxVertical}
               name="Logitech Vertical Mouse"
+              description="My work mouse that I use at Mothership at my desk setup." />
+            <ImageCard
+              href="https://amzn.to/2ToRddT"
+              image={airpods}
+              name="Airpods Pro"
               description="My work mouse that I use at Mothership at my desk setup." />
           </ul>
         </div>
