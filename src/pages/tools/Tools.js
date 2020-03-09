@@ -18,12 +18,15 @@ class Tools extends Component {
     const mxMasterII      = require("../../img/tools/setup/logitech-mouse-mx-on-table.png");
     const mxVertical      = require("../../img/tools/setup/logitech-vertical-on-table.png");
     const airpods         = require("../../img/tools/setup/airpods-held-on-hand-blurred-background.png");
+    const dellMonitor     = require("../../img/tools/setup/dell-monitor-attached-to-white-desk.png");
+    const lgMonitor       = require("../../img/tools/setup/lg-monitor-on-white-desk-with-lights.png");
+    const hyperdrive      = require("../../img/tools/setup/hyperdrive-usb-c-hub-drive.png");
     
     return (
       <div id="tools" className="blur center mw9 pa4-ns pa3">
 
         <div className="mb6 mt5 tc">
-            <h1 className="black-90 f1 fw9 ttu">Tools</h1>
+            <h1 className="black-70 f1 fw9 ttu">Tools</h1>
             <p className="center black-70 f4 lh-copy measure mt4">
                 These are the things I use and love in my personal and work life. Many folks are 
                 always asking about what I recommend so thought it would be better to 
@@ -96,7 +99,7 @@ class Tools extends Component {
               href="https://amzn.to/3csUmkg"
               image={mxMasterII}
               name="Logitech MX Master II"
-              description="My personal mouse that I use on my setup at home when I'm at my desk." />
+              description="My personal mouse that I use on my setup at home when I'm at my desk. Lots of nice extra features." />
             <ImageCard
               href="https://amzn.to/38gXcWk"
               image={macbookPro}
@@ -106,12 +109,27 @@ class Tools extends Component {
               href="https://amzn.to/2TAf1u3"
               image={mxVertical}
               name="Logitech Vertical Mouse"
-              description="My work mouse that I use at Mothership at my desk setup." />
+              description="My work mouse that I use at Mothership at my desk setup. I have bad wrists so this really helps out." />
             <ImageCard
               href="https://amzn.to/2ToRddT"
               image={airpods}
               name="Airpods Pro"
-              description="My work mouse that I use at Mothership at my desk setup." />
+              description="My choice of headphones when I'm not making music. As a musician I highly recommend the sound quality." />
+            <ImageCard
+              href="https://amzn.to/3aBsuc4"
+              image={dellMonitor}
+              name="Dell P2715Q Monitor"
+              description="Monitor I use at my home setup for design, code, and gaming. Great for the price point." />
+            <ImageCard
+              href="https://amzn.to/2TNS6Mf"
+              image={lgMonitor}
+              name='LG Ultrafine 27"'
+              description="Monitor I use at work. Probably my favorite display I've ever used." />
+            <ImageCard
+              href="https://amzn.to/2PVWacc"
+              image={hyperdrive}
+              name="HyperDrive USB-C Hub"
+              description="A necessary evil for the days of the Apple dongle life. This has the most extensive connections from what I saw." />
           </ul>
         </div>
 
