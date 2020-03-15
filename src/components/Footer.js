@@ -72,7 +72,7 @@ class Footer extends Component {
               name="RAWG" />
           </div>
         </div>
-        <p className="bg-gradient black-30 f7 pv2 mb0 tc w-100">© 2019 Dennis Cortés All Rights Reserved</p>
+        <p className="bg-gradient black-30 f7 pv2 mb0 tc w-100">© 2012-2020 Dennis Cortés All Rights Reserved</p>
       </footer>
     );
   }

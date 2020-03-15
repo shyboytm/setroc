@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
 
+import Button from '../../components/Button';
 import H from '../../components/H';
 import ImageCard from '../../components/ImageCard';
 
 class Tools extends Component {
   render() {
     
-    const teslaModel3     = require("../../img/tools/everyday/tesla-model-3-satin-gray-wrap.png");
+    // Everyday
+    const teslaModel3     = require("../../img/tools/everyday/tesla-model-3-dechromed-in-parking-lot.png");
     const iphone          = require("../../img/tools/everyday/iphone-xs-max-on-table.png");
     const appleWatch      = require("../../img/tools/everyday/apple-watch-series-4-on-wrist.png");
     const gucciWallet     = require("../../img/tools/everyday/gucci-bee-card-wallet.png");
     const fieldNotes      = require("../../img/tools/everyday/field-notes-table-with-coffee.png");
     const planner         = require("../../img/tools/everyday/planner-held-by-woman.png");
     const backpack        = require("../../img/tools/everyday/incase-city-backpack-worn-outside.png");
+
+    // Setup
     const macbookAir      = require("../../img/tools/setup/macbook-air-on-wooden-table.png");
     const macbookPro      = require("../../img/tools/setup/macbook-pro-on-desk-with-books.png");
     const mxMasterII      = require("../../img/tools/setup/logitech-mouse-mx-on-table.png");
@@ -21,22 +25,45 @@ class Tools extends Component {
     const dellMonitor     = require("../../img/tools/setup/dell-monitor-attached-to-white-desk.png");
     const lgMonitor       = require("../../img/tools/setup/lg-monitor-on-white-desk-with-lights.png");
     const hyperdrive      = require("../../img/tools/setup/hyperdrive-usb-c-hub-drive.png");
+    const altKeyboard     = require("../../img/tools/setup/gray-alt-keyboard-next-to-mouse-and-laptop.png");
+    const appleKeyboard   = require("../../img/tools/setup/apple-keyboard-on-yellow-desk-with-accessories.png");
+    const ipadPro         = require("../../img/tools/setup/ipad-pro-held-above-busy-desk.png");
+    const applePencil     = require("../../img/tools/setup/apple-pencil-on-black-background.png");
+    const jarvisDesk      = require("../../img/tools/setup/jarvis-standing-desk-next-to-plants.png");
+    const supremeCase     = require("../../img/tools/setup/supreme-pelican-1060-case-on-wooden-planks.png");
+    
+    // Music
+    const ableton         = require("../../img/tools/music/ableton-on-laptop-on-bed-with-headphones.png");
+    const op1             = require("../../img/tools/music/op-1-on-table-with-plant.png");
+    const opz             = require("../../img/tools/music/op-z-on-table-with-leather-case-under.png");
+    const po33            = require("../../img/tools/music/po-33-ko-held-with-turntable-and-cables.png");
     
     return (
       <div id="tools" className="blur center mw9 pa4-ns pa3">
 
-        <div className="mb6 mt5 tc">
+        <div className="mb6-ns mt5-ns mt4 mb5 tc-ns tl">
             <h1 className="black-70 f1 fw9 ttu">Tools</h1>
-            <p className="center black-70 f4 lh-copy measure mt4">
+            <p className="center black-70 f4-ns f5 lh-copy measure mt4">
                 These are the things I use and love in my personal and work life. Many folks are 
                 always asking about what I recommend so thought it would be better to 
                 collect these in one spot for easy access.
             </p>
+            <div className="db mb6-l mb4-m mb3 mt5">
+              <a href="#everydayUse" target="_self" rel="nofollow" className="ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up">
+                <span>Everyday Use</span>
+              </a>
+              <a href="#setup" target="_self" rel="nofollow" className="ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up">
+                <span>Setup</span>
+              </a>
+              <a href="#music" target="_self" rel="nofollow" className="ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up">
+                <span>Music</span>
+              </a>
+            </div>
         </div>
 
         <div id ="everydayUse">
           <div className="mt5 mv4">
-            <div className="pl3">
+            <div className="pl3-ns">
               <H size={2}>Everyday Use</H>
               <p className="black-70 lh-copy nt2 mb0">Stuff I use almost every day in my personal life</p>
             </div>
@@ -83,7 +110,7 @@ class Tools extends Component {
 
         <div id ="setup">
           <div className="mt5 mv4">
-            <div className="pl3">
+            <div className="pl3-ns">
               <H size={2}>Setup</H>
               <p className="black-70 lh-copy nt2 mb0">Gear and workspace stuff I use for design and code</p>
             </div>
@@ -130,6 +157,68 @@ class Tools extends Component {
               image={hyperdrive}
               name="HyperDrive USB-C Hub"
               description="A necessary evil for the days of the Apple dongle life. This has the most extensive connections from what I saw." />
+            <ImageCard
+              href="https://amzn.to/3dba5Fg"
+              image={altKeyboard}
+              name="Drop Alt Keyboard"
+              description="Mechanical keyboard that I use at my home setup. I love the small form factor, aesthetic, and customization." />
+            <ImageCard
+              href="https://amzn.to/2U1vxn6"
+              image={appleKeyboard}
+              name="Apple Keyboard"
+              description="Keyboard I use at work to not make so much noise with my mechanical keyboard. Small form factor and Apple functions are great." />
+            <ImageCard
+              href="https://amzn.to/2TR9WPt"
+              image={ipadPro}
+              name='11" iPad Pro'
+              description="Tablet of choice to use for sketching, note taking, research, and non-design/code work." />
+            <ImageCard
+              href="https://amzn.to/2TPf9Ya"
+              image={applePencil}
+              name="Apple Pencil 2"
+              description="A must-have accessory for any iPad Pro users. Great for sketching and taking notes." />
+            <ImageCard
+              href="https://amzn.to/39UdbLN"
+              image={jarvisDesk}
+              name="Jarvis Standing Desk"
+              description="My standing desk at my home setup. Very clean plus easy to install and control." />
+            <ImageCard
+              href="https://stockx.com/supreme-pelican-1060-case-black"
+              image={supremeCase}
+              name="Supreme Pelican Case"
+              description="For my desk at work, I put all my desk supplies and necessities in here to keep my space organized." />
+          </ul>
+        </div>
+        
+        <div id ="music">
+          <div className="mt5 mv4">
+            <div className="pl3-ns">
+              <H size={2}>Music</H>
+              <p className="black-70 lh-copy nt2 mb0">Software and hardware I use to produce music and beats.</p>
+            </div>
+            <hr className="b--black-10 mt3" />
+          </div>
+          <ul id="list" className="content-end flex flex-wrap list pl0">
+            <ImageCard
+              href="https://amzn.to/2TSR1nG"
+              image={ableton}
+              name="Ableton 10 Standard"
+              description="My DAW software of choice. Has a small learning barrier but worth all the functionality once you start." />
+            <ImageCard
+              href="https://amzn.to/2TVwteh"
+              image={op1}
+              name="OP-1"
+              description="My favorite hardware synth I own. Almost unlimited in what it can do and how much fun it is to use." />
+            <ImageCard
+              href="https://amzn.to/2IQin7y"
+              image={opz}
+              name="OP-Z"
+              description="A smaller, more sequencer focused version of the OP-1. Almost palm-sized plus very fun and easy to get started with." />
+            <ImageCard
+              href="https://amzn.to/2U36nok"
+              image={po33}
+              name="PO-33"
+              description="A palm-sized synth and sampler that is incredibly fun to use and a great price point for starting off." />
           </ul>
         </div>
 

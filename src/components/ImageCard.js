@@ -8,39 +8,15 @@ class ImageCard extends Component {
   render() {
 
     const {
-      children,
       description,
       href,
       image,
       name,
-      price,
-      size
     } = this.props;
 
     var classes = ({
-      // Defaults
-      'card items-start pr4-l pr3-m pb4 relative w-25-l w-50-m w-100': true,
-
-      // Type Color
-      // 'blue':    color === 'blue',
-      // 'black':   color === 'black',
+      'card items-start pr4-l pr3-m pb4-ns pb3 relative w-33-l w-50-m w-100': true
     });
-
-    if (size === 1 ) {
-      var classes = ({'card items-start pr4-l pr3-m pr0 pb4 relative w-100': true});
-    }
-
-    if (size === 2) {
-      var classes = ({'card items-start pr4-l pr3-m pr0 pb4 relative w-two-thirds-l w-50-m w-100': true});
-    }
-
-    if (size === 3) {
-      var classes = ({'card items-start pr4-l pr3-m pr0 pb4 relative w-33-l w-50-m w-100': true});
-    }
-
-    if (size === .5) {
-      var classes = ({'card items-start pr4-l pr3-m pr0 pb4 relative w-50-l w-100': true});
-    }
 
     return (
       <div className={classNames(classes)}>

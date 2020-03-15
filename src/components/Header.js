@@ -12,14 +12,14 @@ class Header extends Component {
     return (
       <div className="flex-ns pa4 justify-between items-center">
         <div className="flex items-center">
-          <Link to="/">
+          <Link to="/" className="dim">
             <Logo />
           </Link>
           <h1 style={{"fontSize" : "0"}}>Dennis Cortés</h1>
-          <a href="https://trademarked.store" target="blank" className="black-70 f7 fw6 hover-light-purple ttu tracked link mh4 mb2 up">
+          {/* <a href="https://trademarked.store" target="blank" className="black-70 f7 fw6 hover-light-purple ttu tracked link mh4 mb2 up">
             Shop
-          </a>
-          <a href="/tools" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mr4 mb2 up">
+          </a> */}
+          <a href="/tools" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mh4 mb2 up">
             Tools<br />
           </a>
           <a href="/music" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mr4 mb2 up">
