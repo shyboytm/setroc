@@ -37,6 +37,9 @@ class Tools extends Component {
     const op1             = require("../../img/tools/music/op-1-on-table-with-plant.png");
     const opz             = require("../../img/tools/music/op-z-on-table-with-leather-case-under.png");
     const po33            = require("../../img/tools/music/po-33-ko-held-with-turntable-and-cables.png");
+    const digitone        = require("../../img/tools/music/digitone-with-other-music-gear.png");
+    const launchpad       = require("../../img/tools/music/novation-launchpad-mini-on-granite-table.png");
+    const yetiMicrophone  = require("../../img/tools/music/blue-yeti-microphone-on-desk-with-plants.png");
     
     return (
       <div id="tools" className="blur center mw9 pa4-ns pa3">
@@ -219,6 +222,21 @@ class Tools extends Component {
               image={po33}
               name="PO-33"
               description="A palm-sized synth and sampler that is incredibly fun to use and a great price point for starting off." />
+            <ImageCard
+              href="https://amzn.to/2xheRQO"
+              image={digitone}
+              name="Digitone"
+              description="A synth and sequencer with a huge library of synth sounds and easy customization. Highly recommend if you need a lot synth sounds." />
+            <ImageCard
+              href="https://amzn.to/2Qzfv3d"
+              image={launchpad}
+              name="Launchpad Mini"
+              description="Great for live music pad and transition setup. Recommend for anyone wanting to get into live music for a crowd or even some friends." />
+            <ImageCard
+              href="https://amzn.to/2J8k946"
+              image={yetiMicrophone}
+              name="Blue Yeti Microphone"
+              description="Used for vocal, effect, and acoustic instrument recordings." />
           </ul>
         </div>
 

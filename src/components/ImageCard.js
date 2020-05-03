@@ -15,7 +15,7 @@ class ImageCard extends Component {
     } = this.props;
 
     var classes = ({
-      'card items-start pr4-l pr3-m pb4-ns pb3 relative w-33-l w-50-m w-100': true
+      'card items-start pr4-l pr3-m pb4-ns pb3 relative w-25-l w-50-m w-100': true
     });
 
     return (
