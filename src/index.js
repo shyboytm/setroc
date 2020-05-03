@@ -6,6 +6,7 @@ import './index.css';
 
 import App from './App';
 import Home from './pages/Home';
+import About from './pages/about/About';
 import Music from './pages/music/Music';
 import Tools from './pages/tools/Tools';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
   <Router onUpdate={() => window.scrollTo(0, 0)} history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
+      <Route path="/about" component={About} />
       <Route path="/music" component={Music} />
       <Route path="/tools" component={Tools} />
     </Route>

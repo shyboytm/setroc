@@ -29,15 +29,15 @@ class Header extends Component {
     });
 
     if (size === 1 ) {
-      var classes = ({'black-70 f4 fw7 ls-fix mb0': true});
+      var classes = ({'black-70 f4 fw6 ls-fix mb0': true});
     }
 
     if (size === 2 ) {
-      var classes = ({'black-70 f3 fw7 db ls-fix': true});
+      var classes = ({'black-70 f3 fw6 db ls-fix': true});
     }
 
     if (size === 3 ) {
-      var classes = ({'black-70 f4 fw7 ls-fix mv2': true});
+      var classes = ({'black-70 f4 fw6 ls-fix mv2': true});
     }
 
     if (size === 5 ) {
