@@ -10,7 +10,10 @@ class FullScreenWork extends Component {
 
     return (
       <div className="bg-black pa5 w-100">
-        <h1 className="white">hello</h1>
+        <h1 className="white">Eagleview</h1>
+        <p className="white-70">
+          A product that helps contractors get accurate home reports and track their projects.
+        </p>
         <div className="flex justify-between">
             <div className="w-50 pr4">
                 <img className="br3" src={image}></img>
