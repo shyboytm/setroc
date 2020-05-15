@@ -29,7 +29,7 @@ class Header extends Component {
     });
 
     if (size === 1 ) {
-      var classes = ({'black-70 f4 fw6 ls-fix mb0': true});
+      var classes = ({'black-70 f-headline ttu fw6 mb0': true});
     }
 
     if (size === 2 ) {
@@ -52,9 +52,7 @@ class Header extends Component {
     return (
       <this.headerTag
           className={classNames(classes)}>
-        <span className="black-70">
           {children}
-        </span>
       </this.headerTag>
     );
   }

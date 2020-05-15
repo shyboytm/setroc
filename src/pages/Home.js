@@ -11,6 +11,8 @@ import FullScreenWork from '../components/FullScreenWork';
 class Home extends Component {
   render() {
 
+    const dennisCortes = require("../img/dennis-cortes-product-designer.jpeg")
+
     const portfolioImage = require("../img/work/my-portfolio-thumbnail.png");
     const mothershipImage = require("../img/work/mothership-portfolio-thumbnail.png");
     const daveImage = require("../img/work/dave-inc-portfolio-thumbnail.png");
@@ -33,15 +35,53 @@ class Home extends Component {
 
     return (
       <div className="blur center mw9 pt5">
-        <div id="list" className="center content-end flex flex-wrap w-50-l w-75-m w-90">
-          <H size={2}>I'm Dennis Cortés <span className="absolute black spin ml2">👋</span></H>
-          <p className="black-70 lh-copy">
-            Designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico.
-            I grew up mainly in South Florida and studied print design in college, learning code, product, and
-            business on my own time. I love working day-to-day on projects that require multidisciplinary
-            skill sets solving complex issues that make the lives of people better. I've been designing for
-            8+ years and coding for 4+ years.
-          </p>
+        <div id="list" className="center content-end flex flex-wrap w-90">
+          <div className="flex mb6">
+            <div className="w-60-l">
+              <h1 className="db f-headline fw7 lh-title orange ttu w-100">Dennis <br />Cortes</h1>
+              <h2 className="db black-80 f-subheadline fw7 nt4 ttu">Designer that codes, teaches, and makes music</h2>
+            </div>
+            <div className="w-40">
+              <img className="br3 desaturate shadow-large" src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
+            </div>
+          </div>
+          
+          <div className="flex">
+            <div className="w-33-l pr4">
+              <p className="black-70 lh-copy">
+                I’m a designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico. I 
+                currently lead product design at Mothership, produce music as Cordio, and run my 
+                Patreon. I've been designing for 8+ years and coding for 4+ years.
+              </p>
+              <p className="black-70 lh-copy">
+                I specialize in design, mainly working in product design for both the web and 
+                mobile apps. I have extensive experience with both visual and interaction design, 
+                design systems, user research, branding, and shipping products. I also code—focusing 
+                on React, CSS architecture, and component systems.
+              </p>
+            </div>
+            <div className="w-33-l pr4">
+              <p className="black-70 lh-copy">
+                I have produced 9 albums, blending elements from electronic, ambient, jazz, lofi, and 
+                hip-hop under the alias Cordio. I also design album covers and make music for films, 
+                shows, and podcasts. Listen to all my music anywhere you stream music, or snag some 
+                on my Bandcamp.
+              </p>
+              <p className="black-70 lh-copy">
+                Through my Patreon community I create detailed tutorials on design and music production, 
+                offer my source files, and even copyright free files of my music (and more). I also curate 
+                inspiration through multiple blogs including Illustree.
+              </p>
+            </div>
+            <div className="w-33-l pr4">
+              <p className="black-70 lh-copy">
+                Find me on Patreon, Spotify, Twitter, Instagram, YouTube, Dribbble, and Github.
+              </p>
+              <p className="black-70 fw7 lh-copy orange">
+                Got a project I can help with? Let's chat!
+              </p>
+            </div>
+          </div>
           <div className="mv4">
             <div className="flex-wrap">
               <Button
