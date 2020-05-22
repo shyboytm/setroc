@@ -26,12 +26,12 @@ class ImageCard extends Component {
           </div>
           <div className="pt3 pb4" >
             <div className="flex items-center justify-between">
-              <H size={3}>{name}</H>
+              <H size={2}>{name}</H>
               <div className="nr2">
                 <Button href={href} name="View" />
               </div>
             </div>
-            <p className="black-70 f5 lh-copy mt2 mb0">
+            <p className="black-70 f5 lh-copy mt0 mb0">
               {description}
             </p>
           </div>

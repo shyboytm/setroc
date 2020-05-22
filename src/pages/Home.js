@@ -37,77 +37,66 @@ class Home extends Component {
       <div className="blur center mw9 pt5">
         <div id="list" className="center content-end flex flex-wrap w-90">
           <div className="flex mb6">
-            <div className="w-60-l">
-              <h1 className="db f-headline fw7 lh-title orange ttu w-100">Dennis <br />Cortes</h1>
-              <h2 className="db black-80 f-subheadline fw7 nt4 ttu">Designer that codes, teaches, and makes music</h2>
+            <div className="w-100-l">
+              <h1 className="db f3 fw4 lh-title mt0 nb4 w-100">Dennis Cortes</h1>
+              <h2 className="db black-70 f3 mb5 fw4">Designer that codes, teaches, and makes music</h2>
+              <div className="mv4">
+                <Button
+                  href="mailto:hi@cortes.us"
+                  name="hi@cortes.us" />
+                <Button
+                  href="https://twitter.com/shyboytm"
+                  name="Twitter" />
+                <Button
+                  href="https://instagram.com/shyboytm"
+                  name="Instagram" />
+                <Button
+                  href="https://dribbble.com/shyboytm"
+                  name="Dribbble" />
+                <Button
+                  href="https://youtube.com/cortesarts"
+                  name="YouTube" />
+                <Button
+                  href="https://soundcloud.com/cordio"
+                  name="Soundcloud" />
+                <Button
+                  href="https://github.com/fromcortes"
+                  name="Github" />
+                <Button
+                  href="https://rawg.io/@cortes/overview"
+                  name="RAWG" />
+              </div>
+              <div className="flex">
+                <div className="w-50-l pr4">
+                  <p className="black-70 lh-copy">
+                    I’m based in Los Angeles, CA from Bayamón, Puerto Rico. I currently lead product 
+                    design at Mothership, produce music as Cordio, and run my Patreon. I've been 
+                    designing for 8+ years and coding for 4+ years.
+                  </p>
+                  <p className="black-70 lh-copy">
+                    I specialize in design, mainly working in product design for both the web and 
+                    mobile apps. I have extensive experience with both visual and interaction design, 
+                    design systems, user research, branding, and shipping products. I also code—focusing 
+                    on React, CSS architecture, and component systems.
+                  </p>
+                </div>
+                <div className="w-50-l pr5">
+                  <p className="black-70 lh-copy">
+                    I have produced 9 albums, blending elements from electronic, ambient, jazz, lofi, and 
+                    hip-hop under the alias Cordio. I also design album covers and make music for films, 
+                    shows, and podcasts. Listen to all my music anywhere you stream music, or snag some 
+                    on my Bandcamp.
+                  </p>
+                  <p className="black-70 lh-copy">
+                    Through my Patreon community I create detailed tutorials on design and music production, 
+                    offer my source files, and even copyright free files of my music (and more). I also curate 
+                    inspiration through multiple blogs including Illustree.
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="w-40">
               <img className="br3 desaturate shadow-large" src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
-            </div>
-          </div>
-          
-          <div className="flex">
-            <div className="w-33-l pr4">
-              <p className="black-70 lh-copy">
-                I’m a designer that codes based in Los Angeles, CA from Bayamón, Puerto Rico. I 
-                currently lead product design at Mothership, produce music as Cordio, and run my 
-                Patreon. I've been designing for 8+ years and coding for 4+ years.
-              </p>
-              <p className="black-70 lh-copy">
-                I specialize in design, mainly working in product design for both the web and 
-                mobile apps. I have extensive experience with both visual and interaction design, 
-                design systems, user research, branding, and shipping products. I also code—focusing 
-                on React, CSS architecture, and component systems.
-              </p>
-            </div>
-            <div className="w-33-l pr4">
-              <p className="black-70 lh-copy">
-                I have produced 9 albums, blending elements from electronic, ambient, jazz, lofi, and 
-                hip-hop under the alias Cordio. I also design album covers and make music for films, 
-                shows, and podcasts. Listen to all my music anywhere you stream music, or snag some 
-                on my Bandcamp.
-              </p>
-              <p className="black-70 lh-copy">
-                Through my Patreon community I create detailed tutorials on design and music production, 
-                offer my source files, and even copyright free files of my music (and more). I also curate 
-                inspiration through multiple blogs including Illustree.
-              </p>
-            </div>
-            <div className="w-33-l pr4">
-              <p className="black-70 lh-copy">
-                Find me on Patreon, Spotify, Twitter, Instagram, YouTube, Dribbble, and Github.
-              </p>
-              <p className="black-70 fw7 lh-copy orange">
-                Got a project I can help with? Let's chat!
-              </p>
-            </div>
-          </div>
-          <div className="mv4">
-            <div className="flex-wrap">
-              <Button
-                href="mailto:hi@cortes.us"
-                name="hi@cortes.us" />
-              <Button
-                href="https://twitter.com/shyboytm"
-                name="Twitter" />
-              <Button
-                href="https://instagram.com/shyboytm"
-                name="Instagram" />
-              <Button
-                href="https://dribbble.com/shyboytm"
-                name="Dribbble" />
-              <Button
-                href="https://youtube.com/cortesarts"
-                name="YouTube" />
-              <Button
-                href="https://soundcloud.com/cordio"
-                name="Soundcloud" />
-              <Button
-                href="https://github.com/fromcortes"
-                name="Github" />
-              <Button
-                href="https://rawg.io/@cortes/overview"
-                name="RAWG" />
             </div>
           </div>
 

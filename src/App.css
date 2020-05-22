@@ -10,7 +10,7 @@ body {
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: aktiv-grotesk, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif;
+  font-family: acumin-pro, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, roboto, sans-serif;
 }
 
 .blur                { animation: blur 2s ease-in-out both; }
@@ -21,6 +21,7 @@ body {
 .desaturate:hover    { filter: saturate(1); transition: all .25s ease-in-out; }
 .album               { animation: fadeIn 1.5s ease-in-out both; }
 .fw6                 { font-weight: 600 !important; }
+.hover-orange:hover  { color: #FF4300; }
 .lh-copy             { line-height: 1.85rem; }
 .lh-title            { line-height: 6rem; }
 .link-inline         { border-bottom: 1px solid rgba(0,0,0,.1); padding-bottom: .1rem; text-decoration: none; }
