@@ -14,6 +14,7 @@ class Home extends Component {
     const dennisCortes = require("../img/dennis-cortes-product-designer.jpeg")
 
     const portfolioImage = require("../img/work/my-portfolio-thumbnail.png");
+    const youtubeImage = require("../img/work/youtube-tutorials-thumbnail.png");
     const mothershipImage = require("../img/work/mothership-portfolio-thumbnail.png");
     const daveImage = require("../img/work/dave-inc-portfolio-thumbnail.png");
     const trademarkedImage = require("../img/work/trademarked-portfolio-thumbnail.gif");
@@ -34,16 +35,19 @@ class Home extends Component {
     const twelveOunceImage = require("../img/work/twelveounce-portfolio-thumbnail.png");
 
     return (
-      <div className="blur center mw9 pt5">
-        <div id="list" className="center content-end flex flex-wrap w-90">
+      <div className="blur center mw9 pa4-ns pa3">
+        <div id="list" className="center content-end flex flex-wrap">
           <div className="flex mb6">
             <div className="w-100-l">
               <h1 className="db f3 fw4 lh-title mt0 nb4 w-100">Dennis Cortes</h1>
               <h2 className="db black-70 f3 mb5 fw4">Designer that codes, teaches, and makes music</h2>
-              <div className="mv4">
+              <div className="mv4-ns mv2">
                 <Button
                   href="mailto:hi@cortes.us"
                   name="hi@cortes.us" />
+                <Button
+                  href="https://patreon.com/shyboytm"
+                  name="Patreon" />
                 <Button
                   href="https://twitter.com/shyboytm"
                   name="Twitter" />
@@ -56,48 +60,48 @@ class Home extends Component {
                 <Button
                   href="https://youtube.com/cortesarts"
                   name="YouTube" />
-                <Button
-                  href="https://soundcloud.com/cordio"
-                  name="Soundcloud" />
-                <Button
-                  href="https://github.com/fromcortes"
-                  name="Github" />
-                <Button
-                  href="https://rawg.io/@cortes/overview"
-                  name="RAWG" />
               </div>
-              <div className="flex">
-                <div className="w-50-l pr4">
+              <div className="flex-ns">
+                <div className="w-50-ns w-100 pr4-ns">
                   <p className="black-70 lh-copy">
                     I’m based in Los Angeles, CA from Bayamón, Puerto Rico. I currently lead product 
-                    design at Mothership, produce music as Cordio, and run my Patreon. I've been 
+                    design at <Link href="https://mothership.com">Mothership</Link>, 
+                    produce music as <Link href="/music">Cordio</Link>, and run my <Link href="https://patreon.com/shyboytm">Patreon</Link>. I've been 
                     designing for 8+ years and coding for 4+ years.
                   </p>
                   <p className="black-70 lh-copy">
                     I specialize in design, mainly working in product design for both the web and 
                     mobile apps. I have extensive experience with both visual and interaction design, 
-                    design systems, user research, branding, and shipping products. I also code—focusing 
+                    design systems, user research, branding, and shipping products. I also code with a focus 
                     on React, CSS architecture, and component systems.
                   </p>
                 </div>
-                <div className="w-50-l pr5">
+                <div className="w-50-ns w-100 pr5-ns">
                   <p className="black-70 lh-copy">
                     I have produced 9 albums, blending elements from electronic, ambient, jazz, lofi, and 
-                    hip-hop under the alias Cordio. I also design album covers and make music for films, 
-                    shows, and podcasts. Listen to all my music anywhere you stream music, or snag some 
-                    on my Bandcamp.
+                    hip-hop under the alias <Link href="/music">Cordio</Link>. 
+                    I also design album covers, mix and master for others, and make music for films, shows, and podcasts. 
+                    Listen to all my music anywhere you stream music, or snag some on my <Link href="https://cordio.bandcamp.com">Bandcamp</Link>.
                   </p>
                   <p className="black-70 lh-copy">
                     Through my Patreon community I create detailed tutorials on design and music production, 
-                    offer my source files, and even copyright free files of my music (and more). I also curate 
-                    inspiration through multiple blogs including Illustree.
+                    offer my source files, music breakdowns, and more! I also curate inspiration through multiple 
+                    blogs including <Link href="https://instagram.com/illustree">Illustree</Link>.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="w-40">
+            <div className="dib-l dn w-40">
               <img className="br3 desaturate shadow-large" src={dennisCortes} alt="Dennis Cortés front portrait view from torso up"/>
             </div>
+          </div>
+
+          <div className="mt5 mv4 w-100">
+            <div className="pl3-ns">
+              <H size={2}>Recent Work</H>
+              <p className="black-70 lh-copy nt2 mb0">A selection of some of my favorite past work and what I'm currently working on.</p>
+            </div>
+            <hr className="b--black-10 mt3" />
           </div>
 
           <ul id="list" className="content-end flex flex-wrap list pl0">
@@ -106,6 +110,11 @@ class Home extends Component {
               image={portfolioImage}
               name="My Portfolio"
               description="An overview of the type of work I do and the work that I can show publicly." />
+            <ImageCard
+              href="https://youtube.com/cortesarts"
+              image={youtubeImage}
+              name="Teaching"
+              description="Outside of my full-time job, I love teaching what I know about design through detailed tutorials and breakdowns." />
             <ImageCard
               href="https://mothership.com"
               image={mothershipImage}
@@ -198,8 +207,8 @@ class Home extends Component {
               description="Coffee subscription app for unlimited coffee at coffee shops in Nashville." />
           </ul>
         </div>
-        <FullScreenWork 
-          image={eagleviewImage} />
+        {/* <FullScreenWork 
+          image={eagleviewImage} /> */}
       </div>
     );
   }

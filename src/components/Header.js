@@ -11,20 +11,20 @@ class Header extends Component {
     return (
       <div className="flex-ns pa4 justify-between items-center">
         <div className="flex items-center">
-          <Link to="/" className="dim">
+          <Link to="/" className="dim dib-l dn">
             <Logo />
           </Link>
           <h1 style={{"fontSize" : "0"}}>Dennis Cortés</h1>
-          <a href="/work" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mh4 mb2 up">
+          {/* <a href="/work" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mh4-l mr4 mb2 up">
             Work
-          </a>
-          <a href="/tools" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mr4 mb2 up">
+          </a> */}
+          <a href="/tools" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mh4-l mr4 up">
             Tools
           </a>
-          <a href="/music" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mr4 mb2 up">
+          <a href="/music" className="black-70 hover-light-purple f7 fw6 relative ttu tracked link mr4 up">
             Music
           </a>
-          <a href="mailto:hi@cortes.us" className="black-70 f7 fw6 hover-light-purple ttu tracked link mb2 up">
+          <a href="mailto:hi@cortes.us" className="black-70 f7 fw6 hover-light-purple ttu tracked link up">
             Contact
           </a>
         </div>

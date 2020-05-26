@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Link extends Component {
+class L extends Component {
   render() {
 
     const {
@@ -9,11 +9,11 @@ class Link extends Component {
     } = this.props;
 
     return (
-      <a href={href} className="bg-animate black-70 fw6 hover-light-purple link link-inline underline up">
+      <a href={href} target="_blank" className="bg-animate black fw4 hover-light-purple link-inline up">
         {children}
       </a>
     );
   }
 }
 
-export default Link;
+export default L;

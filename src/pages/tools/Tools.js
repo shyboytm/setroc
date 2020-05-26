@@ -45,22 +45,22 @@ class Tools extends Component {
       <div id="tools" className="blur center mw9 pa4-ns pa3">
 
         <div className="mb6-ns mt5-ns mt4 mb5 tc-ns tl">
-            <h1 className="black-70 f1 fw9 ttu">Tools</h1>
+            <h1 className="black-70 f1 fw6 ttu">Tools</h1>
             <p className="center black-70 f4-ns f5 lh-copy measure mt4">
                 These are the things I use and love in my personal and work life. Many folks are 
                 always asking about what I recommend so thought it would be better to 
                 collect these in one spot for easy access.
             </p>
             <div className="db mb6-l mb4-m mb3 mt5">
-              <a href="#everydayUse" target="_self" rel="nofollow" className="ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up">
-                <span>Everyday Use</span>
-              </a>
-              <a href="#setup" target="_self" rel="nofollow" className="ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up">
-                <span>Setup</span>
-              </a>
-              <a href="#music" target="_self" rel="nofollow" className="ba b--black-05 bg-black-05 black-70 br3 dib f6 fw6 hover-light-purple link mr2 mb2 ph3 pv1 pointer shadow up">
-                <span>Music</span>
-              </a>
+              <Button
+                href="#everydayUse"
+                name="Everyday Use" />
+              <Button
+                href="#setup"
+                name="Setup" />
+              <Button
+                href="#music"
+                name="Music" />
             </div>
         </div>
 

@@ -20,8 +20,8 @@ class ImageCard extends Component {
 
     return (
       <div className={classNames(classes)}>
-        <a href={href} target="_blank" rel="nofollow" className="dib br4 link pointer up">
-          <div className="br3 grow relative w-100">
+        <a href={href} target="_blank" rel="nofollow" className="dib dim br4 link pointer up">
+          <div className="br3 relative w-100">
             <img className="br3 shadow" src={image} alt={name} />
           </div>
           <div className="pt3 pb4" >
